@@ -1,0 +1,58 @@
+// WARNING: This is only a snippet of the whole data, please refer to the external online drive for the whole data.
+{
+    "schemaVersion": 1.0,
+    "entity": [
+        {
+            "entityID": 100496,
+            "entityName": null,
+            "entityType": "Package",
+            "entityFile": null,
+            "startLine": 10,
+            "startColumn": -1,
+            "endLine": -1,
+            "endColumn": -1
+        },
+        {
+            "entityID": 347664,
+            "entityName": "writebe64_arr",
+            "entityType": "Var",
+            "entityFile": "src/test/fuzz/crypto_common.cpp",
+            "startLine": 42,
+            "startColumn": -1,
+            "endLine": -1,
+            "endColumn": -1
+        },
+        {
+            "entityID": 7192,
+            "entityName": "zero_after_free_allocator::value_type",
+            "entityType": "Alias",
+            "entityFile": "src/support/allocators/zeroafterfree.h",
+            "startLine": -1,
+            "startColumn": -1,
+            "endLine": -1,
+            "endColumn": -1
+        },
+        {
+            "entityID": 7198,
+            "entityName": "zero_after_free_allocator::zero_after_free_allocator",
+            "entityType": "FunctionImpl",
+            "entityFile": "src/support/allocators/zeroafterfree.h",
+            "startLine": 28,
+            "startColumn": -1,
+            "endLine": -1,
+            "endColumn": -1
+        },
+        {
+            "entityID": 7184,
+            "entityName": "zero_after_free_allocator",
+            "entityType": "Type",
+            "entityFile": "src/support/allocators/zeroafterfree.h",
+            "startLine": 15,
+            "startColumn": -1,
+            "endLine": -1,
+            "endColumn": -1
+        },
+        ...
+    ],
+    "projectName": "bitcoin"
+}

@@ -1,0 +1,45 @@
+// WARNING: This is only a snippet of the whole data, please refer to the external online drive for the whole data.
+{
+    "eq_set": [
+        {
+            "lgroup": [
+                {
+                    "dependencyType": "Call",
+                    "dependencySrcID": 399798,
+                    "dependencyDestID": 84277,
+                    "startLine": -1,
+                    "startColumn": -1,
+                    "endLine": -1,
+                    "endColumn": -1,
+                    "dataset": "depends"
+                }
+            ],
+            "rgroup": [
+                {
+                    "dependencyType": "CALL",
+                    "dependencySrcID": 183309,
+                    "dependencyDestID": 183299,
+                    "startLine": -1,
+                    "startColumn": -1,
+                    "endLine": -1,
+                    "endColumn": -1,
+                    "dataset": "sourcetrail"
+                }
+            ]
+        },
+        ...
+    ],
+    "ne_set": [
+        {
+            "dependencyType": "Use",
+            "dependencySrcID": 277082,
+            "dependencyDestID": 277124,
+            "startLine": -1,
+            "startColumn": -1,
+            "endLine": -1,
+            "endColumn": -1,
+            "dataset": "depends"
+        },
+        ...
+    ]
+}

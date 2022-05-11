@@ -1,0 +1,59 @@
+// WARNING: This is only a snippet of the whole data, please refer to the external online drive for the whole data.
+{
+    "eq_set": [
+        {
+            "lgroup": [
+                {
+                    "entityID": 163,
+                    "entityName": "fsbridge::FileLock::reason",
+                    "entityType": "Var",
+                    "entityFile": "src/fs.h",
+                    "startLine": 47,
+                    "startColumn": -1,
+                    "endLine": -1,
+                    "endColumn": -1,
+                    "dataset": "depends"
+                }
+            ],
+            "rgroup": [
+                {
+                    "entityID": 6204,
+                    "entityName": "fsbridge::FileLock::reason",
+                    "entityType": "FIELD",
+                    "entityFile": "src/fs.h",
+                    "startLine": 5499,
+                    "startColumn": 47,
+                    "endLine": 21,
+                    "endColumn": 47,
+                    "dataset": "sourcetrail"
+                },
+                {
+                    "entityID": 232529,
+                    "entityName": "fsbridge::FileLock::reason",
+                    "entityType": "FIELD",
+                    "entityFile": "src/fs.h",
+                    "startLine": 5499,
+                    "startColumn": 47,
+                    "endLine": 21,
+                    "endColumn": 47,
+                    "dataset": "sourcetrail"
+                }
+            ]
+        },
+        ...
+    ],
+    "ne_set": [
+        {
+            "entityID": 18737,
+            "entityName": null,
+            "entityType": "Var",
+            "entityFile": "src/bench/addrman.cpp",
+            "startLine": 132,
+            "startColumn": -1,
+            "endLine": -1,
+            "endColumn": -1,
+            "dataset": "depends"
+        },
+        ...
+    ]
+}

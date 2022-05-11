@@ -1,0 +1,44 @@
+// WARNING: This is only a snippet of the whole data, please refer to the external online drive for the whole data.
+{
+    "schemaVersion": 1.0,
+    "dependency": [
+        {
+            "dependencyType": "Use",
+            "dependencySrcID": 277082,
+            "dependencyDestID": 277124,
+            "startLine": -1,
+            "startColumn": -1,
+            "endLine": -1,
+            "endColumn": -1
+        },
+        {
+            "dependencyType": "Call",
+            "dependencySrcID": 392823,
+            "dependencyDestID": 33084,
+            "startLine": -1,
+            "startColumn": -1,
+            "endLine": -1,
+            "endColumn": -1
+        },
+        {
+            "dependencyType": "Contain",
+            "dependencySrcID": 395663,
+            "dependencyDestID": 35306,
+            "startLine": -1,
+            "startColumn": -1,
+            "endLine": -1,
+            "endColumn": -1
+        },
+        {
+            "dependencyType": "Parameter",
+            "dependencySrcID": 399374,
+            "dependencyDestID": 32976,
+            "startLine": -1,
+            "startColumn": -1,
+            "endLine": -1,
+            "endColumn": -1
+        },
+        ...
+    ],
+    "projectName": "bitcoin"
+}
