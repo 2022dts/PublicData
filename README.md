@@ -32,7 +32,7 @@ This pattern of CSV files will first list the result for every kinds of entity a
 
 `RQ2` contains the comparison results for tool pairs on targeting languages respectively.
 
-> Please note that data for RQ2 is extremely large and thus been hosted on an external online drive [here](https://1drv.ms/u/s!ArRpq5VLlwvAgicSp-1BGlHjwmDZ?e=vV2V7d). This repo only contains a pruned sample of data.
+> Please note that data for RQ2 is extremely large and thus been hosted on an external online drive [here](https://1drv.ms/u/s!ArRpq5VLlwvAgicSp-1BGlHjwmDZ?e=zpqxnI). This repo only contains a pruned sample of data.
 
 #### `RQ2/Raw/<project>/<tool>_<project>_<entity/dependency>.json`
 
