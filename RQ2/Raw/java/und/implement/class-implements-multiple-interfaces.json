@@ -1,0 +1,170 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/implement/class-implements-multiple-interfaces.und",
+    "entities": [
+        {
+            "id": 5397,
+            "type": "File",
+            "name": "_class-implements-multiple-interfaces\\BaseService.java"
+        },
+        {
+            "id": 5401,
+            "type": "Package",
+            "name": "hello",
+            "qualified_name": "hello"
+        },
+        {
+            "id": 5398,
+            "type": "Java Class Type Public Member",
+            "name": "BaseService",
+            "qualified_name": "hello.BaseService",
+            "line": 11,
+            "start_column": 14,
+            "end_column": 25,
+            "belongs_to": 5397
+        },
+        {
+            "id": 5399,
+            "type": "Java Interface Type Default",
+            "name": "Drink",
+            "qualified_name": "hello.Drink",
+            "line": 7,
+            "start_column": 11,
+            "end_column": 16,
+            "belongs_to": 5397
+        },
+        {
+            "id": 5400,
+            "type": "Java Interface Type Default",
+            "name": "Photo",
+            "qualified_name": "hello.Photo",
+            "line": 3,
+            "start_column": 11,
+            "end_column": 16,
+            "belongs_to": 5397
+        }
+    ],
+    "relations": [
+        {
+            "from": 5397,
+            "to": 5401,
+            "type": "Java Define",
+            "inFile": 5397,
+            "line": 1,
+            "column": 9
+        },
+        {
+            "from": 5397,
+            "to": 5401,
+            "type": "Java Declare",
+            "inFile": 5397,
+            "line": 1,
+            "column": 9
+        },
+        {
+            "from": 5397,
+            "to": 5400,
+            "type": "Java Define",
+            "inFile": 5397,
+            "line": 3,
+            "column": 11
+        },
+        {
+            "from": 5397,
+            "to": 5399,
+            "type": "Java Define",
+            "inFile": 5397,
+            "line": 7,
+            "column": 11
+        },
+        {
+            "from": 5397,
+            "to": 5398,
+            "type": "Java Define",
+            "inFile": 5397,
+            "line": 11,
+            "column": 14
+        },
+        {
+            "from": 5397,
+            "to": 14,
+            "type": "Java Import Demand",
+            "inFile": 5397,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 5398,
+            "to": 5398,
+            "type": "Java Begin",
+            "inFile": 5397,
+            "line": 11,
+            "column": 1
+        },
+        {
+            "from": 5398,
+            "to": 5400,
+            "type": "Java Implement Couple",
+            "inFile": 5397,
+            "line": 11,
+            "column": 37
+        },
+        {
+            "from": 5398,
+            "to": 5399,
+            "type": "Java Implement Couple",
+            "inFile": 5397,
+            "line": 11,
+            "column": 44
+        },
+        {
+            "from": 5398,
+            "to": 18,
+            "type": "Java Extend Couple Implicit External",
+            "inFile": 5397,
+            "line": 11,
+            "column": 1
+        },
+        {
+            "from": 5399,
+            "to": 5399,
+            "type": "Java Begin",
+            "inFile": 5397,
+            "line": 7,
+            "column": 1
+        },
+        {
+            "from": 5400,
+            "to": 5400,
+            "type": "Java Begin",
+            "inFile": 5397,
+            "line": 3,
+            "column": 1
+        },
+        {
+            "from": 5401,
+            "to": 5398,
+            "type": "Java Contain",
+            "inFile": 5397,
+            "line": 11,
+            "column": 14
+        },
+        {
+            "from": 5401,
+            "to": 5399,
+            "type": "Java Contain",
+            "inFile": 5397,
+            "line": 7,
+            "column": 11
+        },
+        {
+            "from": 5401,
+            "to": 5400,
+            "type": "Java Contain",
+            "inFile": 5397,
+            "line": 3,
+            "column": 11
+        }
+    ]
+}

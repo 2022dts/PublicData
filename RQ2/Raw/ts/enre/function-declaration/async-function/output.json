@@ -1,0 +1,55 @@
+{
+	"entities": [
+		{
+			"name": "file0.js",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_function-declaration\\_async-function\\file0.js"
+		},
+		{
+			"name": "foo",
+			"type": "function",
+			"id": 1,
+			"fullname": "foo",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 16
+				},
+				"end": {
+					"line": 1,
+					"column": 19
+				}
+			}
+		},
+		{
+			"name": "<Anonymous as=\"Function\">",
+			"type": "function",
+			"id": 2,
+			"fullname": "<Anonymous as=\"Function\">",
+			"location": {
+				"start": {
+					"line": 5,
+					"column": 16
+				},
+				"end": {
+					"line": 5,
+					"column": 16
+				}
+			}
+		}
+	],
+	"relations": [
+		{
+			"from": 0,
+			"to": 2,
+			"type": "export",
+			"location": {
+				"start": {
+					"line": 5,
+					"column": 16
+				}
+			}
+		}
+	]
+}

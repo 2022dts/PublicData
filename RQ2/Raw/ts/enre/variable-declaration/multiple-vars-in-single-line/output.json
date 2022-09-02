@@ -1,0 +1,71 @@
+{
+	"entities": [
+		{
+			"name": "file0.js",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_variable-declaration\\_multiple-vars-in-single-line\\file0.js"
+		},
+		{
+			"name": "a",
+			"type": "variable",
+			"id": 1,
+			"fullname": "a",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 5
+				},
+				"end": {
+					"line": 1,
+					"column": 6
+				}
+			}
+		},
+		{
+			"name": "b",
+			"type": "variable",
+			"id": 2,
+			"fullname": "b",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 8
+				},
+				"end": {
+					"line": 1,
+					"column": 9
+				}
+			}
+		},
+		{
+			"name": "c",
+			"type": "variable",
+			"id": 3,
+			"fullname": "c",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 11
+				},
+				"end": {
+					"line": 1,
+					"column": 12
+				}
+			}
+		}
+	],
+	"relations": [
+		{
+			"from": 0,
+			"to": 3,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 11
+				}
+			}
+		}
+	]
+}

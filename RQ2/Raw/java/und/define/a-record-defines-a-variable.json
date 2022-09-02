@@ -1,0 +1,156 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/define/a-record-defines-a-variable.und",
+    "entities": [
+        {
+            "id": 980,
+            "type": "File",
+            "name": "_a-record-defines-a-variable\\BaseService.java"
+        },
+        {
+            "id": 981,
+            "type": "Package",
+            "name": "(Unnamed_Package)",
+            "qualified_name": "(Unnamed_Package)"
+        },
+        {
+            "id": 982,
+            "type": "Java Record Class Type Public Member",
+            "name": "BaseService",
+            "qualified_name": "BaseService",
+            "line": 1,
+            "start_column": 15,
+            "end_column": 26,
+            "belongs_to": 980
+        },
+        {
+            "id": 983,
+            "type": "Java Method Constructor Member Public",
+            "name": "BaseService",
+            "qualified_name": "BaseService",
+            "line": 1,
+            "start_column": 15,
+            "end_column": 26,
+            "belongs_to": 980
+        },
+        {
+            "id": 984,
+            "type": "Java Parameter",
+            "name": "x",
+            "qualified_name": "BaseService.x",
+            "line": 1,
+            "start_column": 15,
+            "end_column": 16,
+            "belongs_to": 980
+        },
+        {
+            "id": 985,
+            "type": "Java Variable Private Member",
+            "name": "x",
+            "qualified_name": "BaseService.x",
+            "line": 1,
+            "start_column": 31,
+            "end_column": 32,
+            "belongs_to": 980
+        }
+    ],
+    "relations": [
+        {
+            "from": 980,
+            "to": 981,
+            "type": "Java Define",
+            "inFile": 980,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 980,
+            "to": 981,
+            "type": "Java Declare",
+            "inFile": 980,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 980,
+            "to": 982,
+            "type": "Java Define",
+            "inFile": 980,
+            "line": 1,
+            "column": 15
+        },
+        {
+            "from": 980,
+            "to": 14,
+            "type": "Java Import Demand",
+            "inFile": 980,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 981,
+            "to": 982,
+            "type": "Java Contain",
+            "inFile": 980,
+            "line": 1,
+            "column": 15
+        },
+        {
+            "from": 982,
+            "to": 982,
+            "type": "Java Begin",
+            "inFile": 980,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 982,
+            "to": 985,
+            "type": "Java Define",
+            "inFile": 980,
+            "line": 1,
+            "column": 31
+        },
+        {
+            "from": 982,
+            "to": 985,
+            "type": "Java Define Implicit",
+            "inFile": 980,
+            "line": 1,
+            "column": 31
+        },
+        {
+            "from": 982,
+            "to": 983,
+            "type": "Java Define Implicit",
+            "inFile": 980,
+            "line": 1,
+            "column": 15
+        },
+        {
+            "from": 982,
+            "to": 986,
+            "type": "Java Extend Couple External",
+            "inFile": 980,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 982,
+            "to": 986,
+            "type": "Java Couple",
+            "inFile": 980,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 983,
+            "to": 984,
+            "type": "Java Define Implicit",
+            "inFile": 980,
+            "line": 1,
+            "column": 15
+        }
+    ]
+}

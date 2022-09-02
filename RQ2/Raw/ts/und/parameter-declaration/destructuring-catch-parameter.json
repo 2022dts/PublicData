@@ -1,0 +1,102 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/parameter-declaration/destructuring-catch-parameter.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_destructuring-catch-parameter\\file0.js"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Variable Global",
+            "name": "a",
+            "qualified_name": "a",
+            "line": 3,
+            "start_column": 11,
+            "end_column": 12,
+            "belongs_to": 1
+        },
+        {
+            "id": 4,
+            "type": "web Javascript Parameter",
+            "name": "c",
+            "qualified_name": "c",
+            "line": 3,
+            "start_column": 18,
+            "end_column": 19,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "web Javascript Variable Global",
+            "name": "d",
+            "qualified_name": "d",
+            "line": 3,
+            "start_column": 22,
+            "end_column": 23,
+            "belongs_to": 1
+        },
+        {
+            "id": 6,
+            "type": "web Javascript Parameter",
+            "name": "e",
+            "qualified_name": "e",
+            "line": 3,
+            "start_column": 29,
+            "end_column": 30,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 3,
+            "column": 11
+        },
+        {
+            "from": 1,
+            "to": 4,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 3,
+            "column": 18
+        },
+        {
+            "from": 1,
+            "to": 5,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 3,
+            "column": 22
+        },
+        {
+            "from": 1,
+            "to": 6,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 3,
+            "column": 29
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 3,
+            "column": 11
+        },
+        {
+            "from": 1,
+            "to": 5,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 3,
+            "column": 22
+        }
+    ]
+}

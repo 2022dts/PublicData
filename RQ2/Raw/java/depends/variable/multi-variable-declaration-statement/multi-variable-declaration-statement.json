@@ -1,0 +1,78 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_variable\\_multi-variable-declaration-statement\\file0.java",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_variable\\_multi-variable-declaration-statement\\file0.java",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Foo",
+        "id": 1,
+        "entityType": "Type",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_variable\\_multi-variable-declaration-statement\\file0.java",
+        "startLine": 1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Foo.getHello",
+        "id": 2,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_variable\\_multi-variable-declaration-statement\\file0.java",
+        "startLine": 2,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Foo.getHello.a",
+        "id": 3,
+        "entityType": "Var",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_variable\\_multi-variable-declaration-statement\\file0.java",
+        "startLine": 3,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Foo.getHello.b",
+        "id": 4,
+        "entityType": "Var",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_variable\\_multi-variable-declaration-statement\\file0.java",
+        "startLine": 3,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Foo.getHello.c",
+        "id": 5,
+        "entityType": "Var",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_variable\\_multi-variable-declaration-statement\\file0.java",
+        "startLine": 3,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Use",
+        "src": 2,
+        "dest": 3
+      },
+      {
+        "type": "Use",
+        "src": 2,
+        "dest": 3
+      }
+    ]
+  }
+]

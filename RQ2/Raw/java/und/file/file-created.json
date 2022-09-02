@@ -1,0 +1,128 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/file/file-created.und",
+    "entities": [
+        {
+            "id": 20321,
+            "type": "File",
+            "name": "hello\\Foo.java"
+        },
+        {
+            "id": 20324,
+            "type": "Package",
+            "name": "hello",
+            "qualified_name": "hello"
+        },
+        {
+            "id": 20322,
+            "type": "Java Class Type Default Member",
+            "name": "Bar",
+            "qualified_name": "hello.Bar",
+            "line": 7,
+            "start_column": 7,
+            "end_column": 10,
+            "belongs_to": 20321
+        },
+        {
+            "id": 20323,
+            "type": "Java Class Type Public Member",
+            "name": "Foo",
+            "qualified_name": "hello.Foo",
+            "line": 3,
+            "start_column": 14,
+            "end_column": 17,
+            "belongs_to": 20321
+        }
+    ],
+    "relations": [
+        {
+            "from": 20321,
+            "to": 20324,
+            "type": "Java Define",
+            "inFile": 20321,
+            "line": 1,
+            "column": 9
+        },
+        {
+            "from": 20321,
+            "to": 20324,
+            "type": "Java Declare",
+            "inFile": 20321,
+            "line": 1,
+            "column": 9
+        },
+        {
+            "from": 20321,
+            "to": 20323,
+            "type": "Java Define",
+            "inFile": 20321,
+            "line": 3,
+            "column": 14
+        },
+        {
+            "from": 20321,
+            "to": 20322,
+            "type": "Java Define",
+            "inFile": 20321,
+            "line": 7,
+            "column": 7
+        },
+        {
+            "from": 20321,
+            "to": 14,
+            "type": "Java Import Demand",
+            "inFile": 20321,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 20322,
+            "to": 20322,
+            "type": "Java Begin",
+            "inFile": 20321,
+            "line": 7,
+            "column": 1
+        },
+        {
+            "from": 20322,
+            "to": 18,
+            "type": "Java Extend Couple Implicit External",
+            "inFile": 20321,
+            "line": 7,
+            "column": 1
+        },
+        {
+            "from": 20323,
+            "to": 20323,
+            "type": "Java Begin",
+            "inFile": 20321,
+            "line": 3,
+            "column": 1
+        },
+        {
+            "from": 20323,
+            "to": 18,
+            "type": "Java Extend Couple Implicit External",
+            "inFile": 20321,
+            "line": 3,
+            "column": 1
+        },
+        {
+            "from": 20324,
+            "to": 20322,
+            "type": "Java Contain",
+            "inFile": 20321,
+            "line": 7,
+            "column": 7
+        },
+        {
+            "from": 20324,
+            "to": 20323,
+            "type": "Java Contain",
+            "inFile": 20321,
+            "line": 3,
+            "column": 14
+        }
+    ]
+}

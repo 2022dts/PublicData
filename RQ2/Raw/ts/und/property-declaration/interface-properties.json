@@ -1,0 +1,148 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/property-declaration/interface-properties.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_interface-properties\\file0.ts"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Interface",
+            "name": "Point",
+            "qualified_name": "Point",
+            "line": 1,
+            "start_column": 11,
+            "end_column": 16,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "web Javascript Property",
+            "name": "data",
+            "qualified_name": "Point.data",
+            "line": 5,
+            "start_column": 5,
+            "end_column": 9,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "web Javascript Public Method Function",
+            "name": "distance",
+            "qualified_name": "Point.distance",
+            "line": 6,
+            "start_column": 5,
+            "end_column": 13,
+            "belongs_to": 1
+        },
+        {
+            "id": 7,
+            "type": "web Javascript Parameter",
+            "name": "p",
+            "qualified_name": "Point.distance.p",
+            "line": 6,
+            "start_column": 16,
+            "end_column": 17,
+            "belongs_to": 1
+        },
+        {
+            "id": 8,
+            "type": "web Javascript Property",
+            "name": "x",
+            "qualified_name": "Point.x",
+            "line": 2,
+            "start_column": 5,
+            "end_column": 6,
+            "belongs_to": 1
+        },
+        {
+            "id": 10,
+            "type": "web Javascript Property",
+            "name": "y",
+            "qualified_name": "Point.y",
+            "line": 3,
+            "start_column": 5,
+            "end_column": 6,
+            "belongs_to": 1
+        },
+        {
+            "id": 12,
+            "type": "web Javascript Property",
+            "name": "z",
+            "qualified_name": "Point.z",
+            "line": 4,
+            "start_column": 5,
+            "end_column": 6,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 11
+        },
+        {
+            "from": 2,
+            "to": 8,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 10,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 3,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 12,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 4,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 5,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 5,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 6,
+            "column": 5
+        },
+        {
+            "from": 5,
+            "to": 7,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 6,
+            "column": 16
+        },
+        {
+            "from": 7,
+            "to": 2,
+            "type": "web Javascript Typed",
+            "inFile": 1,
+            "line": 6,
+            "column": 19
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "qualifiedName": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_variable/_variable-2/file0.cpp",
+    "id": 0,
+    "entityType": "File",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_variable/_variable-2/file0.cpp",
+    "startLine": -1,
+    "startColumn": -1,
+    "endLine": -1,
+    "endColumn": -1
+  },
+  {
+    "qualifiedName": "x",
+    "id": 1,
+    "entityType": "Object",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_variable/_variable-2/file0.cpp",
+    "startLine": 1,
+    "startColumn": 4,
+    "endLine": 1,
+    "endColumn": 4
+  }
+]

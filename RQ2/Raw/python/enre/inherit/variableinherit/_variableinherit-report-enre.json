@@ -1,0 +1,186 @@
+{
+    "variables": [
+        {
+            "id": 1,
+            "qualifiedName": "_variableinherit.test_variable_inherit",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_variableinherit/test_variable_inherit.py"
+        },
+        {
+            "id": 3,
+            "qualifiedName": "_variableinherit.test_variable_inherit.mixin",
+            "category": "Function",
+            "location": {
+                "startLine": 1,
+                "endLine": -1,
+                "startColumn": 4,
+                "endColumn": -1
+            },
+            "File": "_variableinherit/test_variable_inherit.py"
+        },
+        {
+            "id": 4,
+            "qualifiedName": "_variableinherit.test_variable_inherit.mixin.c",
+            "category": "Parameter",
+            "location": {
+                "startLine": 1,
+                "endLine": 1,
+                "startColumn": 10,
+                "endColumn": 11
+            },
+            "File": "_variableinherit/test_variable_inherit.py"
+        },
+        {
+            "id": 5,
+            "qualifiedName": "_variableinherit.test_variable_inherit.mixin.d",
+            "category": "Parameter",
+            "location": {
+                "startLine": 1,
+                "endLine": 1,
+                "startColumn": 13,
+                "endColumn": 14
+            },
+            "File": "_variableinherit/test_variable_inherit.py"
+        },
+        {
+            "id": 6,
+            "qualifiedName": "_variableinherit.test_variable_inherit.mixin.Mixed",
+            "category": "Class",
+            "location": {
+                "startLine": 2,
+                "endLine": -1,
+                "startColumn": 10,
+                "endColumn": -1
+            },
+            "File": "_variableinherit/test_variable_inherit.py"
+        },
+        {
+            "id": 2,
+            "qualifiedName": "_variableinherit",
+            "category": "Package",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_variableinherit"
+        }
+    ],
+    "cells": [
+        {
+            "src": 1,
+            "dest": 3,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 3,
+            "dest": 4,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 10
+            }
+        },
+        {
+            "src": 3,
+            "dest": 5,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 13
+            }
+        },
+        {
+            "src": 3,
+            "dest": 6,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 3,
+            "dest": 4,
+            "values": {
+                "kind": "Use",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 16
+            }
+        },
+        {
+            "src": 3,
+            "dest": 5,
+            "values": {
+                "kind": "Use",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 19
+            }
+        },
+        {
+            "src": 6,
+            "dest": 4,
+            "values": {
+                "kind": "Inherit",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 6,
+            "dest": 5,
+            "values": {
+                "kind": "Inherit",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 2,
+            "dest": 1,
+            "values": {
+                "kind": "Contain",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 0,
+                "startCol": 0
+            }
+        }
+    ]
+}

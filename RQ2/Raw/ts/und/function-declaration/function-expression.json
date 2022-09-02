@@ -1,0 +1,76 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/function-declaration/function-expression.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_function-expression\\file0.js"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Function",
+            "name": "baz",
+            "qualified_name": "baz",
+            "line": 5,
+            "start_column": 7,
+            "end_column": 10,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "web Javascript Variable Global",
+            "name": "foo",
+            "qualified_name": "foo",
+            "line": 1,
+            "start_column": 7,
+            "end_column": 10,
+            "belongs_to": 1
+        },
+        {
+            "id": 4,
+            "type": "web Javascript Function",
+            "name": "bar",
+            "qualified_name": "foo.bar",
+            "line": 1,
+            "start_column": 22,
+            "end_column": 25,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 3,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 7
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 5,
+            "column": 7
+        },
+        {
+            "from": 1,
+            "to": 3,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 1,
+            "column": 7
+        },
+        {
+            "from": 3,
+            "to": 4,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 22
+        }
+    ]
+}

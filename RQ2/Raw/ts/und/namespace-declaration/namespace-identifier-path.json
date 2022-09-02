@@ -1,0 +1,68 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/namespace-declaration/namespace-identifier-path.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_namespace-identifier-path\\file0.ts"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Namespace",
+            "name": "X",
+            "qualified_name": "X",
+            "line": 1,
+            "start_column": 11,
+            "end_column": 12,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "web Javascript Namespace",
+            "name": "Y",
+            "qualified_name": "X.Y",
+            "line": 1,
+            "start_column": 13,
+            "end_column": 14,
+            "belongs_to": 1
+        },
+        {
+            "id": 4,
+            "type": "web Javascript Namespace",
+            "name": "Z",
+            "qualified_name": "X.Y.Z",
+            "line": 1,
+            "start_column": 15,
+            "end_column": 16,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 11
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 13
+        },
+        {
+            "from": 3,
+            "to": 4,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 15
+        }
+    ]
+}

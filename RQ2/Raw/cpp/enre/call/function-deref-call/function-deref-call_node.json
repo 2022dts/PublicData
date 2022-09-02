@@ -1,0 +1,42 @@
+[
+  {
+    "qualifiedName": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_call/_function-deref-call/file0.cpp",
+    "id": 0,
+    "entityType": "File",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_call/_function-deref-call/file0.cpp",
+    "startLine": -1,
+    "startColumn": -1,
+    "endLine": -1,
+    "endColumn": -1
+  },
+  {
+    "qualifiedName": "run_benchmark",
+    "id": 1,
+    "entityType": "Function",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_call/_function-deref-call/file0.cpp",
+    "startLine": 1,
+    "startColumn": 5,
+    "endLine": 1,
+    "endColumn": 5
+  },
+  {
+    "qualifiedName": "run_benchmark::data",
+    "id": 2,
+    "entityType": "Object",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_call/_function-deref-call/file0.cpp",
+    "startLine": 1,
+    "startColumn": 47,
+    "endLine": 1,
+    "endColumn": 47
+  },
+  {
+    "qualifiedName": "run_benchmark::i",
+    "id": 3,
+    "entityType": "Object",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_call/_function-deref-call/file0.cpp",
+    "startLine": 2,
+    "startColumn": 63,
+    "endLine": 2,
+    "endColumn": 63
+  }
+]

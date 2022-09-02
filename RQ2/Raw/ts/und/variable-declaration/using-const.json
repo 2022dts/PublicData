@@ -1,0 +1,40 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/variable-declaration/using-const.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_using-const\\file0.js"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Variable Global",
+            "name": "foo",
+            "qualified_name": "foo",
+            "line": 1,
+            "start_column": 7,
+            "end_column": 10,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 7
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 1,
+            "column": 7
+        }
+    ]
+}

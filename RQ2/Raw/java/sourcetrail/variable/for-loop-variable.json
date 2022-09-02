@@ -1,0 +1,129 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 4,
+            "name": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_variable/_for-loop-variable/Foo.java",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 5,
+            "name": "Foo",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_variable/_for-loop-variable/Foo.java",
+            "line": 5,
+            "start_column": 27,
+            "end_column": 30
+        },
+        {
+            "id": 6,
+            "name": "Foo.printTest",
+            "type": "METHOD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_variable/_for-loop-variable/Foo.java",
+            "line": 2,
+            "start_column": 5,
+            "end_column": 41
+        },
+        {
+            "id": 7,
+            "name": "java.lang",
+            "type": "PACKAGE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 8,
+            "name": "java",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 9,
+            "name": "ArrayList",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 10,
+            "name": "java.lang.Integer",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 11,
+            "name": "unsolved-symbol",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        }
+    ],
+    "relations": [
+        {
+            "type": "MEMBER,",
+            "from": 5,
+            "to": 6,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER,",
+            "from": 8,
+            "to": 7,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER,",
+            "from": 7,
+            "to": 10,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_ARGUMENT",
+            "from": 9,
+            "to": 10,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 6,
+            "to": 9,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 6,
+            "to": 10,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "CALL",
+            "from": 6,
+            "to": 11,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "for-loop-variable"
+}

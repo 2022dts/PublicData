@@ -1,0 +1,48 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/relation-set/const-variables-cannot-be-re-set.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_const-variables-cannot-be-re-set\\file0.js"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Variable Global",
+            "name": "a",
+            "qualified_name": "a",
+            "line": 1,
+            "start_column": 7,
+            "end_column": 8,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 7
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 1,
+            "column": 7
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Set",
+            "inFile": 1,
+            "line": 2,
+            "column": 1
+        }
+    ]
+}

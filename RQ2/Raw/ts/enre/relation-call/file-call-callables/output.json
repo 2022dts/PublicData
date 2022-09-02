@@ -1,0 +1,178 @@
+{
+	"entities": [
+		{
+			"name": "file0.js",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_relation-call\\_file-call-callables\\file0.js"
+		},
+		{
+			"name": "foo",
+			"type": "function",
+			"id": 1,
+			"fullname": "foo",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 10
+				},
+				"end": {
+					"line": 1,
+					"column": 13
+				}
+			}
+		},
+		{
+			"name": "<Anonymous as=\"ArrowFunction\">",
+			"type": "function",
+			"id": 2,
+			"fullname": "foo.<Anonymous as=\"ArrowFunction\">",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 12
+				},
+				"end": {
+					"line": 2,
+					"column": 12
+				}
+			}
+		},
+		{
+			"name": "Foo",
+			"type": "class",
+			"id": 3,
+			"fullname": "Foo",
+			"location": {
+				"start": {
+					"line": 7,
+					"column": 7
+				},
+				"end": {
+					"line": 7,
+					"column": 10
+				}
+			}
+		},
+		{
+			"name": "constructor",
+			"type": "method",
+			"id": 4,
+			"fullname": "Foo.constructor",
+			"location": {
+				"start": {
+					"line": 12,
+					"column": 5
+				},
+				"end": {
+					"line": 12,
+					"column": 16
+				}
+			}
+		},
+		{
+			"name": "method0",
+			"type": "method",
+			"id": 5,
+			"fullname": "Foo.method0",
+			"location": {
+				"start": {
+					"line": 16,
+					"column": 5
+				},
+				"end": {
+					"line": 16,
+					"column": 12
+				}
+			}
+		},
+		{
+			"name": "baz",
+			"type": "variable",
+			"id": 6,
+			"fullname": "baz",
+			"location": {
+				"start": {
+					"line": 21,
+					"column": 7
+				},
+				"end": {
+					"line": 21,
+					"column": 10
+				}
+			}
+		},
+		{
+			"name": "<Anonymous as=\"ArrowFunction\">",
+			"type": "function",
+			"id": 7,
+			"fullname": "<Anonymous as=\"ArrowFunction\">",
+			"location": {
+				"start": {
+					"line": 22,
+					"column": 11
+				},
+				"end": {
+					"line": 22,
+					"column": 11
+				}
+			}
+		},
+		{
+			"name": "bar",
+			"type": "variable",
+			"id": 8,
+			"fullname": "bar",
+			"location": {
+				"start": {
+					"line": 27,
+					"column": 7
+				},
+				"end": {
+					"line": 27,
+					"column": 10
+				}
+			}
+		},
+		{
+			"name": "NewFunction",
+			"type": "function",
+			"id": 9,
+			"fullname": "NewFunction",
+			"location": {
+				"start": {
+					"line": 38,
+					"column": 10
+				},
+				"end": {
+					"line": 38,
+					"column": 21
+				}
+			}
+		}
+	],
+	"relations": [
+		{
+			"from": 0,
+			"to": 6,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 21,
+					"column": 7
+				}
+			}
+		},
+		{
+			"from": 0,
+			"to": 8,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 27,
+					"column": 7
+				}
+			}
+		}
+	]
+}

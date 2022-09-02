@@ -1,0 +1,138 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/interface/interface-as-class-body.und",
+    "entities": [
+        {
+            "id": 24883,
+            "type": "File",
+            "name": "_interface-as-class-body\\file0.java"
+        },
+        {
+            "id": 24884,
+            "type": "Package",
+            "name": "(Unnamed_Package)",
+            "qualified_name": "(Unnamed_Package)"
+        },
+        {
+            "id": 24885,
+            "type": "Java Class Type Default Member",
+            "name": "Foo",
+            "qualified_name": "Foo",
+            "line": 1,
+            "start_column": 7,
+            "end_column": 10,
+            "belongs_to": 24883
+        },
+        {
+            "id": 24886,
+            "type": "Java Interface Type Default",
+            "name": "Bar",
+            "qualified_name": "Foo.Bar",
+            "line": 2,
+            "start_column": 15,
+            "end_column": 18,
+            "belongs_to": 24883
+        },
+        {
+            "id": 24887,
+            "type": "Java Abstract Method Default Member",
+            "name": "baz",
+            "qualified_name": "Foo.Bar.baz",
+            "line": 3,
+            "start_column": 14,
+            "end_column": 17,
+            "belongs_to": 24883
+        }
+    ],
+    "relations": [
+        {
+            "from": 24883,
+            "to": 24884,
+            "type": "Java Define",
+            "inFile": 24883,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 24883,
+            "to": 24884,
+            "type": "Java Declare",
+            "inFile": 24883,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 24883,
+            "to": 24885,
+            "type": "Java Define",
+            "inFile": 24883,
+            "line": 1,
+            "column": 7
+        },
+        {
+            "from": 24883,
+            "to": 14,
+            "type": "Java Import Demand",
+            "inFile": 24883,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 24884,
+            "to": 24885,
+            "type": "Java Contain",
+            "inFile": 24883,
+            "line": 1,
+            "column": 7
+        },
+        {
+            "from": 24885,
+            "to": 24885,
+            "type": "Java Begin",
+            "inFile": 24883,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 24885,
+            "to": 24886,
+            "type": "Java Define",
+            "inFile": 24883,
+            "line": 2,
+            "column": 15
+        },
+        {
+            "from": 24885,
+            "to": 18,
+            "type": "Java Extend Couple Implicit External",
+            "inFile": 24883,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 24886,
+            "to": 24886,
+            "type": "Java Begin",
+            "inFile": 24883,
+            "line": 2,
+            "column": 5
+        },
+        {
+            "from": 24886,
+            "to": 24887,
+            "type": "Java Define",
+            "inFile": 24883,
+            "line": 3,
+            "column": 14
+        },
+        {
+            "from": 24887,
+            "to": 24887,
+            "type": "Java Begin",
+            "inFile": 24883,
+            "line": 3,
+            "column": 9
+        }
+    ]
+}

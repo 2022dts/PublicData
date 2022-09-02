@@ -1,0 +1,224 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/enum-declaration/enum-declaration-merging.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_enum-declaration-merging\\file0.ts"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Enum",
+            "name": "NumberWord",
+            "qualified_name": "NumberWord",
+            "line": 1,
+            "start_column": 6,
+            "end_column": 16,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "web Javascript Property",
+            "name": "one",
+            "qualified_name": "NumberWord.one",
+            "line": 3,
+            "start_column": 5,
+            "end_column": 8,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "web Javascript Property",
+            "name": "zero",
+            "qualified_name": "NumberWord.zero",
+            "line": 2,
+            "start_column": 5,
+            "end_column": 9,
+            "belongs_to": 1
+        },
+        {
+            "id": 7,
+            "type": "web Javascript Enum",
+            "name": "NumberWord",
+            "qualified_name": "NumberWord",
+            "line": 6,
+            "start_column": 6,
+            "end_column": 16,
+            "belongs_to": 1
+        },
+        {
+            "id": 8,
+            "type": "web Javascript Property",
+            "name": "seven",
+            "qualified_name": "NumberWord.seven",
+            "line": 14,
+            "start_column": 5,
+            "end_column": 10,
+            "belongs_to": 1
+        },
+        {
+            "id": 10,
+            "type": "web Javascript Property",
+            "name": "six",
+            "qualified_name": "NumberWord.six",
+            "line": 7,
+            "start_column": 5,
+            "end_column": 8,
+            "belongs_to": 1
+        },
+        {
+            "id": 12,
+            "type": "web Javascript Enum",
+            "name": "NumberWord",
+            "qualified_name": "NumberWord",
+            "line": 17,
+            "start_column": 6,
+            "end_column": 16,
+            "belongs_to": 1
+        },
+        {
+            "id": 13,
+            "type": "web Javascript Property",
+            "name": "three",
+            "qualified_name": "NumberWord.three",
+            "line": 19,
+            "start_column": 5,
+            "end_column": 10,
+            "belongs_to": 1
+        },
+        {
+            "id": 15,
+            "type": "web Javascript Property",
+            "name": "two",
+            "qualified_name": "NumberWord.two",
+            "line": 18,
+            "start_column": 5,
+            "end_column": 8,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 6
+        },
+        {
+            "from": 1,
+            "to": 7,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 6,
+            "column": 6
+        },
+        {
+            "from": 1,
+            "to": 12,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 17,
+            "column": 6
+        },
+        {
+            "from": 2,
+            "to": 5,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 3,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 5,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 2,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 3,
+            "column": 5
+        },
+        {
+            "from": 7,
+            "to": 10,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 7,
+            "column": 5
+        },
+        {
+            "from": 7,
+            "to": 8,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 14,
+            "column": 5
+        },
+        {
+            "from": 7,
+            "to": 10,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 7,
+            "column": 5
+        },
+        {
+            "from": 7,
+            "to": 8,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 14,
+            "column": 5
+        },
+        {
+            "from": 12,
+            "to": 15,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 18,
+            "column": 5
+        },
+        {
+            "from": 12,
+            "to": 13,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 19,
+            "column": 5
+        },
+        {
+            "from": 12,
+            "to": 15,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 18,
+            "column": 5
+        },
+        {
+            "from": 12,
+            "to": 13,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 19,
+            "column": 5
+        }
+    ]
+}

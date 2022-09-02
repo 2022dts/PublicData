@@ -1,0 +1,104 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/classdefinition/nestedclassdefinition.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_nestedclassdefinition\\file0.py"
+        },
+        {
+            "id": 2,
+            "type": "python Class",
+            "name": "Out",
+            "qualified_name": "file0.Out",
+            "line": 1,
+            "start_column": 7,
+            "end_column": 10,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "python Class",
+            "name": "Inner1",
+            "qualified_name": "file0.Out.Inner1",
+            "line": 2,
+            "start_column": 11,
+            "end_column": 17,
+            "belongs_to": 1
+        },
+        {
+            "id": 4,
+            "type": "python Function",
+            "name": "out_func",
+            "qualified_name": "file0.out_func",
+            "line": 6,
+            "start_column": 5,
+            "end_column": 13,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "python Class",
+            "name": "Inner2",
+            "qualified_name": "file0.out_func.Inner2",
+            "line": 7,
+            "start_column": 11,
+            "end_column": 17,
+            "belongs_to": 1
+        },
+        {
+            "id": 6,
+            "type": "python Class",
+            "name": "Inner3",
+            "qualified_name": "file0.out_func.Inner2.Inner3",
+            "line": 8,
+            "start_column": 15,
+            "end_column": 21,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 7
+        },
+        {
+            "from": 1,
+            "to": 4,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 6,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 11
+        },
+        {
+            "from": 4,
+            "to": 5,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 7,
+            "column": 11
+        },
+        {
+            "from": 5,
+            "to": 6,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 8,
+            "column": 15
+        }
+    ]
+}

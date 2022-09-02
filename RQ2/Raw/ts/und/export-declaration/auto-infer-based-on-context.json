@@ -1,0 +1,121 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/export-declaration/auto-infer-based-on-context.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_auto-infer-based-on-context\\file0.ts"
+        },
+        {
+            "id": 4,
+            "type": "File",
+            "name": "_auto-infer-based-on-context\\file1.ts"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Variable Global",
+            "name": "foo",
+            "qualified_name": "foo",
+            "line": 1,
+            "start_column": 7,
+            "end_column": 10,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "web Javascript Interface",
+            "name": "foo",
+            "qualified_name": "foo",
+            "line": 3,
+            "start_column": 11,
+            "end_column": 14,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "web Javascript Variable Global",
+            "name": "bar",
+            "qualified_name": "bar",
+            "line": 5,
+            "start_column": 5,
+            "end_column": 8,
+            "belongs_to": 4
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 7
+        },
+        {
+            "from": 1,
+            "to": 3,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 3,
+            "column": 11
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Declare Export",
+            "inFile": 1,
+            "line": 8,
+            "column": 9
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 1,
+            "column": 7
+        },
+        {
+            "from": 4,
+            "to": 5,
+            "type": "web Javascript Define",
+            "inFile": 4,
+            "line": 5,
+            "column": 5
+        },
+        {
+            "from": 4,
+            "to": 1,
+            "type": "web Javascript Import From",
+            "inFile": 4,
+            "line": 1,
+            "column": 19
+        },
+        {
+            "from": 4,
+            "to": 2,
+            "type": "web Javascript Import",
+            "inFile": 4,
+            "line": 1,
+            "column": 9
+        },
+        {
+            "from": 4,
+            "to": 2,
+            "type": "web Javascript Use",
+            "inFile": 4,
+            "line": 3,
+            "column": 13
+        },
+        {
+            "from": 5,
+            "to": 3,
+            "type": "web Javascript Typed",
+            "inFile": 4,
+            "line": 5,
+            "column": 10
+        }
+    ]
+}

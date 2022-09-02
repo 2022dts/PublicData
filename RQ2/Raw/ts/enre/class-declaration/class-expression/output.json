@@ -1,0 +1,98 @@
+{
+	"entities": [
+		{
+			"name": "file0.js",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_class-declaration\\_class-expression\\file0.js"
+		},
+		{
+			"name": "foo",
+			"type": "variable",
+			"id": 1,
+			"fullname": "foo",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 7
+				},
+				"end": {
+					"line": 1,
+					"column": 10
+				}
+			}
+		},
+		{
+			"name": "<Anonymous as=\"Class\">",
+			"type": "class",
+			"id": 2,
+			"fullname": "<Anonymous as=\"Class\">",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 13
+				},
+				"end": {
+					"line": 1,
+					"column": 13
+				}
+			}
+		},
+		{
+			"name": "bar",
+			"type": "variable",
+			"id": 3,
+			"fullname": "bar",
+			"location": {
+				"start": {
+					"line": 5,
+					"column": 7
+				},
+				"end": {
+					"line": 5,
+					"column": 10
+				}
+			}
+		},
+		{
+			"name": "Baz",
+			"type": "class",
+			"id": 4,
+			"fullname": "Baz",
+			"location": {
+				"start": {
+					"line": 5,
+					"column": 19
+				},
+				"end": {
+					"line": 5,
+					"column": 22
+				}
+			}
+		}
+	],
+	"relations": [
+		{
+			"from": 0,
+			"to": 1,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 7
+				}
+			}
+		},
+		{
+			"from": 0,
+			"to": 3,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 5,
+					"column": 7
+				}
+			}
+		}
+	]
+}

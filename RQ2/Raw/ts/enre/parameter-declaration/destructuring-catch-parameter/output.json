@@ -1,0 +1,91 @@
+{
+	"entities": [
+		{
+			"name": "file0.js",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_parameter-declaration\\_destructuring-catch-parameter\\file0.js"
+		},
+		{
+			"name": "a",
+			"type": "parameter",
+			"id": 1,
+			"fullname": "a",
+			"location": {
+				"start": {
+					"line": 3,
+					"column": 11
+				},
+				"end": {
+					"line": 3,
+					"column": 12
+				}
+			}
+		},
+		{
+			"name": "c",
+			"type": "parameter",
+			"id": 2,
+			"fullname": "c",
+			"location": {
+				"start": {
+					"line": 3,
+					"column": 18
+				},
+				"end": {
+					"line": 3,
+					"column": 19
+				}
+			}
+		},
+		{
+			"name": "d",
+			"type": "parameter",
+			"id": 3,
+			"fullname": "d",
+			"location": {
+				"start": {
+					"line": 3,
+					"column": 22
+				},
+				"end": {
+					"line": 3,
+					"column": 23
+				}
+			}
+		},
+		{
+			"name": "e",
+			"type": "parameter",
+			"id": 4,
+			"fullname": "e",
+			"location": {
+				"start": {
+					"line": 3,
+					"column": 29
+				},
+				"end": {
+					"line": 3,
+					"column": 30
+				}
+			}
+		},
+		{
+			"name": "g",
+			"type": "parameter",
+			"id": 5,
+			"fullname": "g",
+			"location": {
+				"start": {
+					"line": 3,
+					"column": 43
+				},
+				"end": {
+					"line": 3,
+					"column": 44
+				}
+			}
+		}
+	],
+	"relations": []
+}

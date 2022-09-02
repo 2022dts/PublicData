@@ -1,0 +1,94 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/implement-declaration/class-implements-class.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_class-implements-class\\file0.ts"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Class",
+            "name": "Bar",
+            "qualified_name": "Bar",
+            "line": 5,
+            "start_column": 7,
+            "end_column": 10,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "web Javascript Public Property",
+            "name": "prop0",
+            "qualified_name": "Bar.prop0",
+            "line": 6,
+            "start_column": 5,
+            "end_column": 10,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "web Javascript Class",
+            "name": "Foo",
+            "qualified_name": "Foo",
+            "line": 1,
+            "start_column": 7,
+            "end_column": 10,
+            "belongs_to": 1
+        },
+        {
+            "id": 6,
+            "type": "web Javascript Public Property",
+            "name": "prop0",
+            "qualified_name": "Foo.prop0",
+            "line": 2,
+            "start_column": 5,
+            "end_column": 10,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 5,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 7
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 5,
+            "column": 7
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 6,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 5,
+            "type": "web Javascript Implement",
+            "inFile": 1,
+            "line": 5,
+            "column": 22
+        },
+        {
+            "from": 5,
+            "to": 6,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 5
+        }
+    ]
+}

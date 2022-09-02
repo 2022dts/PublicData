@@ -1,0 +1,94 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/type-parameter-declaration/param-list-self-reference-constrain.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_param-list-self-reference-constrain\\file0.ts"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Interface",
+            "name": "Foo",
+            "qualified_name": "Foo",
+            "line": 2,
+            "start_column": 11,
+            "end_column": 14,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "web Javascript Type Parameter",
+            "name": "T",
+            "qualified_name": "Foo.T",
+            "line": 2,
+            "start_column": 15,
+            "end_column": 16,
+            "belongs_to": 1
+        },
+        {
+            "id": 4,
+            "type": "web Javascript Type Parameter",
+            "name": "U",
+            "qualified_name": "Foo.U",
+            "line": 2,
+            "start_column": 18,
+            "end_column": 19,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "web Javascript Type Parameter",
+            "name": "V",
+            "qualified_name": "Foo.V",
+            "line": 2,
+            "start_column": 31,
+            "end_column": 32,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 11
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 15
+        },
+        {
+            "from": 2,
+            "to": 4,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 18
+        },
+        {
+            "from": 2,
+            "to": 5,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 31
+        },
+        {
+            "from": 4,
+            "to": 5,
+            "type": "web Javascript Extend",
+            "inFile": 1,
+            "line": 2,
+            "column": 28
+        }
+    ]
+}

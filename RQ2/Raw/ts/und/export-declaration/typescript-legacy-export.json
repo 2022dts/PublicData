@@ -1,0 +1,40 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/export-declaration/typescript-legacy-export.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_typescript-legacy-export\\file0.ts"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Class",
+            "name": "Foo",
+            "qualified_name": "Foo",
+            "line": 3,
+            "start_column": 7,
+            "end_column": 10,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define Export",
+            "inFile": 1,
+            "line": 3,
+            "column": 7
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Declare Export",
+            "inFile": 1,
+            "line": 1,
+            "column": 10
+        }
+    ]
+}

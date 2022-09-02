@@ -1,0 +1,83 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_import\\_globalimport\\module_a.py",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_import\\_globalimport\\module_a.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_import\\_globalimport",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_import\\_globalimport\\module_b.py",
+        "id": 2,
+        "entityType": "File",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_import\\_globalimport\\module_b.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_import\\_globalimport.func",
+        "id": 3,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_import\\_globalimport\\module_a.py",
+        "startLine": 3,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_import\\_globalimport.x",
+        "id": 7,
+        "entityType": "Var",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_import\\_globalimport\\module_a.py",
+        "startLine": 5,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_import\\_globalimport.ClassA",
+        "id": 13,
+        "entityType": "Type",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_import\\_globalimport\\module_a.py",
+        "startLine": 7,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Import",
+        "src": 0,
+        "dest": 2
+      },
+      {
+        "type": "Use",
+        "src": 0,
+        "dest": 7
+      },
+      {
+        "type": "Import",
+        "src": 2,
+        "dest": 0
+      }
+    ]
+  }
+]

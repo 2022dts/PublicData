@@ -1,0 +1,47 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/packagedefinition/regularpackage.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "package_a\\module_a.py"
+        },
+        {
+            "id": 3,
+            "type": "File",
+            "name": "package_a\\__init__.py"
+        },
+        {
+            "id": 2,
+            "type": "Package",
+            "name": "package_a",
+            "qualified_name": "package_a"
+        },
+        {
+            "id": 4,
+            "type": "Package",
+            "name": "package_a",
+            "qualified_name": "package_a"
+        }
+    ],
+    "relations": [
+        {
+            "from": 2,
+            "to": 1,
+            "type": "Python Contain",
+            "inFile": 1,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 4,
+            "to": 3,
+            "type": "Python Contain",
+            "inFile": 3,
+            "line": 0,
+            "column": 1
+        }
+    ]
+}

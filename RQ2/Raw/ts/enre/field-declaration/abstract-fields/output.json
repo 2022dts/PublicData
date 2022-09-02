@@ -1,0 +1,75 @@
+{
+	"entities": [
+		{
+			"name": "file0.ts",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_field-declaration\\_abstract-fields\\file0.ts"
+		},
+		{
+			"name": "Foo",
+			"type": "class",
+			"id": 1,
+			"fullname": "Foo",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 16
+				},
+				"end": {
+					"line": 1,
+					"column": 19
+				}
+			}
+		},
+		{
+			"name": "field0",
+			"type": "field",
+			"id": 2,
+			"fullname": "Foo.field0",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 14
+				},
+				"end": {
+					"line": 2,
+					"column": 20
+				}
+			}
+		},
+		{
+			"name": "field1",
+			"type": "field",
+			"id": 3,
+			"fullname": "Foo.field1",
+			"location": {
+				"start": {
+					"line": 3,
+					"column": 21
+				},
+				"end": {
+					"line": 3,
+					"column": 27
+				}
+			}
+		},
+		{
+			"name": "field2",
+			"type": "field",
+			"id": 4,
+			"fullname": "Foo.field2",
+			"location": {
+				"start": {
+					"line": 4,
+					"column": 24
+				},
+				"end": {
+					"line": 4,
+					"column": 30
+				}
+			}
+		}
+	],
+	"relations": []
+}

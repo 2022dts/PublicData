@@ -1,0 +1,87 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/moduledefinition/moduledefinition.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_moduledefinition\\test_module_a.py"
+        },
+        {
+            "id": 3,
+            "type": "File",
+            "name": "_moduledefinition\\test_module_b.py"
+        },
+        {
+            "id": 2,
+            "type": "python Variable Local",
+            "name": "b",
+            "qualified_name": "test_module_a.b",
+            "line": 1,
+            "start_column": 25,
+            "end_column": 26,
+            "belongs_to": 1
+        },
+        {
+            "id": 1183,
+            "type": "python Variable Local",
+            "name": "a",
+            "qualified_name": "test_module_b.a",
+            "line": 1,
+            "start_column": 25,
+            "end_column": 26,
+            "belongs_to": 3
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 3,
+            "type": "Python Import",
+            "inFile": 1,
+            "line": 1,
+            "column": 8
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 25
+        },
+        {
+            "from": 1,
+            "to": 1183,
+            "type": "Python Alias",
+            "inFile": 3,
+            "line": 1,
+            "column": 25
+        },
+        {
+            "from": 3,
+            "to": 1,
+            "type": "Python Import",
+            "inFile": 3,
+            "line": 1,
+            "column": 8
+        },
+        {
+            "from": 3,
+            "to": 1183,
+            "type": "Python Define",
+            "inFile": 3,
+            "line": 1,
+            "column": 25
+        },
+        {
+            "from": 3,
+            "to": 2,
+            "type": "Python Alias",
+            "inFile": 1,
+            "line": 1,
+            "column": 25
+        }
+    ]
+}

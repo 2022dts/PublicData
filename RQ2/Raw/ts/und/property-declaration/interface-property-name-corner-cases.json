@@ -1,0 +1,68 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/property-declaration/interface-property-name-corner-cases.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_interface-property-name-corner-cases\\file0.ts"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Interface",
+            "name": "Foo",
+            "qualified_name": "Foo",
+            "line": 1,
+            "start_column": 11,
+            "end_column": 14,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "web Javascript Property",
+            "name": "100",
+            "qualified_name": "Foo.100",
+            "line": 10,
+            "start_column": 5,
+            "end_column": 8,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "web Javascript Property",
+            "name": "public",
+            "qualified_name": "Foo.public",
+            "line": 3,
+            "start_column": 5,
+            "end_column": 11,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 11
+        },
+        {
+            "from": 2,
+            "to": 5,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 3,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 10,
+            "column": 5
+        }
+    ]
+}

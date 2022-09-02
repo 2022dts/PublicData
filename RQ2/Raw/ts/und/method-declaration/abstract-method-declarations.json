@@ -1,0 +1,140 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/method-declaration/abstract-method-declarations.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_abstract-method-declarations\\file0.ts"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Class",
+            "name": "Foo",
+            "qualified_name": "Foo",
+            "line": 1,
+            "start_column": 16,
+            "end_column": 19,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "web Javascript Public Method Function",
+            "name": "bar",
+            "qualified_name": "Foo.bar",
+            "line": 7,
+            "start_column": 21,
+            "end_column": 24,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "web Javascript Parameter",
+            "name": "p",
+            "qualified_name": "Foo.bar.p",
+            "line": 7,
+            "start_column": 25,
+            "end_column": 26,
+            "belongs_to": 1
+        },
+        {
+            "id": 6,
+            "type": "web Javascript Protected Method Function",
+            "name": "baz",
+            "qualified_name": "Foo.baz",
+            "line": 9,
+            "start_column": 24,
+            "end_column": 27,
+            "belongs_to": 1
+        },
+        {
+            "id": 8,
+            "type": "web Javascript Public Method Function",
+            "name": "foo",
+            "qualified_name": "Foo.foo",
+            "line": 4,
+            "start_column": 14,
+            "end_column": 17,
+            "belongs_to": 1
+        },
+        {
+            "id": 10,
+            "type": "web Javascript Public Method Function",
+            "name": "propLike",
+            "qualified_name": "Foo.propLike",
+            "line": 2,
+            "start_column": 14,
+            "end_column": 22,
+            "belongs_to": 1
+        },
+        {
+            "id": 12,
+            "type": "web Javascript Private Method Function",
+            "name": "syntaxError",
+            "qualified_name": "Foo.syntaxError",
+            "line": 12,
+            "start_column": 22,
+            "end_column": 33,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 16
+        },
+        {
+            "from": 2,
+            "to": 10,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 14
+        },
+        {
+            "from": 2,
+            "to": 8,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 4,
+            "column": 14
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 7,
+            "column": 21
+        },
+        {
+            "from": 2,
+            "to": 6,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 9,
+            "column": 24
+        },
+        {
+            "from": 2,
+            "to": 12,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 12,
+            "column": 22
+        },
+        {
+            "from": 3,
+            "to": 5,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 7,
+            "column": 25
+        }
+    ]
+}

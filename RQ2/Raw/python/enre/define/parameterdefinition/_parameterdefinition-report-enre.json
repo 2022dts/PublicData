@@ -1,0 +1,330 @@
+{
+    "variables": [
+        {
+            "id": 1,
+            "qualifiedName": "_parameterdefinition.test_parameter_define",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_parameterdefinition/test_parameter_define.py"
+        },
+        {
+            "id": 3,
+            "qualifiedName": "_parameterdefinition.test_parameter_define.func",
+            "category": "Function",
+            "location": {
+                "startLine": 2,
+                "endLine": -1,
+                "startColumn": 4,
+                "endColumn": -1
+            },
+            "File": "_parameterdefinition/test_parameter_define.py"
+        },
+        {
+            "id": 4,
+            "qualifiedName": "_parameterdefinition.test_parameter_define.func.x0",
+            "category": "Parameter",
+            "location": {
+                "startLine": 2,
+                "endLine": 2,
+                "startColumn": 9,
+                "endColumn": 11
+            },
+            "File": "_parameterdefinition/test_parameter_define.py"
+        },
+        {
+            "id": 5,
+            "qualifiedName": "_parameterdefinition.test_parameter_define.func.y0",
+            "category": "Parameter",
+            "location": {
+                "startLine": 2,
+                "endLine": 2,
+                "startColumn": 13,
+                "endColumn": 15
+            },
+            "File": "_parameterdefinition/test_parameter_define.py"
+        },
+        {
+            "id": 6,
+            "qualifiedName": "_parameterdefinition.test_parameter_define.func.z0",
+            "category": "Parameter",
+            "location": {
+                "startLine": 2,
+                "endLine": 2,
+                "startColumn": 17,
+                "endColumn": 19
+            },
+            "File": "_parameterdefinition/test_parameter_define.py"
+        },
+        {
+            "id": 7,
+            "qualifiedName": "_parameterdefinition.test_parameter_define.func.inner",
+            "category": "Function",
+            "location": {
+                "startLine": 5,
+                "endLine": -1,
+                "startColumn": 8,
+                "endColumn": -1
+            },
+            "File": "_parameterdefinition/test_parameter_define.py"
+        },
+        {
+            "id": 8,
+            "qualifiedName": "_parameterdefinition.test_parameter_define.func.inner.x0",
+            "category": "Parameter",
+            "location": {
+                "startLine": 5,
+                "endLine": 5,
+                "startColumn": 14,
+                "endColumn": 16
+            },
+            "File": "_parameterdefinition/test_parameter_define.py"
+        },
+        {
+            "id": 9,
+            "qualifiedName": "_parameterdefinition.test_parameter_define.func.inner.y0",
+            "category": "Parameter",
+            "location": {
+                "startLine": 5,
+                "endLine": 5,
+                "startColumn": 18,
+                "endColumn": 20
+            },
+            "File": "_parameterdefinition/test_parameter_define.py"
+        },
+        {
+            "id": 10,
+            "qualifiedName": "_parameterdefinition.test_parameter_define.func.inner.z0",
+            "category": "Parameter",
+            "location": {
+                "startLine": 5,
+                "endLine": 5,
+                "startColumn": 22,
+                "endColumn": 24
+            },
+            "File": "_parameterdefinition/test_parameter_define.py"
+        },
+        {
+            "id": 11,
+            "qualifiedName": "_parameterdefinition.test_parameter_define.func.inner.inner_inner",
+            "category": "Function",
+            "location": {
+                "startLine": 8,
+                "endLine": -1,
+                "startColumn": 12,
+                "endColumn": -1
+            },
+            "File": "_parameterdefinition/test_parameter_define.py"
+        },
+        {
+            "id": 12,
+            "qualifiedName": "_parameterdefinition.test_parameter_define.func.inner.inner_inner.x0",
+            "category": "Parameter",
+            "location": {
+                "startLine": 8,
+                "endLine": 8,
+                "startColumn": 24,
+                "endColumn": 26
+            },
+            "File": "_parameterdefinition/test_parameter_define.py"
+        },
+        {
+            "id": 13,
+            "qualifiedName": "_parameterdefinition.test_parameter_define.func.inner.inner_inner.y0",
+            "category": "Parameter",
+            "location": {
+                "startLine": 8,
+                "endLine": 8,
+                "startColumn": 28,
+                "endColumn": 30
+            },
+            "File": "_parameterdefinition/test_parameter_define.py"
+        },
+        {
+            "id": 14,
+            "qualifiedName": "_parameterdefinition.test_parameter_define.func.inner.inner_inner.z0",
+            "category": "Parameter",
+            "location": {
+                "startLine": 8,
+                "endLine": 8,
+                "startColumn": 32,
+                "endColumn": 34
+            },
+            "File": "_parameterdefinition/test_parameter_define.py"
+        },
+        {
+            "id": 2,
+            "qualifiedName": "_parameterdefinition",
+            "category": "Package",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_parameterdefinition"
+        }
+    ],
+    "cells": [
+        {
+            "src": 1,
+            "dest": 3,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 3,
+            "dest": 4,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 9
+            }
+        },
+        {
+            "src": 3,
+            "dest": 5,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 13
+            }
+        },
+        {
+            "src": 3,
+            "dest": 6,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 17
+            }
+        },
+        {
+            "src": 3,
+            "dest": 7,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 5,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 7,
+            "dest": 8,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 5,
+                "startCol": 14
+            }
+        },
+        {
+            "src": 7,
+            "dest": 9,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 5,
+                "startCol": 18
+            }
+        },
+        {
+            "src": 7,
+            "dest": 10,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 5,
+                "startCol": 22
+            }
+        },
+        {
+            "src": 7,
+            "dest": 11,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 8,
+                "startCol": 12
+            }
+        },
+        {
+            "src": 11,
+            "dest": 12,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 8,
+                "startCol": 24
+            }
+        },
+        {
+            "src": 11,
+            "dest": 13,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 8,
+                "startCol": 28
+            }
+        },
+        {
+            "src": 11,
+            "dest": 14,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 8,
+                "startCol": 32
+            }
+        },
+        {
+            "src": 2,
+            "dest": 1,
+            "values": {
+                "kind": "Contain",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 0,
+                "startCol": 0
+            }
+        }
+    ]
+}

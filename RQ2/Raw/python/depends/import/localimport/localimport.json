@@ -1,0 +1,83 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_import\\_localimport\\module_c.py",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_import\\_localimport\\module_c.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_import\\_localimport",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_import\\_localimport.func",
+        "id": 2,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_import\\_localimport\\module_c.py",
+        "startLine": 1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_import\\_localimport\\module_d.py",
+        "id": 5,
+        "entityType": "File",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_import\\_localimport\\module_d.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_import\\_localimport.foo",
+        "id": 6,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_import\\_localimport\\module_d.py",
+        "startLine": 1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_import\\_localimport.foo.func",
+        "id": 7,
+        "entityType": "Alias",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_import\\_localimport\\module_d.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_import\\_localimport.ClassA",
+        "id": 8,
+        "entityType": "Type",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_import\\_localimport\\module_d.py",
+        "startLine": 5,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Import",
+        "src": 5,
+        "dest": 0
+      }
+    ]
+  }
+]

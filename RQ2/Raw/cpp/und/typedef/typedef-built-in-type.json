@@ -1,0 +1,32 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/typedef/typedef-built-in-type.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_typedef-built-in-type\\file0.cpp"
+        },
+        {
+            "id": 2,
+            "type": "C Typedef Type",
+            "name": "int_t",
+            "qualified_name": "int_t",
+            "line": 1,
+            "start_column": 13,
+            "end_column": 18,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 13
+        }
+    ]
+}

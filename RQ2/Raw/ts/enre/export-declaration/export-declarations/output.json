@@ -1,0 +1,234 @@
+{
+	"entities": [
+		{
+			"name": "file0.ts",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_export-declaration\\_export-declarations\\file0.ts"
+		},
+		{
+			"name": "a",
+			"type": "variable",
+			"id": 1,
+			"fullname": "a",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 14
+				},
+				"end": {
+					"line": 1,
+					"column": 15
+				}
+			}
+		},
+		{
+			"name": "b",
+			"type": "variable",
+			"id": 2,
+			"fullname": "b",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 21
+				},
+				"end": {
+					"line": 1,
+					"column": 22
+				}
+			}
+		},
+		{
+			"name": "c",
+			"type": "variable",
+			"id": 3,
+			"fullname": "c",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 28
+				},
+				"end": {
+					"line": 1,
+					"column": 29
+				}
+			}
+		},
+		{
+			"name": "foo",
+			"type": "function",
+			"id": 4,
+			"fullname": "foo",
+			"location": {
+				"start": {
+					"line": 3,
+					"column": 17
+				},
+				"end": {
+					"line": 3,
+					"column": 20
+				}
+			}
+		},
+		{
+			"name": "Foo",
+			"type": "class",
+			"id": 5,
+			"fullname": "Foo",
+			"location": {
+				"start": {
+					"line": 7,
+					"column": 14
+				},
+				"end": {
+					"line": 7,
+					"column": 17
+				}
+			}
+		},
+		{
+			"name": "Bar",
+			"type": "enum",
+			"id": 6,
+			"fullname": "Bar",
+			"location": {
+				"start": {
+					"line": 11,
+					"column": 13
+				},
+				"end": {
+					"line": 11,
+					"column": 16
+				}
+			}
+		},
+		{
+			"name": "Baz",
+			"type": "interface",
+			"id": 7,
+			"fullname": "Baz",
+			"location": {
+				"start": {
+					"line": 15,
+					"column": 18
+				},
+				"end": {
+					"line": 15,
+					"column": 21
+				}
+			}
+		}
+	],
+	"relations": [
+		{
+			"from": 0,
+			"to": 1,
+			"type": "export",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 14
+				}
+			}
+		},
+		{
+			"from": 0,
+			"to": 1,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 14
+				}
+			}
+		},
+		{
+			"from": 0,
+			"to": 2,
+			"type": "export",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 21
+				}
+			}
+		},
+		{
+			"from": 0,
+			"to": 2,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 21
+				}
+			}
+		},
+		{
+			"from": 0,
+			"to": 3,
+			"type": "export",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 28
+				}
+			}
+		},
+		{
+			"from": 0,
+			"to": 3,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 28
+				}
+			}
+		},
+		{
+			"from": 0,
+			"to": 4,
+			"type": "export",
+			"location": {
+				"start": {
+					"line": 3,
+					"column": 17
+				}
+			}
+		},
+		{
+			"from": 0,
+			"to": 5,
+			"type": "export",
+			"location": {
+				"start": {
+					"line": 7,
+					"column": 14
+				}
+			}
+		},
+		{
+			"from": 0,
+			"to": 6,
+			"type": "export",
+			"location": {
+				"start": {
+					"line": 11,
+					"column": 13
+				}
+			}
+		},
+		{
+			"from": 0,
+			"to": 7,
+			"type": "export",
+			"location": {
+				"start": {
+					"line": 15,
+					"column": 18
+				}
+			}
+		}
+	]
+}

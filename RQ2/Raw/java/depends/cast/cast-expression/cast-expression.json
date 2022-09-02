@@ -1,0 +1,73 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_cast\\_cast-expression\\Foo.java",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_cast\\_cast-expression\\Foo.java",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Foo",
+        "id": 1,
+        "entityType": "Type",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_cast\\_cast-expression\\Foo.java",
+        "startLine": 1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Foo.foo",
+        "id": 2,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_cast\\_cast-expression\\Foo.java",
+        "startLine": 2,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Foo.foo.mBar",
+        "id": 4,
+        "entityType": "Var",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_cast\\_cast-expression\\Foo.java",
+        "startLine": 3,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Bar",
+        "id": 7,
+        "entityType": "Type",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_cast\\_cast-expression\\Foo.java",
+        "startLine": 7,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Contain",
+        "src": 2,
+        "dest": 7
+      },
+      {
+        "type": "Cast",
+        "src": 2,
+        "dest": 7
+      },
+      {
+        "type": "Use",
+        "src": 2,
+        "dest": 3
+      }
+    ]
+  }
+]

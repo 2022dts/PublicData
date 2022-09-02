@@ -1,0 +1,147 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 3,
+            "name": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-annotation/JournalController.java",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 4,
+            "name": "unsolved-symbol",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 5,
+            "name": "JournalController",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-annotation/JournalController.java",
+            "line": 3,
+            "start_column": 1,
+            "end_column": 1
+        },
+        {
+            "id": 6,
+            "name": "JournalController.like",
+            "type": "METHOD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-annotation/JournalController.java",
+            "line": 5,
+            "start_column": 5,
+            "end_column": 44
+        },
+        {
+            "id": 7,
+            "name": "void",
+            "type": "BUILTIN_TYPE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 8,
+            "name": "CacheParam",
+            "type": "ANNOTATION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-annotation/CacheParam.java",
+            "line": 1,
+            "start_column": 1,
+            "end_column": 1
+        },
+        {
+            "id": 9,
+            "name": "java.lang",
+            "type": "PACKAGE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 10,
+            "name": "java",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 11,
+            "name": "java.lang.Integer",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 39,
+            "name": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-annotation/CacheParam.java",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        }
+    ],
+    "relations": [
+        {
+            "type": "IMPORT",
+            "from": 3,
+            "to": 4,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 5,
+            "to": 6,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 6,
+            "to": 7,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "UNKNOWN",
+            "from": 6,
+            "to": 8,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 10,
+            "to": 9,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 9,
+            "to": 11,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 6,
+            "to": 11,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "import-annotation"
+}

@@ -1,0 +1,66 @@
+{
+    "variables": [
+        {
+            "id": 1,
+            "qualifiedName": "_namespacepackage.package_a.module_a",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_namespacepackage/package_a/module_a.py"
+        },
+        {
+            "id": 2,
+            "qualifiedName": "_namespacepackage.package_a",
+            "category": "Package",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_namespacepackage/package_a"
+        },
+        {
+            "id": 3,
+            "qualifiedName": "_namespacepackage",
+            "category": "Package",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_namespacepackage"
+        }
+    ],
+    "cells": [
+        {
+            "src": 2,
+            "dest": 1,
+            "values": {
+                "kind": "Contain",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 0,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 3,
+            "dest": 2,
+            "values": {
+                "kind": "Contain",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 0,
+                "startCol": 0
+            }
+        }
+    ]
+}

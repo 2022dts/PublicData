@@ -1,0 +1,83 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_import\\_import-class-from-default-class\\Bar.java",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_import\\_import-class-from-default-class\\Bar.java",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Bar",
+        "id": 1,
+        "entityType": "Type",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_import\\_import-class-from-default-class\\Bar.java",
+        "startLine": 3,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Bar.doThings",
+        "id": 2,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_import\\_import-class-from-default-class\\Bar.java",
+        "startLine": 5,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_import\\_import-class-from-default-class\\Foo.java",
+        "id": 3,
+        "entityType": "File",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_import\\_import-class-from-default-class\\Foo.java",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Foo",
+        "id": 4,
+        "entityType": "Type",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_import\\_import-class-from-default-class\\Foo.java",
+        "startLine": 1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Foo.doThings",
+        "id": 5,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_import\\_import-class-from-default-class\\Foo.java",
+        "startLine": 2,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Foo.failed",
+        "id": 6,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_import\\_import-class-from-default-class\\Foo.java",
+        "startLine": 3,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Extend",
+        "src": 1,
+        "dest": 4
+      }
+    ]
+  }
+]

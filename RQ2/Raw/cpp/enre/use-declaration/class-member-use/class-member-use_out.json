@@ -1,0 +1,47 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_use-declaration/_class-member-use/file0.cpp",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_use-declaration/_class-member-use/file0.cpp",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "A",
+        "id": 1,
+        "entityType": "Class",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_use-declaration/_class-member-use/file0.cpp",
+        "startLine": 1,
+        "startColumn": 0,
+        "endLine": 1,
+        "endColumn": 0
+      },
+      {
+        "qualifiedName": "A::x",
+        "id": 2,
+        "entityType": "Object",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_use-declaration/_class-member-use/file0.cpp",
+        "startLine": 3,
+        "startColumn": 25,
+        "endLine": 3,
+        "endColumn": 25
+      },
+      {
+        "qualifiedName": "A::func",
+        "id": 3,
+        "entityType": "Function",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_use-declaration/_class-member-use/file0.cpp",
+        "startLine": 4,
+        "startColumn": 36,
+        "endLine": 4,
+        "endColumn": 36
+      }
+    ],
+    "relations": []
+  }
+]

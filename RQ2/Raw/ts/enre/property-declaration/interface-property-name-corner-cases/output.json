@@ -1,0 +1,107 @@
+{
+	"entities": [
+		{
+			"name": "file0.ts",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_property-declaration\\_interface-property-name-corner-cases\\file0.ts"
+		},
+		{
+			"name": "Foo",
+			"type": "interface",
+			"id": 1,
+			"fullname": "Foo",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 11
+				},
+				"end": {
+					"line": 1,
+					"column": 14
+				}
+			}
+		},
+		{
+			"name": "<Modified raw=\"public\" as=\"StringLiteral\">",
+			"type": "property",
+			"id": 2,
+			"fullname": "Foo.<Modified raw=\"public\" as=\"StringLiteral\">",
+			"location": {
+				"start": {
+					"line": 3,
+					"column": 5
+				},
+				"end": {
+					"line": 3,
+					"column": 13
+				}
+			}
+		},
+		{
+			"name": "<Modified raw=\"123.456\" as=\"NumericLiteral\" value=\"123.456\">",
+			"type": "property",
+			"id": 3,
+			"fullname": "Foo.<Modified raw=\"123.456\" as=\"NumericLiteral\" value=\"123.456\">",
+			"location": {
+				"start": {
+					"line": 5,
+					"column": 5
+				},
+				"end": {
+					"line": 5,
+					"column": 12
+				}
+			}
+		},
+		{
+			"name": "<Modified raw=\"0b101\" as=\"NumericLiteral\" value=\"5\">",
+			"type": "property",
+			"id": 4,
+			"fullname": "Foo.<Modified raw=\"0b101\" as=\"NumericLiteral\" value=\"5\">",
+			"location": {
+				"start": {
+					"line": 6,
+					"column": 5
+				},
+				"end": {
+					"line": 6,
+					"column": 10
+				}
+			}
+		},
+		{
+			"name": "<Modified raw=\"1e2\" as=\"NumericLiteral\" value=\"100\">",
+			"type": "property",
+			"id": 5,
+			"fullname": "Foo.<Modified raw=\"1e2\" as=\"NumericLiteral\" value=\"100\">",
+			"location": {
+				"start": {
+					"line": 9,
+					"column": 5
+				},
+				"end": {
+					"line": 9,
+					"column": 8
+				}
+			}
+		},
+		{
+			"name": "<Modified raw=\"100\" as=\"StringLiteral\">",
+			"type": "property",
+			"id": 6,
+			"fullname": "Foo.<Modified raw=\"100\" as=\"StringLiteral\">",
+			"location": {
+				"start": {
+					"line": 10,
+					"column": 5
+				},
+				"end": {
+					"line": 10,
+					"column": 10
+				}
+			}
+		}
+	],
+	"relations": []
+}

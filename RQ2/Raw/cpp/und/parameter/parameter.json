@@ -1,0 +1,58 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/parameter/parameter.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_parameter\\file0.cpp"
+        },
+        {
+            "id": 2,
+            "type": "C Function",
+            "name": "func",
+            "qualified_name": "func",
+            "line": 1,
+            "start_column": 5,
+            "end_column": 9,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "C Parameter",
+            "name": "i",
+            "qualified_name": "i",
+            "line": 1,
+            "start_column": 14,
+            "end_column": 15,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 14
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "C Use Return",
+            "inFile": 1,
+            "line": 2,
+            "column": 12
+        }
+    ]
+}

@@ -1,0 +1,233 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/import/import-annotation.und",
+    "entities": [
+        {
+            "id": 24451,
+            "type": "File",
+            "name": "_import-annotation\\CacheParam.java"
+        },
+        {
+            "id": 33037,
+            "type": "File",
+            "name": "_import-annotation\\JournalController.java"
+        },
+        {
+            "id": 24452,
+            "type": "Package",
+            "name": "(Unnamed_Package)",
+            "qualified_name": "(Unnamed_Package)"
+        },
+        {
+            "id": 24453,
+            "type": "Java Annotation Interface Type Public",
+            "name": "CacheParam",
+            "qualified_name": "CacheParam",
+            "line": 1,
+            "start_column": 19,
+            "end_column": 29,
+            "belongs_to": 24451
+        },
+        {
+            "id": 33038,
+            "type": "Java Class Type Public Member",
+            "name": "JournalController",
+            "qualified_name": "JournalController",
+            "line": 3,
+            "start_column": 14,
+            "end_column": 31,
+            "belongs_to": 33037
+        },
+        {
+            "id": 33039,
+            "type": "Java Method Public Member",
+            "name": "like",
+            "qualified_name": "JournalController.like",
+            "line": 5,
+            "start_column": 17,
+            "end_column": 21,
+            "belongs_to": 33037
+        },
+        {
+            "id": 33040,
+            "type": "Java Parameter",
+            "name": "id",
+            "qualified_name": "JournalController.like.id",
+            "line": 5,
+            "start_column": 42,
+            "end_column": 44,
+            "belongs_to": 33037
+        }
+    ],
+    "relations": [
+        {
+            "from": 24451,
+            "to": 24452,
+            "type": "Java Define",
+            "inFile": 24451,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 24451,
+            "to": 24452,
+            "type": "Java Declare",
+            "inFile": 24451,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 24451,
+            "to": 24453,
+            "type": "Java Define",
+            "inFile": 24451,
+            "line": 1,
+            "column": 19
+        },
+        {
+            "from": 24451,
+            "to": 14,
+            "type": "Java Import Demand",
+            "inFile": 24451,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 24452,
+            "to": 24453,
+            "type": "Java Contain",
+            "inFile": 24451,
+            "line": 1,
+            "column": 19
+        },
+        {
+            "from": 24452,
+            "to": 33038,
+            "type": "Java Contain",
+            "inFile": 33037,
+            "line": 3,
+            "column": 14
+        },
+        {
+            "from": 24453,
+            "to": 24453,
+            "type": "Java Begin",
+            "inFile": 24451,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 33037,
+            "to": 24452,
+            "type": "Java Define",
+            "inFile": 33037,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 33037,
+            "to": 24452,
+            "type": "Java Declare",
+            "inFile": 33037,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 33037,
+            "to": 33038,
+            "type": "Java Define",
+            "inFile": 33037,
+            "line": 3,
+            "column": 14
+        },
+        {
+            "from": 33037,
+            "to": 14,
+            "type": "Java Import Demand",
+            "inFile": 33037,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 33037,
+            "to": 24453,
+            "type": "Java Import",
+            "inFile": 33037,
+            "line": 1,
+            "column": 8
+        },
+        {
+            "from": 33038,
+            "to": 33038,
+            "type": "Java Begin",
+            "inFile": 33037,
+            "line": 3,
+            "column": 1
+        },
+        {
+            "from": 33038,
+            "to": 33039,
+            "type": "Java Define",
+            "inFile": 33037,
+            "line": 5,
+            "column": 17
+        },
+        {
+            "from": 33038,
+            "to": 18,
+            "type": "Java Extend Couple Implicit External",
+            "inFile": 33037,
+            "line": 3,
+            "column": 1
+        },
+        {
+            "from": 33038,
+            "to": 2138,
+            "type": "Java Couple",
+            "inFile": 33037,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 33038,
+            "to": 24453,
+            "type": "Java Couple",
+            "inFile": 33037,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 33039,
+            "to": 33039,
+            "type": "Java Begin",
+            "inFile": 33037,
+            "line": 5,
+            "column": 5
+        },
+        {
+            "from": 33039,
+            "to": 33040,
+            "type": "Java Define",
+            "inFile": 33037,
+            "line": 5,
+            "column": 42
+        },
+        {
+            "from": 33040,
+            "to": 2138,
+            "type": "Java Typed",
+            "inFile": 33037,
+            "line": 5,
+            "column": 34
+        },
+        {
+            "from": 33040,
+            "to": 24453,
+            "type": "Java Use Annotation",
+            "inFile": 33037,
+            "line": 5,
+            "column": 23
+        }
+    ]
+}

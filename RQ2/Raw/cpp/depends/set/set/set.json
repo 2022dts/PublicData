@@ -1,0 +1,48 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-cpp\\tests\\cases\\_set\\_set\\file0.cpp",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-cpp\\tests\\cases\\_set\\_set\\file0.cpp",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "func",
+        "id": 1,
+        "entityType": "FunctionImpl",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-cpp\\tests\\cases\\_set\\_set\\file0.cpp",
+        "startLine": 1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "func.j",
+        "id": 3,
+        "entityType": "Var",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-cpp\\tests\\cases\\_set\\_set\\file0.cpp",
+        "startLine": 2,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Use",
+        "src": 1,
+        "dest": 3
+      },
+      {
+        "type": "Use",
+        "src": 1,
+        "dest": 2
+      }
+    ]
+  }
+]

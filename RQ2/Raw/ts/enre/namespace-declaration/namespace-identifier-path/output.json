@@ -1,0 +1,59 @@
+{
+	"entities": [
+		{
+			"name": "file0.ts",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_namespace-declaration\\_namespace-identifier-path\\file0.ts"
+		},
+		{
+			"name": "X",
+			"type": "namespace",
+			"id": 1,
+			"fullname": "X",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 11
+				},
+				"end": {
+					"line": 1,
+					"column": 12
+				}
+			}
+		},
+		{
+			"name": "Y",
+			"type": "namespace",
+			"id": 2,
+			"fullname": "X.Y",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 13
+				},
+				"end": {
+					"line": 1,
+					"column": 14
+				}
+			}
+		},
+		{
+			"name": "Z",
+			"type": "namespace",
+			"id": 3,
+			"fullname": "X.Y.Z",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 15
+				},
+				"end": {
+					"line": 1,
+					"column": 16
+				}
+			}
+		}
+	],
+	"relations": []
+}

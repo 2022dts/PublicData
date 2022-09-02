@@ -1,0 +1,93 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_call\\_method-dot-call-method\\Foo.java",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_call\\_method-dot-call-method\\Foo.java",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Foo",
+        "id": 1,
+        "entityType": "Type",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_call\\_method-dot-call-method\\Foo.java",
+        "startLine": 1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Foo.foo",
+        "id": 2,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_call\\_method-dot-call-method\\Foo.java",
+        "startLine": 2,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Bar",
+        "id": 3,
+        "entityType": "Type",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_call\\_method-dot-call-method\\Foo.java",
+        "startLine": 7,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Bar.bar",
+        "id": 4,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_call\\_method-dot-call-method\\Foo.java",
+        "startLine": 8,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Bar.bar.mFoo",
+        "id": 5,
+        "entityType": "Var",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_call\\_method-dot-call-method\\Foo.java",
+        "startLine": 9,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Contain",
+        "src": 4,
+        "dest": 1
+      },
+      {
+        "type": "Call",
+        "src": 4,
+        "dest": 1
+      },
+      {
+        "type": "Create",
+        "src": 4,
+        "dest": 1
+      },
+      {
+        "type": "Call",
+        "src": 4,
+        "dest": 2
+      },
+      {
+        "type": "Use",
+        "src": 4,
+        "dest": 5
+      }
+    ]
+  }
+]

@@ -1,0 +1,177 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 4,
+            "name": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_override/_override-superclass-method/AuthenticationException.java",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 5,
+            "name": "unsolved-symbol",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 6,
+            "name": "AuthenticationException",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_override/_override-superclass-method/AuthenticationException.java",
+            "line": 2,
+            "start_column": 1,
+            "end_column": 1
+        },
+        {
+            "id": 7,
+            "name": "AbstractException",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_override/_override-superclass-method/AbstractException.java",
+            "line": 1,
+            "start_column": 1,
+            "end_column": 1
+        },
+        {
+            "id": 8,
+            "name": "AuthenticationException.getStatus",
+            "type": "METHOD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_override/_override-superclass-method/AuthenticationException.java",
+            "line": 3,
+            "start_column": 5,
+            "end_column": 29
+        },
+        {
+            "id": 9,
+            "name": "java.lang",
+            "type": "PACKAGE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 10,
+            "name": "java",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 11,
+            "name": "java.lang.Override",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 12,
+            "name": "java.lang.String",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 39,
+            "name": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_override/_override-superclass-method/AbstractException.java",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 40,
+            "name": "AbstractException.getStatus",
+            "type": "METHOD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_override/_override-superclass-method/AbstractException.java",
+            "line": 2,
+            "start_column": 5,
+            "end_column": 38
+        }
+    ],
+    "relations": [
+        {
+            "type": "IMPORT",
+            "from": 4,
+            "to": 5,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "INHERITANCE",
+            "from": 6,
+            "to": 7,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 6,
+            "to": 8,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 10,
+            "to": 9,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 9,
+            "to": 11,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "UNKNOWN",
+            "from": 8,
+            "to": 11,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 9,
+            "to": 12,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 8,
+            "to": 12,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 7,
+            "to": 40,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 40,
+            "to": 12,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "override-superclass-method"
+}

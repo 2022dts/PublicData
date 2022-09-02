@@ -1,0 +1,78 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_typed\\_type-a-var\\Foo.java",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_typed\\_type-a-var\\Foo.java",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Foo",
+        "id": 1,
+        "entityType": "Type",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_typed\\_type-a-var\\Foo.java",
+        "startLine": 1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Foo.getHello",
+        "id": 2,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_typed\\_type-a-var\\Foo.java",
+        "startLine": 2,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Foo.getHello.hello",
+        "id": 3,
+        "entityType": "Var",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_typed\\_type-a-var\\Foo.java",
+        "startLine": 3,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Hello",
+        "id": 5,
+        "entityType": "Type",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_typed\\_type-a-var\\Foo.java",
+        "startLine": 7,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Return",
+        "src": 2,
+        "dest": 5
+      },
+      {
+        "type": "Contain",
+        "src": 2,
+        "dest": 5
+      },
+      {
+        "type": "Call",
+        "src": 2,
+        "dest": 5
+      },
+      {
+        "type": "Create",
+        "src": 2,
+        "dest": 5
+      }
+    ]
+  }
+]

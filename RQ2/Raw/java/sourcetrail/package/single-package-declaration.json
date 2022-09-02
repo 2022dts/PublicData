@@ -1,0 +1,25 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 1,
+            "name": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_package/_single-package-declaration/foo/Main.java",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 2,
+            "name": "foo",
+            "type": "PACKAGE",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_package/_single-package-declaration/foo/Main.java",
+            "line": 1,
+            "start_column": 9,
+            "end_column": 11
+        }
+    ],
+    "relations": [],
+    "db_name": "single-package-declaration"
+}

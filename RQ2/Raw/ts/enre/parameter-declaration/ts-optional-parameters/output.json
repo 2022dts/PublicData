@@ -1,0 +1,75 @@
+{
+	"entities": [
+		{
+			"name": "file0.ts",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_parameter-declaration\\_ts-optional-parameters\\file0.ts"
+		},
+		{
+			"name": "foo",
+			"type": "function",
+			"id": 1,
+			"fullname": "foo",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 10
+				},
+				"end": {
+					"line": 1,
+					"column": 13
+				}
+			}
+		},
+		{
+			"name": "param0",
+			"type": "parameter",
+			"id": 2,
+			"fullname": "foo.param0",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 5
+				},
+				"end": {
+					"line": 2,
+					"column": 11
+				}
+			}
+		},
+		{
+			"name": "param1",
+			"type": "parameter",
+			"id": 3,
+			"fullname": "foo.param1",
+			"location": {
+				"start": {
+					"line": 3,
+					"column": 6
+				},
+				"end": {
+					"line": 3,
+					"column": 12
+				}
+			}
+		},
+		{
+			"name": "param2",
+			"type": "parameter",
+			"id": 4,
+			"fullname": "foo.param2",
+			"location": {
+				"start": {
+					"line": 4,
+					"column": 5
+				},
+				"end": {
+					"line": 4,
+					"column": 11
+				}
+			}
+		}
+	],
+	"relations": []
+}

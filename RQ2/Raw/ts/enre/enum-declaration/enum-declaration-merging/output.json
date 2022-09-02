@@ -1,0 +1,123 @@
+{
+	"entities": [
+		{
+			"name": "file0.ts",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_enum-declaration\\_enum-declaration-merging\\file0.ts"
+		},
+		{
+			"name": "NumberWord",
+			"type": "enum",
+			"id": 1,
+			"fullname": "NumberWord",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 6
+				},
+				"end": {
+					"line": 1,
+					"column": 16
+				}
+			}
+		},
+		{
+			"name": "zero",
+			"type": "enum member",
+			"id": 2,
+			"fullname": "NumberWord.zero",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 5
+				},
+				"end": {
+					"line": 2,
+					"column": 9
+				}
+			}
+		},
+		{
+			"name": "one",
+			"type": "enum member",
+			"id": 3,
+			"fullname": "NumberWord.one",
+			"location": {
+				"start": {
+					"line": 3,
+					"column": 5
+				},
+				"end": {
+					"line": 3,
+					"column": 8
+				}
+			}
+		},
+		{
+			"name": "six",
+			"type": "enum member",
+			"id": 4,
+			"fullname": "NumberWord.six",
+			"location": {
+				"start": {
+					"line": 7,
+					"column": 5
+				},
+				"end": {
+					"line": 7,
+					"column": 8
+				}
+			}
+		},
+		{
+			"name": "seven",
+			"type": "enum member",
+			"id": 5,
+			"fullname": "NumberWord.seven",
+			"location": {
+				"start": {
+					"line": 14,
+					"column": 5
+				},
+				"end": {
+					"line": 14,
+					"column": 10
+				}
+			}
+		},
+		{
+			"name": "two",
+			"type": "enum member",
+			"id": 6,
+			"fullname": "NumberWord.two",
+			"location": {
+				"start": {
+					"line": 18,
+					"column": 5
+				},
+				"end": {
+					"line": 18,
+					"column": 8
+				}
+			}
+		},
+		{
+			"name": "three",
+			"type": "enum member",
+			"id": 7,
+			"fullname": "NumberWord.three",
+			"location": {
+				"start": {
+					"line": 19,
+					"column": 5
+				},
+				"end": {
+					"line": 19,
+					"column": 10
+				}
+			}
+		}
+	],
+	"relations": []
+}

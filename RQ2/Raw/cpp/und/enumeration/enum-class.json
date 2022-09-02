@@ -1,0 +1,32 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/enumeration/enum-class.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_enum-class\\file0.cpp"
+        },
+        {
+            "id": 2,
+            "type": "C Class Type",
+            "name": "Handle",
+            "qualified_name": "Handle",
+            "line": 1,
+            "start_column": 12,
+            "end_column": 18,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 12
+        }
+    ]
+}

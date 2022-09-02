@@ -1,0 +1,81 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 1,
+            "name": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_friend/_template-class-friends/file0.cpp",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 2,
+            "name": "A<class T>",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_friend/_template-class-friends/file0.cpp",
+            "line": 1,
+            "start_column": 1,
+            "end_column": 28
+        },
+        {
+            "id": 3,
+            "name": "A<int>",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_friend/_template-class-friends/file0.cpp",
+            "line": 2,
+            "start_column": 1,
+            "end_column": 26
+        },
+        {
+            "id": 4,
+            "name": "int",
+            "type": "BUILTIN_TYPE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 5,
+            "name": "X",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_friend/_template-class-friends/file0.cpp",
+            "line": 3,
+            "start_column": 1,
+            "end_column": 1
+        }
+    ],
+    "relations": [
+        {
+            "type": "TEMPLATE_SPECIALIZATION",
+            "from": 3,
+            "to": 2,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 3,
+            "to": 4,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 5,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 5,
+            "to": 4,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "template-class-friends"
+}

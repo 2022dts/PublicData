@@ -1,0 +1,50 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/struct-declaration/struct.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_struct\\file0.cpp"
+        },
+        {
+            "id": 2,
+            "type": "C Struct Type",
+            "name": "MyStruct",
+            "qualified_name": "MyStruct",
+            "line": 1,
+            "start_column": 8,
+            "end_column": 16,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "C Public Member Object",
+            "name": "value",
+            "qualified_name": "MyStruct::value",
+            "line": 2,
+            "start_column": 9,
+            "end_column": 14,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 8
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 9
+        }
+    ]
+}

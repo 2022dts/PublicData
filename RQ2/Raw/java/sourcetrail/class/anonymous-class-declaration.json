@@ -1,0 +1,210 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 1,
+            "name": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_class/_anonymous-class-declaration/file0.java",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 2,
+            "name": "Foo",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_class/_anonymous-class-declaration/file0.java",
+            "line": 1,
+            "start_column": 1,
+            "end_column": 1
+        },
+        {
+            "id": 3,
+            "name": "Foo.Bar",
+            "type": "INTERFACE",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_class/_anonymous-class-declaration/file0.java",
+            "line": 3,
+            "start_column": 5,
+            "end_column": 5
+        },
+        {
+            "id": 4,
+            "name": "Foo.Bar.a",
+            "type": "METHOD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_class/_anonymous-class-declaration/file0.java",
+            "line": 4,
+            "start_column": 9,
+            "end_column": 16
+        },
+        {
+            "id": 5,
+            "name": "void",
+            "type": "BUILTIN_TYPE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 6,
+            "name": "Foo.doThings",
+            "type": "METHOD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_class/_anonymous-class-declaration/file0.java",
+            "line": 7,
+            "start_column": 5,
+            "end_column": 26
+        },
+        {
+            "id": 7,
+            "name": "Foo.doThings.anonymous class (file0.java<13:32>)",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_class/_anonymous-class-declaration/file0.java",
+            "line": 13,
+            "start_column": 32,
+            "end_column": 9
+        },
+        {
+            "id": 8,
+            "name": "Foo.doThings.anonymous class (file0.java<13:32>).a",
+            "type": "METHOD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_class/_anonymous-class-declaration/file0.java",
+            "line": 14,
+            "start_column": 13,
+            "end_column": 27
+        },
+        {
+            "id": 9,
+            "name": "Foo.doThings.anonymous class (file0.java<19:32>)",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_class/_anonymous-class-declaration/file0.java",
+            "line": 19,
+            "start_column": 32,
+            "end_column": 9
+        },
+        {
+            "id": 10,
+            "name": "Foo.doThings.anonymous class (file0.java<19:32>).a",
+            "type": "METHOD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_class/_anonymous-class-declaration/file0.java",
+            "line": 20,
+            "start_column": 13,
+            "end_column": 27
+        }
+    ],
+    "relations": [
+        {
+            "type": "MEMBER,",
+            "from": 2,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER,",
+            "from": 3,
+            "to": 4,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 4,
+            "to": 5,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER,",
+            "from": 2,
+            "to": 6,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 6,
+            "to": 5,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 6,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER,",
+            "from": 6,
+            "to": 7,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "INHERITANCE",
+            "from": 7,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER,",
+            "from": 7,
+            "to": 8,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "OVERRIDE",
+            "from": 8,
+            "to": 4,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 8,
+            "to": 5,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER,",
+            "from": 6,
+            "to": 9,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "INHERITANCE",
+            "from": 9,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER,",
+            "from": 9,
+            "to": 10,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "OVERRIDE",
+            "from": 10,
+            "to": 4,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 10,
+            "to": 5,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "anonymous-class-declaration"
+}

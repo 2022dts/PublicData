@@ -1,0 +1,111 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/alias/namespace-alias.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_namespace-alias\\file0.cpp"
+        },
+        {
+            "id": 2,
+            "type": "Namespace",
+            "name": "foo"
+        },
+        {
+            "id": 3,
+            "type": "Namespace",
+            "name": "bar"
+        },
+        {
+            "id": 4,
+            "type": "Namespace",
+            "name": "baz"
+        },
+        {
+            "id": 5,
+            "type": "C Object Global",
+            "name": "qux",
+            "qualified_name": "foo::bar::baz::qux",
+            "line": 4,
+            "start_column": 18,
+            "end_column": 21,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "C Declare",
+            "inFile": 1,
+            "line": 1,
+            "column": 11
+        },
+        {
+            "from": 1,
+            "to": 6,
+            "type": "C Declare",
+            "inFile": 1,
+            "line": 8,
+            "column": 11
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "C Name",
+            "inFile": 1,
+            "line": 8,
+            "column": 17
+        },
+        {
+            "from": 1,
+            "to": 3,
+            "type": "C Name",
+            "inFile": 1,
+            "line": 8,
+            "column": 22
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "C Declare",
+            "inFile": 1,
+            "line": 2,
+            "column": 15
+        },
+        {
+            "from": 3,
+            "to": 4,
+            "type": "C Declare",
+            "inFile": 1,
+            "line": 3,
+            "column": 20
+        },
+        {
+            "from": 4,
+            "to": 5,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 4,
+            "column": 18
+        },
+        {
+            "from": 4,
+            "to": 5,
+            "type": "C Set Init",
+            "inFile": 1,
+            "line": 4,
+            "column": 18
+        },
+        {
+            "from": 6,
+            "to": 4,
+            "type": "C Alias",
+            "inFile": 1,
+            "line": 8,
+            "column": 27
+        }
+    ]
+}

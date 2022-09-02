@@ -1,0 +1,228 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/parameter-declaration/function-parameters.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_function-parameters\\file0.js"
+        },
+        {
+            "id": 3,
+            "type": "web Javascript Function",
+            "name": "bar",
+            "qualified_name": "bar",
+            "line": 7,
+            "start_column": 10,
+            "end_column": 13,
+            "belongs_to": 1
+        },
+        {
+            "id": 4,
+            "type": "web Javascript Variable Local",
+            "name": "a",
+            "qualified_name": "bar.a",
+            "line": 7,
+            "start_column": 15,
+            "end_column": 16,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "web Javascript Parameter",
+            "name": "c",
+            "qualified_name": "bar.c",
+            "line": 7,
+            "start_column": 22,
+            "end_column": 23,
+            "belongs_to": 1
+        },
+        {
+            "id": 6,
+            "type": "web Javascript Variable Local",
+            "name": "d",
+            "qualified_name": "bar.d",
+            "line": 7,
+            "start_column": 26,
+            "end_column": 27,
+            "belongs_to": 1
+        },
+        {
+            "id": 7,
+            "type": "web Javascript Parameter",
+            "name": "e",
+            "qualified_name": "bar.e",
+            "line": 7,
+            "start_column": 33,
+            "end_column": 34,
+            "belongs_to": 1
+        },
+        {
+            "id": 8,
+            "type": "web Javascript Parameter",
+            "name": "h",
+            "qualified_name": "bar.h",
+            "line": 7,
+            "start_column": 51,
+            "end_column": 52,
+            "belongs_to": 1
+        },
+        {
+            "id": 9,
+            "type": "web Javascript Parameter",
+            "name": "r",
+            "qualified_name": "bar.r",
+            "line": 7,
+            "start_column": 61,
+            "end_column": 62,
+            "belongs_to": 1
+        },
+        {
+            "id": 11,
+            "type": "web Javascript Function",
+            "name": "foo",
+            "qualified_name": "foo",
+            "line": 2,
+            "start_column": 10,
+            "end_column": 13,
+            "belongs_to": 1
+        },
+        {
+            "id": 12,
+            "type": "web Javascript Parameter",
+            "name": "a",
+            "qualified_name": "foo.a",
+            "line": 2,
+            "start_column": 14,
+            "end_column": 15,
+            "belongs_to": 1
+        },
+        {
+            "id": 13,
+            "type": "web Javascript Parameter",
+            "name": "b",
+            "qualified_name": "foo.b",
+            "line": 2,
+            "start_column": 17,
+            "end_column": 18,
+            "belongs_to": 1
+        },
+        {
+            "id": 14,
+            "type": "web Javascript Parameter",
+            "name": "r",
+            "qualified_name": "foo.r",
+            "line": 2,
+            "start_column": 27,
+            "end_column": 28,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 11,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 10
+        },
+        {
+            "from": 1,
+            "to": 3,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 7,
+            "column": 10
+        },
+        {
+            "from": 3,
+            "to": 4,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 7,
+            "column": 15
+        },
+        {
+            "from": 3,
+            "to": 5,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 7,
+            "column": 22
+        },
+        {
+            "from": 3,
+            "to": 6,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 7,
+            "column": 26
+        },
+        {
+            "from": 3,
+            "to": 7,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 7,
+            "column": 33
+        },
+        {
+            "from": 3,
+            "to": 8,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 7,
+            "column": 51
+        },
+        {
+            "from": 3,
+            "to": 9,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 7,
+            "column": 61
+        },
+        {
+            "from": 3,
+            "to": 4,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 7,
+            "column": 15
+        },
+        {
+            "from": 3,
+            "to": 6,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 7,
+            "column": 26
+        },
+        {
+            "from": 11,
+            "to": 12,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 14
+        },
+        {
+            "from": 11,
+            "to": 13,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 17
+        },
+        {
+            "from": 11,
+            "to": 14,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 27
+        }
+    ]
+}

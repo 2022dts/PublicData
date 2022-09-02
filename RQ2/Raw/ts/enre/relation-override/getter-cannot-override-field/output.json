@@ -1,0 +1,87 @@
+{
+	"entities": [
+		{
+			"name": "file0.js",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_relation-override\\_getter-cannot-override-field\\file0.js"
+		},
+		{
+			"name": "Foo",
+			"type": "class",
+			"id": 1,
+			"fullname": "Foo",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 7
+				},
+				"end": {
+					"line": 1,
+					"column": 10
+				}
+			}
+		},
+		{
+			"name": "a",
+			"type": "field",
+			"id": 2,
+			"fullname": "Foo.a",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 5
+				},
+				"end": {
+					"line": 2,
+					"column": 6
+				}
+			}
+		},
+		{
+			"name": "Bar",
+			"type": "class",
+			"id": 3,
+			"fullname": "Bar",
+			"location": {
+				"start": {
+					"line": 5,
+					"column": 7
+				},
+				"end": {
+					"line": 5,
+					"column": 10
+				}
+			}
+		},
+		{
+			"name": "a",
+			"type": "method",
+			"id": 4,
+			"fullname": "Bar.a",
+			"location": {
+				"start": {
+					"line": 6,
+					"column": 9
+				},
+				"end": {
+					"line": 6,
+					"column": 10
+				}
+			}
+		}
+	],
+	"relations": [
+		{
+			"from": 3,
+			"to": 1,
+			"type": "extend",
+			"location": {
+				"start": {
+					"line": 5,
+					"column": 19
+				}
+			}
+		}
+	]
+}

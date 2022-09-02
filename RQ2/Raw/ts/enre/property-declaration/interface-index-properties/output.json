@@ -1,0 +1,75 @@
+{
+	"entities": [
+		{
+			"name": "file0.ts",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_property-declaration\\_interface-index-properties\\file0.ts"
+		},
+		{
+			"name": "ArrayOfNumber",
+			"type": "interface",
+			"id": 1,
+			"fullname": "ArrayOfNumber",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 11
+				},
+				"end": {
+					"line": 1,
+					"column": 24
+				}
+			}
+		},
+		{
+			"name": "<Anonymous as=\"NumberIndexSignature\">",
+			"type": "property",
+			"id": 2,
+			"fullname": "ArrayOfNumber.<Anonymous as=\"NumberIndexSignature\">",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 5
+				},
+				"end": {
+					"line": 2,
+					"column": 5
+				}
+			}
+		},
+		{
+			"name": "KVPair",
+			"type": "interface",
+			"id": 3,
+			"fullname": "KVPair",
+			"location": {
+				"start": {
+					"line": 5,
+					"column": 11
+				},
+				"end": {
+					"line": 5,
+					"column": 17
+				}
+			}
+		},
+		{
+			"name": "<Anonymous as=\"StringIndexSignature\">",
+			"type": "property",
+			"id": 4,
+			"fullname": "KVPair.<Anonymous as=\"StringIndexSignature\">",
+			"location": {
+				"start": {
+					"line": 6,
+					"column": 5
+				},
+				"end": {
+					"line": 6,
+					"column": 5
+				}
+			}
+		}
+	],
+	"relations": []
+}

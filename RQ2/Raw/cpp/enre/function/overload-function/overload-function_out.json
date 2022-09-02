@@ -1,0 +1,67 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_function/_overload-function/file0.cpp",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_function/_overload-function/file0.cpp",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "overloadFunction",
+        "id": 1,
+        "entityType": "Function",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_function/_overload-function/file0.cpp",
+        "startLine": 1,
+        "startColumn": 4,
+        "endLine": 1,
+        "endColumn": 4
+      },
+      {
+        "qualifiedName": "overloadFunction",
+        "id": 2,
+        "entityType": "Function",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_function/_overload-function/file0.cpp",
+        "startLine": 4,
+        "startColumn": 46,
+        "endLine": 4,
+        "endColumn": 46
+      },
+      {
+        "qualifiedName": "overloadFunction::i",
+        "id": 3,
+        "entityType": "Object",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_function/_overload-function/file0.cpp",
+        "startLine": 4,
+        "startColumn": 67,
+        "endLine": 4,
+        "endColumn": 67
+      },
+      {
+        "qualifiedName": "overloadFunction",
+        "id": 4,
+        "entityType": "Function",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_function/_overload-function/file0.cpp",
+        "startLine": 7,
+        "startColumn": 93,
+        "endLine": 7,
+        "endColumn": 93
+      },
+      {
+        "qualifiedName": "overloadFunction::i",
+        "id": 5,
+        "entityType": "Object",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_function/_overload-function/file0.cpp",
+        "startLine": 7,
+        "startColumn": 115,
+        "endLine": 7,
+        "endColumn": 115
+      }
+    ],
+    "relations": []
+  }
+]

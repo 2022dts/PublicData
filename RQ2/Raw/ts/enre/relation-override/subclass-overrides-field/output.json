@@ -1,0 +1,119 @@
+{
+	"entities": [
+		{
+			"name": "file0.js",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_relation-override\\_subclass-overrides-field\\file0.js"
+		},
+		{
+			"name": "Foo",
+			"type": "class",
+			"id": 1,
+			"fullname": "Foo",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 7
+				},
+				"end": {
+					"line": 1,
+					"column": 10
+				}
+			}
+		},
+		{
+			"name": "field0",
+			"type": "field",
+			"id": 2,
+			"fullname": "Foo.field0",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 5
+				},
+				"end": {
+					"line": 2,
+					"column": 11
+				}
+			}
+		},
+		{
+			"name": "constructor",
+			"type": "method",
+			"id": 3,
+			"fullname": "Foo.constructor",
+			"location": {
+				"start": {
+					"line": 4,
+					"column": 5
+				},
+				"end": {
+					"line": 4,
+					"column": 16
+				}
+			}
+		},
+		{
+			"name": "Bar",
+			"type": "class",
+			"id": 4,
+			"fullname": "Bar",
+			"location": {
+				"start": {
+					"line": 9,
+					"column": 7
+				},
+				"end": {
+					"line": 9,
+					"column": 10
+				}
+			}
+		},
+		{
+			"name": "field0",
+			"type": "field",
+			"id": 5,
+			"fullname": "Bar.field0",
+			"location": {
+				"start": {
+					"line": 10,
+					"column": 5
+				},
+				"end": {
+					"line": 10,
+					"column": 11
+				}
+			}
+		},
+		{
+			"name": "constructor",
+			"type": "method",
+			"id": 6,
+			"fullname": "Bar.constructor",
+			"location": {
+				"start": {
+					"line": 12,
+					"column": 5
+				},
+				"end": {
+					"line": 12,
+					"column": 16
+				}
+			}
+		}
+	],
+	"relations": [
+		{
+			"from": 4,
+			"to": 1,
+			"type": "extend",
+			"location": {
+				"start": {
+					"line": 9,
+					"column": 19
+				}
+			}
+		}
+	]
+}

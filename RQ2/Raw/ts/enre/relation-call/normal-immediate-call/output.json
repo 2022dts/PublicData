@@ -1,0 +1,59 @@
+{
+	"entities": [
+		{
+			"name": "file0.js",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_relation-call\\_normal-immediate-call\\file0.js"
+		},
+		{
+			"name": "foo",
+			"type": "function",
+			"id": 1,
+			"fullname": "foo",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 11
+				},
+				"end": {
+					"line": 2,
+					"column": 14
+				}
+			}
+		},
+		{
+			"name": "<Anonymous as=\"Function\">",
+			"type": "function",
+			"id": 2,
+			"fullname": "<Anonymous as=\"Function\">",
+			"location": {
+				"start": {
+					"line": 7,
+					"column": 2
+				},
+				"end": {
+					"line": 7,
+					"column": 2
+				}
+			}
+		},
+		{
+			"name": "<Anonymous as=\"ArrowFunction\">",
+			"type": "function",
+			"id": 3,
+			"fullname": "<Anonymous as=\"ArrowFunction\">",
+			"location": {
+				"start": {
+					"line": 12,
+					"column": 2
+				},
+				"end": {
+					"line": 12,
+					"column": 2
+				}
+			}
+		}
+	],
+	"relations": []
+}

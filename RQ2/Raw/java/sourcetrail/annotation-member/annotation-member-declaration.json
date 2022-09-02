@@ -1,0 +1,122 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 1,
+            "name": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_annotation-member/_annotation-member-declaration/file0.java",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 2,
+            "name": "Foo",
+            "type": "ANNOTATION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_annotation-member/_annotation-member-declaration/file0.java",
+            "line": 1,
+            "start_column": 1,
+            "end_column": 1
+        },
+        {
+            "id": 3,
+            "name": "Foo.bar",
+            "type": "FIELD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_annotation-member/_annotation-member-declaration/file0.java",
+            "line": 2,
+            "start_column": 11,
+            "end_column": 13
+        },
+        {
+            "id": 4,
+            "name": "java.lang",
+            "type": "PACKAGE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 5,
+            "name": "java",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 6,
+            "name": "java.lang.String",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 7,
+            "name": "Foo.baz",
+            "type": "FIELD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_annotation-member/_annotation-member-declaration/file0.java",
+            "line": 3,
+            "start_column": 8,
+            "end_column": 10
+        },
+        {
+            "id": 8,
+            "name": "int",
+            "type": "BUILTIN_TYPE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        }
+    ],
+    "relations": [
+        {
+            "type": "MEMBER,",
+            "from": 2,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER,",
+            "from": 5,
+            "to": 4,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER,",
+            "from": 4,
+            "to": 6,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 3,
+            "to": 6,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER,",
+            "from": 2,
+            "to": 7,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 7,
+            "to": 8,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "annotation-member-declaration"
+}

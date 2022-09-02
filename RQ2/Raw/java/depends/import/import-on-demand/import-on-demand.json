@@ -1,0 +1,158 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_import\\_import-on-demand\\helloJDT\\HelloJDT.java",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_import\\_import-on-demand\\helloJDT\\HelloJDT.java",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "helloJDT",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "helloJDT.HelloJDT",
+        "id": 2,
+        "entityType": "Type",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_import\\_import-on-demand\\helloJDT\\HelloJDT.java",
+        "startLine": 6,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "helloJDT.HelloJDT.str1",
+        "id": 3,
+        "entityType": "Var",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_import\\_import-on-demand\\helloJDT\\HelloJDT.java",
+        "startLine": 7,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "helloJDT.HelloJDT.str2",
+        "id": 5,
+        "entityType": "Var",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_import\\_import-on-demand\\helloJDT\\HelloJDT.java",
+        "startLine": 8,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "helloJDT.HelloJDT.HelloJDT",
+        "id": 6,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_import\\_import-on-demand\\helloJDT\\HelloJDT.java",
+        "startLine": 10,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "helloJDT.HelloJDT.hello",
+        "id": 12,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_import\\_import-on-demand\\helloJDT\\HelloJDT.java",
+        "startLine": 14,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "helloJDT.HelloJDT.hello",
+        "id": 18,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_import\\_import-on-demand\\helloJDT\\HelloJDT.java",
+        "startLine": 18,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_import\\_import-on-demand\\helloJDT\\pkg\\JDTpkg_2.java",
+        "id": 27,
+        "entityType": "File",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_import\\_import-on-demand\\helloJDT\\pkg\\JDTpkg_2.java",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "helloJDT.pkg",
+        "id": 28,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "helloJDT.pkg.JDTpkg_2",
+        "id": 29,
+        "entityType": "Type",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_import\\_import-on-demand\\helloJDT\\pkg\\JDTpkg_2.java",
+        "startLine": 3,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Implement",
+        "src": 2,
+        "dest": 29
+      },
+      {
+        "type": "Return",
+        "src": 6,
+        "dest": 6
+      },
+      {
+        "type": "Use",
+        "src": 6,
+        "dest": 5
+      },
+      {
+        "type": "Use",
+        "src": 6,
+        "dest": 2
+      },
+      {
+        "type": "Use",
+        "src": 6,
+        "dest": 7
+      },
+      {
+        "type": "Use",
+        "src": 12,
+        "dest": 3
+      },
+      {
+        "type": "Use",
+        "src": 12,
+        "dest": 2
+      },
+      {
+        "type": "Use",
+        "src": 18,
+        "dest": 20
+      }
+    ]
+  }
+]

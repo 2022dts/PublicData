@@ -1,0 +1,114 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/namespace-declaration/redeclare-block-scope-variable.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_redeclare-block-scope-variable\\file0.ts"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Namespace",
+            "name": "X",
+            "qualified_name": "X",
+            "line": 9,
+            "start_column": 11,
+            "end_column": 12,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "web Javascript Variable Global",
+            "name": "a",
+            "qualified_name": "X.a",
+            "line": 10,
+            "start_column": 16,
+            "end_column": 17,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 11
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 9,
+            "column": 11
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Use",
+            "inFile": 1,
+            "line": 7,
+            "column": 1
+        },
+        {
+            "from": 1,
+            "to": 3,
+            "type": "web Javascript Use",
+            "inFile": 1,
+            "line": 7,
+            "column": 3
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Use",
+            "inFile": 1,
+            "line": 15,
+            "column": 1
+        },
+        {
+            "from": 1,
+            "to": 3,
+            "type": "web Javascript Use",
+            "inFile": 1,
+            "line": 15,
+            "column": 3
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "web Javascript Define Export",
+            "inFile": 1,
+            "line": 10,
+            "column": 16
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 10,
+            "column": 16
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "web Javascript Define Export",
+            "inFile": 1,
+            "line": 2,
+            "column": 16
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 2,
+            "column": 16
+        }
+    ]
+}

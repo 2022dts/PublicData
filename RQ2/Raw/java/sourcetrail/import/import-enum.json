@@ -1,0 +1,457 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 2,
+            "name": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-enum/PostStatus.java",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 3,
+            "name": "PostStatus",
+            "type": "ENUM",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-enum/PostStatus.java",
+            "line": 26,
+            "start_column": 9,
+            "end_column": 12
+        },
+        {
+            "id": 4,
+            "name": "PostStatus.PUBLISHED",
+            "type": "ENUM_CONSTANT",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-enum/PostStatus.java",
+            "line": 6,
+            "start_column": 5,
+            "end_column": 13
+        },
+        {
+            "id": 5,
+            "name": "PostStatus.DRAFT",
+            "type": "ENUM_CONSTANT",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-enum/PostStatus.java",
+            "line": 11,
+            "start_column": 5,
+            "end_column": 9
+        },
+        {
+            "id": 6,
+            "name": "PostStatus.RECYCLE",
+            "type": "ENUM_CONSTANT",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-enum/PostStatus.java",
+            "line": 16,
+            "start_column": 5,
+            "end_column": 11
+        },
+        {
+            "id": 7,
+            "name": "PostStatus.INTIMATE",
+            "type": "ENUM_CONSTANT",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-enum/PostStatus.java",
+            "line": 21,
+            "start_column": 5,
+            "end_column": 12
+        },
+        {
+            "id": 8,
+            "name": "PostStatus.value",
+            "type": "FIELD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-enum/PostStatus.java",
+            "line": 23,
+            "start_column": 23,
+            "end_column": 27
+        },
+        {
+            "id": 9,
+            "name": "int",
+            "type": "BUILTIN_TYPE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 10,
+            "name": "PostStatus.PostStatus",
+            "type": "METHOD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-enum/PostStatus.java",
+            "line": 25,
+            "start_column": 5,
+            "end_column": 25
+        },
+        {
+            "id": 11,
+            "name": "PostStatus.getValue",
+            "type": "METHOD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-enum/PostStatus.java",
+            "line": 29,
+            "start_column": 5,
+            "end_column": 29
+        },
+        {
+            "id": 12,
+            "name": "java.lang",
+            "type": "PACKAGE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 13,
+            "name": "java",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 14,
+            "name": "java.lang.Override",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 15,
+            "name": "java.lang.Integer",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 71,
+            "name": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-enum/BasePostMinimalDTO.java",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 72,
+            "name": "unsolved-symbol",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 73,
+            "name": "BasePostMinimalDTO",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-enum/BasePostMinimalDTO.java",
+            "line": 3,
+            "start_column": 1,
+            "end_column": 1
+        },
+        {
+            "id": 74,
+            "name": "BasePostMinimalDTO.id",
+            "type": "FIELD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-enum/BasePostMinimalDTO.java",
+            "line": 5,
+            "start_column": 21,
+            "end_column": 22
+        },
+        {
+            "id": 75,
+            "name": "BasePostMinimalDTO.title",
+            "type": "FIELD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-enum/BasePostMinimalDTO.java",
+            "line": 7,
+            "start_column": 20,
+            "end_column": 24
+        },
+        {
+            "id": 76,
+            "name": "java.lang.String",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 77,
+            "name": "BasePostMinimalDTO.status",
+            "type": "FIELD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-enum/BasePostMinimalDTO.java",
+            "line": 9,
+            "start_column": 24,
+            "end_column": 29
+        },
+        {
+            "id": 78,
+            "name": "BasePostMinimalDTO.slug",
+            "type": "FIELD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-enum/BasePostMinimalDTO.java",
+            "line": 11,
+            "start_column": 20,
+            "end_column": 23
+        },
+        {
+            "id": 79,
+            "name": "BasePostMinimalDTO.metaKeywords",
+            "type": "FIELD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-enum/BasePostMinimalDTO.java",
+            "line": 13,
+            "start_column": 20,
+            "end_column": 31
+        },
+        {
+            "id": 80,
+            "name": "BasePostMinimalDTO.metaDescription",
+            "type": "FIELD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-enum/BasePostMinimalDTO.java",
+            "line": 15,
+            "start_column": 20,
+            "end_column": 34
+        },
+        {
+            "id": 81,
+            "name": "BasePostMinimalDTO.fullPath",
+            "type": "FIELD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-enum/BasePostMinimalDTO.java",
+            "line": 17,
+            "start_column": 20,
+            "end_column": 27
+        }
+    ],
+    "relations": [
+        {
+            "type": "MEMBER",
+            "from": 3,
+            "to": 4,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 3,
+            "to": 5,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 3,
+            "to": 6,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 3,
+            "to": 7,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 3,
+            "to": 8,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 8,
+            "to": 9,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 3,
+            "to": 10,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 10,
+            "to": 9,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "USAGE",
+            "from": 10,
+            "to": 8,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 3,
+            "to": 11,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 13,
+            "to": 12,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 12,
+            "to": 14,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "UNKNOWN",
+            "from": 11,
+            "to": 14,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 12,
+            "to": 15,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 11,
+            "to": 15,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "USAGE",
+            "from": 11,
+            "to": 8,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "IMPORT",
+            "from": 71,
+            "to": 72,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 73,
+            "to": 74,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 74,
+            "to": 15,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 73,
+            "to": 75,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 12,
+            "to": 76,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 75,
+            "to": 76,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 73,
+            "to": 77,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 77,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 73,
+            "to": 78,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 78,
+            "to": 76,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 73,
+            "to": 79,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 79,
+            "to": 76,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 73,
+            "to": 80,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 80,
+            "to": 76,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 73,
+            "to": 81,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 81,
+            "to": 76,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "import-enum"
+}

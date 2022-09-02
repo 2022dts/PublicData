@@ -1,0 +1,104 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 1,
+            "name": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_call/_function-call-template/file0.cpp",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 2,
+            "name": "func<typename S>",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_call/_function-call-template/file0.cpp",
+            "line": 2,
+            "start_column": 1,
+            "end_column": 14
+        },
+        {
+            "id": 3,
+            "name": "int",
+            "type": "BUILTIN_TYPE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 4,
+            "name": "func<int>",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_call/_function-call-template/file0.cpp",
+            "line": 2,
+            "start_column": 1,
+            "end_column": 1
+        },
+        {
+            "id": 5,
+            "name": "func2",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_call/_function-call-template/file0.cpp",
+            "line": 5,
+            "start_column": 1,
+            "end_column": 12
+        },
+        {
+            "id": 6,
+            "name": "void",
+            "type": "BUILTIN_TYPE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        }
+    ],
+    "relations": [
+        {
+            "type": "TYPE_USAGE",
+            "from": 2,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TEMPLATE_SPECIALIZATION",
+            "from": 4,
+            "to": 2,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 4,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 5,
+            "to": 6,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 5,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "CALL",
+            "from": 5,
+            "to": 4,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "function-call-template"
+}

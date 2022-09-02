@@ -1,0 +1,128 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_class\\_anonymous-class-declaration\\file0.java",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_class\\_anonymous-class-declaration\\file0.java",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Foo",
+        "id": 1,
+        "entityType": "Type",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_class\\_anonymous-class-declaration\\file0.java",
+        "startLine": 1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Foo.Bar",
+        "id": 2,
+        "entityType": "Type",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_class\\_anonymous-class-declaration\\file0.java",
+        "startLine": 3,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Foo.Bar.a",
+        "id": 3,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_class\\_anonymous-class-declaration\\file0.java",
+        "startLine": 4,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Foo.doThings",
+        "id": 4,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_class\\_anonymous-class-declaration\\file0.java",
+        "startLine": 7,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Foo.doThings.anony0",
+        "id": 5,
+        "entityType": "Var",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_class\\_anonymous-class-declaration\\file0.java",
+        "startLine": 13,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Foo.doThings.a",
+        "id": 7,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_class\\_anonymous-class-declaration\\file0.java",
+        "startLine": 14,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Foo.doThings.anony1",
+        "id": 8,
+        "entityType": "Var",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_class\\_anonymous-class-declaration\\file0.java",
+        "startLine": 19,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Foo.doThings.a",
+        "id": 10,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_class\\_anonymous-class-declaration\\file0.java",
+        "startLine": 20,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Contain",
+        "src": 4,
+        "dest": 2
+      },
+      {
+        "type": "Contain",
+        "src": 4,
+        "dest": 2
+      },
+      {
+        "type": "Call",
+        "src": 4,
+        "dest": 2
+      },
+      {
+        "type": "Create",
+        "src": 4,
+        "dest": 2
+      },
+      {
+        "type": "Call",
+        "src": 4,
+        "dest": 2
+      },
+      {
+        "type": "Create",
+        "src": 4,
+        "dest": 2
+      }
+    ]
+  }
+]

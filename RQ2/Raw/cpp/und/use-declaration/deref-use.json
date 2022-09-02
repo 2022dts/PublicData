@@ -1,0 +1,110 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/use-declaration/deref-use.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_deref-use\\file0.cpp"
+        },
+        {
+            "id": 2,
+            "type": "C Function",
+            "name": "func",
+            "qualified_name": "func",
+            "line": 1,
+            "start_column": 5,
+            "end_column": 9,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "C Parameter",
+            "name": "i",
+            "qualified_name": "i",
+            "line": 1,
+            "start_column": 14,
+            "end_column": 15,
+            "belongs_to": 1
+        },
+        {
+            "id": 4,
+            "type": "C Object Local",
+            "name": "a",
+            "qualified_name": "a",
+            "line": 2,
+            "start_column": 9,
+            "end_column": 10,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "C Object Local",
+            "name": "b",
+            "qualified_name": "b",
+            "line": 2,
+            "start_column": 12,
+            "end_column": 13,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 14
+        },
+        {
+            "from": 2,
+            "to": 4,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 9
+        },
+        {
+            "from": 2,
+            "to": 5,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 12
+        },
+        {
+            "from": 2,
+            "to": 5,
+            "type": "C Set Init",
+            "inFile": 1,
+            "line": 2,
+            "column": 12
+        },
+        {
+            "from": 2,
+            "to": 5,
+            "type": "C Deref Use",
+            "inFile": 1,
+            "line": 3,
+            "column": 10
+        },
+        {
+            "from": 2,
+            "to": 4,
+            "type": "C Set",
+            "inFile": 1,
+            "line": 3,
+            "column": 5
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-cpp\\tests\\cases\\_function\\_overload-class-method\\file0.cpp",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-cpp\\tests\\cases\\_function\\_overload-class-method\\file0.cpp",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "foo",
+        "id": 1,
+        "entityType": "Type",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-cpp\\tests\\cases\\_function\\_overload-class-method\\file0.cpp",
+        "startLine": 1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "foo.overloadFunction",
+        "id": 2,
+        "entityType": "FunctionProto",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-cpp\\tests\\cases\\_function\\_overload-class-method\\file0.cpp",
+        "startLine": 3,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "foo.overloadFunction",
+        "id": 3,
+        "entityType": "FunctionProto",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-cpp\\tests\\cases\\_function\\_overload-class-method\\file0.cpp",
+        "startLine": 4,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "foo.overloadFunction",
+        "id": 6,
+        "entityType": "FunctionProto",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-cpp\\tests\\cases\\_function\\_overload-class-method\\file0.cpp",
+        "startLine": 5,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": []
+  }
+]

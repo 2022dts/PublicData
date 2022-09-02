@@ -1,0 +1,232 @@
+{
+    "variables": [
+        {
+            "id": 1,
+            "qualifiedName": "_globalvariabledefinition.test_global_variable",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_globalvariabledefinition/test_global_variable.py"
+        },
+        {
+            "id": 4,
+            "qualifiedName": "_globalvariabledefinition.test_global_variable.x",
+            "category": "Variable",
+            "location": {
+                "startLine": 1,
+                "endLine": 1,
+                "startColumn": 0,
+                "endColumn": 1
+            },
+            "File": "_globalvariabledefinition/test_global_variable.py"
+        },
+        {
+            "id": 6,
+            "qualifiedName": "_globalvariabledefinition.test_global_variable.y",
+            "category": "Variable",
+            "location": {
+                "startLine": 3,
+                "endLine": 3,
+                "startColumn": 0,
+                "endColumn": 1
+            },
+            "File": "_globalvariabledefinition/test_global_variable.py"
+        },
+        {
+            "id": 7,
+            "qualifiedName": "int",
+            "category": "Unknown Variable",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            }
+        },
+        {
+            "id": 9,
+            "qualifiedName": "_globalvariabledefinition.test_global_variable.t1",
+            "category": "Variable",
+            "location": {
+                "startLine": 6,
+                "endLine": 6,
+                "startColumn": 0,
+                "endColumn": 2
+            },
+            "File": "_globalvariabledefinition/test_global_variable.py"
+        },
+        {
+            "id": 11,
+            "qualifiedName": "_globalvariabledefinition.test_global_variable.t2",
+            "category": "Variable",
+            "location": {
+                "startLine": 6,
+                "endLine": 6,
+                "startColumn": 4,
+                "endColumn": 6
+            },
+            "File": "_globalvariabledefinition/test_global_variable.py"
+        },
+        {
+            "id": 12,
+            "qualifiedName": "t3",
+            "category": "Unknown Variable",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            }
+        },
+        {
+            "id": 2,
+            "qualifiedName": "_globalvariabledefinition",
+            "category": "Package",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_globalvariabledefinition"
+        }
+    ],
+    "cells": [
+        {
+            "src": 1,
+            "dest": 4,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 1,
+            "dest": 4,
+            "values": {
+                "kind": "Set",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 1,
+            "dest": 6,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 3,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 1,
+            "dest": 6,
+            "values": {
+                "kind": "Set",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 3,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 1,
+            "dest": 7,
+            "values": {
+                "kind": "Use",
+                "in_type_context": true
+            },
+            "location": {
+                "startLine": 3,
+                "startCol": 3
+            }
+        },
+        {
+            "src": 1,
+            "dest": 9,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 6,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 1,
+            "dest": 9,
+            "values": {
+                "kind": "Set",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 6,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 1,
+            "dest": 11,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 6,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 1,
+            "dest": 11,
+            "values": {
+                "kind": "Set",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 6,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 1,
+            "dest": 12,
+            "values": {
+                "kind": "Use",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 7,
+                "startCol": 1
+            }
+        },
+        {
+            "src": 2,
+            "dest": 1,
+            "values": {
+                "kind": "Contain",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 0,
+                "startCol": 0
+            }
+        }
+    ]
+}

@@ -1,0 +1,129 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 1,
+            "name": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_inherit/_interface-extends-multiple-interfaces/Foo.java",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 2,
+            "name": "Bar<T>",
+            "type": "INTERFACE",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_inherit/_interface-extends-multiple-interfaces/Foo.java",
+            "line": 1,
+            "start_column": 1,
+            "end_column": 1
+        },
+        {
+            "id": 3,
+            "name": "Bar<T>.T",
+            "type": "TYPE_PARAMETER",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_inherit/_interface-extends-multiple-interfaces/Foo.java",
+            "line": 1,
+            "start_column": 15,
+            "end_column": 15
+        },
+        {
+            "id": 4,
+            "name": "Baz",
+            "type": "INTERFACE",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_inherit/_interface-extends-multiple-interfaces/Foo.java",
+            "line": 5,
+            "start_column": 1,
+            "end_column": 1
+        },
+        {
+            "id": 5,
+            "name": "Foo",
+            "type": "INTERFACE",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_inherit/_interface-extends-multiple-interfaces/Foo.java",
+            "line": 9,
+            "start_column": 1,
+            "end_column": 1
+        },
+        {
+            "id": 6,
+            "name": "java.lang",
+            "type": "PACKAGE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 7,
+            "name": "java",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 8,
+            "name": "java.lang.String",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        }
+    ],
+    "relations": [
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 7,
+            "to": 6,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 6,
+            "to": 8,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_ARGUMENT",
+            "from": 2,
+            "to": 8,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "INHERITANCE",
+            "from": 5,
+            "to": 2,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 5,
+            "to": 8,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "INHERITANCE",
+            "from": 5,
+            "to": 4,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "interface-extends-multiple-interfaces"
+}

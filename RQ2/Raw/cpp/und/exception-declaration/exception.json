@@ -1,0 +1,58 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/exception-declaration/exception.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_exception\\file0.cpp"
+        },
+        {
+            "id": 2,
+            "type": "C Class Type",
+            "name": "DbNotFoundError",
+            "qualified_name": "DbNotFoundError",
+            "line": 1,
+            "start_column": 7,
+            "end_column": 22,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "C Function",
+            "name": "LoadAddrman",
+            "qualified_name": "LoadAddrman",
+            "line": 4,
+            "start_column": 30,
+            "end_column": 41,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 7
+        },
+        {
+            "from": 1,
+            "to": 5,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 4,
+            "column": 30
+        },
+        {
+            "from": 5,
+            "to": 2,
+            "type": "C Catch Exception",
+            "inFile": 1,
+            "line": 5,
+            "column": 29
+        }
+    ]
+}

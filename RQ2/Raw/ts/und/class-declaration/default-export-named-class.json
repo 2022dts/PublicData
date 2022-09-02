@@ -1,0 +1,32 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/class-declaration/default-export-named-class.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_default-export-named-class\\file0.js"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Class",
+            "name": "Foo",
+            "qualified_name": "Foo",
+            "line": 1,
+            "start_column": 22,
+            "end_column": 25,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define Default Export",
+            "inFile": 1,
+            "line": 1,
+            "column": 22
+        }
+    ]
+}

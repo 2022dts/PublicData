@@ -1,0 +1,37 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-cpp\\tests\\cases\\_using\\_function-using-namespace\\file0.cpp",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-cpp\\tests\\cases\\_using\\_function-using-namespace\\file0.cpp",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "ns",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": 1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "func",
+        "id": 2,
+        "entityType": "FunctionImpl",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-cpp\\tests\\cases\\_using\\_function-using-namespace\\file0.cpp",
+        "startLine": 2,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": []
+  }
+]

@@ -1,0 +1,83 @@
+{
+	"entities": [
+		{
+			"name": "file1.js",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_import-declaration\\_namespace-import\\file1.js"
+		},
+		{
+			"name": "file0.js",
+			"type": "file",
+			"id": 1,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_import-declaration\\_namespace-import\\file0.js"
+		},
+		{
+			"name": "func",
+			"type": "function",
+			"id": 2,
+			"fullname": "func",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 17
+				},
+				"end": {
+					"line": 1,
+					"column": 21
+				}
+			}
+		},
+		{
+			"name": "Class",
+			"type": "class",
+			"id": 3,
+			"fullname": "Class",
+			"location": {
+				"start": {
+					"line": 5,
+					"column": 14
+				},
+				"end": {
+					"line": 5,
+					"column": 19
+				}
+			}
+		}
+	],
+	"relations": [
+		{
+			"from": 0,
+			"to": 1,
+			"type": "import",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 13
+				}
+			}
+		},
+		{
+			"from": 1,
+			"to": 2,
+			"type": "export",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 17
+				}
+			}
+		},
+		{
+			"from": 1,
+			"to": 3,
+			"type": "export",
+			"location": {
+				"start": {
+					"line": 5,
+					"column": 14
+				}
+			}
+		}
+	]
+}

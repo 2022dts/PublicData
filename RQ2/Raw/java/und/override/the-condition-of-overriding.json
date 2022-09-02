@@ -1,0 +1,361 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/override/the-condition-of-overriding.und",
+    "entities": [
+        {
+            "id": 17034,
+            "type": "File",
+            "name": "_the-condition-of-overriding\\Foo.java"
+        },
+        {
+            "id": 25044,
+            "type": "File",
+            "name": "_the-condition-of-overriding\\Bar.java"
+        },
+        {
+            "id": 17039,
+            "type": "Package",
+            "name": "(Unnamed_Package)",
+            "qualified_name": "(Unnamed_Package)"
+        },
+        {
+            "id": 17035,
+            "type": "Java Class Type Public Member",
+            "name": "Foo",
+            "qualified_name": "Foo",
+            "line": 1,
+            "start_column": 14,
+            "end_column": 17,
+            "belongs_to": 17034
+        },
+        {
+            "id": 17036,
+            "type": "Java Method Public Member",
+            "name": "doNeatThings",
+            "qualified_name": "Foo.doNeatThings",
+            "line": 3,
+            "start_column": 16,
+            "end_column": 28,
+            "belongs_to": 17034
+        },
+        {
+            "id": 17037,
+            "type": "Java Method Public Member",
+            "name": "doThings",
+            "qualified_name": "Foo.doThings",
+            "line": 2,
+            "start_column": 17,
+            "end_column": 25,
+            "belongs_to": 17034
+        },
+        {
+            "id": 17038,
+            "type": "Java Method Public Member",
+            "name": "failed",
+            "qualified_name": "Foo.failed",
+            "line": 4,
+            "start_column": 16,
+            "end_column": 22,
+            "belongs_to": 17034
+        },
+        {
+            "id": 25045,
+            "type": "Java Class Type Public Member",
+            "name": "Bar",
+            "qualified_name": "Bar",
+            "line": 3,
+            "start_column": 14,
+            "end_column": 17,
+            "belongs_to": 25044
+        },
+        {
+            "id": 25046,
+            "type": "Java Method Public Member",
+            "name": "doNeatThings",
+            "qualified_name": "Bar.doNeatThings",
+            "line": 6,
+            "start_column": 16,
+            "end_column": 28,
+            "belongs_to": 25044
+        },
+        {
+            "id": 25047,
+            "type": "Java Method Public Member",
+            "name": "doThings",
+            "qualified_name": "Bar.doThings",
+            "line": 4,
+            "start_column": 17,
+            "end_column": 25,
+            "belongs_to": 25044
+        },
+        {
+            "id": 25048,
+            "type": "Java Method Public Member",
+            "name": "failed",
+            "qualified_name": "Bar.failed",
+            "line": 8,
+            "start_column": 17,
+            "end_column": 23,
+            "belongs_to": 25044
+        }
+    ],
+    "relations": [
+        {
+            "from": 17034,
+            "to": 17039,
+            "type": "Java Define",
+            "inFile": 17034,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 17034,
+            "to": 17039,
+            "type": "Java Declare",
+            "inFile": 17034,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 17034,
+            "to": 17035,
+            "type": "Java Define",
+            "inFile": 17034,
+            "line": 1,
+            "column": 14
+        },
+        {
+            "from": 17034,
+            "to": 14,
+            "type": "Java Import Demand",
+            "inFile": 17034,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 17035,
+            "to": 17035,
+            "type": "Java Begin",
+            "inFile": 17034,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 17035,
+            "to": 17037,
+            "type": "Java Define",
+            "inFile": 17034,
+            "line": 2,
+            "column": 17
+        },
+        {
+            "from": 17035,
+            "to": 17036,
+            "type": "Java Define",
+            "inFile": 17034,
+            "line": 3,
+            "column": 16
+        },
+        {
+            "from": 17035,
+            "to": 17038,
+            "type": "Java Define",
+            "inFile": 17034,
+            "line": 4,
+            "column": 16
+        },
+        {
+            "from": 17035,
+            "to": 18,
+            "type": "Java Extend Couple Implicit External",
+            "inFile": 17034,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 17036,
+            "to": 17036,
+            "type": "Java Begin",
+            "inFile": 17034,
+            "line": 3,
+            "column": 5
+        },
+        {
+            "from": 17036,
+            "to": 17035,
+            "type": "Java Typed",
+            "inFile": 17034,
+            "line": 3,
+            "column": 12
+        },
+        {
+            "from": 17037,
+            "to": 17037,
+            "type": "Java Begin",
+            "inFile": 17034,
+            "line": 2,
+            "column": 5
+        },
+        {
+            "from": 17038,
+            "to": 17038,
+            "type": "Java Begin",
+            "inFile": 17034,
+            "line": 4,
+            "column": 5
+        },
+        {
+            "from": 17039,
+            "to": 25045,
+            "type": "Java Contain",
+            "inFile": 25044,
+            "line": 3,
+            "column": 14
+        },
+        {
+            "from": 17039,
+            "to": 17035,
+            "type": "Java Contain",
+            "inFile": 17034,
+            "line": 1,
+            "column": 14
+        },
+        {
+            "from": 25044,
+            "to": 17039,
+            "type": "Java Define",
+            "inFile": 25044,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 25044,
+            "to": 17039,
+            "type": "Java Declare",
+            "inFile": 25044,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 25044,
+            "to": 25045,
+            "type": "Java Define",
+            "inFile": 25044,
+            "line": 3,
+            "column": 14
+        },
+        {
+            "from": 25044,
+            "to": 14,
+            "type": "Java Import Demand",
+            "inFile": 25044,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 25044,
+            "to": 17035,
+            "type": "Java Import",
+            "inFile": 25044,
+            "line": 1,
+            "column": 8
+        },
+        {
+            "from": 25045,
+            "to": 25045,
+            "type": "Java Begin",
+            "inFile": 25044,
+            "line": 3,
+            "column": 1
+        },
+        {
+            "from": 25045,
+            "to": 25047,
+            "type": "Java Define",
+            "inFile": 25044,
+            "line": 4,
+            "column": 17
+        },
+        {
+            "from": 25045,
+            "to": 25046,
+            "type": "Java Define",
+            "inFile": 25044,
+            "line": 6,
+            "column": 16
+        },
+        {
+            "from": 25045,
+            "to": 25048,
+            "type": "Java Define",
+            "inFile": 25044,
+            "line": 8,
+            "column": 17
+        },
+        {
+            "from": 25045,
+            "to": 17035,
+            "type": "Java Extend Couple",
+            "inFile": 25044,
+            "line": 3,
+            "column": 26
+        },
+        {
+            "from": 25046,
+            "to": 25046,
+            "type": "Java Begin",
+            "inFile": 25044,
+            "line": 6,
+            "column": 5
+        },
+        {
+            "from": 25046,
+            "to": 25045,
+            "type": "Java Typed",
+            "inFile": 25044,
+            "line": 6,
+            "column": 12
+        },
+        {
+            "from": 25046,
+            "to": 17036,
+            "type": "Java Overrides",
+            "inFile": 25044,
+            "line": 6,
+            "column": 16
+        },
+        {
+            "from": 25047,
+            "to": 25047,
+            "type": "Java Begin",
+            "inFile": 25044,
+            "line": 4,
+            "column": 5
+        },
+        {
+            "from": 25047,
+            "to": 17037,
+            "type": "Java Overrides",
+            "inFile": 25044,
+            "line": 4,
+            "column": 17
+        },
+        {
+            "from": 25048,
+            "to": 25048,
+            "type": "Java Begin",
+            "inFile": 25044,
+            "line": 8,
+            "column": 5
+        },
+        {
+            "from": 25048,
+            "to": 17038,
+            "type": "Java Overrides",
+            "inFile": 25044,
+            "line": 8,
+            "column": 17
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-cpp\\tests\\cases\\_namespace\\_unnamed-namespace\\file0.cpp",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-cpp\\tests\\cases\\_namespace\\_unnamed-namespace\\file0.cpp",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": 1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "i",
+        "id": 2,
+        "entityType": "Var",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-cpp\\tests\\cases\\_namespace\\_unnamed-namespace\\file0.cpp",
+        "startLine": 2,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": []
+  }
+]

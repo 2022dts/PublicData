@@ -1,0 +1,66 @@
+{
+    "variables": [
+        {
+            "id": 1,
+            "qualifiedName": "_globalclassdefinition.test_global_class",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_globalclassdefinition/test_global_class.py"
+        },
+        {
+            "id": 3,
+            "qualifiedName": "_globalclassdefinition.test_global_class.Base",
+            "category": "Class",
+            "location": {
+                "startLine": 1,
+                "endLine": -1,
+                "startColumn": 6,
+                "endColumn": -1
+            },
+            "File": "_globalclassdefinition/test_global_class.py"
+        },
+        {
+            "id": 2,
+            "qualifiedName": "_globalclassdefinition",
+            "category": "Package",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_globalclassdefinition"
+        }
+    ],
+    "cells": [
+        {
+            "src": 1,
+            "dest": 3,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 2,
+            "dest": 1,
+            "values": {
+                "kind": "Contain",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 0,
+                "startCol": 0
+            }
+        }
+    ]
+}

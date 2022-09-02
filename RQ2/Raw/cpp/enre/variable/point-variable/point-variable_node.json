@@ -1,0 +1,32 @@
+[
+  {
+    "qualifiedName": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_variable/_point-variable/file0.cpp",
+    "id": 0,
+    "entityType": "File",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_variable/_point-variable/file0.cpp",
+    "startLine": -1,
+    "startColumn": -1,
+    "endLine": -1,
+    "endColumn": -1
+  },
+  {
+    "qualifiedName": "a",
+    "id": 1,
+    "entityType": "Object",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_variable/_point-variable/file0.cpp",
+    "startLine": 1,
+    "startColumn": 4,
+    "endLine": 1,
+    "endColumn": 4
+  },
+  {
+    "qualifiedName": "p",
+    "id": 2,
+    "entityType": "Object",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_variable/_point-variable/file0.cpp",
+    "startLine": 2,
+    "startColumn": 16,
+    "endLine": 2,
+    "endColumn": 16
+  }
+]

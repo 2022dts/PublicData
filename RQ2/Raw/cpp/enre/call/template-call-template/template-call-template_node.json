@@ -1,0 +1,32 @@
+[
+  {
+    "qualifiedName": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_call/_template-call-template/file0.cpp",
+    "id": 0,
+    "entityType": "File",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_call/_template-call-template/file0.cpp",
+    "startLine": -1,
+    "startColumn": -1,
+    "endLine": -1,
+    "endColumn": -1
+  },
+  {
+    "qualifiedName": "func",
+    "id": 1,
+    "entityType": "Function Template",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_call/_template-call-template/file0.cpp",
+    "startLine": 2,
+    "startColumn": 25,
+    "endLine": 2,
+    "endColumn": 25
+  },
+  {
+    "qualifiedName": "func2",
+    "id": 2,
+    "entityType": "Function Template",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_call/_template-call-template/file0.cpp",
+    "startLine": 6,
+    "startColumn": 79,
+    "endLine": 6,
+    "endColumn": 79
+  }
+]

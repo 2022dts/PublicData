@@ -1,0 +1,66 @@
+{
+	"entities": [
+		{
+			"name": "file0.js",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_variable-declaration\\_array-destructuring-with-comma-elision\\file0.js"
+		},
+		{
+			"name": "a",
+			"type": "variable",
+			"id": 1,
+			"fullname": "a",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 10
+				},
+				"end": {
+					"line": 1,
+					"column": 11
+				}
+			}
+		},
+		{
+			"name": "b",
+			"type": "variable",
+			"id": 2,
+			"fullname": "b",
+			"location": {
+				"start": {
+					"line": 4,
+					"column": 10
+				},
+				"end": {
+					"line": 4,
+					"column": 11
+				}
+			}
+		}
+	],
+	"relations": [
+		{
+			"from": 0,
+			"to": 1,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 10
+				}
+			}
+		},
+		{
+			"from": 0,
+			"to": 2,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 4,
+					"column": 10
+				}
+			}
+		}
+	]
+}

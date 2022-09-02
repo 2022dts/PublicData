@@ -1,0 +1,47 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/module/module-declaration.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_module-declaration\\file0.java"
+        },
+        {
+            "id": 5,
+            "type": "Package",
+            "name": "packD",
+            "qualified_name": "packD"
+        },
+        {
+            "id": 2,
+            "type": "Java Module",
+            "name": "moA",
+            "qualified_name": "moA",
+            "line": 1,
+            "start_column": 8,
+            "end_column": 11,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "Java Unknown Class Type Member",
+            "name": "name",
+            "qualified_name": "name",
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "Java Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 8
+        }
+    ]
+}

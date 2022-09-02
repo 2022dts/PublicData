@@ -1,0 +1,283 @@
+{
+	"entities": [
+		{
+			"name": "file0.ts",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_relation-type\\_index-based-type-lookup\\file0.ts"
+		},
+		{
+			"name": "Foo",
+			"type": "interface",
+			"id": 1,
+			"fullname": "Foo",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 11
+				},
+				"end": {
+					"line": 1,
+					"column": 14
+				}
+			}
+		},
+		{
+			"name": "prop0",
+			"type": "property",
+			"id": 2,
+			"fullname": "Foo.prop0",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 5
+				},
+				"end": {
+					"line": 2,
+					"column": 10
+				}
+			}
+		},
+		{
+			"name": "prop1",
+			"type": "property",
+			"id": 3,
+			"fullname": "Foo.prop1",
+			"location": {
+				"start": {
+					"line": 3,
+					"column": 5
+				},
+				"end": {
+					"line": 3,
+					"column": 10
+				}
+			}
+		},
+		{
+			"name": "Bar",
+			"type": "enum",
+			"id": 4,
+			"fullname": "Bar",
+			"location": {
+				"start": {
+					"line": 6,
+					"column": 6
+				},
+				"end": {
+					"line": 6,
+					"column": 9
+				}
+			}
+		},
+		{
+			"name": "a",
+			"type": "enum member",
+			"id": 5,
+			"fullname": "Bar.a",
+			"location": {
+				"start": {
+					"line": 7,
+					"column": 5
+				},
+				"end": {
+					"line": 7,
+					"column": 6
+				}
+			}
+		},
+		{
+			"name": "b",
+			"type": "enum member",
+			"id": 6,
+			"fullname": "Bar.b",
+			"location": {
+				"start": {
+					"line": 8,
+					"column": 5
+				},
+				"end": {
+					"line": 8,
+					"column": 6
+				}
+			}
+		},
+		{
+			"name": "c",
+			"type": "enum member",
+			"id": 7,
+			"fullname": "Bar.c",
+			"location": {
+				"start": {
+					"line": 9,
+					"column": 5
+				},
+				"end": {
+					"line": 9,
+					"column": 6
+				}
+			}
+		},
+		{
+			"name": "d",
+			"type": "enum member",
+			"id": 8,
+			"fullname": "Bar.d",
+			"location": {
+				"start": {
+					"line": 10,
+					"column": 5
+				},
+				"end": {
+					"line": 10,
+					"column": 6
+				}
+			}
+		},
+		{
+			"name": "Baz",
+			"type": "class",
+			"id": 9,
+			"fullname": "Baz",
+			"location": {
+				"start": {
+					"line": 13,
+					"column": 7
+				},
+				"end": {
+					"line": 13,
+					"column": 10
+				}
+			}
+		},
+		{
+			"name": "field0",
+			"type": "field",
+			"id": 10,
+			"fullname": "Baz.field0",
+			"location": {
+				"start": {
+					"line": 14,
+					"column": 5
+				},
+				"end": {
+					"line": 14,
+					"column": 11
+				}
+			}
+		},
+		{
+			"name": "method0",
+			"type": "method",
+			"id": 11,
+			"fullname": "Baz.method0",
+			"location": {
+				"start": {
+					"line": 16,
+					"column": 5
+				},
+				"end": {
+					"line": 16,
+					"column": 12
+				}
+			}
+		},
+		{
+			"name": "param0",
+			"type": "parameter",
+			"id": 12,
+			"fullname": "Baz.method0.param0",
+			"location": {
+				"start": {
+					"line": 16,
+					"column": 13
+				},
+				"end": {
+					"line": 16,
+					"column": 19
+				}
+			}
+		},
+		{
+			"name": "foo0",
+			"type": "variable",
+			"id": 13,
+			"fullname": "foo0",
+			"location": {
+				"start": {
+					"line": 21,
+					"column": 5
+				},
+				"end": {
+					"line": 21,
+					"column": 9
+				}
+			}
+		},
+		{
+			"name": "foo1",
+			"type": "variable",
+			"id": 14,
+			"fullname": "foo1",
+			"location": {
+				"start": {
+					"line": 24,
+					"column": 5
+				},
+				"end": {
+					"line": 24,
+					"column": 9
+				}
+			}
+		},
+		{
+			"name": "bar",
+			"type": "variable",
+			"id": 15,
+			"fullname": "bar",
+			"location": {
+				"start": {
+					"line": 26,
+					"column": 5
+				},
+				"end": {
+					"line": 26,
+					"column": 8
+				}
+			}
+		},
+		{
+			"name": "baz0",
+			"type": "variable",
+			"id": 16,
+			"fullname": "baz0",
+			"location": {
+				"start": {
+					"line": 28,
+					"column": 5
+				},
+				"end": {
+					"line": 28,
+					"column": 9
+				}
+			}
+		},
+		{
+			"name": "baz1",
+			"type": "variable",
+			"id": 17,
+			"fullname": "baz1",
+			"location": {
+				"start": {
+					"line": 30,
+					"column": 5
+				},
+				"end": {
+					"line": 30,
+					"column": 9
+				}
+			}
+		}
+	],
+	"relations": []
+}

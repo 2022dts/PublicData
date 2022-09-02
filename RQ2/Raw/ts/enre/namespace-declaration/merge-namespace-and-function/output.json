@@ -1,0 +1,280 @@
+{
+	"entities": [
+		{
+			"name": "file0.ts",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_namespace-declaration\\_merge-namespace-and-function\\file0.ts"
+		},
+		{
+			"name": "Point",
+			"type": "interface",
+			"id": 1,
+			"fullname": "Point",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 11
+				},
+				"end": {
+					"line": 1,
+					"column": 16
+				}
+			}
+		},
+		{
+			"name": "x",
+			"type": "property",
+			"id": 2,
+			"fullname": "Point.x",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 5
+				},
+				"end": {
+					"line": 2,
+					"column": 6
+				}
+			}
+		},
+		{
+			"name": "y",
+			"type": "property",
+			"id": 3,
+			"fullname": "Point.y",
+			"location": {
+				"start": {
+					"line": 3,
+					"column": 5
+				},
+				"end": {
+					"line": 3,
+					"column": 6
+				}
+			}
+		},
+		{
+			"name": "point",
+			"type": "function",
+			"id": 4,
+			"fullname": "point",
+			"location": {
+				"start": {
+					"line": 6,
+					"column": 10
+				},
+				"end": {
+					"line": 6,
+					"column": 15
+				}
+			}
+		},
+		{
+			"name": "x",
+			"type": "parameter",
+			"id": 5,
+			"fullname": "point.x",
+			"location": {
+				"start": {
+					"line": 6,
+					"column": 16
+				},
+				"end": {
+					"line": 6,
+					"column": 17
+				}
+			}
+		},
+		{
+			"name": "y",
+			"type": "parameter",
+			"id": 6,
+			"fullname": "point.y",
+			"location": {
+				"start": {
+					"line": 6,
+					"column": 27
+				},
+				"end": {
+					"line": 6,
+					"column": 28
+				}
+			}
+		},
+		{
+			"name": "point",
+			"type": "namespace",
+			"id": 7,
+			"fullname": "point",
+			"location": {
+				"start": {
+					"line": 10,
+					"column": 11
+				},
+				"end": {
+					"line": 10,
+					"column": 16
+				}
+			}
+		},
+		{
+			"name": "origin",
+			"type": "variable",
+			"id": 8,
+			"fullname": "point.origin",
+			"location": {
+				"start": {
+					"line": 11,
+					"column": 16
+				},
+				"end": {
+					"line": 11,
+					"column": 22
+				}
+			}
+		},
+		{
+			"name": "equals",
+			"type": "function",
+			"id": 9,
+			"fullname": "point.equals",
+			"location": {
+				"start": {
+					"line": 13,
+					"column": 21
+				},
+				"end": {
+					"line": 13,
+					"column": 27
+				}
+			}
+		},
+		{
+			"name": "p1",
+			"type": "parameter",
+			"id": 10,
+			"fullname": "point.equals.p1",
+			"location": {
+				"start": {
+					"line": 13,
+					"column": 28
+				},
+				"end": {
+					"line": 13,
+					"column": 30
+				}
+			}
+		},
+		{
+			"name": "p2",
+			"type": "parameter",
+			"id": 11,
+			"fullname": "point.equals.p2",
+			"location": {
+				"start": {
+					"line": 13,
+					"column": 39
+				},
+				"end": {
+					"line": 13,
+					"column": 41
+				}
+			}
+		},
+		{
+			"name": "p1",
+			"type": "variable",
+			"id": 12,
+			"fullname": "p1",
+			"location": {
+				"start": {
+					"line": 18,
+					"column": 5
+				},
+				"end": {
+					"line": 18,
+					"column": 7
+				}
+			}
+		},
+		{
+			"name": "p2",
+			"type": "variable",
+			"id": 13,
+			"fullname": "p2",
+			"location": {
+				"start": {
+					"line": 19,
+					"column": 5
+				},
+				"end": {
+					"line": 19,
+					"column": 7
+				}
+			}
+		},
+		{
+			"name": "b",
+			"type": "variable",
+			"id": 14,
+			"fullname": "b",
+			"location": {
+				"start": {
+					"line": 20,
+					"column": 5
+				},
+				"end": {
+					"line": 20,
+					"column": 6
+				}
+			}
+		}
+	],
+	"relations": [
+		{
+			"from": 7,
+			"to": 8,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 11,
+					"column": 16
+				}
+			}
+		},
+		{
+			"from": 0,
+			"to": 12,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 18,
+					"column": 5
+				}
+			}
+		},
+		{
+			"from": 0,
+			"to": 13,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 19,
+					"column": 5
+				}
+			}
+		},
+		{
+			"from": 0,
+			"to": 14,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 20,
+					"column": 5
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,203 @@
+{
+	"entities": [
+		{
+			"name": "file0.js",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_parameter-declaration\\_function-parameters\\file0.js"
+		},
+		{
+			"name": "foo",
+			"type": "function",
+			"id": 1,
+			"fullname": "foo",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 10
+				},
+				"end": {
+					"line": 2,
+					"column": 13
+				}
+			}
+		},
+		{
+			"name": "a",
+			"type": "parameter",
+			"id": 2,
+			"fullname": "foo.a",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 14
+				},
+				"end": {
+					"line": 2,
+					"column": 15
+				}
+			}
+		},
+		{
+			"name": "b",
+			"type": "parameter",
+			"id": 3,
+			"fullname": "foo.b",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 17
+				},
+				"end": {
+					"line": 2,
+					"column": 18
+				}
+			}
+		},
+		{
+			"name": "r",
+			"type": "parameter",
+			"id": 4,
+			"fullname": "foo.r",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 27
+				},
+				"end": {
+					"line": 2,
+					"column": 28
+				}
+			}
+		},
+		{
+			"name": "bar",
+			"type": "function",
+			"id": 5,
+			"fullname": "bar",
+			"location": {
+				"start": {
+					"line": 7,
+					"column": 10
+				},
+				"end": {
+					"line": 7,
+					"column": 13
+				}
+			}
+		},
+		{
+			"name": "a",
+			"type": "parameter",
+			"id": 6,
+			"fullname": "bar.a",
+			"location": {
+				"start": {
+					"line": 7,
+					"column": 15
+				},
+				"end": {
+					"line": 7,
+					"column": 16
+				}
+			}
+		},
+		{
+			"name": "c",
+			"type": "parameter",
+			"id": 7,
+			"fullname": "bar.c",
+			"location": {
+				"start": {
+					"line": 7,
+					"column": 22
+				},
+				"end": {
+					"line": 7,
+					"column": 23
+				}
+			}
+		},
+		{
+			"name": "d",
+			"type": "parameter",
+			"id": 8,
+			"fullname": "bar.d",
+			"location": {
+				"start": {
+					"line": 7,
+					"column": 26
+				},
+				"end": {
+					"line": 7,
+					"column": 27
+				}
+			}
+		},
+		{
+			"name": "e",
+			"type": "parameter",
+			"id": 9,
+			"fullname": "bar.e",
+			"location": {
+				"start": {
+					"line": 7,
+					"column": 33
+				},
+				"end": {
+					"line": 7,
+					"column": 34
+				}
+			}
+		},
+		{
+			"name": "g",
+			"type": "parameter",
+			"id": 10,
+			"fullname": "bar.g",
+			"location": {
+				"start": {
+					"line": 7,
+					"column": 47
+				},
+				"end": {
+					"line": 7,
+					"column": 48
+				}
+			}
+		},
+		{
+			"name": "h",
+			"type": "parameter",
+			"id": 11,
+			"fullname": "bar.h",
+			"location": {
+				"start": {
+					"line": 7,
+					"column": 51
+				},
+				"end": {
+					"line": 7,
+					"column": 52
+				}
+			}
+		},
+		{
+			"name": "r",
+			"type": "parameter",
+			"id": 12,
+			"fullname": "bar.r",
+			"location": {
+				"start": {
+					"line": 7,
+					"column": 61
+				},
+				"end": {
+					"line": 7,
+					"column": 62
+				}
+			}
+		}
+	],
+	"relations": []
+}

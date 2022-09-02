@@ -1,0 +1,43 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_modify/_increment-modify/file0.cpp",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_modify/_increment-modify/file0.cpp",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "func",
+        "id": 1,
+        "entityType": "Function",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_modify/_increment-modify/file0.cpp",
+        "startLine": 1,
+        "startColumn": 4,
+        "endLine": 1,
+        "endColumn": 4
+      },
+      {
+        "qualifiedName": "func::i",
+        "id": 2,
+        "entityType": "Object",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_modify/_increment-modify/file0.cpp",
+        "startLine": 2,
+        "startColumn": 20,
+        "endLine": 2,
+        "endColumn": 20
+      }
+    ],
+    "relations": [
+      {
+        "type": "Modify",
+        "src": 1,
+        "dest": 2
+      }
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+{
+	"entities": [
+		{
+			"name": "file2.js",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_export-declaration\\_reexports-make-default-export\\file2.js"
+		},
+		{
+			"name": "file1.js",
+			"type": "file",
+			"id": 1,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_export-declaration\\_reexports-make-default-export\\file1.js"
+		},
+		{
+			"name": "file0.js",
+			"type": "file",
+			"id": 2,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_export-declaration\\_reexports-make-default-export\\file0.js"
+		},
+		{
+			"name": "a",
+			"type": "variable",
+			"id": 3,
+			"fullname": "a",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 14
+				},
+				"end": {
+					"line": 1,
+					"column": 15
+				}
+			}
+		}
+	],
+	"relations": [
+		{
+			"from": 2,
+			"to": 3,
+			"type": "export",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 14
+				}
+			}
+		},
+		{
+			"from": 2,
+			"to": 3,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 14
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"entities": [
+		{
+			"name": "file0.ts",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_class-declaration\\_abstract-class-declaration\\file0.ts"
+		},
+		{
+			"name": "Foo",
+			"type": "class",
+			"id": 1,
+			"fullname": "Foo",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 16
+				},
+				"end": {
+					"line": 1,
+					"column": 19
+				}
+			}
+		},
+		{
+			"name": "getSomething",
+			"type": "method",
+			"id": 2,
+			"fullname": "Foo.getSomething",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 14
+				},
+				"end": {
+					"line": 2,
+					"column": 26
+				}
+			}
+		}
+	],
+	"relations": []
+}

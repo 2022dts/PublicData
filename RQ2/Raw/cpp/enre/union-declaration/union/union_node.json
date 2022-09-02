@@ -1,0 +1,42 @@
+[
+  {
+    "qualifiedName": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_union-declaration/_union/file0.cpp",
+    "id": 0,
+    "entityType": "File",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_union-declaration/_union/file0.cpp",
+    "startLine": -1,
+    "startColumn": -1,
+    "endLine": -1,
+    "endColumn": -1
+  },
+  {
+    "qualifiedName": "month_union",
+    "id": 1,
+    "entityType": "Union",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_union-declaration/_union/file0.cpp",
+    "startLine": 1,
+    "startColumn": 0,
+    "endLine": 1,
+    "endColumn": 0
+  },
+  {
+    "qualifiedName": "month_union::s",
+    "id": 2,
+    "entityType": "Object",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_union-declaration/_union/file0.cpp",
+    "startLine": 3,
+    "startColumn": 22,
+    "endLine": 3,
+    "endColumn": 22
+  },
+  {
+    "qualifiedName": "month_union::c",
+    "id": 3,
+    "entityType": "Object",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_union-declaration/_union/file0.cpp",
+    "startLine": 4,
+    "startColumn": 39,
+    "endLine": 4,
+    "endColumn": 39
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-cpp\\tests\\cases\\_extend-declaration\\_template-class-extend\\file0.cpp",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-cpp\\tests\\cases\\_extend-declaration\\_template-class-extend\\file0.cpp",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Base",
+        "id": 1,
+        "entityType": "Type",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-cpp\\tests\\cases\\_extend-declaration\\_template-class-extend\\file0.cpp",
+        "startLine": 2,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Derived",
+        "id": 2,
+        "entityType": "Type",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-cpp\\tests\\cases\\_extend-declaration\\_template-class-extend\\file0.cpp",
+        "startLine": 3,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Extend",
+        "src": 2,
+        "dest": 1
+      }
+    ]
+  }
+]

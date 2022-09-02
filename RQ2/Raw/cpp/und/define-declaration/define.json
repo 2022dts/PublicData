@@ -1,0 +1,50 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/define-declaration/define.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_define\\file0.cpp"
+        },
+        {
+            "id": 2,
+            "type": "C Class Type",
+            "name": "Units",
+            "qualified_name": "Units",
+            "line": 1,
+            "start_column": 7,
+            "end_column": 12,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "C Private Member Object",
+            "name": "x",
+            "qualified_name": "Units::x",
+            "line": 2,
+            "start_column": 9,
+            "end_column": 10,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 7
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 9
+        }
+    ]
+}

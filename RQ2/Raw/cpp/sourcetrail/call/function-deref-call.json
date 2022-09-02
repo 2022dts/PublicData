@@ -1,0 +1,58 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 3,
+            "name": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_call/_function-deref-call/file0.cpp",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 4,
+            "name": "run_benchmark",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_call/_function-deref-call/file0.cpp",
+            "line": 1,
+            "start_column": 1,
+            "end_column": 52
+        },
+        {
+            "id": 5,
+            "name": "void",
+            "type": "BUILTIN_TYPE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 6,
+            "name": "int",
+            "type": "BUILTIN_TYPE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        }
+    ],
+    "relations": [
+        {
+            "type": "TYPE_USAGE",
+            "from": 4,
+            "to": 5,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 4,
+            "to": 6,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "function-deref-call"
+}

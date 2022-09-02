@@ -1,0 +1,43 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_alias/_alias/file0.cpp",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_alias/_alias/file0.cpp",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "ns",
+        "id": 1,
+        "entityType": "Namespace",
+        "entityFile": "null",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "text",
+        "id": 2,
+        "entityType": "Namespace Alias",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_alias/_alias/file0.cpp",
+        "startLine": 2,
+        "startColumn": 15,
+        "endLine": 2,
+        "endColumn": 15
+      }
+    ],
+    "relations": [
+      {
+        "type": "Alias",
+        "src": 2,
+        "dest": 1
+      }
+    ]
+  }
+]

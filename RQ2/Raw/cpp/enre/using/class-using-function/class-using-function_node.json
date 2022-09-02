@@ -1,0 +1,42 @@
+[
+  {
+    "qualifiedName": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_using/_class-using-function/file0.cpp",
+    "id": 0,
+    "entityType": "File",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_using/_class-using-function/file0.cpp",
+    "startLine": -1,
+    "startColumn": -1,
+    "endLine": -1,
+    "endColumn": -1
+  },
+  {
+    "qualifiedName": "Base",
+    "id": 1,
+    "entityType": "Class",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_using/_class-using-function/file0.cpp",
+    "startLine": 1,
+    "startColumn": 0,
+    "endLine": 1,
+    "endColumn": 0
+  },
+  {
+    "qualifiedName": "Base::func",
+    "id": 2,
+    "entityType": "Function",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_using/_class-using-function/file0.cpp",
+    "startLine": 3,
+    "startColumn": 31,
+    "endLine": 3,
+    "endColumn": 31
+  },
+  {
+    "qualifiedName": "Derived",
+    "id": 3,
+    "entityType": "Class",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_using/_class-using-function/file0.cpp",
+    "startLine": 5,
+    "startColumn": 46,
+    "endLine": 5,
+    "endColumn": 46
+  }
+]

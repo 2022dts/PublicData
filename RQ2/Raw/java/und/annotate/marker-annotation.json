@@ -1,0 +1,239 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/annotate/marker-annotation.und",
+    "entities": [
+        {
+            "id": 3296,
+            "type": "File",
+            "name": "_marker-annotation\\MailController.java"
+        },
+        {
+            "id": 3297,
+            "type": "Package",
+            "name": "(Unnamed_Package)",
+            "qualified_name": "(Unnamed_Package)"
+        },
+        {
+            "id": 3298,
+            "type": "Java Annotation Interface Type Default",
+            "name": "DisableOnCondition",
+            "qualified_name": "DisableOnCondition",
+            "line": 4,
+            "start_column": 12,
+            "end_column": 30,
+            "belongs_to": 3296
+        },
+        {
+            "id": 3299,
+            "type": "Java Abstract Method Default Member",
+            "name": "value",
+            "qualified_name": "DisableOnCondition.value",
+            "line": 5,
+            "start_column": 9,
+            "end_column": 14,
+            "belongs_to": 3296
+        },
+        {
+            "id": 3300,
+            "type": "Java Unknown Class Type Member",
+            "name": "Documented",
+            "qualified_name": "Documented",
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 3301,
+            "type": "Java Class Type Public Member",
+            "name": "MailController",
+            "qualified_name": "MailController",
+            "line": 8,
+            "start_column": 14,
+            "end_column": 28,
+            "belongs_to": 3296
+        },
+        {
+            "id": 3302,
+            "type": "Java Method Public Member",
+            "name": "testMail",
+            "qualified_name": "MailController.testMail",
+            "line": 10,
+            "start_column": 17,
+            "end_column": 25,
+            "belongs_to": 3296
+        },
+        {
+            "id": 3303,
+            "type": "Java Unknown Class Type Member",
+            "name": "Retention",
+            "qualified_name": "Retention",
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 3304,
+            "type": "Java Unknown Class Type Member",
+            "name": "Target",
+            "qualified_name": "Target",
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        }
+    ],
+    "relations": [
+        {
+            "from": 3296,
+            "to": 3297,
+            "type": "Java Define",
+            "inFile": 3296,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 3296,
+            "to": 3297,
+            "type": "Java Declare",
+            "inFile": 3296,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 3296,
+            "to": 3298,
+            "type": "Java Define",
+            "inFile": 3296,
+            "line": 4,
+            "column": 12
+        },
+        {
+            "from": 3296,
+            "to": 3301,
+            "type": "Java Define",
+            "inFile": 3296,
+            "line": 8,
+            "column": 14
+        },
+        {
+            "from": 3296,
+            "to": 14,
+            "type": "Java Import Demand",
+            "inFile": 3296,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 3297,
+            "to": 3298,
+            "type": "Java Contain",
+            "inFile": 3296,
+            "line": 4,
+            "column": 12
+        },
+        {
+            "from": 3297,
+            "to": 3301,
+            "type": "Java Contain",
+            "inFile": 3296,
+            "line": 8,
+            "column": 14
+        },
+        {
+            "from": 3298,
+            "to": 3298,
+            "type": "Java Begin",
+            "inFile": 3296,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 3298,
+            "to": 3299,
+            "type": "Java Define",
+            "inFile": 3296,
+            "line": 5,
+            "column": 9
+        },
+        {
+            "from": 3299,
+            "to": 3299,
+            "type": "Java Begin",
+            "inFile": 3296,
+            "line": 5,
+            "column": 5
+        },
+        {
+            "from": 3300,
+            "to": 18,
+            "type": "Java Extend Couple Implicit External",
+            "inFile": 3296,
+            "line": 3,
+            "column": 1
+        },
+        {
+            "from": 3301,
+            "to": 3301,
+            "type": "Java Begin",
+            "inFile": 3296,
+            "line": 8,
+            "column": 1
+        },
+        {
+            "from": 3301,
+            "to": 3302,
+            "type": "Java Define",
+            "inFile": 3296,
+            "line": 10,
+            "column": 17
+        },
+        {
+            "from": 3301,
+            "to": 18,
+            "type": "Java Extend Couple Implicit External",
+            "inFile": 3296,
+            "line": 8,
+            "column": 1
+        },
+        {
+            "from": 3301,
+            "to": 3298,
+            "type": "Java Couple",
+            "inFile": 3296,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 3302,
+            "to": 3302,
+            "type": "Java Begin",
+            "inFile": 3296,
+            "line": 9,
+            "column": 5
+        },
+        {
+            "from": 3302,
+            "to": 3298,
+            "type": "Java Use Annotation",
+            "inFile": 3296,
+            "line": 9,
+            "column": 6
+        },
+        {
+            "from": 3303,
+            "to": 18,
+            "type": "Java Extend Couple Implicit External",
+            "inFile": 3296,
+            "line": 2,
+            "column": 1
+        },
+        {
+            "from": 3304,
+            "to": 18,
+            "type": "Java Extend Couple Implicit External",
+            "inFile": 3296,
+            "line": 1,
+            "column": 1
+        }
+    ]
+}

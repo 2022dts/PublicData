@@ -1,0 +1,175 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/export-declaration/type-only-export.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_type-only-export\\file1.ts"
+        },
+        {
+            "id": 4,
+            "type": "File",
+            "name": "_type-only-export\\file0.ts"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Class",
+            "name": "C",
+            "qualified_name": "C",
+            "line": 7,
+            "start_column": 7,
+            "end_column": 8,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "web Javascript Variable Global",
+            "name": "obj",
+            "qualified_name": "obj",
+            "line": 4,
+            "start_column": 5,
+            "end_column": 8,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "web Javascript Variable Global",
+            "name": "Foo",
+            "qualified_name": "Foo",
+            "line": 9,
+            "start_column": 19,
+            "end_column": 22,
+            "belongs_to": 4
+        },
+        {
+            "id": 6,
+            "type": "web Javascript Class",
+            "name": "C",
+            "qualified_name": "C",
+            "line": 1,
+            "start_column": 7,
+            "end_column": 8,
+            "belongs_to": 4
+        },
+        {
+            "id": 7,
+            "type": "web Javascript Public Property",
+            "name": "field0",
+            "qualified_name": "C.field0",
+            "line": 2,
+            "start_column": 5,
+            "end_column": 11,
+            "belongs_to": 4
+        },
+        {
+            "id": 9,
+            "type": "web Javascript Public Method Function",
+            "name": "method0",
+            "qualified_name": "C.method0",
+            "line": 4,
+            "start_column": 5,
+            "end_column": 12,
+            "belongs_to": 4
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 3,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 4,
+            "column": 5
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 7,
+            "column": 7
+        },
+        {
+            "from": 1,
+            "to": 4,
+            "type": "web Javascript Import From",
+            "inFile": 1,
+            "line": 1,
+            "column": 24
+        },
+        {
+            "from": 1,
+            "to": 5,
+            "type": "web Javascript Import",
+            "inFile": 1,
+            "line": 1,
+            "column": 14
+        },
+        {
+            "from": 2,
+            "to": 6,
+            "type": "web Javascript Extend",
+            "inFile": 1,
+            "line": 7,
+            "column": 17
+        },
+        {
+            "from": 2,
+            "to": 5,
+            "type": "web Javascript Use",
+            "inFile": 1,
+            "line": 7,
+            "column": 17
+        },
+        {
+            "from": 3,
+            "to": 5,
+            "type": "web Javascript Typed",
+            "inFile": 1,
+            "line": 4,
+            "column": 10
+        },
+        {
+            "from": 4,
+            "to": 6,
+            "type": "web Javascript Define",
+            "inFile": 4,
+            "line": 1,
+            "column": 7
+        },
+        {
+            "from": 4,
+            "to": 5,
+            "type": "web Javascript Define Export",
+            "inFile": 4,
+            "line": 9,
+            "column": 19
+        },
+        {
+            "from": 6,
+            "to": 7,
+            "type": "web Javascript Define",
+            "inFile": 4,
+            "line": 2,
+            "column": 5
+        },
+        {
+            "from": 6,
+            "to": 9,
+            "type": "web Javascript Define",
+            "inFile": 4,
+            "line": 4,
+            "column": 5
+        },
+        {
+            "from": 6,
+            "to": 5,
+            "type": "web Javascript Alias",
+            "inFile": 4,
+            "line": 9,
+            "column": 19
+        }
+    ]
+}

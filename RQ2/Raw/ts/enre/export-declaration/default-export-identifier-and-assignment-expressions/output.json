@@ -1,0 +1,105 @@
+{
+	"entities": [
+		{
+			"name": "file1.js",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_export-declaration\\_default-export-identifier-and-assignment-expressions\\file1.js"
+		},
+		{
+			"name": "file0.js",
+			"type": "file",
+			"id": 1,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_export-declaration\\_default-export-identifier-and-assignment-expressions\\file0.js"
+		},
+		{
+			"name": "a",
+			"type": "variable",
+			"id": 2,
+			"fullname": "a",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 5
+				},
+				"end": {
+					"line": 1,
+					"column": 6
+				}
+			}
+		},
+		{
+			"name": "a",
+			"type": "variable",
+			"id": 3,
+			"fullname": "a",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 7
+				},
+				"end": {
+					"line": 1,
+					"column": 8
+				}
+			}
+		}
+	],
+	"relations": [
+		{
+			"from": 0,
+			"to": 2,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 5
+				}
+			}
+		},
+		{
+			"from": 1,
+			"to": 3,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 7
+				}
+			}
+		},
+		{
+			"from": 0,
+			"to": 2,
+			"type": "export",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 16
+				}
+			}
+		},
+		{
+			"from": 1,
+			"to": 3,
+			"type": "export",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 16
+				}
+			}
+		},
+		{
+			"from": 0,
+			"to": 2,
+			"type": "modify",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 16
+				}
+			}
+		}
+	]
+}

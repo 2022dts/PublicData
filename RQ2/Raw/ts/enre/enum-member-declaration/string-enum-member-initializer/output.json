@@ -1,0 +1,75 @@
+{
+	"entities": [
+		{
+			"name": "file0.ts",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_enum-member-declaration\\_string-enum-member-initializer\\file0.ts"
+		},
+		{
+			"name": "Foo",
+			"type": "enum",
+			"id": 1,
+			"fullname": "Foo",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 6
+				},
+				"end": {
+					"line": 1,
+					"column": 9
+				}
+			}
+		},
+		{
+			"name": "Bar",
+			"type": "enum member",
+			"id": 2,
+			"fullname": "Foo.Bar",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 5
+				},
+				"end": {
+					"line": 2,
+					"column": 8
+				}
+			}
+		},
+		{
+			"name": "Baz",
+			"type": "enum member",
+			"id": 3,
+			"fullname": "Foo.Baz",
+			"location": {
+				"start": {
+					"line": 3,
+					"column": 5
+				},
+				"end": {
+					"line": 3,
+					"column": 8
+				}
+			}
+		},
+		{
+			"name": "Bza",
+			"type": "enum member",
+			"id": 4,
+			"fullname": "Foo.Bza",
+			"location": {
+				"start": {
+					"line": 4,
+					"column": 5
+				},
+				"end": {
+					"line": 4,
+					"column": 8
+				}
+			}
+		}
+	],
+	"relations": []
+}

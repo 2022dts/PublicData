@@ -1,0 +1,42 @@
+[
+  {
+    "qualifiedName": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_set/_set/file0.cpp",
+    "id": 0,
+    "entityType": "File",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_set/_set/file0.cpp",
+    "startLine": -1,
+    "startColumn": -1,
+    "endLine": -1,
+    "endColumn": -1
+  },
+  {
+    "qualifiedName": "func",
+    "id": 1,
+    "entityType": "Function",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_set/_set/file0.cpp",
+    "startLine": 1,
+    "startColumn": 4,
+    "endLine": 1,
+    "endColumn": 4
+  },
+  {
+    "qualifiedName": "func::i",
+    "id": 2,
+    "entityType": "Object",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_set/_set/file0.cpp",
+    "startLine": 1,
+    "startColumn": 13,
+    "endLine": 1,
+    "endColumn": 13
+  },
+  {
+    "qualifiedName": "func::j",
+    "id": 3,
+    "entityType": "Object",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_set/_set/file0.cpp",
+    "startLine": 2,
+    "startColumn": 25,
+    "endLine": 2,
+    "endColumn": 25
+  }
+]

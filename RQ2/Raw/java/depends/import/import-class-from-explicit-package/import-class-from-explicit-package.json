@@ -1,0 +1,128 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_import\\_import-class-from-explicit-package\\test_pkg1\\Name.java",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_import\\_import-class-from-explicit-package\\test_pkg1\\Name.java",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "test_pkg1",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "test_pkg1.Name",
+        "id": 2,
+        "entityType": "Type",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_import\\_import-class-from-explicit-package\\test_pkg1\\Name.java",
+        "startLine": 3,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "test_pkg1.Name.getIt",
+        "id": 3,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_import\\_import-class-from-explicit-package\\test_pkg1\\Name.java",
+        "startLine": 4,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_import\\_import-class-from-explicit-package\\test_pkg2\\Hello.java",
+        "id": 5,
+        "entityType": "File",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_import\\_import-class-from-explicit-package\\test_pkg2\\Hello.java",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "test_pkg2",
+        "id": 6,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "test_pkg2.Hello",
+        "id": 7,
+        "entityType": "Type",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_import\\_import-class-from-explicit-package\\test_pkg2\\Hello.java",
+        "startLine": 5,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "test_pkg2.Hello.main",
+        "id": 8,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_import\\_import-class-from-explicit-package\\test_pkg2\\Hello.java",
+        "startLine": 6,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "test_pkg2.Hello.main.name",
+        "id": 10,
+        "entityType": "Var",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_import\\_import-class-from-explicit-package\\test_pkg2\\Hello.java",
+        "startLine": 7,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Import",
+        "src": 5,
+        "dest": 2
+      },
+      {
+        "type": "Contain",
+        "src": 8,
+        "dest": 2
+      },
+      {
+        "type": "Call",
+        "src": 8,
+        "dest": 2
+      },
+      {
+        "type": "Create",
+        "src": 8,
+        "dest": 2
+      },
+      {
+        "type": "Call",
+        "src": 8,
+        "dest": 3
+      },
+      {
+        "type": "Use",
+        "src": 8,
+        "dest": 10
+      }
+    ]
+  }
+]

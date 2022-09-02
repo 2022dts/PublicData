@@ -1,0 +1,146 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/namespace-declaration/access-children-of-namespace.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_access-children-of-namespace\\file0.ts"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Namespace",
+            "name": "A",
+            "qualified_name": "A",
+            "line": 1,
+            "start_column": 11,
+            "end_column": 12,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "web Javascript Type Alias",
+            "name": "A",
+            "qualified_name": "A.A",
+            "line": 2,
+            "start_column": 17,
+            "end_column": 18,
+            "belongs_to": 1
+        },
+        {
+            "id": 4,
+            "type": "web Javascript Interface",
+            "name": "A",
+            "qualified_name": "A",
+            "line": 5,
+            "start_column": 11,
+            "end_column": 12,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "web Javascript Property",
+            "name": "A",
+            "qualified_name": "A.A",
+            "line": 6,
+            "start_column": 5,
+            "end_column": 6,
+            "belongs_to": 1
+        },
+        {
+            "id": 7,
+            "type": "web Javascript Type Alias",
+            "name": "b",
+            "qualified_name": "b",
+            "line": 9,
+            "start_column": 6,
+            "end_column": 7,
+            "belongs_to": 1
+        },
+        {
+            "id": 8,
+            "type": "web Javascript Type Alias",
+            "name": "c",
+            "qualified_name": "c",
+            "line": 10,
+            "start_column": 6,
+            "end_column": 7,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 11
+        },
+        {
+            "from": 1,
+            "to": 4,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 5,
+            "column": 11
+        },
+        {
+            "from": 1,
+            "to": 7,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 9,
+            "column": 6
+        },
+        {
+            "from": 1,
+            "to": 8,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 10,
+            "column": 6
+        },
+        {
+            "from": 1,
+            "to": 4,
+            "type": "web Javascript Use",
+            "inFile": 1,
+            "line": 9,
+            "column": 10
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Use",
+            "inFile": 1,
+            "line": 10,
+            "column": 10
+        },
+        {
+            "from": 1,
+            "to": 3,
+            "type": "web Javascript Use",
+            "inFile": 1,
+            "line": 10,
+            "column": 12
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "web Javascript Define Export",
+            "inFile": 1,
+            "line": 2,
+            "column": 17
+        },
+        {
+            "from": 4,
+            "to": 5,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 6,
+            "column": 5
+        }
+    ]
+}

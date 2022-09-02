@@ -1,0 +1,40 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/export-declaration/renamed-export-rename-to-string-literal.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_renamed-export-rename-to-string-literal\\file0.js"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Variable Global",
+            "name": "variable",
+            "qualified_name": "variable",
+            "line": 1,
+            "start_column": 7,
+            "end_column": 15,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 7
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 1,
+            "column": 7
+        }
+    ]
+}

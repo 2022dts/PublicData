@@ -1,0 +1,82 @@
+{
+	"entities": [
+		{
+			"name": "file0.ts",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_namespace-declaration\\_single-file-namespace-declaration-merging\\file0.ts"
+		},
+		{
+			"name": "X",
+			"type": "namespace",
+			"id": 1,
+			"fullname": "X",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 11
+				},
+				"end": {
+					"line": 1,
+					"column": 12
+				}
+			}
+		},
+		{
+			"name": "a",
+			"type": "variable",
+			"id": 2,
+			"fullname": "X.a",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 18
+				},
+				"end": {
+					"line": 2,
+					"column": 19
+				}
+			}
+		},
+		{
+			"name": "b",
+			"type": "variable",
+			"id": 3,
+			"fullname": "X.b",
+			"location": {
+				"start": {
+					"line": 6,
+					"column": 18
+				},
+				"end": {
+					"line": 6,
+					"column": 19
+				}
+			}
+		}
+	],
+	"relations": [
+		{
+			"from": 1,
+			"to": 2,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 18
+				}
+			}
+		},
+		{
+			"from": 1,
+			"to": 3,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 6,
+					"column": 18
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,20 @@
+File Summary of _classmethoddefinition.test_method_definition
+	class value _classmethoddefinition.test_method_definition.ClassA is derived from []
+	class value _classmethoddefinition.test_method_definition.ClassB is derived from []
+	class value _classmethoddefinition.test_method_definition.InheritClassA is derived from [class value _classmethoddefinition.test_method_definition.ClassA]
+
+Class Summary of _classmethoddefinition.test_method_definition.ClassA
+
+	method: FunctionObject: _classmethoddefinition.test_method_definition.ClassA.method
+Function Summary of _classmethoddefinition.test_method_definition.ClassA.method
+
+Class Summary of _classmethoddefinition.test_method_definition.ClassB
+
+	method: FunctionObject: _classmethoddefinition.test_method_definition.ClassB.method
+Function Summary of _classmethoddefinition.test_method_definition.ClassB.method
+
+Class Summary of _classmethoddefinition.test_method_definition.InheritClassA
+
+	method: FunctionObject: _classmethoddefinition.test_method_definition.InheritClassA.method
+Function Summary of _classmethoddefinition.test_method_definition.InheritClassA.method
+

@@ -1,0 +1,83 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/function/overload-class-method.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_overload-class-method\\file0.cpp"
+        },
+        {
+            "id": 2,
+            "type": "C Class Type",
+            "name": "foo",
+            "qualified_name": "foo",
+            "line": 1,
+            "start_column": 7,
+            "end_column": 10,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "C Unresolved Public Member Function",
+            "name": "overloadFunction",
+            "qualified_name": "foo::overloadFunction",
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 4,
+            "type": "C Unresolved Public Member Function",
+            "name": "overloadFunction",
+            "qualified_name": "foo::overloadFunction",
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 5,
+            "type": "C Unresolved Public Member Function",
+            "name": "overloadFunction",
+            "qualified_name": "foo::overloadFunction",
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 7
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "C Declare",
+            "inFile": 1,
+            "line": 3,
+            "column": 9
+        },
+        {
+            "from": 2,
+            "to": 4,
+            "type": "C Declare",
+            "inFile": 1,
+            "line": 4,
+            "column": 9
+        },
+        {
+            "from": 2,
+            "to": 5,
+            "type": "C Declare",
+            "inFile": 1,
+            "line": 5,
+            "column": 9
+        }
+    ]
+}

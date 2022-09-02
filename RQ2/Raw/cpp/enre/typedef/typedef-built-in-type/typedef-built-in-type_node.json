@@ -1,0 +1,22 @@
+[
+  {
+    "qualifiedName": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_typedef/_typedef-built-in-type/file0.cpp",
+    "id": 0,
+    "entityType": "File",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_typedef/_typedef-built-in-type/file0.cpp",
+    "startLine": -1,
+    "startColumn": -1,
+    "endLine": -1,
+    "endColumn": -1
+  },
+  {
+    "qualifiedName": "int_t",
+    "id": 1,
+    "entityType": "Typedef",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_typedef/_typedef-built-in-type/file0.cpp",
+    "startLine": 1,
+    "startColumn": 12,
+    "endLine": 1,
+    "endColumn": 12
+  }
+]

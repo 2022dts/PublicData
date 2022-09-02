@@ -1,0 +1,258 @@
+{
+    "variables": [
+        {
+            "id": 1,
+            "qualifiedName": "_annotation.test_annotation",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_annotation/test_annotation.py"
+        },
+        {
+            "id": 3,
+            "qualifiedName": "_annotation.test_annotation.ClassA",
+            "category": "Class",
+            "location": {
+                "startLine": 1,
+                "endLine": -1,
+                "startColumn": 6,
+                "endColumn": -1
+            },
+            "File": "_annotation/test_annotation.py"
+        },
+        {
+            "id": 4,
+            "qualifiedName": "_annotation.test_annotation.int_identity",
+            "category": "Function",
+            "location": {
+                "startLine": 4,
+                "endLine": -1,
+                "startColumn": 4,
+                "endColumn": -1
+            },
+            "File": "_annotation/test_annotation.py"
+        },
+        {
+            "id": 5,
+            "qualifiedName": "_annotation.test_annotation.int_identity.x",
+            "category": "Parameter",
+            "location": {
+                "startLine": 4,
+                "endLine": 4,
+                "startColumn": 17,
+                "endColumn": 26
+            },
+            "File": "_annotation/test_annotation.py"
+        },
+        {
+            "id": 7,
+            "qualifiedName": "_annotation.test_annotation.x",
+            "category": "Variable",
+            "location": {
+                "startLine": 7,
+                "endLine": 7,
+                "startColumn": 0,
+                "endColumn": 1
+            },
+            "File": "_annotation/test_annotation.py"
+        },
+        {
+            "id": 8,
+            "qualifiedName": "_annotation.test_annotation.ClassB",
+            "category": "Class",
+            "location": {
+                "startLine": 9,
+                "endLine": -1,
+                "startColumn": 6,
+                "endColumn": -1
+            },
+            "File": "_annotation/test_annotation.py"
+        },
+        {
+            "id": 10,
+            "qualifiedName": "_annotation.test_annotation.ClassB.field",
+            "category": "Attribute",
+            "location": {
+                "startLine": 10,
+                "endLine": 10,
+                "startColumn": 4,
+                "endColumn": 9
+            },
+            "File": "_annotation/test_annotation.py"
+        },
+        {
+            "id": 2,
+            "qualifiedName": "_annotation",
+            "category": "Package",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_annotation"
+        }
+    ],
+    "cells": [
+        {
+            "src": 1,
+            "dest": 3,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 1,
+            "dest": 4,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 1,
+            "dest": 3,
+            "values": {
+                "kind": "Use",
+                "in_type_context": true
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 20
+            }
+        },
+        {
+            "src": 1,
+            "dest": 7,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 7,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 1,
+            "dest": 7,
+            "values": {
+                "kind": "Set",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 7,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 1,
+            "dest": 3,
+            "values": {
+                "kind": "Use",
+                "in_type_context": true
+            },
+            "location": {
+                "startLine": 7,
+                "startCol": 3
+            }
+        },
+        {
+            "src": 1,
+            "dest": 8,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 9,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 4,
+            "dest": 5,
+            "values": {
+                "kind": "Define",
+                "in_type_context": true
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 17
+            }
+        },
+        {
+            "src": 5,
+            "dest": 3,
+            "values": {
+                "kind": "Annotate",
+                "in_type_context": true
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 20
+            }
+        },
+        {
+            "src": 8,
+            "dest": 10,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 8,
+            "dest": 10,
+            "values": {
+                "kind": "Set",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 8,
+            "dest": 3,
+            "values": {
+                "kind": "Use",
+                "in_type_context": true
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 11
+            }
+        },
+        {
+            "src": 2,
+            "dest": 1,
+            "values": {
+                "kind": "Contain",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 0,
+                "startCol": 0
+            }
+        }
+    ]
+}

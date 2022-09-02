@@ -1,0 +1,27 @@
+{
+	"entities": [
+		{
+			"name": "file0.js",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_parameter-declaration\\_catch-clause-with-parameter\\file0.js"
+		},
+		{
+			"name": "e",
+			"type": "parameter",
+			"id": 1,
+			"fullname": "e",
+			"location": {
+				"start": {
+					"line": 3,
+					"column": 10
+				},
+				"end": {
+					"line": 3,
+					"column": 11
+				}
+			}
+		}
+	],
+	"relations": []
+}

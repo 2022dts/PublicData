@@ -1,0 +1,192 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/functiondefinition/classmethoddefinition.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_classmethoddefinition\\test_method_definition.py"
+        },
+        {
+            "id": 2,
+            "type": "python Class",
+            "name": "ClassA",
+            "qualified_name": "test_method_definition.ClassA",
+            "line": 1,
+            "start_column": 7,
+            "end_column": 13,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "python Function Attribute",
+            "name": "method",
+            "qualified_name": "test_method_definition.ClassA.method",
+            "line": 2,
+            "start_column": 9,
+            "end_column": 15,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "python Parameter",
+            "name": "self",
+            "qualified_name": "test_method_definition.ClassA.method.self",
+            "line": 2,
+            "start_column": 16,
+            "end_column": 20,
+            "belongs_to": 1
+        },
+        {
+            "id": 6,
+            "type": "python Class",
+            "name": "ClassB",
+            "qualified_name": "test_method_definition.ClassB",
+            "line": 5,
+            "start_column": 7,
+            "end_column": 13,
+            "belongs_to": 1
+        },
+        {
+            "id": 7,
+            "type": "python Function Attribute",
+            "name": "method",
+            "qualified_name": "test_method_definition.ClassB.method",
+            "line": 6,
+            "start_column": 9,
+            "end_column": 15,
+            "belongs_to": 1
+        },
+        {
+            "id": 8,
+            "type": "python Parameter",
+            "name": "self",
+            "qualified_name": "test_method_definition.ClassB.method.self",
+            "line": 6,
+            "start_column": 16,
+            "end_column": 20,
+            "belongs_to": 1
+        },
+        {
+            "id": 9,
+            "type": "python Class",
+            "name": "InheritClassA",
+            "qualified_name": "test_method_definition.InheritClassA",
+            "line": 9,
+            "start_column": 7,
+            "end_column": 20,
+            "belongs_to": 1
+        },
+        {
+            "id": 10,
+            "type": "python Function Attribute",
+            "name": "method",
+            "qualified_name": "test_method_definition.InheritClassA.method",
+            "line": 10,
+            "start_column": 9,
+            "end_column": 15,
+            "belongs_to": 1
+        },
+        {
+            "id": 11,
+            "type": "python Parameter",
+            "name": "self",
+            "qualified_name": "test_method_definition.InheritClassA.method.self",
+            "line": 10,
+            "start_column": 16,
+            "end_column": 20,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 7
+        },
+        {
+            "from": 1,
+            "to": 6,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 5,
+            "column": 7
+        },
+        {
+            "from": 1,
+            "to": 9,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 9,
+            "column": 7
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 9
+        },
+        {
+            "from": 3,
+            "to": 5,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 16
+        },
+        {
+            "from": 6,
+            "to": 7,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 6,
+            "column": 9
+        },
+        {
+            "from": 7,
+            "to": 8,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 6,
+            "column": 16
+        },
+        {
+            "from": 9,
+            "to": 2,
+            "type": "Python Inherit",
+            "inFile": 1,
+            "line": 9,
+            "column": 21
+        },
+        {
+            "from": 9,
+            "to": 10,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 10,
+            "column": 9
+        },
+        {
+            "from": 10,
+            "to": 11,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 10,
+            "column": 16
+        },
+        {
+            "from": 10,
+            "to": 3,
+            "type": "Python Overrides",
+            "inFile": 1,
+            "line": 10,
+            "column": 9
+        }
+    ]
+}

@@ -1,0 +1,173 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/aliasdefinition/globalimport.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_globalimport\\module_a.py"
+        },
+        {
+            "id": 4,
+            "type": "File",
+            "name": "_globalimport\\module_b.py"
+        },
+        {
+            "id": 2,
+            "type": "python Function",
+            "name": "func",
+            "qualified_name": "module_a.func",
+            "line": 1,
+            "start_column": 5,
+            "end_column": 9,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "python Variable Global",
+            "name": "x",
+            "qualified_name": "module_a.x",
+            "line": 3,
+            "start_column": 1,
+            "end_column": 2,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "python Variable Local",
+            "name": "a",
+            "qualified_name": "module_b.a",
+            "line": 2,
+            "start_column": 20,
+            "end_column": 21,
+            "belongs_to": 4
+        },
+        {
+            "id": 6,
+            "type": "python Variable Local",
+            "name": "f",
+            "qualified_name": "module_b.f",
+            "line": 1,
+            "start_column": 30,
+            "end_column": 31,
+            "belongs_to": 4
+        },
+        {
+            "id": 7,
+            "type": "python Variable Local",
+            "name": "x_b",
+            "qualified_name": "module_b.x_b",
+            "line": 1,
+            "start_column": 38,
+            "end_column": 41,
+            "belongs_to": 4
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 5
+        },
+        {
+            "from": 1,
+            "to": 3,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 3,
+            "column": 1
+        },
+        {
+            "from": 1,
+            "to": 3,
+            "type": "Python Set",
+            "inFile": 1,
+            "line": 3,
+            "column": 1
+        },
+        {
+            "from": 1,
+            "to": 5,
+            "type": "Python Alias",
+            "inFile": 4,
+            "line": 2,
+            "column": 20
+        },
+        {
+            "from": 2,
+            "to": 6,
+            "type": "Python Alias",
+            "inFile": 4,
+            "line": 1,
+            "column": 30
+        },
+        {
+            "from": 3,
+            "to": 7,
+            "type": "Python Alias",
+            "inFile": 4,
+            "line": 1,
+            "column": 38
+        },
+        {
+            "from": 4,
+            "to": 1,
+            "type": "Python Import From",
+            "inFile": 4,
+            "line": 1,
+            "column": 6
+        },
+        {
+            "from": 4,
+            "to": 2,
+            "type": "Python Import",
+            "inFile": 4,
+            "line": 1,
+            "column": 22
+        },
+        {
+            "from": 4,
+            "to": 6,
+            "type": "Python Define",
+            "inFile": 4,
+            "line": 1,
+            "column": 30
+        },
+        {
+            "from": 4,
+            "to": 3,
+            "type": "Python Import",
+            "inFile": 4,
+            "line": 1,
+            "column": 33
+        },
+        {
+            "from": 4,
+            "to": 7,
+            "type": "Python Define",
+            "inFile": 4,
+            "line": 1,
+            "column": 38
+        },
+        {
+            "from": 4,
+            "to": 1,
+            "type": "Python Import",
+            "inFile": 4,
+            "line": 2,
+            "column": 8
+        },
+        {
+            "from": 4,
+            "to": 5,
+            "type": "Python Define",
+            "inFile": 4,
+            "line": 2,
+            "column": 20
+        }
+    ]
+}

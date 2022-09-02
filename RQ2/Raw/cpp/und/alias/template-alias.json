@@ -1,0 +1,13 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/alias/template-alias.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_template-alias\\file0.cpp"
+        }
+    ],
+    "relations": []
+}

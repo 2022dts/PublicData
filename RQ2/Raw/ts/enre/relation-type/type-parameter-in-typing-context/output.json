@@ -1,0 +1,139 @@
+{
+	"entities": [
+		{
+			"name": "file0.ts",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_relation-type\\_type-parameter-in-typing-context\\file0.ts"
+		},
+		{
+			"name": "foo",
+			"type": "function",
+			"id": 1,
+			"fullname": "foo",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 10
+				},
+				"end": {
+					"line": 1,
+					"column": 13
+				}
+			}
+		},
+		{
+			"name": "param0",
+			"type": "parameter",
+			"id": 2,
+			"fullname": "foo.param0",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 17
+				},
+				"end": {
+					"line": 1,
+					"column": 23
+				}
+			}
+		},
+		{
+			"name": "bar",
+			"type": "variable",
+			"id": 3,
+			"fullname": "foo.bar",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 9
+				},
+				"end": {
+					"line": 2,
+					"column": 12
+				}
+			}
+		},
+		{
+			"name": "Baz",
+			"type": "class",
+			"id": 4,
+			"fullname": "foo.Baz",
+			"location": {
+				"start": {
+					"line": 4,
+					"column": 11
+				},
+				"end": {
+					"line": 4,
+					"column": 14
+				}
+			}
+		},
+		{
+			"name": "field0",
+			"type": "field",
+			"id": 5,
+			"fullname": "foo.Baz.field0",
+			"location": {
+				"start": {
+					"line": 5,
+					"column": 9
+				},
+				"end": {
+					"line": 5,
+					"column": 15
+				}
+			}
+		},
+		{
+			"name": "func",
+			"type": "function",
+			"id": 6,
+			"fullname": "foo.func",
+			"location": {
+				"start": {
+					"line": 8,
+					"column": 14
+				},
+				"end": {
+					"line": 8,
+					"column": 18
+				}
+			}
+		},
+		{
+			"name": "param0",
+			"type": "parameter",
+			"id": 7,
+			"fullname": "foo.func.param0",
+			"location": {
+				"start": {
+					"line": 8,
+					"column": 19
+				},
+				"end": {
+					"line": 8,
+					"column": 25
+				}
+			}
+		},
+		{
+			"name": "T",
+			"type": "type parameter",
+			"id": 8,
+			"fullname": "foo.T",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 14
+				},
+				"end": {
+					"line": 1,
+					"column": 15
+				}
+			}
+		}
+	],
+	"relations": []
+}

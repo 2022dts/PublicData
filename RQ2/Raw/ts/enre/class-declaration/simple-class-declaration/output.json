@@ -1,0 +1,27 @@
+{
+	"entities": [
+		{
+			"name": "file0.js",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_class-declaration\\_simple-class-declaration\\file0.js"
+		},
+		{
+			"name": "Foo",
+			"type": "class",
+			"id": 1,
+			"fullname": "Foo",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 7
+				},
+				"end": {
+					"line": 1,
+					"column": 10
+				}
+			}
+		}
+	],
+	"relations": []
+}

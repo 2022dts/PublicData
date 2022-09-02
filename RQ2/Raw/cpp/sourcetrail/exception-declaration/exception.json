@@ -1,0 +1,42 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 4,
+            "name": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_exception-declaration/_exception/file0.cpp",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 5,
+            "name": "DbNotFoundError",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_exception-declaration/_exception/file0.cpp",
+            "line": 1,
+            "start_column": 1,
+            "end_column": 1
+        },
+        {
+            "id": 6,
+            "name": "LoadAddrman",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_exception-declaration/_exception/file0.cpp",
+            "line": 4,
+            "start_column": 1,
+            "end_column": 42
+        }
+    ],
+    "relations": [
+        {
+            "type": "TYPE_USAGE",
+            "from": 6,
+            "to": 5,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "exception"
+}

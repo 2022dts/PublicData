@@ -1,0 +1,25 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 1,
+            "name": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_enumeration/_enum/file0.cpp",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 2,
+            "name": "Color",
+            "type": "ENUM",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_enumeration/_enum/file0.cpp",
+            "line": 1,
+            "start_column": 1,
+            "end_column": 13
+        }
+    ],
+    "relations": [],
+    "db_name": "enum"
+}

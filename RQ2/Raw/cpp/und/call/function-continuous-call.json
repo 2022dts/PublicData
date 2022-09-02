@@ -1,0 +1,102 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/call/function-continuous-call.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_function-continuous-call\\file0.cpp"
+        },
+        {
+            "id": 2,
+            "type": "C Function",
+            "name": "funcA",
+            "qualified_name": "funcA",
+            "line": 1,
+            "start_column": 5,
+            "end_column": 10,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "C Function",
+            "name": "funcB",
+            "qualified_name": "funcB",
+            "line": 4,
+            "start_column": 5,
+            "end_column": 10,
+            "belongs_to": 1
+        },
+        {
+            "id": 4,
+            "type": "C Parameter",
+            "name": "i",
+            "qualified_name": "i",
+            "line": 4,
+            "start_column": 15,
+            "end_column": 16,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "C Function",
+            "name": "run_benchmark",
+            "qualified_name": "run_benchmark",
+            "line": 7,
+            "start_column": 6,
+            "end_column": 19,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 5
+        },
+        {
+            "from": 1,
+            "to": 3,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 4,
+            "column": 5
+        },
+        {
+            "from": 1,
+            "to": 5,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 7,
+            "column": 6
+        },
+        {
+            "from": 3,
+            "to": 4,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 4,
+            "column": 15
+        },
+        {
+            "from": 5,
+            "to": 3,
+            "type": "C Call",
+            "inFile": 1,
+            "line": 8,
+            "column": 5
+        },
+        {
+            "from": 5,
+            "to": 2,
+            "type": "C Call",
+            "inFile": 1,
+            "line": 8,
+            "column": 11
+        }
+    ]
+}

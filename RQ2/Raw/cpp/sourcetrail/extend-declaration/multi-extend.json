@@ -1,0 +1,58 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 1,
+            "name": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_extend-declaration/_multi-extend/file0.cpp",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 2,
+            "name": "Collection",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_extend-declaration/_multi-extend/file0.cpp",
+            "line": 1,
+            "start_column": 1,
+            "end_column": 20
+        },
+        {
+            "id": 3,
+            "name": "Book",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_extend-declaration/_multi-extend/file0.cpp",
+            "line": 2,
+            "start_column": 1,
+            "end_column": 13
+        },
+        {
+            "id": 4,
+            "name": "CollectionOfBook",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_extend-declaration/_multi-extend/file0.cpp",
+            "line": 3,
+            "start_column": 1,
+            "end_column": 58
+        }
+    ],
+    "relations": [
+        {
+            "type": "INHERITANCE",
+            "from": 4,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "INHERITANCE",
+            "from": 4,
+            "to": 2,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "multi-extend"
+}

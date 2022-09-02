@@ -1,0 +1,533 @@
+{
+    "variables": [
+        {
+            "id": 1,
+            "qualifiedName": "_usealias.module_a",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_usealias/module_a.py"
+        },
+        {
+            "id": 4,
+            "qualifiedName": "_usealias.module_a.func",
+            "category": "Function",
+            "location": {
+                "startLine": 3,
+                "endLine": -1,
+                "startColumn": 4,
+                "endColumn": -1
+            },
+            "File": "_usealias/module_a.py"
+        },
+        {
+            "id": 6,
+            "qualifiedName": "_usealias.module_a.x",
+            "category": "Variable",
+            "location": {
+                "startLine": 5,
+                "endLine": 5,
+                "startColumn": 0,
+                "endColumn": 1
+            },
+            "File": "_usealias/module_a.py"
+        },
+        {
+            "id": 7,
+            "qualifiedName": "_usealias.module_a.ClassA",
+            "category": "Class",
+            "location": {
+                "startLine": 7,
+                "endLine": -1,
+                "startColumn": 6,
+                "endColumn": -1
+            },
+            "File": "_usealias/module_a.py"
+        },
+        {
+            "id": 2,
+            "qualifiedName": "_usealias.module_b",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_usealias/module_b.py"
+        },
+        {
+            "id": 8,
+            "qualifiedName": "_usealias.module_b.f",
+            "category": "Alias",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_usealias/module_b.py"
+        },
+        {
+            "id": 9,
+            "qualifiedName": "_usealias.module_b.x_b",
+            "category": "Alias",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_usealias/module_b.py"
+        },
+        {
+            "id": 10,
+            "qualifiedName": "_usealias.module_b.c",
+            "category": "Alias",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_usealias/module_b.py"
+        },
+        {
+            "id": 11,
+            "qualifiedName": "_usealias.module_b.a",
+            "category": "Alias",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_usealias/module_b.py"
+        },
+        {
+            "id": 12,
+            "qualifiedName": "print",
+            "category": "Unknown Variable",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            }
+        },
+        {
+            "id": 13,
+            "qualifiedName": "_usealias.module_b.foo",
+            "category": "Function",
+            "location": {
+                "startLine": 6,
+                "endLine": -1,
+                "startColumn": 4,
+                "endColumn": -1
+            },
+            "File": "_usealias/module_b.py"
+        },
+        {
+            "id": 14,
+            "qualifiedName": "_usealias.module_b.ClassB",
+            "category": "Class",
+            "location": {
+                "startLine": 9,
+                "endLine": -1,
+                "startColumn": 6,
+                "endColumn": -1
+            },
+            "File": "_usealias/module_b.py"
+        },
+        {
+            "id": 3,
+            "qualifiedName": "_usealias",
+            "category": "Package",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_usealias"
+        }
+    ],
+    "cells": [
+        {
+            "src": 1,
+            "dest": 2,
+            "values": {
+                "kind": "Import",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 1,
+            "dest": 4,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 3,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 1,
+            "dest": 6,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 5,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 1,
+            "dest": 6,
+            "values": {
+                "kind": "Set",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 5,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 1,
+            "dest": 7,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 7,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 2,
+            "dest": 4,
+            "values": {
+                "kind": "Import",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 2,
+            "dest": 6,
+            "values": {
+                "kind": "Import",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 2,
+            "dest": 7,
+            "values": {
+                "kind": "Import",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 2,
+            "dest": 1,
+            "values": {
+                "kind": "Import",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 2,
+            "dest": 12,
+            "values": {
+                "kind": "Call",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 2,
+            "dest": 8,
+            "values": {
+                "kind": "Use",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 6
+            }
+        },
+        {
+            "src": 2,
+            "dest": 9,
+            "values": {
+                "kind": "Use",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 9
+            }
+        },
+        {
+            "src": 2,
+            "dest": 10,
+            "values": {
+                "kind": "Use",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 14
+            }
+        },
+        {
+            "src": 2,
+            "dest": 11,
+            "values": {
+                "kind": "Use",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 17
+            }
+        },
+        {
+            "src": 2,
+            "dest": 13,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 6,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 2,
+            "dest": 14,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 9,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 8,
+            "dest": 4,
+            "values": {
+                "kind": "Alias",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 9,
+            "dest": 6,
+            "values": {
+                "kind": "Alias",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 10,
+            "dest": 7,
+            "values": {
+                "kind": "Alias",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 13,
+            "dest": 12,
+            "values": {
+                "kind": "Call",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 7,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 13,
+            "dest": 8,
+            "values": {
+                "kind": "Use",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 7,
+                "startCol": 10
+            }
+        },
+        {
+            "src": 13,
+            "dest": 9,
+            "values": {
+                "kind": "Use",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 7,
+                "startCol": 13
+            }
+        },
+        {
+            "src": 13,
+            "dest": 10,
+            "values": {
+                "kind": "Use",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 7,
+                "startCol": 18
+            }
+        },
+        {
+            "src": 13,
+            "dest": 11,
+            "values": {
+                "kind": "Use",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 7,
+                "startCol": 21
+            }
+        },
+        {
+            "src": 14,
+            "dest": 12,
+            "values": {
+                "kind": "Call",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 14,
+            "dest": 8,
+            "values": {
+                "kind": "Use",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 10
+            }
+        },
+        {
+            "src": 14,
+            "dest": 9,
+            "values": {
+                "kind": "Use",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 13
+            }
+        },
+        {
+            "src": 14,
+            "dest": 10,
+            "values": {
+                "kind": "Use",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 18
+            }
+        },
+        {
+            "src": 14,
+            "dest": 11,
+            "values": {
+                "kind": "Use",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 21
+            }
+        },
+        {
+            "src": 3,
+            "dest": 1,
+            "values": {
+                "kind": "Contain",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 0,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 3,
+            "dest": 2,
+            "values": {
+                "kind": "Contain",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 0,
+                "startCol": 0
+            }
+        }
+    ]
+}

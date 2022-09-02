@@ -1,0 +1,39 @@
+{
+	"entities": [
+		{
+			"name": "file0.js",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_variable-declaration\\_using-const\\file0.js"
+		},
+		{
+			"name": "foo",
+			"type": "variable",
+			"id": 1,
+			"fullname": "foo",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 7
+				},
+				"end": {
+					"line": 1,
+					"column": 10
+				}
+			}
+		}
+	],
+	"relations": [
+		{
+			"from": 0,
+			"to": 1,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 7
+				}
+			}
+		}
+	]
+}

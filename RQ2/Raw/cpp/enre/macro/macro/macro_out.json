@@ -1,0 +1,27 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_macro/_macro/file0.cpp",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_macro/_macro/file0.cpp",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "F",
+        "id": 1,
+        "entityType": "Macro",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_macro/_macro/file0.cpp",
+        "startLine": 1,
+        "startColumn": 0,
+        "endLine": 1,
+        "endColumn": 0
+      }
+    ],
+    "relations": []
+  }
+]

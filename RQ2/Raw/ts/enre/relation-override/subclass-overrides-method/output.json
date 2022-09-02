@@ -1,0 +1,119 @@
+{
+	"entities": [
+		{
+			"name": "file0.js",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_relation-override\\_subclass-overrides-method\\file0.js"
+		},
+		{
+			"name": "Foo",
+			"type": "class",
+			"id": 1,
+			"fullname": "Foo",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 7
+				},
+				"end": {
+					"line": 1,
+					"column": 10
+				}
+			}
+		},
+		{
+			"name": "method0",
+			"type": "method",
+			"id": 2,
+			"fullname": "Foo.method0",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 5
+				},
+				"end": {
+					"line": 2,
+					"column": 12
+				}
+			}
+		},
+		{
+			"name": "a",
+			"type": "method",
+			"id": 3,
+			"fullname": "Foo.a",
+			"location": {
+				"start": {
+					"line": 6,
+					"column": 9
+				},
+				"end": {
+					"line": 6,
+					"column": 10
+				}
+			}
+		},
+		{
+			"name": "Bar",
+			"type": "class",
+			"id": 4,
+			"fullname": "Bar",
+			"location": {
+				"start": {
+					"line": 11,
+					"column": 7
+				},
+				"end": {
+					"line": 11,
+					"column": 10
+				}
+			}
+		},
+		{
+			"name": "method0",
+			"type": "method",
+			"id": 5,
+			"fullname": "Bar.method0",
+			"location": {
+				"start": {
+					"line": 12,
+					"column": 5
+				},
+				"end": {
+					"line": 12,
+					"column": 12
+				}
+			}
+		},
+		{
+			"name": "a",
+			"type": "method",
+			"id": 6,
+			"fullname": "Bar.a",
+			"location": {
+				"start": {
+					"line": 16,
+					"column": 9
+				},
+				"end": {
+					"line": 16,
+					"column": 10
+				}
+			}
+		}
+	],
+	"relations": [
+		{
+			"from": 4,
+			"to": 1,
+			"type": "extend",
+			"location": {
+				"start": {
+					"line": 11,
+					"column": 19
+				}
+			}
+		}
+	]
+}

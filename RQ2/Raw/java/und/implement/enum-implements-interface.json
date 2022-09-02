@@ -1,0 +1,178 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/implement/enum-implements-interface.und",
+    "entities": [
+        {
+            "id": 32524,
+            "type": "File",
+            "name": "_enum-implements-interface\\BaseService.java"
+        },
+        {
+            "id": 32530,
+            "type": "Package",
+            "name": "hello",
+            "qualified_name": "hello"
+        },
+        {
+            "id": 32525,
+            "type": "Java Enum Class Type Public Member",
+            "name": "BaseService",
+            "qualified_name": "hello.BaseService",
+            "line": 7,
+            "start_column": 13,
+            "end_column": 24,
+            "belongs_to": 32524
+        },
+        {
+            "id": 32527,
+            "type": "Java Parameter",
+            "name": "s",
+            "qualified_name": "hello.BaseService.valueOf.s",
+            "line": 7,
+            "start_column": 13,
+            "end_column": 14,
+            "belongs_to": 32524
+        },
+        {
+            "id": 32529,
+            "type": "Java Interface Type Default",
+            "name": "Bed",
+            "qualified_name": "hello.Bed",
+            "line": 3,
+            "start_column": 11,
+            "end_column": 14,
+            "belongs_to": 32524
+        }
+    ],
+    "relations": [
+        {
+            "from": 32524,
+            "to": 32530,
+            "type": "Java Define",
+            "inFile": 32524,
+            "line": 1,
+            "column": 9
+        },
+        {
+            "from": 32524,
+            "to": 32530,
+            "type": "Java Declare",
+            "inFile": 32524,
+            "line": 1,
+            "column": 9
+        },
+        {
+            "from": 32524,
+            "to": 32529,
+            "type": "Java Define",
+            "inFile": 32524,
+            "line": 3,
+            "column": 11
+        },
+        {
+            "from": 32524,
+            "to": 32525,
+            "type": "Java Define",
+            "inFile": 32524,
+            "line": 7,
+            "column": 13
+        },
+        {
+            "from": 32524,
+            "to": 14,
+            "type": "Java Import Demand",
+            "inFile": 32524,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 32525,
+            "to": 32525,
+            "type": "Java Begin",
+            "inFile": 32524,
+            "line": 7,
+            "column": 1
+        },
+        {
+            "from": 32525,
+            "to": 32529,
+            "type": "Java Implement Couple",
+            "inFile": 32524,
+            "line": 7,
+            "column": 36
+        },
+        {
+            "from": 32525,
+            "to": 1120,
+            "type": "Java Extend Couple Implicit External",
+            "inFile": 32524,
+            "line": 7,
+            "column": 1
+        },
+        {
+            "from": 32525,
+            "to": 20,
+            "type": "Java Couple",
+            "inFile": 32524,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 32526,
+            "to": 32525,
+            "type": "Java Typed",
+            "inFile": 32524,
+            "line": 7,
+            "column": 13
+        },
+        {
+            "from": 32526,
+            "to": 32527,
+            "type": "Java Define Implicit",
+            "inFile": 32524,
+            "line": 7,
+            "column": 13
+        },
+        {
+            "from": 32527,
+            "to": 20,
+            "type": "Java Typed",
+            "inFile": 32524,
+            "line": 7,
+            "column": 13
+        },
+        {
+            "from": 32528,
+            "to": 32525,
+            "type": "Java Typed",
+            "inFile": 32524,
+            "line": 7,
+            "column": 13
+        },
+        {
+            "from": 32529,
+            "to": 32529,
+            "type": "Java Begin",
+            "inFile": 32524,
+            "line": 3,
+            "column": 1
+        },
+        {
+            "from": 32530,
+            "to": 32525,
+            "type": "Java Contain",
+            "inFile": 32524,
+            "line": 7,
+            "column": 13
+        },
+        {
+            "from": 32530,
+            "to": 32529,
+            "type": "Java Contain",
+            "inFile": 32524,
+            "line": 3,
+            "column": 11
+        }
+    ]
+}

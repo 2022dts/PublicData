@@ -1,0 +1,237 @@
+{
+	"entities": [
+		{
+			"name": "file6.ts",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_export-declaration\\_default-exports\\file6.ts"
+		},
+		{
+			"name": "file5.ts",
+			"type": "file",
+			"id": 1,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_export-declaration\\_default-exports\\file5.ts"
+		},
+		{
+			"name": "file4.js",
+			"type": "file",
+			"id": 2,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_export-declaration\\_default-exports\\file4.js"
+		},
+		{
+			"name": "file3.js",
+			"type": "file",
+			"id": 3,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_export-declaration\\_default-exports\\file3.js"
+		},
+		{
+			"name": "file2.js",
+			"type": "file",
+			"id": 4,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_export-declaration\\_default-exports\\file2.js"
+		},
+		{
+			"name": "file1.js",
+			"type": "file",
+			"id": 5,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_export-declaration\\_default-exports\\file1.js"
+		},
+		{
+			"name": "file0.js",
+			"type": "file",
+			"id": 6,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_export-declaration\\_default-exports\\file0.js"
+		},
+		{
+			"name": "Foo",
+			"type": "interface",
+			"id": 7,
+			"fullname": "Foo",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 26
+				},
+				"end": {
+					"line": 2,
+					"column": 29
+				}
+			}
+		},
+		{
+			"name": "<Anonymous as=\"Class\">",
+			"type": "class",
+			"id": 8,
+			"fullname": "<Anonymous as=\"Class\">",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 16
+				},
+				"end": {
+					"line": 2,
+					"column": 16
+				}
+			}
+		},
+		{
+			"name": "<Anonymous as=\"Class\">",
+			"type": "class",
+			"id": 9,
+			"fullname": "<Anonymous as=\"Class\">",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 16
+				},
+				"end": {
+					"line": 1,
+					"column": 16
+				}
+			}
+		},
+		{
+			"name": "<Anonymous as=\"Function\">",
+			"type": "function",
+			"id": 10,
+			"fullname": "<Anonymous as=\"Function\">",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 16
+				},
+				"end": {
+					"line": 1,
+					"column": 16
+				}
+			}
+		},
+		{
+			"name": "<Anonymous as=\"Function\">",
+			"type": "function",
+			"id": 11,
+			"fullname": "<Anonymous as=\"Function\">",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 16
+				},
+				"end": {
+					"line": 1,
+					"column": 16
+				}
+			}
+		},
+		{
+			"name": "<Anonymous as=\"Function\">",
+			"type": "function",
+			"id": 12,
+			"fullname": "<Anonymous as=\"Function\">",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 16
+				},
+				"end": {
+					"line": 1,
+					"column": 16
+				}
+			}
+		},
+		{
+			"name": "<Anonymous as=\"Function\">",
+			"type": "function",
+			"id": 13,
+			"fullname": "<Anonymous as=\"Function\">",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 16
+				},
+				"end": {
+					"line": 1,
+					"column": 16
+				}
+			}
+		}
+	],
+	"relations": [
+		{
+			"from": 0,
+			"to": 7,
+			"type": "export",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 26
+				}
+			}
+		},
+		{
+			"from": 1,
+			"to": 8,
+			"type": "export",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 16
+				}
+			}
+		},
+		{
+			"from": 2,
+			"to": 9,
+			"type": "export",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 16
+				}
+			}
+		},
+		{
+			"from": 3,
+			"to": 10,
+			"type": "export",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 16
+				}
+			}
+		},
+		{
+			"from": 4,
+			"to": 11,
+			"type": "export",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 16
+				}
+			}
+		},
+		{
+			"from": 5,
+			"to": 12,
+			"type": "export",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 16
+				}
+			}
+		},
+		{
+			"from": 6,
+			"to": 13,
+			"type": "export",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 16
+				}
+			}
+		}
+	]
+}

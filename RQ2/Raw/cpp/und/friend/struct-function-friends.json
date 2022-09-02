@@ -1,0 +1,66 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/friend/struct-function-friends.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_struct-function-friends\\file0.cpp"
+        },
+        {
+            "id": 2,
+            "type": "C Struct Type",
+            "name": "X",
+            "qualified_name": "X",
+            "line": 1,
+            "start_column": 8,
+            "end_column": 9,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "C Function",
+            "name": "f",
+            "qualified_name": "f",
+            "line": 2,
+            "start_column": 17,
+            "end_column": 18,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 8
+        },
+        {
+            "from": 1,
+            "to": 3,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 17
+        },
+        {
+            "from": 1,
+            "to": 3,
+            "type": "C Declare",
+            "inFile": 1,
+            "line": 4,
+            "column": 6
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "C Friend",
+            "inFile": 1,
+            "line": 2,
+            "column": 17
+        }
+    ]
+}

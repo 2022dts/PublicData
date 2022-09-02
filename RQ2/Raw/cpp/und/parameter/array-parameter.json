@@ -1,0 +1,31 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/parameter/array-parameter.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_array-parameter\\file0.cpp"
+        },
+        {
+            "id": 2,
+            "type": "C Unresolved Function",
+            "name": "func",
+            "qualified_name": "func",
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "C Declare",
+            "inFile": 1,
+            "line": 1,
+            "column": 5
+        }
+    ]
+}

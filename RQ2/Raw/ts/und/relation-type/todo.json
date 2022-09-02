@@ -1,0 +1,13 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/relation-type/todo.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_todo\\file0.ts"
+        }
+    ],
+    "relations": []
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "qualifiedName": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_function/_overload-function-declaration/file0.cpp",
+    "id": 0,
+    "entityType": "File",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_function/_overload-function-declaration/file0.cpp",
+    "startLine": -1,
+    "startColumn": -1,
+    "endLine": -1,
+    "endColumn": -1
+  },
+  {
+    "qualifiedName": "overloadFunction",
+    "id": 1,
+    "entityType": "Function",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_function/_overload-function-declaration/file0.cpp",
+    "startLine": 1,
+    "startColumn": 4,
+    "endLine": 1,
+    "endColumn": 4
+  },
+  {
+    "qualifiedName": "overloadFunction",
+    "id": 2,
+    "entityType": "Function",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_function/_overload-function-declaration/file0.cpp",
+    "startLine": 2,
+    "startColumn": 28,
+    "endLine": 2,
+    "endColumn": 28
+  },
+  {
+    "qualifiedName": "overloadFunction::i",
+    "id": 3,
+    "entityType": "Object",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_function/_overload-function-declaration/file0.cpp",
+    "startLine": 2,
+    "startColumn": 49,
+    "endLine": 2,
+    "endColumn": 49
+  },
+  {
+    "qualifiedName": "overloadFunction",
+    "id": 4,
+    "entityType": "Function",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_function/_overload-function-declaration/file0.cpp",
+    "startLine": 3,
+    "startColumn": 57,
+    "endLine": 3,
+    "endColumn": 57
+  },
+  {
+    "qualifiedName": "overloadFunction::i",
+    "id": 5,
+    "entityType": "Object",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_function/_overload-function-declaration/file0.cpp",
+    "startLine": 3,
+    "startColumn": 84,
+    "endLine": 3,
+    "endColumn": 84
+  }
+]

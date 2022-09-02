@@ -1,0 +1,90 @@
+{
+    "variables": [
+        {
+            "id": 1,
+            "qualifiedName": "_regularpackage.package_a.module_a",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_regularpackage/package_a/module_a.py"
+        },
+        {
+            "id": 2,
+            "qualifiedName": "_regularpackage.package_a.__init__",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_regularpackage/package_a/__init__.py"
+        },
+        {
+            "id": 3,
+            "qualifiedName": "_regularpackage.package_a",
+            "category": "Package",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_regularpackage/package_a"
+        },
+        {
+            "id": 4,
+            "qualifiedName": "_regularpackage",
+            "category": "Package",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_regularpackage"
+        }
+    ],
+    "cells": [
+        {
+            "src": 3,
+            "dest": 1,
+            "values": {
+                "kind": "Contain",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 0,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 3,
+            "dest": 2,
+            "values": {
+                "kind": "Contain",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 0,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 4,
+            "dest": 3,
+            "values": {
+                "kind": "Contain",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 0,
+                "startCol": 0
+            }
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "qualifiedName": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_enumeration/_enum-class/file0.cpp",
+    "id": 0,
+    "entityType": "File",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_enumeration/_enum-class/file0.cpp",
+    "startLine": -1,
+    "startColumn": -1,
+    "endLine": -1,
+    "endColumn": -1
+  },
+  {
+    "qualifiedName": "Handle",
+    "id": 1,
+    "entityType": "Enum",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_enumeration/_enum-class/file0.cpp",
+    "startLine": 1,
+    "startColumn": 0,
+    "endLine": 1,
+    "endColumn": 0
+  }
+]

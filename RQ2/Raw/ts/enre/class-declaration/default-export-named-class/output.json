@@ -1,0 +1,39 @@
+{
+	"entities": [
+		{
+			"name": "file0.js",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_class-declaration\\_default-export-named-class\\file0.js"
+		},
+		{
+			"name": "Foo",
+			"type": "class",
+			"id": 1,
+			"fullname": "Foo",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 22
+				},
+				"end": {
+					"line": 1,
+					"column": 25
+				}
+			}
+		}
+	],
+	"relations": [
+		{
+			"from": 0,
+			"to": 1,
+			"type": "export",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 22
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,93 @@
+{
+	"entities": [
+		{
+			"name": "file0.js",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_variable-declaration\\_multi-layer-object-destructuring\\file0.js"
+		},
+		{
+			"name": "a",
+			"type": "variable",
+			"id": 1,
+			"fullname": "a",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 6
+				},
+				"end": {
+					"line": 1,
+					"column": 7
+				}
+			}
+		},
+		{
+			"name": "b",
+			"type": "variable",
+			"id": 2,
+			"fullname": "b",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 9
+				},
+				"end": {
+					"line": 1,
+					"column": 10
+				}
+			}
+		},
+		{
+			"name": "d",
+			"type": "variable",
+			"id": 3,
+			"fullname": "d",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 16
+				},
+				"end": {
+					"line": 1,
+					"column": 17
+				}
+			}
+		}
+	],
+	"relations": [
+		{
+			"from": 0,
+			"to": 1,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 6
+				}
+			}
+		},
+		{
+			"from": 0,
+			"to": 2,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 9
+				}
+			}
+		},
+		{
+			"from": 0,
+			"to": 3,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 16
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_override/_override/file0.cpp",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_override/_override/file0.cpp",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "A",
+        "id": 1,
+        "entityType": "Class",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_override/_override/file0.cpp",
+        "startLine": 1,
+        "startColumn": 0,
+        "endLine": 1,
+        "endColumn": 0
+      },
+      {
+        "qualifiedName": "A::func",
+        "id": 2,
+        "entityType": "Function",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_override/_override/file0.cpp",
+        "startLine": 2,
+        "startColumn": 34,
+        "endLine": 2,
+        "endColumn": 34
+      },
+      {
+        "qualifiedName": "B",
+        "id": 3,
+        "entityType": "Class",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_override/_override/file0.cpp",
+        "startLine": 4,
+        "startColumn": 44,
+        "endLine": 4,
+        "endColumn": 44
+      },
+      {
+        "qualifiedName": "B::func",
+        "id": 4,
+        "entityType": "Function",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_override/_override/file0.cpp",
+        "startLine": 5,
+        "startColumn": 81,
+        "endLine": 5,
+        "endColumn": 81
+      }
+    ],
+    "relations": [
+      {
+        "type": "Extend",
+        "src": 3,
+        "dest": 1
+      },
+      {
+        "type": "Override",
+        "src": 2,
+        "dest": 4
+      }
+    ]
+  }
+]

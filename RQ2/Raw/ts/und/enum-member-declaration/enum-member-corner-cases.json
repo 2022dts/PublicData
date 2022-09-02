@@ -1,0 +1,84 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/enum-member-declaration/enum-member-corner-cases.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_enum-member-corner-cases\\file0.ts"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Enum",
+            "name": "CornerCase",
+            "qualified_name": "CornerCase",
+            "line": 1,
+            "start_column": 6,
+            "end_column": 16,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "web Javascript Property",
+            "name": "StringLiteral",
+            "qualified_name": "CornerCase.StringLiteral",
+            "line": 3,
+            "start_column": 5,
+            "end_column": 18,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "web Javascript Property",
+            "name": "\u9241,",
+            "qualified_name": "CornerCase.\u9241,",
+            "line": 4,
+            "start_column": 5,
+            "end_column": 7,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 6
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 3,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 5,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 4,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 3,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 5,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 4,
+            "column": 5
+        }
+    ]
+}

@@ -1,0 +1,120 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 2,
+            "name": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_define/_a-enum-defines-enum-constants/AttachmentType.java",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 3,
+            "name": "AttachmentType",
+            "type": "ENUM",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_define/_a-enum-defines-enum-constants/AttachmentType.java",
+            "line": 16,
+            "start_column": 9,
+            "end_column": 12
+        },
+        {
+            "id": 4,
+            "name": "AttachmentType.LOCAL",
+            "type": "ENUM_CONSTANT",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_define/_a-enum-defines-enum-constants/AttachmentType.java",
+            "line": 6,
+            "start_column": 5,
+            "end_column": 9
+        },
+        {
+            "id": 5,
+            "name": "AttachmentType.MINIO",
+            "type": "ENUM_CONSTANT",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_define/_a-enum-defines-enum-constants/AttachmentType.java",
+            "line": 11,
+            "start_column": 5,
+            "end_column": 9
+        },
+        {
+            "id": 6,
+            "name": "AttachmentType.num",
+            "type": "FIELD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_define/_a-enum-defines-enum-constants/AttachmentType.java",
+            "line": 13,
+            "start_column": 9,
+            "end_column": 11
+        },
+        {
+            "id": 7,
+            "name": "int",
+            "type": "BUILTIN_TYPE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 8,
+            "name": "AttachmentType.AttachmentType",
+            "type": "METHOD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_define/_a-enum-defines-enum-constants/AttachmentType.java",
+            "line": 15,
+            "start_column": 5,
+            "end_column": 32
+        }
+    ],
+    "relations": [
+        {
+            "type": "MEMBER",
+            "from": 3,
+            "to": 4,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 3,
+            "to": 5,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 3,
+            "to": 6,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 6,
+            "to": 7,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 3,
+            "to": 8,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 8,
+            "to": 7,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "USAGE",
+            "from": 8,
+            "to": 6,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "a-enum-defines-enum-constants"
+}

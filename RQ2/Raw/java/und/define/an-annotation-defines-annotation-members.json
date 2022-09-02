@@ -1,0 +1,154 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/define/an-annotation-defines-annotation-members.und",
+    "entities": [
+        {
+            "id": 8928,
+            "type": "File",
+            "name": "_an-annotation-defines-annotation-members\\DisableOnCondition.java"
+        },
+        {
+            "id": 8929,
+            "type": "Package",
+            "name": "(Unnamed_Package)",
+            "qualified_name": "(Unnamed_Package)"
+        },
+        {
+            "id": 8930,
+            "type": "Java Annotation Interface Type Public",
+            "name": "DisableOnCondition",
+            "qualified_name": "DisableOnCondition",
+            "line": 2,
+            "start_column": 19,
+            "end_column": 37,
+            "belongs_to": 8928
+        },
+        {
+            "id": 8931,
+            "type": "Java Abstract Method Default Member",
+            "name": "mode",
+            "qualified_name": "DisableOnCondition.mode",
+            "line": 6,
+            "start_column": 12,
+            "end_column": 16,
+            "belongs_to": 8928
+        },
+        {
+            "id": 8932,
+            "type": "Java Abstract Method Default Member",
+            "name": "value",
+            "qualified_name": "DisableOnCondition.value",
+            "line": 4,
+            "start_column": 12,
+            "end_column": 17,
+            "belongs_to": 8928
+        }
+    ],
+    "relations": [
+        {
+            "from": 8928,
+            "to": 8929,
+            "type": "Java Define",
+            "inFile": 8928,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 8928,
+            "to": 8929,
+            "type": "Java Declare",
+            "inFile": 8928,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 8928,
+            "to": 8930,
+            "type": "Java Define",
+            "inFile": 8928,
+            "line": 2,
+            "column": 19
+        },
+        {
+            "from": 8928,
+            "to": 14,
+            "type": "Java Import Demand",
+            "inFile": 8928,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 8929,
+            "to": 8930,
+            "type": "Java Contain",
+            "inFile": 8928,
+            "line": 2,
+            "column": 19
+        },
+        {
+            "from": 8930,
+            "to": 8930,
+            "type": "Java Begin",
+            "inFile": 8928,
+            "line": 2,
+            "column": 1
+        },
+        {
+            "from": 8930,
+            "to": 8932,
+            "type": "Java Define",
+            "inFile": 8928,
+            "line": 4,
+            "column": 12
+        },
+        {
+            "from": 8930,
+            "to": 8931,
+            "type": "Java Define",
+            "inFile": 8928,
+            "line": 6,
+            "column": 12
+        },
+        {
+            "from": 8930,
+            "to": 20,
+            "type": "Java Couple",
+            "inFile": 8928,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 8931,
+            "to": 8931,
+            "type": "Java Begin",
+            "inFile": 8928,
+            "line": 6,
+            "column": 5
+        },
+        {
+            "from": 8931,
+            "to": 20,
+            "type": "Java Typed",
+            "inFile": 8928,
+            "line": 6,
+            "column": 5
+        },
+        {
+            "from": 8932,
+            "to": 8932,
+            "type": "Java Begin",
+            "inFile": 8928,
+            "line": 4,
+            "column": 5
+        },
+        {
+            "from": 8932,
+            "to": 20,
+            "type": "Java Typed",
+            "inFile": 8928,
+            "line": 4,
+            "column": 5
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/variable-declaration/array-destructuring-with-comma-elision.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_array-destructuring-with-comma-elision\\file0.js"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Variable Global",
+            "name": "a",
+            "qualified_name": "a",
+            "line": 1,
+            "start_column": 10,
+            "end_column": 11,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "web Javascript Variable Global",
+            "name": "b",
+            "qualified_name": "b",
+            "line": 4,
+            "start_column": 10,
+            "end_column": 11,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 10
+        },
+        {
+            "from": 1,
+            "to": 3,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 4,
+            "column": 10
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 1,
+            "column": 10
+        },
+        {
+            "from": 1,
+            "to": 3,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 4,
+            "column": 10
+        }
+    ]
+}

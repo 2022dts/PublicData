@@ -1,0 +1,42 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 1,
+            "name": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_parameter/_parameter/file0.cpp",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 2,
+            "name": "func",
+            "type": "FUNCTION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_parameter/_parameter/file0.cpp",
+            "line": 1,
+            "start_column": 1,
+            "end_column": 15
+        },
+        {
+            "id": 3,
+            "name": "int",
+            "type": "BUILTIN_TYPE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        }
+    ],
+    "relations": [
+        {
+            "type": "TYPE_USAGE",
+            "from": 2,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "parameter"
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_alias/_using-alias/file0.cpp",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_alias/_using-alias/file0.cpp",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "base",
+        "id": 1,
+        "entityType": "Namespace",
+        "entityFile": "null",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "base::flags",
+        "id": 2,
+        "entityType": "Namespace",
+        "entityFile": "null",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "base::flags::child",
+        "id": 3,
+        "entityType": "Namespace",
+        "entityFile": "null",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "base::flags::child",
+        "id": 4,
+        "entityType": "Alias",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_alias/_using-alias/file0.cpp",
+        "startLine": 7,
+        "startColumn": 80,
+        "endLine": 7,
+        "endColumn": 80
+      }
+    ],
+    "relations": []
+  }
+]

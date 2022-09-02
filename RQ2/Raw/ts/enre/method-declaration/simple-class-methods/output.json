@@ -1,0 +1,123 @@
+{
+	"entities": [
+		{
+			"name": "file0.js",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_method-declaration\\_simple-class-methods\\file0.js"
+		},
+		{
+			"name": "Foo",
+			"type": "class",
+			"id": 1,
+			"fullname": "Foo",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 7
+				},
+				"end": {
+					"line": 1,
+					"column": 10
+				}
+			}
+		},
+		{
+			"name": "a",
+			"type": "method",
+			"id": 2,
+			"fullname": "Foo.a",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 5
+				},
+				"end": {
+					"line": 2,
+					"column": 6
+				}
+			}
+		},
+		{
+			"name": "<Modified raw=\"b\" as=\"PrivateIdentifier\">",
+			"type": "method",
+			"id": 3,
+			"fullname": "Foo.<Modified raw=\"b\" as=\"PrivateIdentifier\">",
+			"location": {
+				"start": {
+					"line": 6,
+					"column": 5
+				},
+				"end": {
+					"line": 6,
+					"column": 7
+				}
+			}
+		},
+		{
+			"name": "<Modified raw=\"✅\" as=\"StringLiteral\">",
+			"type": "method",
+			"id": 4,
+			"fullname": "Foo.<Modified raw=\"✅\" as=\"StringLiteral\">",
+			"location": {
+				"start": {
+					"line": 10,
+					"column": 5
+				},
+				"end": {
+					"line": 10,
+					"column": 8
+				}
+			}
+		},
+		{
+			"name": "<Modified raw=\"1_000_000\" as=\"NumericLiteral\" value=\"1000000\">",
+			"type": "method",
+			"id": 5,
+			"fullname": "Foo.<Modified raw=\"1_000_000\" as=\"NumericLiteral\" value=\"1000000\">",
+			"location": {
+				"start": {
+					"line": 14,
+					"column": 5
+				},
+				"end": {
+					"line": 14,
+					"column": 14
+				}
+			}
+		},
+		{
+			"name": "d",
+			"type": "method",
+			"id": 6,
+			"fullname": "Foo.d",
+			"location": {
+				"start": {
+					"line": 22,
+					"column": 12
+				},
+				"end": {
+					"line": 22,
+					"column": 13
+				}
+			}
+		},
+		{
+			"name": "<Modified raw=\"e\" as=\"PrivateIdentifier\">",
+			"type": "method",
+			"id": 7,
+			"fullname": "Foo.<Modified raw=\"e\" as=\"PrivateIdentifier\">",
+			"location": {
+				"start": {
+					"line": 26,
+					"column": 12
+				},
+				"end": {
+					"line": 26,
+					"column": 14
+				}
+			}
+		}
+	],
+	"relations": []
+}

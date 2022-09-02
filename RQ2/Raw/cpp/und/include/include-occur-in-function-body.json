@@ -1,0 +1,71 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/include/include-occur-in-function-body.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_include-occur-in-function-body\\file0.h"
+        },
+        {
+            "id": 3,
+            "type": "File",
+            "name": "_include-occur-in-function-body\\file.cpp"
+        },
+        {
+            "id": 2,
+            "type": "C Function",
+            "name": "main",
+            "qualified_name": "main",
+            "line": 1,
+            "start_column": 5,
+            "end_column": 9,
+            "belongs_to": 1
+        },
+        {
+            "id": 4,
+            "type": "C Function",
+            "name": "main",
+            "qualified_name": "main",
+            "line": 1,
+            "start_column": 5,
+            "end_column": 9,
+            "belongs_to": 3
+        }
+    ],
+    "relations": [
+        {
+            "from": 2,
+            "to": 2,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 5
+        },
+        {
+            "from": 3,
+            "to": 4,
+            "type": "C Define",
+            "inFile": 3,
+            "line": 1,
+            "column": 5
+        },
+        {
+            "from": 3,
+            "to": 1,
+            "type": "C Include",
+            "inFile": 3,
+            "line": 2,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 2,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 5
+        }
+    ]
+}

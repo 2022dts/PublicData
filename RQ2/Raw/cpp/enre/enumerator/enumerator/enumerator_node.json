@@ -1,0 +1,52 @@
+[
+  {
+    "qualifiedName": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_enumerator/_enumerator/file0.cpp",
+    "id": 0,
+    "entityType": "File",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_enumerator/_enumerator/file0.cpp",
+    "startLine": -1,
+    "startColumn": -1,
+    "endLine": -1,
+    "endColumn": -1
+  },
+  {
+    "qualifiedName": "Color",
+    "id": 1,
+    "entityType": "Enum",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_enumerator/_enumerator/file0.cpp",
+    "startLine": 1,
+    "startColumn": 4,
+    "endLine": 1,
+    "endColumn": 4
+  },
+  {
+    "qualifiedName": "red",
+    "id": 2,
+    "entityType": "Enumerator",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_enumerator/_enumerator/file0.cpp",
+    "startLine": 2,
+    "startColumn": 26,
+    "endLine": 2,
+    "endColumn": 26
+  },
+  {
+    "qualifiedName": "green",
+    "id": 3,
+    "entityType": "Enumerator",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_enumerator/_enumerator/file0.cpp",
+    "startLine": 3,
+    "startColumn": 40,
+    "endLine": 3,
+    "endColumn": 40
+  },
+  {
+    "qualifiedName": "blue",
+    "id": 4,
+    "entityType": "Enumerator",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_enumerator/_enumerator/file0.cpp",
+    "startLine": 4,
+    "startColumn": 56,
+    "endLine": 4,
+    "endColumn": 56
+  }
+]

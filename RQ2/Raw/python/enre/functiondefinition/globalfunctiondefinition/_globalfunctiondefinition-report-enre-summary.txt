@@ -1,0 +1,4 @@
+File Summary of _globalfunctiondefinition.test_global_function
+
+Function Summary of _globalfunctiondefinition.test_global_function.func1
+

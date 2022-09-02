@@ -1,0 +1,62 @@
+[
+  {
+    "qualifiedName": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_typedef/_typedef-struct/file0.cpp",
+    "id": 0,
+    "entityType": "File",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_typedef/_typedef-struct/file0.cpp",
+    "startLine": -1,
+    "startColumn": -1,
+    "endLine": -1,
+    "endColumn": -1
+  },
+  {
+    "qualifiedName": "defaultName",
+    "id": 1,
+    "entityType": "Struct",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_typedef/_typedef-struct/file0.cpp",
+    "startLine": 1,
+    "startColumn": 0,
+    "endLine": 1,
+    "endColumn": 0
+  },
+  {
+    "qualifiedName": "defaultName::range",
+    "id": 2,
+    "entityType": "Object",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_typedef/_typedef-struct/file0.cpp",
+    "startLine": 1,
+    "startColumn": 0,
+    "endLine": 1,
+    "endColumn": 0
+  },
+  {
+    "qualifiedName": "defaultName::range",
+    "id": 3,
+    "entityType": "Typedef",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_typedef/_typedef-struct/file0.cpp",
+    "startLine": 1,
+    "startColumn": 33,
+    "endLine": 1,
+    "endColumn": 33
+  },
+  {
+    "qualifiedName": "defaultName::hi",
+    "id": 4,
+    "entityType": "Object",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_typedef/_typedef-struct/file0.cpp",
+    "startLine": 1,
+    "startColumn": 23,
+    "endLine": 1,
+    "endColumn": 23
+  },
+  {
+    "qualifiedName": "defaultName::lo",
+    "id": 5,
+    "entityType": "Object",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_typedef/_typedef-struct/file0.cpp",
+    "startLine": 1,
+    "startColumn": 27,
+    "endLine": 1,
+    "endColumn": 27
+  }
+]

@@ -1,0 +1,84 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/modify/template-modify.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_template-modify\\file0.cpp"
+        },
+        {
+            "id": 2,
+            "type": "C Function Template",
+            "name": "func",
+            "qualified_name": "func",
+            "line": 2,
+            "start_column": 6,
+            "end_column": 10,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "C TemplateParameter Type",
+            "name": "T",
+            "qualified_name": "T",
+            "line": 1,
+            "start_column": 19,
+            "end_column": 20,
+            "belongs_to": 1
+        },
+        {
+            "id": 4,
+            "type": "C Object Local",
+            "name": "i",
+            "qualified_name": "i",
+            "line": 3,
+            "start_column": 9,
+            "end_column": 10,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 6
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 19
+        },
+        {
+            "from": 2,
+            "to": 4,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 3,
+            "column": 9
+        },
+        {
+            "from": 2,
+            "to": 4,
+            "type": "C Set Init",
+            "inFile": 1,
+            "line": 3,
+            "column": 9
+        },
+        {
+            "from": 2,
+            "to": 4,
+            "type": "C Modify",
+            "inFile": 1,
+            "line": 4,
+            "column": 5
+        }
+    ]
+}

@@ -1,0 +1,297 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/annotate/normal-annotation.und",
+    "entities": [
+        {
+            "id": 5771,
+            "type": "File",
+            "name": "_normal-annotation\\MailController.java"
+        },
+        {
+            "id": 5772,
+            "type": "Package",
+            "name": "(Unnamed_Package)",
+            "qualified_name": "(Unnamed_Package)"
+        },
+        {
+            "id": 5773,
+            "type": "Java Annotation Interface Type Default",
+            "name": "DisableOnCondition",
+            "qualified_name": "DisableOnCondition",
+            "line": 4,
+            "start_column": 12,
+            "end_column": 30,
+            "belongs_to": 5771
+        },
+        {
+            "id": 5774,
+            "type": "Java Abstract Method Default Member",
+            "name": "comment",
+            "qualified_name": "DisableOnCondition.comment",
+            "line": 6,
+            "start_column": 12,
+            "end_column": 19,
+            "belongs_to": 5771
+        },
+        {
+            "id": 5775,
+            "type": "Java Abstract Method Default Member",
+            "name": "value",
+            "qualified_name": "DisableOnCondition.value",
+            "line": 5,
+            "start_column": 9,
+            "end_column": 14,
+            "belongs_to": 5771
+        },
+        {
+            "id": 5776,
+            "type": "Java Unknown Class Type Member",
+            "name": "Documented",
+            "qualified_name": "Documented",
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 5777,
+            "type": "Java Class Type Public Member",
+            "name": "MailController",
+            "qualified_name": "MailController",
+            "line": 9,
+            "start_column": 14,
+            "end_column": 28,
+            "belongs_to": 5771
+        },
+        {
+            "id": 5778,
+            "type": "Java Method Public Member",
+            "name": "testMail",
+            "qualified_name": "MailController.testMail",
+            "line": 11,
+            "start_column": 17,
+            "end_column": 25,
+            "belongs_to": 5771
+        },
+        {
+            "id": 5779,
+            "type": "Java Unknown Class Type Member",
+            "name": "Retention",
+            "qualified_name": "Retention",
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 5780,
+            "type": "Java Unknown Class Type Member",
+            "name": "Target",
+            "qualified_name": "Target",
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        }
+    ],
+    "relations": [
+        {
+            "from": 5771,
+            "to": 5772,
+            "type": "Java Define",
+            "inFile": 5771,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 5771,
+            "to": 5772,
+            "type": "Java Declare",
+            "inFile": 5771,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 5771,
+            "to": 5773,
+            "type": "Java Define",
+            "inFile": 5771,
+            "line": 4,
+            "column": 12
+        },
+        {
+            "from": 5771,
+            "to": 5777,
+            "type": "Java Define",
+            "inFile": 5771,
+            "line": 9,
+            "column": 14
+        },
+        {
+            "from": 5771,
+            "to": 14,
+            "type": "Java Import Demand",
+            "inFile": 5771,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 5772,
+            "to": 5773,
+            "type": "Java Contain",
+            "inFile": 5771,
+            "line": 4,
+            "column": 12
+        },
+        {
+            "from": 5772,
+            "to": 5777,
+            "type": "Java Contain",
+            "inFile": 5771,
+            "line": 9,
+            "column": 14
+        },
+        {
+            "from": 5773,
+            "to": 5773,
+            "type": "Java Begin",
+            "inFile": 5771,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 5773,
+            "to": 5775,
+            "type": "Java Define",
+            "inFile": 5771,
+            "line": 5,
+            "column": 9
+        },
+        {
+            "from": 5773,
+            "to": 5774,
+            "type": "Java Define",
+            "inFile": 5771,
+            "line": 6,
+            "column": 12
+        },
+        {
+            "from": 5773,
+            "to": 20,
+            "type": "Java Couple",
+            "inFile": 5771,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 5774,
+            "to": 5774,
+            "type": "Java Begin",
+            "inFile": 5771,
+            "line": 6,
+            "column": 5
+        },
+        {
+            "from": 5774,
+            "to": 20,
+            "type": "Java Typed",
+            "inFile": 5771,
+            "line": 6,
+            "column": 5
+        },
+        {
+            "from": 5775,
+            "to": 5775,
+            "type": "Java Begin",
+            "inFile": 5771,
+            "line": 5,
+            "column": 5
+        },
+        {
+            "from": 5776,
+            "to": 18,
+            "type": "Java Extend Couple Implicit External",
+            "inFile": 5771,
+            "line": 3,
+            "column": 1
+        },
+        {
+            "from": 5777,
+            "to": 5777,
+            "type": "Java Begin",
+            "inFile": 5771,
+            "line": 9,
+            "column": 1
+        },
+        {
+            "from": 5777,
+            "to": 5778,
+            "type": "Java Define",
+            "inFile": 5771,
+            "line": 11,
+            "column": 17
+        },
+        {
+            "from": 5777,
+            "to": 18,
+            "type": "Java Extend Couple Implicit External",
+            "inFile": 5771,
+            "line": 9,
+            "column": 1
+        },
+        {
+            "from": 5777,
+            "to": 5775,
+            "type": "Java Call",
+            "inFile": 5771,
+            "line": 10,
+            "column": 25
+        },
+        {
+            "from": 5777,
+            "to": 5774,
+            "type": "Java Call",
+            "inFile": 5771,
+            "line": 10,
+            "column": 36
+        },
+        {
+            "from": 5777,
+            "to": 5773,
+            "type": "Java Couple",
+            "inFile": 5771,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 5778,
+            "to": 5778,
+            "type": "Java Begin",
+            "inFile": 5771,
+            "line": 10,
+            "column": 5
+        },
+        {
+            "from": 5778,
+            "to": 5773,
+            "type": "Java Use Annotation",
+            "inFile": 5771,
+            "line": 10,
+            "column": 6
+        },
+        {
+            "from": 5779,
+            "to": 18,
+            "type": "Java Extend Couple Implicit External",
+            "inFile": 5771,
+            "line": 2,
+            "column": 1
+        },
+        {
+            "from": 5780,
+            "to": 18,
+            "type": "Java Extend Couple Implicit External",
+            "inFile": 5771,
+            "line": 1,
+            "column": 1
+        }
+    ]
+}

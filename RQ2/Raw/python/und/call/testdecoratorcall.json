@@ -1,0 +1,180 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/call/testdecoratorcall.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_testdecoratorcall\\test_decorator_call.py"
+        },
+        {
+            "id": 3,
+            "type": "python Function",
+            "name": "f1",
+            "qualified_name": "test_decorator_call.f1",
+            "line": 1,
+            "start_column": 5,
+            "end_column": 7,
+            "belongs_to": 1
+        },
+        {
+            "id": 4,
+            "type": "python Parameter",
+            "name": "a",
+            "qualified_name": "test_decorator_call.f1.a",
+            "line": 1,
+            "start_column": 8,
+            "end_column": 9,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "python Function",
+            "name": "wrap",
+            "qualified_name": "test_decorator_call.f1.wrap",
+            "line": 2,
+            "start_column": 9,
+            "end_column": 13,
+            "belongs_to": 1
+        },
+        {
+            "id": 6,
+            "type": "python Parameter",
+            "name": "f",
+            "qualified_name": "test_decorator_call.f1.wrap.f",
+            "line": 2,
+            "start_column": 14,
+            "end_column": 15,
+            "belongs_to": 1
+        },
+        {
+            "id": 7,
+            "type": "python Function",
+            "name": "f2",
+            "qualified_name": "test_decorator_call.f2",
+            "line": 6,
+            "start_column": 5,
+            "end_column": 7,
+            "belongs_to": 1
+        },
+        {
+            "id": 8,
+            "type": "python Parameter",
+            "name": "f",
+            "qualified_name": "test_decorator_call.f2.f",
+            "line": 6,
+            "start_column": 8,
+            "end_column": 9,
+            "belongs_to": 1
+        },
+        {
+            "id": 9,
+            "type": "python Function",
+            "name": "func",
+            "qualified_name": "test_decorator_call.func",
+            "line": 11,
+            "start_column": 5,
+            "end_column": 9,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 3,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 5
+        },
+        {
+            "from": 1,
+            "to": 7,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 6,
+            "column": 5
+        },
+        {
+            "from": 1,
+            "to": 9,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 11,
+            "column": 5
+        },
+        {
+            "from": 1,
+            "to": 3,
+            "type": "Python Call",
+            "inFile": 1,
+            "line": 9,
+            "column": 2
+        },
+        {
+            "from": 1,
+            "to": 7,
+            "type": "Python Use",
+            "inFile": 1,
+            "line": 10,
+            "column": 2
+        },
+        {
+            "from": 3,
+            "to": 4,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 8
+        },
+        {
+            "from": 3,
+            "to": 5,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 9
+        },
+        {
+            "from": 3,
+            "to": 5,
+            "type": "Python Use",
+            "inFile": 1,
+            "line": 4,
+            "column": 12
+        },
+        {
+            "from": 5,
+            "to": 6,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 14
+        },
+        {
+            "from": 5,
+            "to": 6,
+            "type": "Python Use",
+            "inFile": 1,
+            "line": 3,
+            "column": 16
+        },
+        {
+            "from": 7,
+            "to": 8,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 6,
+            "column": 8
+        },
+        {
+            "from": 7,
+            "to": 8,
+            "type": "Python Use",
+            "inFile": 1,
+            "line": 7,
+            "column": 12
+        }
+    ]
+}

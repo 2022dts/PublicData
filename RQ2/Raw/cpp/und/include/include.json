@@ -1,0 +1,76 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/include/include.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_include\\file.cpp"
+        },
+        {
+            "id": 2,
+            "type": "File",
+            "name": "_include\\file0.h"
+        },
+        {
+            "id": 3,
+            "type": "File",
+            "name": "_include\\file1.h"
+        },
+        {
+            "id": 4,
+            "type": "C Function",
+            "name": "main",
+            "qualified_name": "main",
+            "line": 1,
+            "start_column": 5,
+            "end_column": 9,
+            "belongs_to": 2
+        },
+        {
+            "id": 5,
+            "type": "C Function",
+            "name": "main",
+            "qualified_name": "main",
+            "line": 1,
+            "start_column": 5,
+            "end_column": 9,
+            "belongs_to": 3
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "C Include",
+            "inFile": 1,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 1,
+            "to": 3,
+            "type": "C Include",
+            "inFile": 1,
+            "line": 2,
+            "column": 1
+        },
+        {
+            "from": 2,
+            "to": 4,
+            "type": "C Define",
+            "inFile": 2,
+            "line": 1,
+            "column": 5
+        },
+        {
+            "from": 3,
+            "to": 5,
+            "type": "C Define",
+            "inFile": 3,
+            "line": 1,
+            "column": 5
+        }
+    ]
+}

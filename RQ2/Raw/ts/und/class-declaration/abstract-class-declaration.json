@@ -1,0 +1,50 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/class-declaration/abstract-class-declaration.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_abstract-class-declaration\\file0.ts"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Class",
+            "name": "Foo",
+            "qualified_name": "Foo",
+            "line": 1,
+            "start_column": 16,
+            "end_column": 19,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "web Javascript Public Method Function",
+            "name": "getSomething",
+            "qualified_name": "Foo.getSomething",
+            "line": 2,
+            "start_column": 14,
+            "end_column": 26,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 16
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 14
+        }
+    ]
+}

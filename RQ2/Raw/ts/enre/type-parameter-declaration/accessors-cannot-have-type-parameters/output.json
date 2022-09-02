@@ -1,0 +1,75 @@
+{
+	"entities": [
+		{
+			"name": "file0.ts",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_type-parameter-declaration\\_accessors-cannot-have-type-parameters\\file0.ts"
+		},
+		{
+			"name": "Foo",
+			"type": "class",
+			"id": 1,
+			"fullname": "Foo",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 7
+				},
+				"end": {
+					"line": 1,
+					"column": 10
+				}
+			}
+		},
+		{
+			"name": "foo",
+			"type": "method",
+			"id": 2,
+			"fullname": "Foo.foo",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 9
+				},
+				"end": {
+					"line": 2,
+					"column": 12
+				}
+			}
+		},
+		{
+			"name": "foo",
+			"type": "method",
+			"id": 3,
+			"fullname": "Foo.foo",
+			"location": {
+				"start": {
+					"line": 7,
+					"column": 9
+				},
+				"end": {
+					"line": 7,
+					"column": 12
+				}
+			}
+		},
+		{
+			"name": "val",
+			"type": "parameter",
+			"id": 4,
+			"fullname": "Foo.foo.val",
+			"location": {
+				"start": {
+					"line": 7,
+					"column": 16
+				},
+				"end": {
+					"line": 7,
+					"column": 19
+				}
+			}
+		}
+	],
+	"relations": []
+}

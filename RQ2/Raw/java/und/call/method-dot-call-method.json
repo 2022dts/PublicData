@@ -1,0 +1,246 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/call/method-dot-call-method.und",
+    "entities": [
+        {
+            "id": 2604,
+            "type": "File",
+            "name": "_method-dot-call-method\\Foo.java"
+        },
+        {
+            "id": 2605,
+            "type": "Package",
+            "name": "(Unnamed_Package)",
+            "qualified_name": "(Unnamed_Package)"
+        },
+        {
+            "id": 2606,
+            "type": "Java Class Type Default Member",
+            "name": "Bar",
+            "qualified_name": "Bar",
+            "line": 7,
+            "start_column": 7,
+            "end_column": 10,
+            "belongs_to": 2604
+        },
+        {
+            "id": 2607,
+            "type": "Java Method Public Member",
+            "name": "bar",
+            "qualified_name": "Bar.bar",
+            "line": 8,
+            "start_column": 17,
+            "end_column": 20,
+            "belongs_to": 2604
+        },
+        {
+            "id": 2608,
+            "type": "Java Variable Local",
+            "name": "mFoo",
+            "qualified_name": "Bar.bar.mFoo",
+            "line": 9,
+            "start_column": 13,
+            "end_column": 17,
+            "belongs_to": 2604
+        },
+        {
+            "id": 2609,
+            "type": "Java Class Type Public Member",
+            "name": "Foo",
+            "qualified_name": "Foo",
+            "line": 1,
+            "start_column": 14,
+            "end_column": 17,
+            "belongs_to": 2604
+        },
+        {
+            "id": 2610,
+            "type": "Java Method Public Member",
+            "name": "foo",
+            "qualified_name": "Foo.foo",
+            "line": 2,
+            "start_column": 17,
+            "end_column": 20,
+            "belongs_to": 2604
+        }
+    ],
+    "relations": [
+        {
+            "from": 2604,
+            "to": 2605,
+            "type": "Java Define",
+            "inFile": 2604,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 2604,
+            "to": 2605,
+            "type": "Java Declare",
+            "inFile": 2604,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 2604,
+            "to": 2609,
+            "type": "Java Define",
+            "inFile": 2604,
+            "line": 1,
+            "column": 14
+        },
+        {
+            "from": 2604,
+            "to": 2606,
+            "type": "Java Define",
+            "inFile": 2604,
+            "line": 7,
+            "column": 7
+        },
+        {
+            "from": 2604,
+            "to": 14,
+            "type": "Java Import Demand",
+            "inFile": 2604,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 2605,
+            "to": 2606,
+            "type": "Java Contain",
+            "inFile": 2604,
+            "line": 7,
+            "column": 7
+        },
+        {
+            "from": 2605,
+            "to": 2609,
+            "type": "Java Contain",
+            "inFile": 2604,
+            "line": 1,
+            "column": 14
+        },
+        {
+            "from": 2606,
+            "to": 2606,
+            "type": "Java Begin",
+            "inFile": 2604,
+            "line": 7,
+            "column": 1
+        },
+        {
+            "from": 2606,
+            "to": 2607,
+            "type": "Java Define",
+            "inFile": 2604,
+            "line": 8,
+            "column": 17
+        },
+        {
+            "from": 2606,
+            "to": 18,
+            "type": "Java Extend Couple Implicit External",
+            "inFile": 2604,
+            "line": 7,
+            "column": 1
+        },
+        {
+            "from": 2606,
+            "to": 2609,
+            "type": "Java Couple",
+            "inFile": 2604,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 2607,
+            "to": 2607,
+            "type": "Java Begin",
+            "inFile": 2604,
+            "line": 8,
+            "column": 5
+        },
+        {
+            "from": 2607,
+            "to": 2608,
+            "type": "Java Define",
+            "inFile": 2604,
+            "line": 9,
+            "column": 13
+        },
+        {
+            "from": 2607,
+            "to": 2609,
+            "type": "Java Create",
+            "inFile": 2604,
+            "line": 9,
+            "column": 24
+        },
+        {
+            "from": 2607,
+            "to": 2608,
+            "type": "Java Set Init",
+            "inFile": 2604,
+            "line": 9,
+            "column": 13
+        },
+        {
+            "from": 2607,
+            "to": 2608,
+            "type": "Java Use Deref Partial",
+            "inFile": 2604,
+            "line": 10,
+            "column": 9
+        },
+        {
+            "from": 2607,
+            "to": 2610,
+            "type": "Java Call",
+            "inFile": 2604,
+            "line": 10,
+            "column": 14
+        },
+        {
+            "from": 2608,
+            "to": 2609,
+            "type": "Java Typed",
+            "inFile": 2604,
+            "line": 9,
+            "column": 9
+        },
+        {
+            "from": 2609,
+            "to": 2609,
+            "type": "Java Begin",
+            "inFile": 2604,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 2609,
+            "to": 2610,
+            "type": "Java Define",
+            "inFile": 2604,
+            "line": 2,
+            "column": 17
+        },
+        {
+            "from": 2609,
+            "to": 18,
+            "type": "Java Extend Couple Implicit External",
+            "inFile": 2604,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 2610,
+            "to": 2610,
+            "type": "Java Begin",
+            "inFile": 2604,
+            "line": 2,
+            "column": 5
+        }
+    ]
+}

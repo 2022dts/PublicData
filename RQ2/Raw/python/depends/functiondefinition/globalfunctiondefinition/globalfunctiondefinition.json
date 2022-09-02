@@ -1,0 +1,37 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_functiondefinition\\_globalfunctiondefinition\\test_global_function.py",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_functiondefinition\\_globalfunctiondefinition\\test_global_function.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_functiondefinition\\_globalfunctiondefinition",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_functiondefinition\\_globalfunctiondefinition.func1",
+        "id": 2,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_functiondefinition\\_globalfunctiondefinition\\test_global_function.py",
+        "startLine": 1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": []
+  }
+]

@@ -1,0 +1,50 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/template/struct-template.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_struct-template\\file0.cpp"
+        },
+        {
+            "id": 2,
+            "type": "C Struct Type Template",
+            "name": "S",
+            "qualified_name": "S",
+            "line": 2,
+            "start_column": 8,
+            "end_column": 9,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "C TemplateParameter Type",
+            "name": "T",
+            "qualified_name": "S::T",
+            "line": 1,
+            "start_column": 19,
+            "end_column": 20,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 8
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 19
+        }
+    ]
+}

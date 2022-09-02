@@ -1,0 +1,107 @@
+{
+	"entities": [
+		{
+			"name": "file0.ts",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_interface-declaration\\_class-and-interface-merging\\file0.ts"
+		},
+		{
+			"name": "Foo",
+			"type": "interface",
+			"id": 1,
+			"fullname": "Foo",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 11
+				},
+				"end": {
+					"line": 1,
+					"column": 14
+				}
+			}
+		},
+		{
+			"name": "prop0",
+			"type": "property",
+			"id": 2,
+			"fullname": "Foo.prop0",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 5
+				},
+				"end": {
+					"line": 2,
+					"column": 10
+				}
+			}
+		},
+		{
+			"name": "Foo",
+			"type": "class",
+			"id": 3,
+			"fullname": "Foo",
+			"location": {
+				"start": {
+					"line": 5,
+					"column": 7
+				},
+				"end": {
+					"line": 5,
+					"column": 10
+				}
+			}
+		},
+		{
+			"name": "prop1",
+			"type": "field",
+			"id": 4,
+			"fullname": "Foo.prop1",
+			"location": {
+				"start": {
+					"line": 6,
+					"column": 5
+				},
+				"end": {
+					"line": 6,
+					"column": 10
+				}
+			}
+		},
+		{
+			"name": "ReferenceProp0",
+			"type": "type alias",
+			"id": 5,
+			"fullname": "ReferenceProp0",
+			"location": {
+				"start": {
+					"line": 9,
+					"column": 6
+				},
+				"end": {
+					"line": 9,
+					"column": 20
+				}
+			}
+		},
+		{
+			"name": "ReferenceProp1",
+			"type": "type alias",
+			"id": 6,
+			"fullname": "ReferenceProp1",
+			"location": {
+				"start": {
+					"line": 10,
+					"column": 6
+				},
+				"end": {
+					"line": 10,
+					"column": 20
+				}
+			}
+		}
+	],
+	"relations": []
+}

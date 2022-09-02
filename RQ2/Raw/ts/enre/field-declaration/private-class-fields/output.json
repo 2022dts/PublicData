@@ -1,0 +1,59 @@
+{
+	"entities": [
+		{
+			"name": "file0.js",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_field-declaration\\_private-class-fields\\file0.js"
+		},
+		{
+			"name": "Foo",
+			"type": "class",
+			"id": 1,
+			"fullname": "Foo",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 7
+				},
+				"end": {
+					"line": 1,
+					"column": 10
+				}
+			}
+		},
+		{
+			"name": "<Modified raw=\"bar\" as=\"PrivateIdentifier\">",
+			"type": "field",
+			"id": 2,
+			"fullname": "Foo.<Modified raw=\"bar\" as=\"PrivateIdentifier\">",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 5
+				},
+				"end": {
+					"line": 2,
+					"column": 9
+				}
+			}
+		},
+		{
+			"name": "<Modified raw=\"baz\" as=\"PrivateIdentifier\">",
+			"type": "field",
+			"id": 3,
+			"fullname": "Foo.<Modified raw=\"baz\" as=\"PrivateIdentifier\">",
+			"location": {
+				"start": {
+					"line": 3,
+					"column": 5
+				},
+				"end": {
+					"line": 3,
+					"column": 9
+				}
+			}
+		}
+	],
+	"relations": []
+}

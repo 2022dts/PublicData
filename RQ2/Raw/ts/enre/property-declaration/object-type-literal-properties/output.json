@@ -1,0 +1,59 @@
+{
+	"entities": [
+		{
+			"name": "file0.ts",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_property-declaration\\_object-type-literal-properties\\file0.ts"
+		},
+		{
+			"name": "Point",
+			"type": "type alias",
+			"id": 1,
+			"fullname": "Point",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 6
+				},
+				"end": {
+					"line": 1,
+					"column": 11
+				}
+			}
+		},
+		{
+			"name": "x",
+			"type": "property",
+			"id": 2,
+			"fullname": "Point.x",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 5
+				},
+				"end": {
+					"line": 2,
+					"column": 6
+				}
+			}
+		},
+		{
+			"name": "y",
+			"type": "property",
+			"id": 3,
+			"fullname": "Point.y",
+			"location": {
+				"start": {
+					"line": 3,
+					"column": 5
+				},
+				"end": {
+					"line": 3,
+					"column": 6
+				}
+			}
+		}
+	],
+	"relations": []
+}

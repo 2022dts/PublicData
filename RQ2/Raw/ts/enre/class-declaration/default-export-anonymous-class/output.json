@@ -1,0 +1,39 @@
+{
+	"entities": [
+		{
+			"name": "file0.js",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_class-declaration\\_default-export-anonymous-class\\file0.js"
+		},
+		{
+			"name": "<Anonymous as=\"Class\">",
+			"type": "class",
+			"id": 1,
+			"fullname": "<Anonymous as=\"Class\">",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 16
+				},
+				"end": {
+					"line": 1,
+					"column": 16
+				}
+			}
+		}
+	],
+	"relations": [
+		{
+			"from": 0,
+			"to": 1,
+			"type": "export",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 16
+				}
+			}
+		}
+	]
+}

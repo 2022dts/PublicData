@@ -1,0 +1,12 @@
+[
+  {
+    "type": "Extend",
+    "src": 3,
+    "dest": 2
+  },
+  {
+    "type": "Extend",
+    "src": 3,
+    "dest": 1
+  }
+]

@@ -1,0 +1,75 @@
+{
+	"entities": [
+		{
+			"name": "file0.ts",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_method-declaration\\_type-annotations-for-abstract-async-generator-method\\file0.ts"
+		},
+		{
+			"name": "Foo",
+			"type": "class",
+			"id": 1,
+			"fullname": "Foo",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 16
+				},
+				"end": {
+					"line": 1,
+					"column": 19
+				}
+			}
+		},
+		{
+			"name": "asyncMethod",
+			"type": "method",
+			"id": 2,
+			"fullname": "Foo.asyncMethod",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 14
+				},
+				"end": {
+					"line": 2,
+					"column": 25
+				}
+			}
+		},
+		{
+			"name": "generatorMethod",
+			"type": "method",
+			"id": 3,
+			"fullname": "Foo.generatorMethod",
+			"location": {
+				"start": {
+					"line": 4,
+					"column": 14
+				},
+				"end": {
+					"line": 4,
+					"column": 29
+				}
+			}
+		},
+		{
+			"name": "asyncGeneratorMethod",
+			"type": "method",
+			"id": 4,
+			"fullname": "Foo.asyncGeneratorMethod",
+			"location": {
+				"start": {
+					"line": 6,
+					"column": 14
+				},
+				"end": {
+					"line": 6,
+					"column": 34
+				}
+			}
+		}
+	],
+	"relations": []
+}

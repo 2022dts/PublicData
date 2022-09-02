@@ -1,0 +1,55 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/export-declaration/reexports-make-default-export.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_reexports-make-default-export\\file1.js"
+        },
+        {
+            "id": 3,
+            "type": "File",
+            "name": "_reexports-make-default-export\\file0.mjs.js"
+        },
+        {
+            "id": 4,
+            "type": "File",
+            "name": "_reexports-make-default-export\\file0.js"
+        },
+        {
+            "id": 6,
+            "type": "File",
+            "name": "_reexports-make-default-export\\file2.js"
+        },
+        {
+            "id": 5,
+            "type": "web Javascript Variable Global",
+            "name": "a",
+            "qualified_name": "a",
+            "line": 1,
+            "start_column": 14,
+            "end_column": 15,
+            "belongs_to": 4
+        }
+    ],
+    "relations": [
+        {
+            "from": 4,
+            "to": 5,
+            "type": "web Javascript Define Export",
+            "inFile": 4,
+            "line": 1,
+            "column": 14
+        },
+        {
+            "from": 4,
+            "to": 5,
+            "type": "web Javascript Set Init",
+            "inFile": 4,
+            "line": 1,
+            "column": 14
+        }
+    ]
+}

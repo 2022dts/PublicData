@@ -1,0 +1,53 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/using/function-using-namespace.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_function-using-namespace\\file0.cpp"
+        },
+        {
+            "id": 2,
+            "type": "Namespace",
+            "name": "ns"
+        },
+        {
+            "id": 3,
+            "type": "C Function",
+            "name": "func",
+            "qualified_name": "func",
+            "line": 2,
+            "start_column": 6,
+            "end_column": 10,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "C Declare",
+            "inFile": 1,
+            "line": 1,
+            "column": 11
+        },
+        {
+            "from": 1,
+            "to": 3,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 6
+        },
+        {
+            "from": 3,
+            "to": 2,
+            "type": "C Using",
+            "inFile": 1,
+            "line": 3,
+            "column": 21
+        }
+    ]
+}

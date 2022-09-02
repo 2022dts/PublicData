@@ -1,0 +1,32 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/interface-declaration/simple-interface-declaration.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_simple-interface-declaration\\file0.ts"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Interface",
+            "name": "Foo",
+            "qualified_name": "Foo",
+            "line": 1,
+            "start_column": 11,
+            "end_column": 14,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 11
+        }
+    ]
+}

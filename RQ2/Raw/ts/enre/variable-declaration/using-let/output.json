@@ -1,0 +1,55 @@
+{
+	"entities": [
+		{
+			"name": "file0.js",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_variable-declaration\\_using-let\\file0.js"
+		},
+		{
+			"name": "foo0",
+			"type": "variable",
+			"id": 1,
+			"fullname": "foo0",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 5
+				},
+				"end": {
+					"line": 1,
+					"column": 9
+				}
+			}
+		},
+		{
+			"name": "foo1",
+			"type": "variable",
+			"id": 2,
+			"fullname": "foo1",
+			"location": {
+				"start": {
+					"line": 3,
+					"column": 5
+				},
+				"end": {
+					"line": 3,
+					"column": 9
+				}
+			}
+		}
+	],
+	"relations": [
+		{
+			"from": 0,
+			"to": 2,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 3,
+					"column": 5
+				}
+			}
+		}
+	]
+}

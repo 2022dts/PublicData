@@ -1,0 +1,58 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 1,
+            "name": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_variable/_field-declaration/file0.java",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 2,
+            "name": "Foo",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_variable/_field-declaration/file0.java",
+            "line": 1,
+            "start_column": 1,
+            "end_column": 1
+        },
+        {
+            "id": 3,
+            "name": "Foo.a",
+            "type": "FIELD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_variable/_field-declaration/file0.java",
+            "line": 2,
+            "start_column": 16,
+            "end_column": 16
+        },
+        {
+            "id": 4,
+            "name": "int",
+            "type": "BUILTIN_TYPE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        }
+    ],
+    "relations": [
+        {
+            "type": "MEMBER,",
+            "from": 2,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 3,
+            "to": 4,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "field-declaration"
+}

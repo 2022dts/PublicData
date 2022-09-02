@@ -1,0 +1,110 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/annotate/annotation.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_annotation\\test_annotation.py"
+        },
+        {
+            "id": 2,
+            "type": "python Class",
+            "name": "ClassA",
+            "qualified_name": "test_annotation.ClassA",
+            "line": 1,
+            "start_column": 7,
+            "end_column": 13,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "python Class",
+            "name": "ClassB",
+            "qualified_name": "test_annotation.ClassB",
+            "line": 9,
+            "start_column": 7,
+            "end_column": 13,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "python Function",
+            "name": "int_identity",
+            "qualified_name": "test_annotation.int_identity",
+            "line": 4,
+            "start_column": 5,
+            "end_column": 17,
+            "belongs_to": 1
+        },
+        {
+            "id": 6,
+            "type": "python Parameter",
+            "name": "x",
+            "qualified_name": "test_annotation.int_identity.x",
+            "line": 4,
+            "start_column": 18,
+            "end_column": 19,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 7
+        },
+        {
+            "from": 1,
+            "to": 5,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 4,
+            "column": 5
+        },
+        {
+            "from": 1,
+            "to": 3,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 9,
+            "column": 7
+        },
+        {
+            "from": 4,
+            "to": 2,
+            "type": "Python Typed",
+            "inFile": 1,
+            "line": 10,
+            "column": 12
+        },
+        {
+            "from": 5,
+            "to": 6,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 4,
+            "column": 18
+        },
+        {
+            "from": 6,
+            "to": 2,
+            "type": "Python Typed",
+            "inFile": 1,
+            "line": 4,
+            "column": 21
+        },
+        {
+            "from": 7,
+            "to": 2,
+            "type": "Python Typed",
+            "inFile": 1,
+            "line": 7,
+            "column": 4
+        }
+    ]
+}

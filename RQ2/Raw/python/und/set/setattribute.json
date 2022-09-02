@@ -1,0 +1,342 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/set/setattribute.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_setattribute\\test_set_attribute.py"
+        },
+        {
+            "id": 2,
+            "type": "python Class",
+            "name": "Base",
+            "qualified_name": "test_set_attribute.Base",
+            "line": 1,
+            "start_column": 7,
+            "end_column": 11,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "python Function Attribute Special",
+            "name": "__init__",
+            "qualified_name": "test_set_attribute.Base.__init__",
+            "line": 3,
+            "start_column": 9,
+            "end_column": 17,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "python Parameter",
+            "name": "self",
+            "qualified_name": "test_set_attribute.Base.__init__.self",
+            "line": 3,
+            "start_column": 18,
+            "end_column": 22,
+            "belongs_to": 1
+        },
+        {
+            "id": 6,
+            "type": "python Variable Attribute Instance",
+            "name": "base_attribute",
+            "qualified_name": "test_set_attribute.Base.base_attribute",
+            "line": 4,
+            "start_column": 14,
+            "end_column": 28,
+            "belongs_to": 1
+        },
+        {
+            "id": 8,
+            "type": "python Variable Attribute",
+            "name": "static_attr",
+            "qualified_name": "test_set_attribute.Base.static_attr",
+            "line": 2,
+            "start_column": 5,
+            "end_column": 16,
+            "belongs_to": 1
+        },
+        {
+            "id": 10,
+            "type": "python Class",
+            "name": "Inherit",
+            "qualified_name": "test_set_attribute.Inherit",
+            "line": 6,
+            "start_column": 7,
+            "end_column": 14,
+            "belongs_to": 1
+        },
+        {
+            "id": 11,
+            "type": "python Function Attribute Special",
+            "name": "__init__",
+            "qualified_name": "test_set_attribute.Inherit.__init__",
+            "line": 7,
+            "start_column": 9,
+            "end_column": 17,
+            "belongs_to": 1
+        },
+        {
+            "id": 12,
+            "type": "python Parameter",
+            "name": "self",
+            "qualified_name": "test_set_attribute.Inherit.__init__.self",
+            "line": 7,
+            "start_column": 18,
+            "end_column": 22,
+            "belongs_to": 1
+        },
+        {
+            "id": 13,
+            "type": "python Variable Attribute Instance",
+            "name": "base_attribute",
+            "qualified_name": "test_set_attribute.Inherit.base_attribute",
+            "line": 12,
+            "start_column": 14,
+            "end_column": 28,
+            "belongs_to": 1
+        },
+        {
+            "id": 14,
+            "type": "python Variable Attribute Instance",
+            "name": "static_attr",
+            "qualified_name": "test_set_attribute.Inherit.static_attr",
+            "line": 14,
+            "start_column": 14,
+            "end_column": 25,
+            "belongs_to": 1
+        },
+        {
+            "id": 15,
+            "type": "python Function Attribute",
+            "name": "use_attribute",
+            "qualified_name": "test_set_attribute.Inherit.use_attribute",
+            "line": 11,
+            "start_column": 9,
+            "end_column": 22,
+            "belongs_to": 1
+        },
+        {
+            "id": 17,
+            "type": "python Parameter",
+            "name": "self",
+            "qualified_name": "test_set_attribute.Inherit.use_attribute.self",
+            "line": 11,
+            "start_column": 23,
+            "end_column": 27,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 7
+        },
+        {
+            "from": 1,
+            "to": 10,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 6,
+            "column": 7
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "Python Set",
+            "inFile": 1,
+            "line": 16,
+            "column": 1
+        },
+        {
+            "from": 1,
+            "to": 8,
+            "type": "Python Set",
+            "inFile": 1,
+            "line": 16,
+            "column": 6
+        },
+        {
+            "from": 2,
+            "to": 8,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 3,
+            "column": 9
+        },
+        {
+            "from": 2,
+            "to": 6,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 4,
+            "column": 14
+        },
+        {
+            "from": 2,
+            "to": 8,
+            "type": "Python Set",
+            "inFile": 1,
+            "line": 2,
+            "column": 5
+        },
+        {
+            "from": 3,
+            "to": 5,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 3,
+            "column": 18
+        },
+        {
+            "from": 3,
+            "to": 5,
+            "type": "Python Set",
+            "inFile": 1,
+            "line": 4,
+            "column": 9
+        },
+        {
+            "from": 3,
+            "to": 6,
+            "type": "Python Set",
+            "inFile": 1,
+            "line": 4,
+            "column": 14
+        },
+        {
+            "from": 10,
+            "to": 2,
+            "type": "Python Inherit",
+            "inFile": 1,
+            "line": 6,
+            "column": 15
+        },
+        {
+            "from": 10,
+            "to": 11,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 7,
+            "column": 9
+        },
+        {
+            "from": 10,
+            "to": 15,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 11,
+            "column": 9
+        },
+        {
+            "from": 10,
+            "to": 13,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 12,
+            "column": 14
+        },
+        {
+            "from": 10,
+            "to": 14,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 14,
+            "column": 14
+        },
+        {
+            "from": 10,
+            "to": 18,
+            "type": "Python Couple",
+            "inFile": 1,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 11,
+            "to": 12,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 7,
+            "column": 18
+        },
+        {
+            "from": 11,
+            "to": 3,
+            "type": "Python Overrides",
+            "inFile": 1,
+            "line": 7,
+            "column": 9
+        },
+        {
+            "from": 11,
+            "to": 18,
+            "type": "Python Call",
+            "inFile": 1,
+            "line": 9,
+            "column": 9
+        },
+        {
+            "from": 11,
+            "to": 19,
+            "type": "Python Call",
+            "inFile": 1,
+            "line": 9,
+            "column": 17
+        },
+        {
+            "from": 15,
+            "to": 17,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 11,
+            "column": 23
+        },
+        {
+            "from": 15,
+            "to": 17,
+            "type": "Python Set",
+            "inFile": 1,
+            "line": 12,
+            "column": 9
+        },
+        {
+            "from": 15,
+            "to": 13,
+            "type": "Python Set",
+            "inFile": 1,
+            "line": 12,
+            "column": 14
+        },
+        {
+            "from": 15,
+            "to": 17,
+            "type": "Python Set",
+            "inFile": 1,
+            "line": 14,
+            "column": 9
+        },
+        {
+            "from": 15,
+            "to": 14,
+            "type": "Python Set",
+            "inFile": 1,
+            "line": 14,
+            "column": 14
+        }
+    ]
+}

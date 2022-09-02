@@ -1,0 +1,84 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/modify/increment-deref-modify.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_increment-deref-modify\\file0.cpp"
+        },
+        {
+            "id": 2,
+            "type": "C Function",
+            "name": "main",
+            "qualified_name": "main",
+            "line": 1,
+            "start_column": 5,
+            "end_column": 9,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "C Object Local",
+            "name": "a",
+            "qualified_name": "a",
+            "line": 2,
+            "start_column": 10,
+            "end_column": 11,
+            "belongs_to": 1
+        },
+        {
+            "id": 4,
+            "type": "C Object Local",
+            "name": "b",
+            "qualified_name": "b",
+            "line": 2,
+            "start_column": 13,
+            "end_column": 14,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 10
+        },
+        {
+            "from": 2,
+            "to": 4,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 13
+        },
+        {
+            "from": 2,
+            "to": 4,
+            "type": "C Set Init",
+            "inFile": 1,
+            "line": 2,
+            "column": 13
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "C Deref Modify",
+            "inFile": 1,
+            "line": 3,
+            "column": 8
+        }
+    ]
+}

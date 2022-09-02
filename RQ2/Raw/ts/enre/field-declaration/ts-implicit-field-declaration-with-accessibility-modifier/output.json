@@ -1,0 +1,123 @@
+{
+	"entities": [
+		{
+			"name": "file0.ts",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_field-declaration\\_ts-implicit-field-declaration-with-accessibility-modifier\\file0.ts"
+		},
+		{
+			"name": "Rectangle",
+			"type": "class",
+			"id": 1,
+			"fullname": "Rectangle",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 7
+				},
+				"end": {
+					"line": 1,
+					"column": 16
+				}
+			}
+		},
+		{
+			"name": "area",
+			"type": "field",
+			"id": 2,
+			"fullname": "Rectangle.area",
+			"location": {
+				"start": {
+					"line": 8,
+					"column": 5
+				},
+				"end": {
+					"line": 8,
+					"column": 9
+				}
+			}
+		},
+		{
+			"name": "constructor",
+			"type": "method",
+			"id": 3,
+			"fullname": "Rectangle.constructor",
+			"location": {
+				"start": {
+					"line": 10,
+					"column": 5
+				},
+				"end": {
+					"line": 10,
+					"column": 16
+				}
+			}
+		},
+		{
+			"name": "height",
+			"type": "parameter",
+			"id": 4,
+			"fullname": "Rectangle.constructor.height",
+			"location": {
+				"start": {
+					"line": 10,
+					"column": 25
+				},
+				"end": {
+					"line": 10,
+					"column": 31
+				}
+			}
+		},
+		{
+			"name": "height",
+			"type": "field",
+			"id": 5,
+			"fullname": "Rectangle.height",
+			"location": {
+				"start": {
+					"line": 10,
+					"column": 25
+				},
+				"end": {
+					"line": 10,
+					"column": 31
+				}
+			}
+		},
+		{
+			"name": "width",
+			"type": "parameter",
+			"id": 6,
+			"fullname": "Rectangle.constructor.width",
+			"location": {
+				"start": {
+					"line": 10,
+					"column": 49
+				},
+				"end": {
+					"line": 10,
+					"column": 54
+				}
+			}
+		},
+		{
+			"name": "width",
+			"type": "field",
+			"id": 7,
+			"fullname": "Rectangle.width",
+			"location": {
+				"start": {
+					"line": 10,
+					"column": 49
+				},
+				"end": {
+					"line": 10,
+					"column": 54
+				}
+			}
+		}
+	],
+	"relations": []
+}

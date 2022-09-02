@@ -1,0 +1,27 @@
+{
+	"entities": [
+		{
+			"name": "file0.ts",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_enum-declaration\\_const-enum-declaration\\file0.ts"
+		},
+		{
+			"name": "Foo",
+			"type": "enum",
+			"id": 1,
+			"fullname": "Foo",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 12
+				},
+				"end": {
+					"line": 1,
+					"column": 15
+				}
+			}
+		}
+	],
+	"relations": []
+}

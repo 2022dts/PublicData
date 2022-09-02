@@ -1,0 +1,25 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 2,
+            "name": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_define/_a-record-defines-a-method/BaseService.java",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 3,
+            "name": "hello",
+            "type": "PACKAGE",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_define/_a-record-defines-a-method/BaseService.java",
+            "line": 1,
+            "start_column": 9,
+            "end_column": 13
+        }
+    ],
+    "relations": [],
+    "db_name": "a-record-defines-a-method"
+}

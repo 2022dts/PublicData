@@ -1,0 +1,62 @@
+[
+  {
+    "qualifiedName": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_alias/_namespace-alias/file0.cpp",
+    "id": 0,
+    "entityType": "File",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_alias/_namespace-alias/file0.cpp",
+    "startLine": -1,
+    "startColumn": -1,
+    "endLine": -1,
+    "endColumn": -1
+  },
+  {
+    "qualifiedName": "foo",
+    "id": 1,
+    "entityType": "Namespace",
+    "entityFile": "null",
+    "startLine": -1,
+    "startColumn": -1,
+    "endLine": -1,
+    "endColumn": -1
+  },
+  {
+    "qualifiedName": "foo::bar",
+    "id": 2,
+    "entityType": "Namespace",
+    "entityFile": "null",
+    "startLine": -1,
+    "startColumn": -1,
+    "endLine": -1,
+    "endColumn": -1
+  },
+  {
+    "qualifiedName": "foo::bar::baz",
+    "id": 3,
+    "entityType": "Namespace",
+    "entityFile": "null",
+    "startLine": -1,
+    "startColumn": -1,
+    "endLine": -1,
+    "endColumn": -1
+  },
+  {
+    "qualifiedName": "foo::bar::baz::qux",
+    "id": 4,
+    "entityType": "Object",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_alias/_namespace-alias/file0.cpp",
+    "startLine": 4,
+    "startColumn": 78,
+    "endLine": 4,
+    "endColumn": 78
+  },
+  {
+    "qualifiedName": "fbz",
+    "id": 5,
+    "entityType": "Namespace Alias",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_alias/_namespace-alias/file0.cpp",
+    "startLine": 8,
+    "startColumn": 107,
+    "endLine": 8,
+    "endColumn": 107
+  }
+]

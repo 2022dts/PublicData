@@ -1,0 +1,86 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/class/class-declaration.und",
+    "entities": [
+        {
+            "id": 22615,
+            "type": "File",
+            "name": "_class-declaration\\file0.java"
+        },
+        {
+            "id": 22616,
+            "type": "Package",
+            "name": "(Unnamed_Package)",
+            "qualified_name": "(Unnamed_Package)"
+        },
+        {
+            "id": 22617,
+            "type": "Java Class Type Default Member",
+            "name": "Foo",
+            "qualified_name": "Foo",
+            "line": 1,
+            "start_column": 7,
+            "end_column": 10,
+            "belongs_to": 22615
+        }
+    ],
+    "relations": [
+        {
+            "from": 22615,
+            "to": 22616,
+            "type": "Java Define",
+            "inFile": 22615,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 22615,
+            "to": 22616,
+            "type": "Java Declare",
+            "inFile": 22615,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 22615,
+            "to": 22617,
+            "type": "Java Define",
+            "inFile": 22615,
+            "line": 1,
+            "column": 7
+        },
+        {
+            "from": 22615,
+            "to": 14,
+            "type": "Java Import Demand",
+            "inFile": 22615,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 22616,
+            "to": 22617,
+            "type": "Java Contain",
+            "inFile": 22615,
+            "line": 1,
+            "column": 7
+        },
+        {
+            "from": 22617,
+            "to": 22617,
+            "type": "Java Begin",
+            "inFile": 22615,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 22617,
+            "to": 18,
+            "type": "Java Extend Couple Implicit External",
+            "inFile": 22615,
+            "line": 1,
+            "column": 1
+        }
+    ]
+}

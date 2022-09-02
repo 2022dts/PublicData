@@ -1,0 +1,114 @@
+{
+    "variables": [
+        {
+            "id": 1,
+            "qualifiedName": "_moduledefinition.test_module_a",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_moduledefinition/test_module_a.py"
+        },
+        {
+            "id": 4,
+            "qualifiedName": "_moduledefinition.test_module_a.b",
+            "category": "Alias",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_moduledefinition/test_module_a.py"
+        },
+        {
+            "id": 2,
+            "qualifiedName": "_moduledefinition.test_module_b",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_moduledefinition/test_module_b.py"
+        },
+        {
+            "id": 5,
+            "qualifiedName": "_moduledefinition.test_module_b.a",
+            "category": "Alias",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_moduledefinition/test_module_b.py"
+        },
+        {
+            "id": 3,
+            "qualifiedName": "_moduledefinition",
+            "category": "Package",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_moduledefinition"
+        }
+    ],
+    "cells": [
+        {
+            "src": 1,
+            "dest": 2,
+            "values": {
+                "kind": "Import",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 2,
+            "dest": 1,
+            "values": {
+                "kind": "Import",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 3,
+            "dest": 1,
+            "values": {
+                "kind": "Contain",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 0,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 3,
+            "dest": 2,
+            "values": {
+                "kind": "Contain",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 0,
+                "startCol": 0
+            }
+        }
+    ]
+}

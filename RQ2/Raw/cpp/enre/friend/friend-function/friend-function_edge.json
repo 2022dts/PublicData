@@ -1,0 +1,17 @@
+[
+  {
+    "type": "Friend",
+    "src": 4,
+    "dest": 3
+  },
+  {
+    "type": "Friend",
+    "src": 4,
+    "dest": 2
+  },
+  {
+    "type": "Extend",
+    "src": 3,
+    "dest": 1
+  }
+]

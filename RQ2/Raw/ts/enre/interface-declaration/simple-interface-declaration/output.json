@@ -1,0 +1,27 @@
+{
+	"entities": [
+		{
+			"name": "file0.ts",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_interface-declaration\\_simple-interface-declaration\\file0.ts"
+		},
+		{
+			"name": "Foo",
+			"type": "interface",
+			"id": 1,
+			"fullname": "Foo",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 11
+				},
+				"end": {
+					"line": 1,
+					"column": 14
+				}
+			}
+		}
+	],
+	"relations": []
+}

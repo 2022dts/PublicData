@@ -1,0 +1,220 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/implement/enum-implements-multiple-interfaces.und",
+    "entities": [
+        {
+            "id": 7340,
+            "type": "File",
+            "name": "_enum-implements-multiple-interfaces\\BaseService.java"
+        },
+        {
+            "id": 7347,
+            "type": "Package",
+            "name": "hello",
+            "qualified_name": "hello"
+        },
+        {
+            "id": 7341,
+            "type": "Java Enum Class Type Public Member",
+            "name": "BaseService",
+            "qualified_name": "hello.BaseService",
+            "line": 11,
+            "start_column": 13,
+            "end_column": 24,
+            "belongs_to": 7340
+        },
+        {
+            "id": 7343,
+            "type": "Java Parameter",
+            "name": "s",
+            "qualified_name": "hello.BaseService.valueOf.s",
+            "line": 11,
+            "start_column": 13,
+            "end_column": 14,
+            "belongs_to": 7340
+        },
+        {
+            "id": 7345,
+            "type": "Java Interface Type Default",
+            "name": "Drink",
+            "qualified_name": "hello.Drink",
+            "line": 7,
+            "start_column": 11,
+            "end_column": 16,
+            "belongs_to": 7340
+        },
+        {
+            "id": 7346,
+            "type": "Java Interface Type Default",
+            "name": "Photo",
+            "qualified_name": "hello.Photo",
+            "line": 3,
+            "start_column": 11,
+            "end_column": 16,
+            "belongs_to": 7340
+        }
+    ],
+    "relations": [
+        {
+            "from": 7340,
+            "to": 7347,
+            "type": "Java Define",
+            "inFile": 7340,
+            "line": 1,
+            "column": 9
+        },
+        {
+            "from": 7340,
+            "to": 7347,
+            "type": "Java Declare",
+            "inFile": 7340,
+            "line": 1,
+            "column": 9
+        },
+        {
+            "from": 7340,
+            "to": 7346,
+            "type": "Java Define",
+            "inFile": 7340,
+            "line": 3,
+            "column": 11
+        },
+        {
+            "from": 7340,
+            "to": 7345,
+            "type": "Java Define",
+            "inFile": 7340,
+            "line": 7,
+            "column": 11
+        },
+        {
+            "from": 7340,
+            "to": 7341,
+            "type": "Java Define",
+            "inFile": 7340,
+            "line": 11,
+            "column": 13
+        },
+        {
+            "from": 7340,
+            "to": 14,
+            "type": "Java Import Demand",
+            "inFile": 7340,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 7341,
+            "to": 7341,
+            "type": "Java Begin",
+            "inFile": 7340,
+            "line": 11,
+            "column": 1
+        },
+        {
+            "from": 7341,
+            "to": 7346,
+            "type": "Java Implement Couple",
+            "inFile": 7340,
+            "line": 11,
+            "column": 36
+        },
+        {
+            "from": 7341,
+            "to": 7345,
+            "type": "Java Implement Couple",
+            "inFile": 7340,
+            "line": 11,
+            "column": 43
+        },
+        {
+            "from": 7341,
+            "to": 1120,
+            "type": "Java Extend Couple Implicit External",
+            "inFile": 7340,
+            "line": 11,
+            "column": 1
+        },
+        {
+            "from": 7341,
+            "to": 20,
+            "type": "Java Couple",
+            "inFile": 7340,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 7342,
+            "to": 7341,
+            "type": "Java Typed",
+            "inFile": 7340,
+            "line": 11,
+            "column": 13
+        },
+        {
+            "from": 7342,
+            "to": 7343,
+            "type": "Java Define Implicit",
+            "inFile": 7340,
+            "line": 11,
+            "column": 13
+        },
+        {
+            "from": 7343,
+            "to": 20,
+            "type": "Java Typed",
+            "inFile": 7340,
+            "line": 11,
+            "column": 13
+        },
+        {
+            "from": 7344,
+            "to": 7341,
+            "type": "Java Typed",
+            "inFile": 7340,
+            "line": 11,
+            "column": 13
+        },
+        {
+            "from": 7345,
+            "to": 7345,
+            "type": "Java Begin",
+            "inFile": 7340,
+            "line": 7,
+            "column": 1
+        },
+        {
+            "from": 7346,
+            "to": 7346,
+            "type": "Java Begin",
+            "inFile": 7340,
+            "line": 3,
+            "column": 1
+        },
+        {
+            "from": 7347,
+            "to": 7341,
+            "type": "Java Contain",
+            "inFile": 7340,
+            "line": 11,
+            "column": 13
+        },
+        {
+            "from": 7347,
+            "to": 7345,
+            "type": "Java Contain",
+            "inFile": 7340,
+            "line": 7,
+            "column": 11
+        },
+        {
+            "from": 7347,
+            "to": 7346,
+            "type": "Java Contain",
+            "inFile": 7340,
+            "line": 3,
+            "column": 11
+        }
+    ]
+}

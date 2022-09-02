@@ -1,0 +1,204 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/parameter-declaration/ts-optional-parameters.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_ts-optional-parameters\\file0.ts"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Property",
+            "name": "param1",
+            "qualified_name": "(unnamed_object).param1",
+            "line": 12,
+            "start_column": 9,
+            "end_column": 15,
+            "belongs_to": 1
+        },
+        {
+            "id": 4,
+            "type": "web Javascript Property",
+            "name": "param1",
+            "qualified_name": "(unnamed_object).param1",
+            "line": 17,
+            "start_column": 9,
+            "end_column": 15,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "web Javascript Function",
+            "name": "foo",
+            "qualified_name": "foo",
+            "line": 1,
+            "start_column": 10,
+            "end_column": 13,
+            "belongs_to": 1
+        },
+        {
+            "id": 6,
+            "type": "web Javascript Property",
+            "name": "param1",
+            "qualified_name": "foo.param1",
+            "line": 3,
+            "start_column": 17,
+            "end_column": 23,
+            "belongs_to": 1
+        },
+        {
+            "id": 7,
+            "type": "web Javascript Parameter",
+            "name": "param0",
+            "qualified_name": "foo.param0",
+            "line": 2,
+            "start_column": 5,
+            "end_column": 11,
+            "belongs_to": 1
+        },
+        {
+            "id": 8,
+            "type": "web Javascript Variable Local",
+            "name": "param1",
+            "qualified_name": "foo.param1",
+            "line": 3,
+            "start_column": 6,
+            "end_column": 12,
+            "belongs_to": 1
+        },
+        {
+            "id": 9,
+            "type": "web Javascript Parameter",
+            "name": "param2",
+            "qualified_name": "foo.param2",
+            "line": 4,
+            "start_column": 5,
+            "end_column": 11,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 5,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 10
+        },
+        {
+            "from": 1,
+            "to": 5,
+            "type": "web Javascript Call",
+            "inFile": 1,
+            "line": 10,
+            "column": 1
+        },
+        {
+            "from": 1,
+            "to": 5,
+            "type": "web Javascript Call",
+            "inFile": 1,
+            "line": 11,
+            "column": 1
+        },
+        {
+            "from": 1,
+            "to": 5,
+            "type": "web Javascript Call",
+            "inFile": 1,
+            "line": 12,
+            "column": 1
+        },
+        {
+            "from": 1,
+            "to": 5,
+            "type": "web Javascript Call",
+            "inFile": 1,
+            "line": 17,
+            "column": 1
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 12,
+            "column": 9
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 12,
+            "column": 9
+        },
+        {
+            "from": 1,
+            "to": 4,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 17,
+            "column": 9
+        },
+        {
+            "from": 1,
+            "to": 4,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 17,
+            "column": 9
+        },
+        {
+            "from": 5,
+            "to": 7,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 5
+        },
+        {
+            "from": 5,
+            "to": 8,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 3,
+            "column": 6
+        },
+        {
+            "from": 5,
+            "to": 9,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 4,
+            "column": 5
+        },
+        {
+            "from": 5,
+            "to": 8,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 3,
+            "column": 6
+        },
+        {
+            "from": 5,
+            "to": 6,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 3,
+            "column": 17
+        },
+        {
+            "from": 5,
+            "to": 6,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 3,
+            "column": 17
+        }
+    ]
+}

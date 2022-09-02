@@ -1,0 +1,67 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_call/_call-class-method-call/file0.cpp",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_call/_call-class-method-call/file0.cpp",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "A",
+        "id": 1,
+        "entityType": "Class",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_call/_call-class-method-call/file0.cpp",
+        "startLine": 1,
+        "startColumn": 0,
+        "endLine": 1,
+        "endColumn": 0
+      },
+      {
+        "qualifiedName": "A::func",
+        "id": 2,
+        "entityType": "Function",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_call/_call-class-method-call/file0.cpp",
+        "startLine": 3,
+        "startColumn": 25,
+        "endLine": 3,
+        "endColumn": 25
+      },
+      {
+        "qualifiedName": "main",
+        "id": 3,
+        "entityType": "Function",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_call/_call-class-method-call/file0.cpp",
+        "startLine": 7,
+        "startColumn": 75,
+        "endLine": 7,
+        "endColumn": 75
+      },
+      {
+        "qualifiedName": "main::test",
+        "id": 4,
+        "entityType": "Object",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_call/_call-class-method-call/file0.cpp",
+        "startLine": 8,
+        "startColumn": 89,
+        "endLine": 8,
+        "endColumn": 89
+      },
+      {
+        "qualifiedName": "main::test",
+        "id": 5,
+        "entityType": "Object",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_call/_call-class-method-call/file0.cpp",
+        "startLine": 8,
+        "startColumn": 89,
+        "endLine": 8,
+        "endColumn": 89
+      }
+    ],
+    "relations": []
+  }
+]

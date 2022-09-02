@@ -1,0 +1,120 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 2,
+            "name": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_function/_overload-class-method/file0.cpp",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 3,
+            "name": "foo",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_function/_overload-class-method/file0.cpp",
+            "line": 1,
+            "start_column": 1,
+            "end_column": 1
+        },
+        {
+            "id": 4,
+            "name": "foo.overloadFunction",
+            "type": "METHOD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_function/_overload-class-method/file0.cpp",
+            "line": 3,
+            "start_column": 5,
+            "end_column": 26
+        },
+        {
+            "id": 5,
+            "name": "int",
+            "type": "BUILTIN_TYPE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 6,
+            "name": "foo.overloadFunction",
+            "type": "METHOD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_function/_overload-class-method/file0.cpp",
+            "line": 4,
+            "start_column": 5,
+            "end_column": 31
+        },
+        {
+            "id": 7,
+            "name": "foo.overloadFunction",
+            "type": "METHOD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_function/_overload-class-method/file0.cpp",
+            "line": 5,
+            "start_column": 5,
+            "end_column": 32
+        },
+        {
+            "id": 8,
+            "name": "char",
+            "type": "BUILTIN_TYPE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        }
+    ],
+    "relations": [
+        {
+            "type": "MEMBER",
+            "from": 3,
+            "to": 4,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 4,
+            "to": 5,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 3,
+            "to": 6,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 6,
+            "to": 5,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 3,
+            "to": 7,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 7,
+            "to": 5,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 7,
+            "to": 8,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "overload-class-method"
+}

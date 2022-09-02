@@ -1,0 +1,148 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_classdefinition\\_abstractclassdefination\\test_abstract_class.py",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_classdefinition\\_abstractclassdefination\\test_abstract_class.py",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_classdefinition\\_abstractclassdefination",
+        "id": 1,
+        "entityType": "Package",
+        "entityFile": "",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_classdefinition\\_abstractclassdefination.A",
+        "id": 2,
+        "entityType": "Type",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_classdefinition\\_abstractclassdefination\\test_abstract_class.py",
+        "startLine": 1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_classdefinition\\_abstractclassdefination.B",
+        "id": 7,
+        "entityType": "Type",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_classdefinition\\_abstractclassdefination\\test_abstract_class.py",
+        "startLine": 5,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_classdefinition\\_abstractclassdefination.B.Inner",
+        "id": 8,
+        "entityType": "Type",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_classdefinition\\_abstractclassdefination\\test_abstract_class.py",
+        "startLine": 6,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_classdefinition\\_abstractclassdefination.B.Inner.__init__",
+        "id": 9,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_classdefinition\\_abstractclassdefination\\test_abstract_class.py",
+        "startLine": 7,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_classdefinition\\_abstractclassdefination.B.Inner.__new__",
+        "id": 23,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_classdefinition\\_abstractclassdefination\\test_abstract_class.py",
+        "startLine": 11,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_classdefinition\\_abstractclassdefination.B.Inner.func1",
+        "id": 37,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_classdefinition\\_abstractclassdefination\\test_abstract_class.py",
+        "startLine": 15,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_classdefinition\\_abstractclassdefination.B.Inner.func2",
+        "id": 45,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_classdefinition\\_abstractclassdefination\\test_abstract_class.py",
+        "startLine": 18,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_classdefinition\\_abstractclassdefination.B.Inner.func2.a",
+        "id": 48,
+        "entityType": "Var",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_classdefinition\\_abstractclassdefination\\test_abstract_class.py",
+        "startLine": 19,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_classdefinition\\_abstractclassdefination.B.func3",
+        "id": 60,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-py\\tests\\cases\\_classdefinition\\_abstractclassdefination\\test_abstract_class.py",
+        "startLine": 22,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Parameter",
+        "src": 9,
+        "dest": 10
+      },
+      {
+        "type": "Parameter",
+        "src": 23,
+        "dest": 24
+      },
+      {
+        "type": "Parameter",
+        "src": 37,
+        "dest": 38
+      },
+      {
+        "type": "Parameter",
+        "src": 45,
+        "dest": 46
+      },
+      {
+        "type": "Use",
+        "src": 45,
+        "dest": 48
+      },
+      {
+        "type": "Parameter",
+        "src": 60,
+        "dest": 61
+      }
+    ]
+  }
+]

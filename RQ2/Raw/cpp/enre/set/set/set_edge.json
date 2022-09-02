@@ -1,0 +1,12 @@
+[
+  {
+    "type": "Set",
+    "src": 1,
+    "dest": 3
+  },
+  {
+    "type": "Use",
+    "src": 1,
+    "dest": 2
+  }
+]

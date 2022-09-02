@@ -1,0 +1,110 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/enum-member-declaration/numeric-enum-member-initializer.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_numeric-enum-member-initializer\\file0.ts"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Enum",
+            "name": "Foo",
+            "qualified_name": "Foo",
+            "line": 1,
+            "start_column": 6,
+            "end_column": 9,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "web Javascript Property",
+            "name": "Alpha",
+            "qualified_name": "Foo.Alpha",
+            "line": 2,
+            "start_column": 5,
+            "end_column": 10,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "web Javascript Property",
+            "name": "Beta",
+            "qualified_name": "Foo.Beta",
+            "line": 3,
+            "start_column": 5,
+            "end_column": 9,
+            "belongs_to": 1
+        },
+        {
+            "id": 7,
+            "type": "web Javascript Property",
+            "name": "Gamma",
+            "qualified_name": "Foo.Gamma",
+            "line": 4,
+            "start_column": 5,
+            "end_column": 10,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 6
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 5,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 3,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 7,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 4,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 2,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 5,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 3,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 7,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 4,
+            "column": 5
+        }
+    ]
+}

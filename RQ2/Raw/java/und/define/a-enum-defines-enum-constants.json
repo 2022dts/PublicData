@@ -1,0 +1,266 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/define/a-enum-defines-enum-constants.und",
+    "entities": [
+        {
+            "id": 23137,
+            "type": "File",
+            "name": "_a-enum-defines-enum-constants\\AttachmentType.java"
+        },
+        {
+            "id": 23138,
+            "type": "Package",
+            "name": "(Unnamed_Package)",
+            "qualified_name": "(Unnamed_Package)"
+        },
+        {
+            "id": 23139,
+            "type": "Java Enum Class Type Public Member",
+            "name": "AttachmentType",
+            "qualified_name": "AttachmentType",
+            "line": 1,
+            "start_column": 13,
+            "end_column": 27,
+            "belongs_to": 23137
+        },
+        {
+            "id": 23140,
+            "type": "Java Method Constructor Member Public",
+            "name": "AttachmentType",
+            "qualified_name": "AttachmentType.AttachmentType",
+            "line": 14,
+            "start_column": 12,
+            "end_column": 26,
+            "belongs_to": 23137
+        },
+        {
+            "id": 23141,
+            "type": "Java Parameter",
+            "name": "i",
+            "qualified_name": "AttachmentType.AttachmentType.i",
+            "line": 14,
+            "start_column": 31,
+            "end_column": 32,
+            "belongs_to": 23137
+        },
+        {
+            "id": 23143,
+            "type": "Java Parameter",
+            "name": "s",
+            "qualified_name": "AttachmentType.valueOf.s",
+            "line": 1,
+            "start_column": 13,
+            "end_column": 14,
+            "belongs_to": 23137
+        },
+        {
+            "id": 23145,
+            "type": "Java Variable EnumConstant Public Member",
+            "name": "LOCAL",
+            "qualified_name": "AttachmentType.LOCAL",
+            "line": 5,
+            "start_column": 5,
+            "end_column": 10,
+            "belongs_to": 23137
+        },
+        {
+            "id": 23146,
+            "type": "Java Variable EnumConstant Public Member",
+            "name": "MINIO",
+            "qualified_name": "AttachmentType.MINIO",
+            "line": 10,
+            "start_column": 5,
+            "end_column": 10,
+            "belongs_to": 23137
+        },
+        {
+            "id": 23147,
+            "type": "Java Variable Default Member",
+            "name": "num",
+            "qualified_name": "AttachmentType.num",
+            "line": 12,
+            "start_column": 9,
+            "end_column": 12,
+            "belongs_to": 23137
+        }
+    ],
+    "relations": [
+        {
+            "from": 23137,
+            "to": 23138,
+            "type": "Java Define",
+            "inFile": 23137,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 23137,
+            "to": 23138,
+            "type": "Java Declare",
+            "inFile": 23137,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 23137,
+            "to": 23139,
+            "type": "Java Define",
+            "inFile": 23137,
+            "line": 1,
+            "column": 13
+        },
+        {
+            "from": 23137,
+            "to": 14,
+            "type": "Java Import Demand",
+            "inFile": 23137,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 23138,
+            "to": 23139,
+            "type": "Java Contain",
+            "inFile": 23137,
+            "line": 1,
+            "column": 13
+        },
+        {
+            "from": 23139,
+            "to": 23139,
+            "type": "Java Begin",
+            "inFile": 23137,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 23139,
+            "to": 23145,
+            "type": "Java Define",
+            "inFile": 23137,
+            "line": 5,
+            "column": 5
+        },
+        {
+            "from": 23139,
+            "to": 23146,
+            "type": "Java Define",
+            "inFile": 23137,
+            "line": 10,
+            "column": 5
+        },
+        {
+            "from": 23139,
+            "to": 23147,
+            "type": "Java Define",
+            "inFile": 23137,
+            "line": 12,
+            "column": 9
+        },
+        {
+            "from": 23139,
+            "to": 23140,
+            "type": "Java Define",
+            "inFile": 23137,
+            "line": 14,
+            "column": 12
+        },
+        {
+            "from": 23139,
+            "to": 1120,
+            "type": "Java Extend Couple Implicit External",
+            "inFile": 23137,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 23139,
+            "to": 20,
+            "type": "Java Couple",
+            "inFile": 23137,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 23140,
+            "to": 23140,
+            "type": "Java Begin",
+            "inFile": 23137,
+            "line": 14,
+            "column": 5
+        },
+        {
+            "from": 23140,
+            "to": 23141,
+            "type": "Java Define",
+            "inFile": 23137,
+            "line": 14,
+            "column": 31
+        },
+        {
+            "from": 23140,
+            "to": 23147,
+            "type": "Java Set",
+            "inFile": 23137,
+            "line": 15,
+            "column": 14
+        },
+        {
+            "from": 23140,
+            "to": 23141,
+            "type": "Java Use",
+            "inFile": 23137,
+            "line": 15,
+            "column": 20
+        },
+        {
+            "from": 23142,
+            "to": 23139,
+            "type": "Java Typed",
+            "inFile": 23137,
+            "line": 1,
+            "column": 13
+        },
+        {
+            "from": 23142,
+            "to": 23143,
+            "type": "Java Define Implicit",
+            "inFile": 23137,
+            "line": 1,
+            "column": 13
+        },
+        {
+            "from": 23143,
+            "to": 20,
+            "type": "Java Typed",
+            "inFile": 23137,
+            "line": 1,
+            "column": 13
+        },
+        {
+            "from": 23144,
+            "to": 23139,
+            "type": "Java Typed",
+            "inFile": 23137,
+            "line": 1,
+            "column": 13
+        },
+        {
+            "from": 23145,
+            "to": 23139,
+            "type": "Java Typed",
+            "inFile": 23137,
+            "line": 5,
+            "column": 5
+        },
+        {
+            "from": 23146,
+            "to": 23139,
+            "type": "Java Typed",
+            "inFile": 23137,
+            "line": 10,
+            "column": 5
+        }
+    ]
+}

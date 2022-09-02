@@ -1,0 +1,170 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/export-declaration/default-exports.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_default-exports\\file4.js"
+        },
+        {
+            "id": 3,
+            "type": "File",
+            "name": "_default-exports\\file6.ts"
+        },
+        {
+            "id": 5,
+            "type": "File",
+            "name": "_default-exports\\file0.js"
+        },
+        {
+            "id": 7,
+            "type": "File",
+            "name": "_default-exports\\file3.js"
+        },
+        {
+            "id": 9,
+            "type": "File",
+            "name": "_default-exports\\file5.ts"
+        },
+        {
+            "id": 11,
+            "type": "File",
+            "name": "_default-exports\\file1.js"
+        },
+        {
+            "id": 13,
+            "type": "File",
+            "name": "_default-exports\\file2.js"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Class",
+            "name": "(unnamed_class_1)",
+            "qualified_name": "(unnamed_class_1)",
+            "line": 1,
+            "start_column": 16,
+            "end_column": 33,
+            "belongs_to": 1
+        },
+        {
+            "id": 4,
+            "type": "web Javascript Interface",
+            "name": "Foo",
+            "qualified_name": "Foo",
+            "line": 2,
+            "start_column": 26,
+            "end_column": 29,
+            "belongs_to": 3
+        },
+        {
+            "id": 6,
+            "type": "web Javascript Unnamed Global Function",
+            "name": "(unnamed_function_1)",
+            "qualified_name": "(unnamed_function_1)",
+            "line": 1,
+            "start_column": 16,
+            "end_column": 36,
+            "belongs_to": 5
+        },
+        {
+            "id": 8,
+            "type": "web Javascript Unnamed Global Function",
+            "name": "(unnamed_function_1)",
+            "qualified_name": "(unnamed_function_1)",
+            "line": 1,
+            "start_column": 22,
+            "end_column": 42,
+            "belongs_to": 7
+        },
+        {
+            "id": 10,
+            "type": "web Javascript Class",
+            "name": "(unnamed_class_1)",
+            "qualified_name": "(unnamed_class_1)",
+            "line": 2,
+            "start_column": 25,
+            "end_column": 42,
+            "belongs_to": 9
+        },
+        {
+            "id": 12,
+            "type": "web Javascript Unnamed Global Function",
+            "name": "(unnamed_function_1)",
+            "qualified_name": "(unnamed_function_1)",
+            "line": 1,
+            "start_column": 16,
+            "end_column": 36,
+            "belongs_to": 11
+        },
+        {
+            "id": 14,
+            "type": "web Javascript Unnamed Global Function",
+            "name": "(unnamed_function_1)",
+            "qualified_name": "(unnamed_function_1)",
+            "line": 1,
+            "start_column": 22,
+            "end_column": 42,
+            "belongs_to": 13
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define Default Export",
+            "inFile": 1,
+            "line": 1,
+            "column": 16
+        },
+        {
+            "from": 3,
+            "to": 4,
+            "type": "web Javascript Define Default Export",
+            "inFile": 3,
+            "line": 2,
+            "column": 26
+        },
+        {
+            "from": 5,
+            "to": 6,
+            "type": "web Javascript Define Default Export",
+            "inFile": 5,
+            "line": 1,
+            "column": 16
+        },
+        {
+            "from": 7,
+            "to": 8,
+            "type": "web Javascript Define Default Export",
+            "inFile": 7,
+            "line": 1,
+            "column": 22
+        },
+        {
+            "from": 9,
+            "to": 10,
+            "type": "web Javascript Define Default Export",
+            "inFile": 9,
+            "line": 2,
+            "column": 25
+        },
+        {
+            "from": 11,
+            "to": 12,
+            "type": "web Javascript Define Default Export",
+            "inFile": 11,
+            "line": 1,
+            "column": 16
+        },
+        {
+            "from": 13,
+            "to": 14,
+            "type": "web Javascript Define Default Export",
+            "inFile": 13,
+            "line": 1,
+            "column": 22
+        }
+    ]
+}

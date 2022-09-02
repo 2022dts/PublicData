@@ -1,0 +1,154 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/relation-override/subclass-overrides-constructor.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_subclass-overrides-constructor\\file0.js"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Class",
+            "name": "Bar",
+            "qualified_name": "Bar",
+            "line": 7,
+            "start_column": 7,
+            "end_column": 10,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "web Javascript Public Property",
+            "name": "bar",
+            "qualified_name": "Bar.bar",
+            "line": 10,
+            "start_column": 14,
+            "end_column": 17,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "web Javascript Public Method Function",
+            "name": "constructor",
+            "qualified_name": "Bar.constructor",
+            "line": 8,
+            "start_column": 5,
+            "end_column": 16,
+            "belongs_to": 1
+        },
+        {
+            "id": 6,
+            "type": "web Javascript Class",
+            "name": "Foo",
+            "qualified_name": "Foo",
+            "line": 1,
+            "start_column": 7,
+            "end_column": 10,
+            "belongs_to": 1
+        },
+        {
+            "id": 7,
+            "type": "web Javascript Public Method Function",
+            "name": "constructor",
+            "qualified_name": "Foo.constructor",
+            "line": 2,
+            "start_column": 5,
+            "end_column": 16,
+            "belongs_to": 1
+        },
+        {
+            "id": 8,
+            "type": "web Javascript Public Property",
+            "name": "foo",
+            "qualified_name": "Foo.foo",
+            "line": 3,
+            "start_column": 14,
+            "end_column": 17,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 6,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 7
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 7,
+            "column": 7
+        },
+        {
+            "from": 2,
+            "to": 5,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 8,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 6,
+            "type": "web Javascript Extend",
+            "inFile": 1,
+            "line": 7,
+            "column": 19
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 10,
+            "column": 14
+        },
+        {
+            "from": 5,
+            "to": 7,
+            "type": "web Javascript Overrides",
+            "inFile": 1,
+            "line": 8,
+            "column": 5
+        },
+        {
+            "from": 5,
+            "to": 3,
+            "type": "web Javascript Set",
+            "inFile": 1,
+            "line": 10,
+            "column": 14
+        },
+        {
+            "from": 6,
+            "to": 7,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 5
+        },
+        {
+            "from": 6,
+            "to": 8,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 3,
+            "column": 14
+        },
+        {
+            "from": 7,
+            "to": 8,
+            "type": "web Javascript Set",
+            "inFile": 1,
+            "line": 3,
+            "column": 14
+        }
+    ]
+}

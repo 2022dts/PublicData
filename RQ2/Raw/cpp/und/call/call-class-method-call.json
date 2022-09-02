@@ -1,0 +1,118 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/call/call-class-method-call.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_call-class-method-call\\file0.cpp"
+        },
+        {
+            "id": 2,
+            "type": "C Class Type",
+            "name": "A",
+            "qualified_name": "A",
+            "line": 1,
+            "start_column": 7,
+            "end_column": 8,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "C Public Member Function",
+            "name": "func",
+            "qualified_name": "A::func",
+            "line": 3,
+            "start_column": 9,
+            "end_column": 13,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "C Function",
+            "name": "main",
+            "qualified_name": "main",
+            "line": 7,
+            "start_column": 5,
+            "end_column": 9,
+            "belongs_to": 1
+        },
+        {
+            "id": 6,
+            "type": "C Object Local",
+            "name": "test",
+            "qualified_name": "test",
+            "line": 8,
+            "start_column": 7,
+            "end_column": 11,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 7
+        },
+        {
+            "from": 1,
+            "to": 5,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 7,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 3,
+            "column": 9
+        },
+        {
+            "from": 5,
+            "to": 6,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 8,
+            "column": 7
+        },
+        {
+            "from": 5,
+            "to": 6,
+            "type": "C Set Init",
+            "inFile": 1,
+            "line": 8,
+            "column": 7
+        },
+        {
+            "from": 5,
+            "to": 6,
+            "type": "C Use",
+            "inFile": 1,
+            "line": 9,
+            "column": 5
+        },
+        {
+            "from": 5,
+            "to": 3,
+            "type": "C Call",
+            "inFile": 1,
+            "line": 9,
+            "column": 10
+        },
+        {
+            "from": 6,
+            "to": 2,
+            "type": "C Typed",
+            "inFile": 1,
+            "line": 8,
+            "column": 5
+        }
+    ]
+}

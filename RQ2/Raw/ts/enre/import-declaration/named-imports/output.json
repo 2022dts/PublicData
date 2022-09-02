@@ -1,0 +1,362 @@
+{
+	"entities": [
+		{
+			"name": "file5.ts",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_import-declaration\\_named-imports\\file5.ts"
+		},
+		{
+			"name": "file4.ts",
+			"type": "file",
+			"id": 1,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_import-declaration\\_named-imports\\file4.ts"
+		},
+		{
+			"name": "file3.ts",
+			"type": "file",
+			"id": 2,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_import-declaration\\_named-imports\\file3.ts"
+		},
+		{
+			"name": "file2.ts",
+			"type": "file",
+			"id": 3,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_import-declaration\\_named-imports\\file2.ts"
+		},
+		{
+			"name": "file1.ts",
+			"type": "file",
+			"id": 4,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_import-declaration\\_named-imports\\file1.ts"
+		},
+		{
+			"name": "file0.ts",
+			"type": "file",
+			"id": 5,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_import-declaration\\_named-imports\\file0.ts"
+		},
+		{
+			"name": "foo",
+			"type": "variable",
+			"id": 6,
+			"fullname": "foo",
+			"location": {
+				"start": {
+					"line": 4,
+					"column": 5
+				},
+				"end": {
+					"line": 4,
+					"column": 8
+				}
+			}
+		},
+		{
+			"name": "bar",
+			"type": "variable",
+			"id": 7,
+			"fullname": "bar",
+			"location": {
+				"start": {
+					"line": 5,
+					"column": 5
+				},
+				"end": {
+					"line": 5,
+					"column": 8
+				}
+			}
+		},
+		{
+			"name": "foo",
+			"type": "variable",
+			"id": 8,
+			"fullname": "foo",
+			"location": {
+				"start": {
+					"line": 7,
+					"column": 5
+				},
+				"end": {
+					"line": 7,
+					"column": 8
+				}
+			}
+		},
+		{
+			"name": "bar",
+			"type": "variable",
+			"id": 9,
+			"fullname": "bar",
+			"location": {
+				"start": {
+					"line": 8,
+					"column": 5
+				},
+				"end": {
+					"line": 8,
+					"column": 8
+				}
+			}
+		},
+		{
+			"name": "variable",
+			"type": "variable",
+			"id": 10,
+			"fullname": "variable",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 14
+				},
+				"end": {
+					"line": 1,
+					"column": 22
+				}
+			}
+		},
+		{
+			"name": "func",
+			"type": "function",
+			"id": 11,
+			"fullname": "func",
+			"location": {
+				"start": {
+					"line": 3,
+					"column": 17
+				},
+				"end": {
+					"line": 3,
+					"column": 21
+				}
+			}
+		},
+		{
+			"name": "Class",
+			"type": "class",
+			"id": 12,
+			"fullname": "Class",
+			"location": {
+				"start": {
+					"line": 7,
+					"column": 14
+				},
+				"end": {
+					"line": 7,
+					"column": 19
+				}
+			}
+		},
+		{
+			"name": "OptionalNumber",
+			"type": "type alias",
+			"id": 13,
+			"fullname": "OptionalNumber",
+			"location": {
+				"start": {
+					"line": 11,
+					"column": 13
+				},
+				"end": {
+					"line": 11,
+					"column": 27
+				}
+			}
+		},
+		{
+			"name": "Foo",
+			"type": "interface",
+			"id": 14,
+			"fullname": "Foo",
+			"location": {
+				"start": {
+					"line": 13,
+					"column": 26
+				},
+				"end": {
+					"line": 13,
+					"column": 29
+				}
+			}
+		}
+	],
+	"relations": [
+		{
+			"from": 0,
+			"to": 5,
+			"type": "import",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 28
+				}
+			}
+		},
+		{
+			"from": 5,
+			"to": 10,
+			"type": "export",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 14
+				}
+			}
+		},
+		{
+			"from": 5,
+			"to": 10,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 14
+				}
+			}
+		},
+		{
+			"from": 5,
+			"to": 11,
+			"type": "export",
+			"location": {
+				"start": {
+					"line": 3,
+					"column": 17
+				}
+			}
+		},
+		{
+			"from": 5,
+			"to": 12,
+			"type": "export",
+			"location": {
+				"start": {
+					"line": 7,
+					"column": 14
+				}
+			}
+		},
+		{
+			"from": 5,
+			"to": 13,
+			"type": "export",
+			"location": {
+				"start": {
+					"line": 11,
+					"column": 13
+				}
+			}
+		},
+		{
+			"from": 5,
+			"to": 14,
+			"type": "export",
+			"location": {
+				"start": {
+					"line": 13,
+					"column": 26
+				}
+			}
+		},
+		{
+			"from": 0,
+			"to": 14,
+			"type": "import",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 8
+				}
+			}
+		},
+		{
+			"from": 1,
+			"to": 14,
+			"type": "import",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 8
+				}
+			}
+		},
+		{
+			"from": 1,
+			"to": 14,
+			"type": "import",
+			"location": {
+				"start": {
+					"line": 3,
+					"column": 5
+				}
+			}
+		},
+		{
+			"from": 1,
+			"to": 13,
+			"type": "import",
+			"location": {
+				"start": {
+					"line": 4,
+					"column": 5
+				}
+			}
+		},
+		{
+			"from": 2,
+			"to": 14,
+			"type": "import",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 9
+				}
+			}
+		},
+		{
+			"from": 3,
+			"to": 13,
+			"type": "import",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 9
+				}
+			}
+		},
+		{
+			"from": 4,
+			"to": 11,
+			"type": "import",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 9
+				}
+			}
+		},
+		{
+			"from": 4,
+			"to": 12,
+			"type": "import",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 15
+				}
+			}
+		},
+		{
+			"from": 4,
+			"to": 13,
+			"type": "import",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 22
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,147 @@
+{
+	"entities": [
+		{
+			"name": "file0.js",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_variable-declaration\\_destructuring-with-default-value\\file0.js"
+		},
+		{
+			"name": "a",
+			"type": "variable",
+			"id": 1,
+			"fullname": "a",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 6
+				},
+				"end": {
+					"line": 1,
+					"column": 7
+				}
+			}
+		},
+		{
+			"name": "b",
+			"type": "variable",
+			"id": 2,
+			"fullname": "b",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 13
+				},
+				"end": {
+					"line": 1,
+					"column": 14
+				}
+			}
+		},
+		{
+			"name": "c",
+			"type": "variable",
+			"id": 3,
+			"fullname": "c",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 20
+				},
+				"end": {
+					"line": 1,
+					"column": 21
+				}
+			}
+		},
+		{
+			"name": "foo",
+			"type": "variable",
+			"id": 4,
+			"fullname": "foo",
+			"location": {
+				"start": {
+					"line": 6,
+					"column": 6
+				},
+				"end": {
+					"line": 6,
+					"column": 9
+				}
+			}
+		},
+		{
+			"name": "bar",
+			"type": "variable",
+			"id": 5,
+			"fullname": "bar",
+			"location": {
+				"start": {
+					"line": 6,
+					"column": 11
+				},
+				"end": {
+					"line": 6,
+					"column": 14
+				}
+			}
+		}
+	],
+	"relations": [
+		{
+			"from": 0,
+			"to": 1,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 6
+				}
+			}
+		},
+		{
+			"from": 0,
+			"to": 2,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 13
+				}
+			}
+		},
+		{
+			"from": 0,
+			"to": 3,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 20
+				}
+			}
+		},
+		{
+			"from": 0,
+			"to": 4,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 6,
+					"column": 6
+				}
+			}
+		},
+		{
+			"from": 0,
+			"to": 5,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 6,
+					"column": 11
+				}
+			}
+		}
+	]
+}

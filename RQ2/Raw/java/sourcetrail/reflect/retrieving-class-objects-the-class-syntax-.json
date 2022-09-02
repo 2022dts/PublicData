@@ -1,0 +1,854 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 1,
+            "name": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_reflect/_retrieving-class-objects-the-class-syntax-/Person.java",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 2,
+            "name": "Person",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_reflect/_retrieving-class-objects-the-class-syntax-/Person.java",
+            "line": 30,
+            "start_column": 46,
+            "end_column": 51
+        },
+        {
+            "id": 3,
+            "name": "Person.name",
+            "type": "FIELD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_reflect/_retrieving-class-objects-the-class-syntax-/Person.java",
+            "line": 2,
+            "start_column": 31,
+            "end_column": 34
+        },
+        {
+            "id": 4,
+            "name": "java.lang",
+            "type": "PACKAGE",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_reflect/_retrieving-class-objects-the-class-syntax-/ReflectDemo.java",
+            "line": 1,
+            "start_column": 13,
+            "end_column": 16
+        },
+        {
+            "id": 5,
+            "name": "java",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 6,
+            "name": "java.lang.String",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 7,
+            "name": "Person.age",
+            "type": "FIELD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_reflect/_retrieving-class-objects-the-class-syntax-/Person.java",
+            "line": 3,
+            "start_column": 28,
+            "end_column": 30
+        },
+        {
+            "id": 8,
+            "name": "int",
+            "type": "BUILTIN_TYPE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 9,
+            "name": "Person.msg",
+            "type": "FIELD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_reflect/_retrieving-class-objects-the-class-syntax-/Person.java",
+            "line": 4,
+            "start_column": 38,
+            "end_column": 40
+        },
+        {
+            "id": 10,
+            "name": "Person.getName",
+            "type": "METHOD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_reflect/_retrieving-class-objects-the-class-syntax-/Person.java",
+            "line": 5,
+            "start_column": 16,
+            "end_column": 38
+        },
+        {
+            "id": 11,
+            "name": "Person.setName",
+            "type": "METHOD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_reflect/_retrieving-class-objects-the-class-syntax-/Person.java",
+            "line": 9,
+            "start_column": 16,
+            "end_column": 47
+        },
+        {
+            "id": 12,
+            "name": "void",
+            "type": "BUILTIN_TYPE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 13,
+            "name": "Person.getAge",
+            "type": "METHOD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_reflect/_retrieving-class-objects-the-class-syntax-/Person.java",
+            "line": 13,
+            "start_column": 16,
+            "end_column": 34
+        },
+        {
+            "id": 14,
+            "name": "Person.setAge",
+            "type": "METHOD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_reflect/_retrieving-class-objects-the-class-syntax-/Person.java",
+            "line": 17,
+            "start_column": 16,
+            "end_column": 42
+        },
+        {
+            "id": 15,
+            "name": "Person.Person",
+            "type": "METHOD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_reflect/_retrieving-class-objects-the-class-syntax-/Person.java",
+            "line": 21,
+            "start_column": 16,
+            "end_column": 30
+        },
+        {
+            "id": 16,
+            "name": "java.lang.Object.Object",
+            "type": "METHOD",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 17,
+            "name": "java.lang.Object",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 18,
+            "name": "Person.Person",
+            "type": "METHOD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_reflect/_retrieving-class-objects-the-class-syntax-/Person.java",
+            "line": 24,
+            "start_column": 16,
+            "end_column": 42
+        },
+        {
+            "id": 19,
+            "name": "java.io.PrintStream.println",
+            "type": "METHOD",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 20,
+            "name": "java.io.PrintStream",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 21,
+            "name": "java.io",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 22,
+            "name": "java.lang.System",
+            "type": "UNKNOWN",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_reflect/_retrieving-class-objects-the-class-syntax-/Person.java",
+            "line": 34,
+            "start_column": 20,
+            "end_column": 25
+        },
+        {
+            "id": 23,
+            "name": "java.lang.System.out",
+            "type": "FIELD",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 24,
+            "name": "Person.fun",
+            "type": "METHOD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_reflect/_retrieving-class-objects-the-class-syntax-/Person.java",
+            "line": 29,
+            "start_column": 16,
+            "end_column": 32
+        },
+        {
+            "id": 25,
+            "name": "java.io.PrintStream.println",
+            "type": "METHOD",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 26,
+            "name": "Person.fun",
+            "type": "METHOD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_reflect/_retrieving-class-objects-the-class-syntax-/Person.java",
+            "line": 33,
+            "start_column": 16,
+            "end_column": 51
+        },
+        {
+            "id": 182,
+            "name": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_reflect/_retrieving-class-objects-the-class-syntax-/ReflectDemo.java",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 183,
+            "name": "java.lang.reflect.Method",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 184,
+            "name": "java.lang.reflect",
+            "type": "PACKAGE",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_reflect/_retrieving-class-objects-the-class-syntax-/ReflectDemo.java",
+            "line": 1,
+            "start_column": 18,
+            "end_column": 24
+        },
+        {
+            "id": 185,
+            "name": "ReflectDemo",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_reflect/_retrieving-class-objects-the-class-syntax-/ReflectDemo.java",
+            "line": 3,
+            "start_column": 1,
+            "end_column": 1
+        },
+        {
+            "id": 186,
+            "name": "ReflectDemo.main",
+            "type": "METHOD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_reflect/_retrieving-class-objects-the-class-syntax-/ReflectDemo.java",
+            "line": 5,
+            "start_column": 5,
+            "end_column": 42
+        },
+        {
+            "id": 187,
+            "name": "java.lang.Class<T>",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 188,
+            "name": "java.lang.Class<T>.newInstance",
+            "type": "METHOD",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 189,
+            "name": "java.lang.Class<T>.getMethod",
+            "type": "METHOD",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 190,
+            "name": "java.lang.reflect.Method.invoke",
+            "type": "METHOD",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 191,
+            "name": "java.lang.Exception",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 192,
+            "name": "java.lang.Throwable.printStackTrace",
+            "type": "METHOD",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 193,
+            "name": "java.lang.Throwable",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        }
+    ],
+    "relations": [
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 5,
+            "to": 4,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 4,
+            "to": 6,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 3,
+            "to": 6,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 7,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 7,
+            "to": 8,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 9,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 9,
+            "to": 6,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 10,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 10,
+            "to": 6,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "USAGE",
+            "from": 10,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 11,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 11,
+            "to": 12,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 11,
+            "to": 6,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "USAGE",
+            "from": 11,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 13,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 13,
+            "to": 8,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "USAGE",
+            "from": 13,
+            "to": 7,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 14,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 14,
+            "to": 12,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 14,
+            "to": 8,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "USAGE",
+            "from": 14,
+            "to": 7,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 15,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 17,
+            "to": 16,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 4,
+            "to": 17,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "OVERRIDE",
+            "from": 15,
+            "to": 16,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 18,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 18,
+            "to": 6,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "USAGE",
+            "from": 18,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 20,
+            "to": 19,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 21,
+            "to": 20,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 5,
+            "to": 21,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "CALL",
+            "from": 18,
+            "to": 19,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 4,
+            "to": 22,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 22,
+            "to": 23,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "USAGE",
+            "from": 18,
+            "to": 23,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "USAGE",
+            "from": 18,
+            "to": 7,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 24,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 24,
+            "to": 12,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 20,
+            "to": 25,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "CALL",
+            "from": 24,
+            "to": 25,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "USAGE",
+            "from": 24,
+            "to": 23,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "USAGE",
+            "from": 24,
+            "to": 9,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 26,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 26,
+            "to": 12,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 26,
+            "to": 6,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 26,
+            "to": 8,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "CALL",
+            "from": 26,
+            "to": 25,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "USAGE",
+            "from": 26,
+            "to": 23,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 184,
+            "to": 183,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 4,
+            "to": 184,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "IMPORT",
+            "from": 182,
+            "to": 183,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 185,
+            "to": 186,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 186,
+            "to": 12,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 186,
+            "to": 6,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 4,
+            "to": 187,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 186,
+            "to": 187,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 186,
+            "to": 2,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 186,
+            "to": 17,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 187,
+            "to": 188,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "CALL",
+            "from": 186,
+            "to": 188,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 186,
+            "to": 183,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 187,
+            "to": 189,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "CALL",
+            "from": 186,
+            "to": 189,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 186,
+            "to": 8,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 183,
+            "to": 190,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "CALL",
+            "from": 186,
+            "to": 190,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 4,
+            "to": 191,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 186,
+            "to": 191,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 193,
+            "to": 192,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 4,
+            "to": 193,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "CALL",
+            "from": 186,
+            "to": 192,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "retrieving-class-objects-the-class-syntax-"
+}

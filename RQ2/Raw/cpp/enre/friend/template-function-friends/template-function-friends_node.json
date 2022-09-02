@@ -1,0 +1,52 @@
+[
+  {
+    "qualifiedName": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_friend/_template-function-friends/file0.cpp",
+    "id": 0,
+    "entityType": "File",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_friend/_template-function-friends/file0.cpp",
+    "startLine": -1,
+    "startColumn": -1,
+    "endLine": -1,
+    "endColumn": -1
+  },
+  {
+    "qualifiedName": "classA",
+    "id": 1,
+    "entityType": "Class",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_friend/_template-function-friends/file0.cpp",
+    "startLine": 1,
+    "startColumn": 0,
+    "endLine": 1,
+    "endColumn": 0
+  },
+  {
+    "qualifiedName": "classA::funcA",
+    "id": 2,
+    "entityType": "Function",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_friend/_template-function-friends/file0.cpp",
+    "startLine": 3,
+    "startColumn": 31,
+    "endLine": 3,
+    "endColumn": 31
+  },
+  {
+    "qualifiedName": "A",
+    "id": 3,
+    "entityType": "Class Template",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_friend/_template-function-friends/file0.cpp",
+    "startLine": 7,
+    "startColumn": 107,
+    "endLine": 7,
+    "endColumn": 107
+  },
+  {
+    "qualifiedName": "A::classA::funcA",
+    "id": 4,
+    "entityType": "Function",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_friend/_template-function-friends/file0.cpp",
+    "startLine": 8,
+    "startColumn": 133,
+    "endLine": 8,
+    "endColumn": 133
+  }
+]

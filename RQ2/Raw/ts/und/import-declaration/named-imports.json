@@ -1,0 +1,517 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/import-declaration/named-imports.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_named-imports\\file4.ts"
+        },
+        {
+            "id": 6,
+            "type": "File",
+            "name": "_named-imports\\file0.ts"
+        },
+        {
+            "id": 9,
+            "type": "File",
+            "name": "_named-imports\\file5.ts"
+        },
+        {
+            "id": 15,
+            "type": "File",
+            "name": "_named-imports\\file1.ts"
+        },
+        {
+            "id": 18,
+            "type": "File",
+            "name": "_named-imports\\file2.ts"
+        },
+        {
+            "id": 20,
+            "type": "File",
+            "name": "_named-imports\\file3.ts"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Variable Global",
+            "name": "IFoo",
+            "qualified_name": "IFoo",
+            "line": 3,
+            "start_column": 16,
+            "end_column": 20,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "web Javascript Variable Global",
+            "name": "bar",
+            "qualified_name": "bar",
+            "line": 8,
+            "start_column": 5,
+            "end_column": 8,
+            "belongs_to": 1
+        },
+        {
+            "id": 4,
+            "type": "web Javascript Variable Global",
+            "name": "defaultExport",
+            "qualified_name": "defaultExport",
+            "line": 1,
+            "start_column": 8,
+            "end_column": 21,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "web Javascript Variable Global",
+            "name": "foo",
+            "qualified_name": "foo",
+            "line": 7,
+            "start_column": 5,
+            "end_column": 8,
+            "belongs_to": 1
+        },
+        {
+            "id": 7,
+            "type": "web Javascript Interface",
+            "name": "Foo",
+            "qualified_name": "Foo",
+            "line": 13,
+            "start_column": 26,
+            "end_column": 29,
+            "belongs_to": 6
+        },
+        {
+            "id": 8,
+            "type": "web Javascript Type Alias",
+            "name": "OptionalNumber",
+            "qualified_name": "OptionalNumber",
+            "line": 11,
+            "start_column": 13,
+            "end_column": 27,
+            "belongs_to": 6
+        },
+        {
+            "id": 10,
+            "type": "web Javascript Variable Global",
+            "name": "AWholeModule",
+            "qualified_name": "AWholeModule",
+            "line": 1,
+            "start_column": 28,
+            "end_column": 40,
+            "belongs_to": 9
+        },
+        {
+            "id": 11,
+            "type": "web Javascript Variable Global",
+            "name": "bar",
+            "qualified_name": "bar",
+            "line": 5,
+            "start_column": 5,
+            "end_column": 8,
+            "belongs_to": 9
+        },
+        {
+            "id": 13,
+            "type": "web Javascript Variable Global",
+            "name": "defaultExport",
+            "qualified_name": "defaultExport",
+            "line": 1,
+            "start_column": 8,
+            "end_column": 21,
+            "belongs_to": 9
+        },
+        {
+            "id": 14,
+            "type": "web Javascript Variable Global",
+            "name": "foo",
+            "qualified_name": "foo",
+            "line": 4,
+            "start_column": 5,
+            "end_column": 8,
+            "belongs_to": 9
+        },
+        {
+            "id": 16,
+            "type": "web Javascript Function",
+            "name": "func",
+            "qualified_name": "func",
+            "line": 3,
+            "start_column": 17,
+            "end_column": 21,
+            "belongs_to": 6
+        },
+        {
+            "id": 17,
+            "type": "web Javascript Class",
+            "name": "Class",
+            "qualified_name": "Class",
+            "line": 7,
+            "start_column": 14,
+            "end_column": 19,
+            "belongs_to": 6
+        },
+        {
+            "id": 19,
+            "type": "web Javascript Variable Global",
+            "name": "shortName",
+            "qualified_name": "shortName",
+            "line": 1,
+            "start_column": 27,
+            "end_column": 36,
+            "belongs_to": 18
+        },
+        {
+            "id": 21,
+            "type": "web Javascript Variable Global",
+            "name": "Foo",
+            "qualified_name": "Foo",
+            "line": 1,
+            "start_column": 20,
+            "end_column": 23,
+            "belongs_to": 20
+        },
+        {
+            "id": 24,
+            "type": "web Javascript Variable Global",
+            "name": "variable",
+            "qualified_name": "variable",
+            "line": 1,
+            "start_column": 14,
+            "end_column": 22,
+            "belongs_to": 6
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 4,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 8
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 3,
+            "column": 16
+        },
+        {
+            "from": 1,
+            "to": 5,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 7,
+            "column": 5
+        },
+        {
+            "from": 1,
+            "to": 3,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 8,
+            "column": 5
+        },
+        {
+            "from": 1,
+            "to": 6,
+            "type": "web Javascript Import From",
+            "inFile": 1,
+            "line": 5,
+            "column": 8
+        },
+        {
+            "from": 1,
+            "to": 7,
+            "type": "web Javascript Import",
+            "inFile": 1,
+            "line": 1,
+            "column": 8
+        },
+        {
+            "from": 1,
+            "to": 7,
+            "type": "web Javascript Import",
+            "inFile": 1,
+            "line": 3,
+            "column": 16
+        },
+        {
+            "from": 1,
+            "to": 8,
+            "type": "web Javascript Import",
+            "inFile": 1,
+            "line": 4,
+            "column": 5
+        },
+        {
+            "from": 3,
+            "to": 2,
+            "type": "web Javascript Typed",
+            "inFile": 1,
+            "line": 8,
+            "column": 10
+        },
+        {
+            "from": 5,
+            "to": 4,
+            "type": "web Javascript Typed",
+            "inFile": 1,
+            "line": 7,
+            "column": 10
+        },
+        {
+            "from": 6,
+            "to": 24,
+            "type": "web Javascript Define Export",
+            "inFile": 6,
+            "line": 1,
+            "column": 14
+        },
+        {
+            "from": 6,
+            "to": 16,
+            "type": "web Javascript Define Export",
+            "inFile": 6,
+            "line": 3,
+            "column": 17
+        },
+        {
+            "from": 6,
+            "to": 17,
+            "type": "web Javascript Define Export",
+            "inFile": 6,
+            "line": 7,
+            "column": 14
+        },
+        {
+            "from": 6,
+            "to": 8,
+            "type": "web Javascript Define Export",
+            "inFile": 6,
+            "line": 11,
+            "column": 13
+        },
+        {
+            "from": 6,
+            "to": 7,
+            "type": "web Javascript Define Default Export",
+            "inFile": 6,
+            "line": 13,
+            "column": 26
+        },
+        {
+            "from": 6,
+            "to": 24,
+            "type": "web Javascript Set Init",
+            "inFile": 6,
+            "line": 1,
+            "column": 14
+        },
+        {
+            "from": 6,
+            "to": 10,
+            "type": "web Javascript Alias",
+            "inFile": 9,
+            "line": 1,
+            "column": 28
+        },
+        {
+            "from": 7,
+            "to": 2,
+            "type": "web Javascript Alias",
+            "inFile": 1,
+            "line": 3,
+            "column": 16
+        },
+        {
+            "from": 7,
+            "to": 4,
+            "type": "web Javascript Alias",
+            "inFile": 1,
+            "line": 1,
+            "column": 8
+        },
+        {
+            "from": 7,
+            "to": 13,
+            "type": "web Javascript Alias",
+            "inFile": 9,
+            "line": 1,
+            "column": 8
+        },
+        {
+            "from": 7,
+            "to": 21,
+            "type": "web Javascript Alias",
+            "inFile": 20,
+            "line": 1,
+            "column": 20
+        },
+        {
+            "from": 8,
+            "to": 19,
+            "type": "web Javascript Alias",
+            "inFile": 18,
+            "line": 1,
+            "column": 27
+        },
+        {
+            "from": 9,
+            "to": 13,
+            "type": "web Javascript Define",
+            "inFile": 9,
+            "line": 1,
+            "column": 8
+        },
+        {
+            "from": 9,
+            "to": 10,
+            "type": "web Javascript Define",
+            "inFile": 9,
+            "line": 1,
+            "column": 28
+        },
+        {
+            "from": 9,
+            "to": 14,
+            "type": "web Javascript Define",
+            "inFile": 9,
+            "line": 4,
+            "column": 5
+        },
+        {
+            "from": 9,
+            "to": 11,
+            "type": "web Javascript Define",
+            "inFile": 9,
+            "line": 5,
+            "column": 5
+        },
+        {
+            "from": 9,
+            "to": 6,
+            "type": "web Javascript Import From",
+            "inFile": 9,
+            "line": 1,
+            "column": 46
+        },
+        {
+            "from": 9,
+            "to": 7,
+            "type": "web Javascript Import",
+            "inFile": 9,
+            "line": 1,
+            "column": 8
+        },
+        {
+            "from": 9,
+            "to": 6,
+            "type": "web Javascript Import",
+            "inFile": 9,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 9,
+            "to": 10,
+            "type": "web Javascript Use",
+            "inFile": 9,
+            "line": 5,
+            "column": 10
+        },
+        {
+            "from": 14,
+            "to": 13,
+            "type": "web Javascript Typed",
+            "inFile": 9,
+            "line": 4,
+            "column": 10
+        },
+        {
+            "from": 15,
+            "to": 6,
+            "type": "web Javascript Import From",
+            "inFile": 15,
+            "line": 1,
+            "column": 43
+        },
+        {
+            "from": 15,
+            "to": 16,
+            "type": "web Javascript Import",
+            "inFile": 15,
+            "line": 1,
+            "column": 9
+        },
+        {
+            "from": 15,
+            "to": 17,
+            "type": "web Javascript Import",
+            "inFile": 15,
+            "line": 1,
+            "column": 15
+        },
+        {
+            "from": 15,
+            "to": 8,
+            "type": "web Javascript Import",
+            "inFile": 15,
+            "line": 1,
+            "column": 22
+        },
+        {
+            "from": 18,
+            "to": 19,
+            "type": "web Javascript Define",
+            "inFile": 18,
+            "line": 1,
+            "column": 27
+        },
+        {
+            "from": 18,
+            "to": 6,
+            "type": "web Javascript Import From",
+            "inFile": 18,
+            "line": 1,
+            "column": 43
+        },
+        {
+            "from": 18,
+            "to": 8,
+            "type": "web Javascript Import",
+            "inFile": 18,
+            "line": 1,
+            "column": 9
+        },
+        {
+            "from": 20,
+            "to": 21,
+            "type": "web Javascript Define",
+            "inFile": 20,
+            "line": 1,
+            "column": 20
+        },
+        {
+            "from": 20,
+            "to": 6,
+            "type": "web Javascript Import From",
+            "inFile": 20,
+            "line": 1,
+            "column": 30
+        },
+        {
+            "from": 20,
+            "to": 7,
+            "type": "web Javascript Import",
+            "inFile": 20,
+            "line": 1,
+            "column": 20
+        }
+    ]
+}

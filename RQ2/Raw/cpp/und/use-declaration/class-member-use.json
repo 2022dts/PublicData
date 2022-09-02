@@ -1,0 +1,76 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/use-declaration/class-member-use.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_class-member-use\\file0.cpp"
+        },
+        {
+            "id": 2,
+            "type": "C Class Type",
+            "name": "A",
+            "qualified_name": "A",
+            "line": 1,
+            "start_column": 7,
+            "end_column": 8,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "C Public Member Object",
+            "name": "x",
+            "qualified_name": "A::x",
+            "line": 3,
+            "start_column": 9,
+            "end_column": 10,
+            "belongs_to": 1
+        },
+        {
+            "id": 4,
+            "type": "C Public Member Function",
+            "name": "func",
+            "qualified_name": "A::func",
+            "line": 4,
+            "start_column": 9,
+            "end_column": 13,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 7
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 3,
+            "column": 9
+        },
+        {
+            "from": 2,
+            "to": 4,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 4,
+            "column": 9
+        },
+        {
+            "from": 4,
+            "to": 3,
+            "type": "C Use Return",
+            "inFile": 1,
+            "line": 5,
+            "column": 16
+        }
+    ]
+}

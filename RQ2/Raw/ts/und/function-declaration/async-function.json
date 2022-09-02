@@ -1,0 +1,50 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/function-declaration/async-function.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_async-function\\file0.js"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Unnamed Global Function",
+            "name": "(unnamed_function_1)",
+            "qualified_name": "(unnamed_function_1)",
+            "line": 5,
+            "start_column": 22,
+            "end_column": 42,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "web Javascript Function",
+            "name": "foo",
+            "qualified_name": "foo",
+            "line": 1,
+            "start_column": 16,
+            "end_column": 19,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 3,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 16
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define Default Export",
+            "inFile": 1,
+            "line": 5,
+            "column": 22
+        }
+    ]
+}

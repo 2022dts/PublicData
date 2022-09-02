@@ -1,0 +1,68 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/union-declaration/union.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_union\\file0.cpp"
+        },
+        {
+            "id": 2,
+            "type": "C Union Type",
+            "name": "month",
+            "qualified_name": "month",
+            "line": 1,
+            "start_column": 7,
+            "end_column": 12,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "C Public Member Object",
+            "name": "s",
+            "qualified_name": "month::s",
+            "line": 3,
+            "start_column": 9,
+            "end_column": 10,
+            "belongs_to": 1
+        },
+        {
+            "id": 4,
+            "type": "C Public Member Object",
+            "name": "c",
+            "qualified_name": "month::c",
+            "line": 4,
+            "start_column": 11,
+            "end_column": 12,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 7
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 3,
+            "column": 9
+        },
+        {
+            "from": 2,
+            "to": 4,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 4,
+            "column": 11
+        }
+    ]
+}

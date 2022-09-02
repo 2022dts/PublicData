@@ -1,0 +1,401 @@
+{
+    "variables": [
+        {
+            "id": 1,
+            "qualifiedName": "_parameterdefinition.test_parameter",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_parameterdefinition/test_parameter.py"
+        },
+        {
+            "id": 3,
+            "qualifiedName": "_parameterdefinition.test_parameter.func1",
+            "category": "Function",
+            "location": {
+                "startLine": 1,
+                "endLine": -1,
+                "startColumn": 4,
+                "endColumn": -1
+            },
+            "File": "_parameterdefinition/test_parameter.py"
+        },
+        {
+            "id": 4,
+            "qualifiedName": "_parameterdefinition.test_parameter.func1.x",
+            "category": "Parameter",
+            "location": {
+                "startLine": 1,
+                "endLine": 1,
+                "startColumn": 10,
+                "endColumn": 11
+            },
+            "File": "_parameterdefinition/test_parameter.py"
+        },
+        {
+            "id": 5,
+            "qualifiedName": "_parameterdefinition.test_parameter.func2",
+            "category": "Function",
+            "location": {
+                "startLine": 4,
+                "endLine": -1,
+                "startColumn": 4,
+                "endColumn": -1
+            },
+            "File": "_parameterdefinition/test_parameter.py"
+        },
+        {
+            "id": 6,
+            "qualifiedName": "_parameterdefinition.test_parameter.func2.x",
+            "category": "Parameter",
+            "location": {
+                "startLine": 4,
+                "endLine": 4,
+                "startColumn": 10,
+                "endColumn": 16
+            },
+            "File": "_parameterdefinition/test_parameter.py"
+        },
+        {
+            "id": 7,
+            "qualifiedName": "int",
+            "category": "Unknown Variable",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            }
+        },
+        {
+            "id": 8,
+            "qualifiedName": "_parameterdefinition.test_parameter.func3",
+            "category": "Function",
+            "location": {
+                "startLine": 7,
+                "endLine": -1,
+                "startColumn": 4,
+                "endColumn": -1
+            },
+            "File": "_parameterdefinition/test_parameter.py"
+        },
+        {
+            "id": 9,
+            "qualifiedName": "_parameterdefinition.test_parameter.func3.x",
+            "category": "Parameter",
+            "location": {
+                "startLine": 7,
+                "endLine": 7,
+                "startColumn": 10,
+                "endColumn": 11
+            },
+            "File": "_parameterdefinition/test_parameter.py"
+        },
+        {
+            "id": 10,
+            "qualifiedName": "_parameterdefinition.test_parameter.func3.y",
+            "category": "Parameter",
+            "location": {
+                "startLine": 7,
+                "endLine": 7,
+                "startColumn": 14,
+                "endColumn": 15
+            },
+            "File": "_parameterdefinition/test_parameter.py"
+        },
+        {
+            "id": 11,
+            "qualifiedName": "_parameterdefinition.test_parameter.func3.z",
+            "category": "Parameter",
+            "location": {
+                "startLine": 7,
+                "endLine": 7,
+                "startColumn": 19,
+                "endColumn": 20
+            },
+            "File": "_parameterdefinition/test_parameter.py"
+        },
+        {
+            "id": 12,
+            "qualifiedName": "_parameterdefinition.test_parameter.func4",
+            "category": "Function",
+            "location": {
+                "startLine": 10,
+                "endLine": -1,
+                "startColumn": 4,
+                "endColumn": -1
+            },
+            "File": "_parameterdefinition/test_parameter.py"
+        },
+        {
+            "id": 13,
+            "qualifiedName": "_parameterdefinition.test_parameter.func4.x",
+            "category": "Parameter",
+            "location": {
+                "startLine": 10,
+                "endLine": 10,
+                "startColumn": 10,
+                "endColumn": 16
+            },
+            "File": "_parameterdefinition/test_parameter.py"
+        },
+        {
+            "id": 14,
+            "qualifiedName": "_parameterdefinition.test_parameter.(13)",
+            "category": "AnonymousFunction",
+            "location": {
+                "startLine": 13,
+                "endLine": 13,
+                "startColumn": 0,
+                "endColumn": 11
+            },
+            "File": "_parameterdefinition/test_parameter.py"
+        },
+        {
+            "id": 15,
+            "qualifiedName": "_parameterdefinition.test_parameter.(13).t",
+            "category": "LambdaParameter",
+            "location": {
+                "startLine": 13,
+                "endLine": 13,
+                "startColumn": 7,
+                "endColumn": 8
+            },
+            "File": "_parameterdefinition/test_parameter.py"
+        },
+        {
+            "id": 2,
+            "qualifiedName": "_parameterdefinition",
+            "category": "Package",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_parameterdefinition"
+        }
+    ],
+    "cells": [
+        {
+            "src": 1,
+            "dest": 3,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 1,
+            "dest": 5,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 1,
+            "dest": 7,
+            "values": {
+                "kind": "Use",
+                "in_type_context": true
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 13
+            }
+        },
+        {
+            "src": 1,
+            "dest": 8,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 7,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 1,
+            "dest": 12,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 1,
+            "dest": 7,
+            "values": {
+                "kind": "Use",
+                "in_type_context": true
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 13
+            }
+        },
+        {
+            "src": 1,
+            "dest": 14,
+            "values": {
+                "kind": "Use",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 13,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 3,
+            "dest": 4,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 10
+            }
+        },
+        {
+            "src": 5,
+            "dest": 6,
+            "values": {
+                "kind": "Define",
+                "in_type_context": true
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 10
+            }
+        },
+        {
+            "src": 6,
+            "dest": 7,
+            "values": {
+                "kind": "Annotate",
+                "in_type_context": true
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 13
+            }
+        },
+        {
+            "src": 8,
+            "dest": 9,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 7,
+                "startCol": 10
+            }
+        },
+        {
+            "src": 8,
+            "dest": 10,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 7,
+                "startCol": 14
+            }
+        },
+        {
+            "src": 8,
+            "dest": 11,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 7,
+                "startCol": 19
+            }
+        },
+        {
+            "src": 12,
+            "dest": 13,
+            "values": {
+                "kind": "Define",
+                "in_type_context": true
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 10
+            }
+        },
+        {
+            "src": 13,
+            "dest": 7,
+            "values": {
+                "kind": "Annotate",
+                "in_type_context": true
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 13
+            }
+        },
+        {
+            "src": 14,
+            "dest": 15,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 13,
+                "startCol": 7
+            }
+        },
+        {
+            "src": 14,
+            "dest": 15,
+            "values": {
+                "kind": "Use",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 13,
+                "startCol": 10
+            }
+        },
+        {
+            "src": 2,
+            "dest": 1,
+            "values": {
+                "kind": "Contain",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 0,
+                "startCol": 0
+            }
+        }
+    ]
+}

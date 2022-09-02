@@ -1,0 +1,22 @@
+[
+  {
+    "qualifiedName": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_class/_class-with-final-specifier/file0.cpp",
+    "id": 0,
+    "entityType": "File",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_class/_class-with-final-specifier/file0.cpp",
+    "startLine": -1,
+    "startColumn": -1,
+    "endLine": -1,
+    "endColumn": -1
+  },
+  {
+    "qualifiedName": "Vector",
+    "id": 1,
+    "entityType": "Class",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_class/_class-with-final-specifier/file0.cpp",
+    "startLine": 1,
+    "startColumn": 0,
+    "endLine": 1,
+    "endColumn": 0
+  }
+]

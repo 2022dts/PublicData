@@ -1,0 +1,136 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/enum-member-declaration/constant-enum-expression.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_constant-enum-expression\\file0.ts"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Enum",
+            "name": "FileAccess",
+            "qualified_name": "FileAccess",
+            "line": 1,
+            "start_column": 6,
+            "end_column": 16,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "web Javascript Property",
+            "name": "G",
+            "qualified_name": "FileAccess.G",
+            "line": 7,
+            "start_column": 5,
+            "end_column": 6,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "web Javascript Property",
+            "name": "Read",
+            "qualified_name": "FileAccess.Read",
+            "line": 3,
+            "start_column": 5,
+            "end_column": 9,
+            "belongs_to": 1
+        },
+        {
+            "id": 7,
+            "type": "web Javascript Property",
+            "name": "ReadWrite",
+            "qualified_name": "FileAccess.ReadWrite",
+            "line": 5,
+            "start_column": 5,
+            "end_column": 14,
+            "belongs_to": 1
+        },
+        {
+            "id": 9,
+            "type": "web Javascript Property",
+            "name": "Write",
+            "qualified_name": "FileAccess.Write",
+            "line": 4,
+            "start_column": 5,
+            "end_column": 10,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 6
+        },
+        {
+            "from": 2,
+            "to": 5,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 3,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 9,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 4,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 7,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 5,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 7,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 5,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 3,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 9,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 4,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 7,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 5,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 7,
+            "column": 5
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+	"entities": [
+		{
+			"name": "file0.ts",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_import-declaration\\_typescript-namespace-import\\file0.ts"
+		},
+		{
+			"name": "X",
+			"type": "namespace",
+			"id": 1,
+			"fullname": "X",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 11
+				},
+				"end": {
+					"line": 1,
+					"column": 12
+				}
+			}
+		},
+		{
+			"name": "a",
+			"type": "variable",
+			"id": 2,
+			"fullname": "X.a",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 18
+				},
+				"end": {
+					"line": 2,
+					"column": 19
+				}
+			}
+		},
+		{
+			"name": "Y",
+			"type": "namespace",
+			"id": 3,
+			"fullname": "X.Y",
+			"location": {
+				"start": {
+					"line": 4,
+					"column": 22
+				},
+				"end": {
+					"line": 4,
+					"column": 23
+				}
+			}
+		}
+	],
+	"relations": [
+		{
+			"from": 1,
+			"to": 2,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 18
+				}
+			}
+		}
+	]
+}

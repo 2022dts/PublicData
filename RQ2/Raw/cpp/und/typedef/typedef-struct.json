@@ -1,0 +1,94 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/typedef/typedef-struct.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_typedef-struct\\file0.cpp"
+        },
+        {
+            "id": 2,
+            "type": "C Unnamed Struct Type",
+            "name": "[unnamed]",
+            "qualified_name": "[unnamed]",
+            "line": 1,
+            "start_column": 15,
+            "end_column": 24,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "C Public Member Object",
+            "name": "hi",
+            "qualified_name": "hi",
+            "line": 1,
+            "start_column": 24,
+            "end_column": 26,
+            "belongs_to": 1
+        },
+        {
+            "id": 4,
+            "type": "C Public Member Object",
+            "name": "lo",
+            "qualified_name": "lo",
+            "line": 1,
+            "start_column": 28,
+            "end_column": 30,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "C Typedef Type",
+            "name": "range",
+            "qualified_name": "range",
+            "line": 1,
+            "start_column": 34,
+            "end_column": 39,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 15
+        },
+        {
+            "from": 1,
+            "to": 5,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 34
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 24
+        },
+        {
+            "from": 2,
+            "to": 4,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 28
+        },
+        {
+            "from": 5,
+            "to": 2,
+            "type": "C Typed",
+            "inFile": 1,
+            "line": 1,
+            "column": 15
+        }
+    ]
+}

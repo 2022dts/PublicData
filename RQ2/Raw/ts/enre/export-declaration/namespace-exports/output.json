@@ -1,0 +1,210 @@
+{
+	"entities": [
+		{
+			"name": "file0.ts",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_export-declaration\\_namespace-exports\\file0.ts"
+		},
+		{
+			"name": "X",
+			"type": "namespace",
+			"id": 1,
+			"fullname": "X",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 11
+				},
+				"end": {
+					"line": 1,
+					"column": 12
+				}
+			}
+		},
+		{
+			"name": "a",
+			"type": "variable",
+			"id": 2,
+			"fullname": "X.a",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 18
+				},
+				"end": {
+					"line": 2,
+					"column": 19
+				}
+			}
+		},
+		{
+			"name": "b",
+			"type": "variable",
+			"id": 3,
+			"fullname": "X.b",
+			"location": {
+				"start": {
+					"line": 3,
+					"column": 18
+				},
+				"end": {
+					"line": 3,
+					"column": 19
+				}
+			}
+		},
+		{
+			"name": "<Anonymous as=\"ArrowFunction\">",
+			"type": "function",
+			"id": 4,
+			"fullname": "X.<Anonymous as=\"ArrowFunction\">",
+			"location": {
+				"start": {
+					"line": 3,
+					"column": 22
+				},
+				"end": {
+					"line": 3,
+					"column": 22
+				}
+			}
+		},
+		{
+			"name": "c",
+			"type": "function",
+			"id": 5,
+			"fullname": "X.c",
+			"location": {
+				"start": {
+					"line": 7,
+					"column": 21
+				},
+				"end": {
+					"line": 7,
+					"column": 22
+				}
+			}
+		},
+		{
+			"name": "d",
+			"type": "function",
+			"id": 6,
+			"fullname": "X.d",
+			"location": {
+				"start": {
+					"line": 11,
+					"column": 22
+				},
+				"end": {
+					"line": 11,
+					"column": 23
+				}
+			}
+		},
+		{
+			"name": "E",
+			"type": "class",
+			"id": 7,
+			"fullname": "X.E",
+			"location": {
+				"start": {
+					"line": 15,
+					"column": 18
+				},
+				"end": {
+					"line": 15,
+					"column": 19
+				}
+			}
+		},
+		{
+			"name": "F",
+			"type": "interface",
+			"id": 8,
+			"fullname": "X.F",
+			"location": {
+				"start": {
+					"line": 19,
+					"column": 22
+				},
+				"end": {
+					"line": 19,
+					"column": 23
+				}
+			}
+		},
+		{
+			"name": "g",
+			"type": "type alias",
+			"id": 9,
+			"fullname": "X.g",
+			"location": {
+				"start": {
+					"line": 23,
+					"column": 17
+				},
+				"end": {
+					"line": 23,
+					"column": 18
+				}
+			}
+		},
+		{
+			"name": "H",
+			"type": "enum",
+			"id": 10,
+			"fullname": "X.H",
+			"location": {
+				"start": {
+					"line": 25,
+					"column": 17
+				},
+				"end": {
+					"line": 25,
+					"column": 18
+				}
+			}
+		},
+		{
+			"name": "Y",
+			"type": "namespace",
+			"id": 11,
+			"fullname": "X.Y",
+			"location": {
+				"start": {
+					"line": 29,
+					"column": 22
+				},
+				"end": {
+					"line": 29,
+					"column": 23
+				}
+			}
+		}
+	],
+	"relations": [
+		{
+			"from": 1,
+			"to": 2,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 18
+				}
+			}
+		},
+		{
+			"from": 1,
+			"to": 3,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 3,
+					"column": 18
+				}
+			}
+		}
+	]
+}

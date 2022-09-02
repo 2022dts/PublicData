@@ -1,0 +1,430 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 1,
+            "name": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-on-demand/helloJDT/pkg/JDTpkg_2.java",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 2,
+            "name": "helloJDT.pkg",
+            "type": "PACKAGE",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-on-demand/helloJDT/pkg/JDTpkg_2.java",
+            "line": 1,
+            "start_column": 18,
+            "end_column": 20
+        },
+        {
+            "id": 3,
+            "name": "helloJDT",
+            "type": "PACKAGE",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-on-demand/helloJDT/HelloJDT.java",
+            "line": 3,
+            "start_column": 8,
+            "end_column": 15
+        },
+        {
+            "id": 4,
+            "name": "helloJDT.pkg.JDTpkg_2",
+            "type": "INTERFACE",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-on-demand/helloJDT/pkg/JDTpkg_2.java",
+            "line": 3,
+            "start_column": 1,
+            "end_column": 1
+        },
+        {
+            "id": 15,
+            "name": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-on-demand/helloJDT/HelloJDT.java",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 16,
+            "name": "java.lang",
+            "type": "PACKAGE",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-on-demand/helloJDT/HelloJDT.java",
+            "line": 4,
+            "start_column": 13,
+            "end_column": 16
+        },
+        {
+            "id": 17,
+            "name": "java",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 18,
+            "name": "java.lang.reflect.Method",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 19,
+            "name": "java.lang.reflect",
+            "type": "PACKAGE",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-on-demand/helloJDT/HelloJDT.java",
+            "line": 4,
+            "start_column": 18,
+            "end_column": 24
+        },
+        {
+            "id": 20,
+            "name": "helloJDT.HelloJDT",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-on-demand/helloJDT/HelloJDT.java",
+            "line": 15,
+            "start_column": 28,
+            "end_column": 31
+        },
+        {
+            "id": 21,
+            "name": "helloJDT.HelloJDT.str1",
+            "type": "FIELD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-on-demand/helloJDT/HelloJDT.java",
+            "line": 7,
+            "start_column": 12,
+            "end_column": 15
+        },
+        {
+            "id": 22,
+            "name": "java.lang.String",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 23,
+            "name": "helloJDT.HelloJDT.str2",
+            "type": "FIELD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-on-demand/helloJDT/HelloJDT.java",
+            "line": 8,
+            "start_column": 12,
+            "end_column": 15
+        },
+        {
+            "id": 24,
+            "name": "helloJDT.HelloJDT.HelloJDT",
+            "type": "METHOD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-on-demand/helloJDT/HelloJDT.java",
+            "line": 10,
+            "start_column": 5,
+            "end_column": 32
+        },
+        {
+            "id": 25,
+            "name": "helloJDT.HelloJDT.hello",
+            "type": "METHOD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-on-demand/helloJDT/HelloJDT.java",
+            "line": 14,
+            "start_column": 5,
+            "end_column": 23
+        },
+        {
+            "id": 26,
+            "name": "void",
+            "type": "BUILTIN_TYPE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 27,
+            "name": "java.io.PrintStream.println",
+            "type": "METHOD",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 28,
+            "name": "java.io.PrintStream",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 29,
+            "name": "java.io",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 30,
+            "name": "java.lang.System",
+            "type": "UNKNOWN",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-on-demand/helloJDT/HelloJDT.java",
+            "line": 19,
+            "start_column": 9,
+            "end_column": 14
+        },
+        {
+            "id": 31,
+            "name": "java.lang.System.out",
+            "type": "FIELD",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 32,
+            "name": "helloJDT.HelloJDT.hello",
+            "type": "METHOD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-on-demand/helloJDT/HelloJDT.java",
+            "line": 18,
+            "start_column": 5,
+            "end_column": 34
+        }
+    ],
+    "relations": [
+        {
+            "type": "MEMBER",
+            "from": 3,
+            "to": 2,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 4,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "IMPORT",
+            "from": 15,
+            "to": 2,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 17,
+            "to": 16,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 19,
+            "to": 18,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 16,
+            "to": 19,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "IMPORT",
+            "from": 15,
+            "to": 18,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 3,
+            "to": 20,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "INHERITANCE",
+            "from": 20,
+            "to": 4,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 20,
+            "to": 21,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 16,
+            "to": 22,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 21,
+            "to": 22,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 20,
+            "to": 23,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 23,
+            "to": 22,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 20,
+            "to": 24,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 24,
+            "to": 22,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "USAGE",
+            "from": 24,
+            "to": 23,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 20,
+            "to": 25,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 25,
+            "to": 26,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 28,
+            "to": 27,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 29,
+            "to": 28,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 17,
+            "to": 29,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "CALL",
+            "from": 25,
+            "to": 27,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 16,
+            "to": 30,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 30,
+            "to": 31,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "USAGE",
+            "from": 25,
+            "to": 31,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "USAGE",
+            "from": 25,
+            "to": 21,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 20,
+            "to": 32,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 32,
+            "to": 26,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 32,
+            "to": 22,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "CALL",
+            "from": 32,
+            "to": 27,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "USAGE",
+            "from": 32,
+            "to": 31,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "import-on-demand"
+}

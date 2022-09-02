@@ -1,0 +1,68 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_usevar\\_method-uses-local-var\\Hello.java",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_usevar\\_method-uses-local-var\\Hello.java",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Hello",
+        "id": 1,
+        "entityType": "Type",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_usevar\\_method-uses-local-var\\Hello.java",
+        "startLine": 1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Hello.getter",
+        "id": 2,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_usevar\\_method-uses-local-var\\Hello.java",
+        "startLine": 2,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Hello.getter.i",
+        "id": 4,
+        "entityType": "Var",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_usevar\\_method-uses-local-var\\Hello.java",
+        "startLine": 3,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Use",
+        "src": 2,
+        "dest": 3
+      },
+      {
+        "type": "Use",
+        "src": 2,
+        "dest": 4
+      },
+      {
+        "type": "Use",
+        "src": 2,
+        "dest": 4
+      },
+      {
+        "type": "Use",
+        "src": 2,
+        "dest": 3
+      }
+    ]
+  }
+]

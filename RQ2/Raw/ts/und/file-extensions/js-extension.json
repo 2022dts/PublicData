@@ -1,0 +1,13 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/file-extensions/js-extension.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_js-extension\\file0.js"
+        }
+    ],
+    "relations": []
+}

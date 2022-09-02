@@ -1,0 +1,328 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/property-declaration/interface-with-property-and-call-signature.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_interface-with-property-and-call-signature\\file0.ts"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Interface",
+            "name": "Distance",
+            "qualified_name": "Distance",
+            "line": 1,
+            "start_column": 11,
+            "end_column": 19,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "web Javascript Property",
+            "name": "comment",
+            "qualified_name": "Distance.comment",
+            "line": 4,
+            "start_column": 5,
+            "end_column": 12,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "web Javascript Parameter",
+            "name": "x1",
+            "qualified_name": "Distance.x1",
+            "line": 2,
+            "start_column": 6,
+            "end_column": 8,
+            "belongs_to": 1
+        },
+        {
+            "id": 6,
+            "type": "web Javascript Parameter",
+            "name": "x2",
+            "qualified_name": "Distance.x2",
+            "line": 2,
+            "start_column": 30,
+            "end_column": 32,
+            "belongs_to": 1
+        },
+        {
+            "id": 7,
+            "type": "web Javascript Parameter",
+            "name": "y1",
+            "qualified_name": "Distance.y1",
+            "line": 2,
+            "start_column": 18,
+            "end_column": 20,
+            "belongs_to": 1
+        },
+        {
+            "id": 8,
+            "type": "web Javascript Parameter",
+            "name": "y2",
+            "qualified_name": "Distance.y2",
+            "line": 2,
+            "start_column": 42,
+            "end_column": 44,
+            "belongs_to": 1
+        },
+        {
+            "id": 12,
+            "type": "web Javascript Variable Global",
+            "name": "distance",
+            "qualified_name": "distance",
+            "line": 8,
+            "start_column": 7,
+            "end_column": 15,
+            "belongs_to": 1
+        },
+        {
+            "id": 13,
+            "type": "web Javascript Unnamed Function",
+            "name": "(unnamed_function_1)",
+            "qualified_name": "distance.(unnamed_function_1)",
+            "line": 9,
+            "start_column": 5,
+            "end_column": 25,
+            "belongs_to": 1
+        },
+        {
+            "id": 14,
+            "type": "web Javascript Parameter",
+            "name": "x1",
+            "qualified_name": "distance.(unnamed_function_1).x1",
+            "line": 9,
+            "start_column": 6,
+            "end_column": 8,
+            "belongs_to": 1
+        },
+        {
+            "id": 15,
+            "type": "web Javascript Parameter",
+            "name": "x2",
+            "qualified_name": "distance.(unnamed_function_1).x2",
+            "line": 9,
+            "start_column": 30,
+            "end_column": 32,
+            "belongs_to": 1
+        },
+        {
+            "id": 16,
+            "type": "web Javascript Parameter",
+            "name": "y1",
+            "qualified_name": "distance.(unnamed_function_1).y1",
+            "line": 9,
+            "start_column": 18,
+            "end_column": 20,
+            "belongs_to": 1
+        },
+        {
+            "id": 17,
+            "type": "web Javascript Parameter",
+            "name": "y2",
+            "qualified_name": "distance.(unnamed_function_1).y2",
+            "line": 9,
+            "start_column": 42,
+            "end_column": 44,
+            "belongs_to": 1
+        },
+        {
+            "id": 18,
+            "type": "web Javascript Property",
+            "name": "comment",
+            "qualified_name": "distance.comment",
+            "line": 10,
+            "start_column": 6,
+            "end_column": 13,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 11
+        },
+        {
+            "from": 1,
+            "to": 12,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 8,
+            "column": 7
+        },
+        {
+            "from": 1,
+            "to": 12,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 8,
+            "column": 7
+        },
+        {
+            "from": 1,
+            "to": 12,
+            "type": "web Javascript Call",
+            "inFile": 1,
+            "line": 14,
+            "column": 1
+        },
+        {
+            "from": 1,
+            "to": 12,
+            "type": "web Javascript Use",
+            "inFile": 1,
+            "line": 15,
+            "column": 13
+        },
+        {
+            "from": 2,
+            "to": 5,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 6
+        },
+        {
+            "from": 2,
+            "to": 7,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 18
+        },
+        {
+            "from": 2,
+            "to": 6,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 30
+        },
+        {
+            "from": 2,
+            "to": 8,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 42
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 4,
+            "column": 5
+        },
+        {
+            "from": 12,
+            "to": 13,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 9,
+            "column": 5
+        },
+        {
+            "from": 12,
+            "to": 18,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 10,
+            "column": 6
+        },
+        {
+            "from": 12,
+            "to": 18,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 10,
+            "column": 6
+        },
+        {
+            "from": 12,
+            "to": 2,
+            "type": "web Javascript Typed",
+            "inFile": 1,
+            "line": 8,
+            "column": 17
+        },
+        {
+            "from": 12,
+            "to": 13,
+            "type": "web Javascript Use Ptr",
+            "inFile": 1,
+            "line": 9,
+            "column": 5
+        },
+        {
+            "from": 13,
+            "to": 14,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 9,
+            "column": 6
+        },
+        {
+            "from": 13,
+            "to": 16,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 9,
+            "column": 18
+        },
+        {
+            "from": 13,
+            "to": 15,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 9,
+            "column": 30
+        },
+        {
+            "from": 13,
+            "to": 17,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 9,
+            "column": 42
+        },
+        {
+            "from": 13,
+            "to": 15,
+            "type": "web Javascript Use",
+            "inFile": 1,
+            "line": 9,
+            "column": 59
+        },
+        {
+            "from": 13,
+            "to": 14,
+            "type": "web Javascript Use",
+            "inFile": 1,
+            "line": 9,
+            "column": 64
+        },
+        {
+            "from": 13,
+            "to": 17,
+            "type": "web Javascript Use",
+            "inFile": 1,
+            "line": 9,
+            "column": 75
+        },
+        {
+            "from": 13,
+            "to": 16,
+            "type": "web Javascript Use",
+            "inFile": 1,
+            "line": 9,
+            "column": 80
+        }
+    ]
+}

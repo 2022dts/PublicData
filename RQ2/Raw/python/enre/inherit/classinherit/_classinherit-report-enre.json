@@ -1,0 +1,354 @@
+{
+    "variables": [
+        {
+            "id": 1,
+            "qualifiedName": "_classinherit.file0",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_classinherit/file0.py"
+        },
+        {
+            "id": 3,
+            "qualifiedName": "_classinherit.file0.Base",
+            "category": "Class",
+            "location": {
+                "startLine": 2,
+                "endLine": -1,
+                "startColumn": 6,
+                "endColumn": -1
+            },
+            "File": "_classinherit/file0.py"
+        },
+        {
+            "id": 4,
+            "qualifiedName": "_classinherit.file0.Inherit",
+            "category": "Class",
+            "location": {
+                "startLine": 4,
+                "endLine": -1,
+                "startColumn": 6,
+                "endColumn": -1
+            },
+            "File": "_classinherit/file0.py"
+        },
+        {
+            "id": 5,
+            "qualifiedName": "_classinherit.file0.Base2",
+            "category": "Class",
+            "location": {
+                "startLine": 6,
+                "endLine": -1,
+                "startColumn": 6,
+                "endColumn": -1
+            },
+            "File": "_classinherit/file0.py"
+        },
+        {
+            "id": 6,
+            "qualifiedName": "_classinherit.file0.Inherit1",
+            "category": "Class",
+            "location": {
+                "startLine": 9,
+                "endLine": -1,
+                "startColumn": 6,
+                "endColumn": -1
+            },
+            "File": "_classinherit/file0.py"
+        },
+        {
+            "id": 7,
+            "qualifiedName": "_classinherit.file0.func",
+            "category": "Function",
+            "location": {
+                "startLine": 12,
+                "endLine": -1,
+                "startColumn": 4,
+                "endColumn": -1
+            },
+            "File": "_classinherit/file0.py"
+        },
+        {
+            "id": 8,
+            "qualifiedName": "_classinherit.file0.func.LocalInherit",
+            "category": "Class",
+            "location": {
+                "startLine": 13,
+                "endLine": -1,
+                "startColumn": 10,
+                "endColumn": -1
+            },
+            "File": "_classinherit/file0.py"
+        },
+        {
+            "id": 9,
+            "qualifiedName": "_classinherit.file0.func.LocalInherit2",
+            "category": "Class",
+            "location": {
+                "startLine": 16,
+                "endLine": -1,
+                "startColumn": 10,
+                "endColumn": -1
+            },
+            "File": "_classinherit/file0.py"
+        },
+        {
+            "id": 2,
+            "qualifiedName": "_classinherit",
+            "category": "Package",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_classinherit"
+        }
+    ],
+    "cells": [
+        {
+            "src": 1,
+            "dest": 3,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 1,
+            "dest": 4,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 1,
+            "dest": 3,
+            "values": {
+                "kind": "Use",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 14
+            }
+        },
+        {
+            "src": 1,
+            "dest": 5,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 6,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 1,
+            "dest": 6,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 9,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 1,
+            "dest": 3,
+            "values": {
+                "kind": "Use",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 9,
+                "startCol": 15
+            }
+        },
+        {
+            "src": 1,
+            "dest": 5,
+            "values": {
+                "kind": "Use",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 9,
+                "startCol": 21
+            }
+        },
+        {
+            "src": 1,
+            "dest": 7,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 12,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 4,
+            "dest": 3,
+            "values": {
+                "kind": "Inherit",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 6,
+            "dest": 3,
+            "values": {
+                "kind": "Inherit",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 9,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 6,
+            "dest": 5,
+            "values": {
+                "kind": "Inherit",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 9,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 7,
+            "dest": 8,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 13,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 7,
+            "dest": 3,
+            "values": {
+                "kind": "Use",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 13,
+                "startCol": 23
+            }
+        },
+        {
+            "src": 7,
+            "dest": 9,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 16,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 7,
+            "dest": 3,
+            "values": {
+                "kind": "Use",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 16,
+                "startCol": 24
+            }
+        },
+        {
+            "src": 7,
+            "dest": 5,
+            "values": {
+                "kind": "Use",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 16,
+                "startCol": 30
+            }
+        },
+        {
+            "src": 8,
+            "dest": 3,
+            "values": {
+                "kind": "Inherit",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 13,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 9,
+            "dest": 3,
+            "values": {
+                "kind": "Inherit",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 16,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 9,
+            "dest": 5,
+            "values": {
+                "kind": "Inherit",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 16,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 2,
+            "dest": 1,
+            "values": {
+                "kind": "Contain",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 0,
+                "startCol": 0
+            }
+        }
+    ]
+}

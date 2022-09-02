@@ -1,0 +1,53 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_include/_include-occur-in-function-body/file.cpp",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_include/_include-occur-in-function-body/file.cpp",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_include/_include-occur-in-function-body/file0.h",
+        "id": 1,
+        "entityType": "File",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_include/_include-occur-in-function-body/file0.h",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "main",
+        "id": 2,
+        "entityType": "Function",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_include/_include-occur-in-function-body/file0.h",
+        "startLine": 1,
+        "startColumn": 4,
+        "endLine": 1,
+        "endColumn": 4
+      },
+      {
+        "qualifiedName": "main",
+        "id": 3,
+        "entityType": "Function",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_include/_include-occur-in-function-body/file.cpp",
+        "startLine": 1,
+        "startColumn": 4,
+        "endLine": 1,
+        "endColumn": 4
+      }
+    ],
+    "relations": [
+      {
+        "type": "Include",
+        "src": 0,
+        "dest": 1
+      }
+    ]
+  }
+]

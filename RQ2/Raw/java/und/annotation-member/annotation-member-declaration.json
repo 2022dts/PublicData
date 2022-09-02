@@ -1,0 +1,146 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/annotation-member/annotation-member-declaration.und",
+    "entities": [
+        {
+            "id": 5244,
+            "type": "File",
+            "name": "_annotation-member-declaration\\file0.java"
+        },
+        {
+            "id": 5245,
+            "type": "Package",
+            "name": "(Unnamed_Package)",
+            "qualified_name": "(Unnamed_Package)"
+        },
+        {
+            "id": 5246,
+            "type": "Java Annotation Interface Type Default",
+            "name": "Foo",
+            "qualified_name": "Foo",
+            "line": 1,
+            "start_column": 12,
+            "end_column": 15,
+            "belongs_to": 5244
+        },
+        {
+            "id": 5247,
+            "type": "Java Abstract Method Default Member",
+            "name": "bar",
+            "qualified_name": "Foo.bar",
+            "line": 2,
+            "start_column": 11,
+            "end_column": 14,
+            "belongs_to": 5244
+        },
+        {
+            "id": 5248,
+            "type": "Java Abstract Method Default Member",
+            "name": "baz",
+            "qualified_name": "Foo.baz",
+            "line": 3,
+            "start_column": 8,
+            "end_column": 11,
+            "belongs_to": 5244
+        }
+    ],
+    "relations": [
+        {
+            "from": 5244,
+            "to": 5245,
+            "type": "Java Define",
+            "inFile": 5244,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 5244,
+            "to": 5245,
+            "type": "Java Declare",
+            "inFile": 5244,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 5244,
+            "to": 5246,
+            "type": "Java Define",
+            "inFile": 5244,
+            "line": 1,
+            "column": 12
+        },
+        {
+            "from": 5244,
+            "to": 14,
+            "type": "Java Import Demand",
+            "inFile": 5244,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 5245,
+            "to": 5246,
+            "type": "Java Contain",
+            "inFile": 5244,
+            "line": 1,
+            "column": 12
+        },
+        {
+            "from": 5246,
+            "to": 5246,
+            "type": "Java Begin",
+            "inFile": 5244,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 5246,
+            "to": 5247,
+            "type": "Java Define",
+            "inFile": 5244,
+            "line": 2,
+            "column": 11
+        },
+        {
+            "from": 5246,
+            "to": 5248,
+            "type": "Java Define",
+            "inFile": 5244,
+            "line": 3,
+            "column": 8
+        },
+        {
+            "from": 5246,
+            "to": 20,
+            "type": "Java Couple",
+            "inFile": 5244,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 5247,
+            "to": 5247,
+            "type": "Java Begin",
+            "inFile": 5244,
+            "line": 2,
+            "column": 4
+        },
+        {
+            "from": 5247,
+            "to": 20,
+            "type": "Java Typed",
+            "inFile": 5244,
+            "line": 2,
+            "column": 4
+        },
+        {
+            "from": 5248,
+            "to": 5248,
+            "type": "Java Begin",
+            "inFile": 5244,
+            "line": 3,
+            "column": 4
+        }
+    ]
+}

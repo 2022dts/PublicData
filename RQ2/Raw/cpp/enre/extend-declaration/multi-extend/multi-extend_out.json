@@ -1,0 +1,58 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_extend-declaration/_multi-extend/file0.cpp",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_extend-declaration/_multi-extend/file0.cpp",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Collection",
+        "id": 1,
+        "entityType": "Class",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_extend-declaration/_multi-extend/file0.cpp",
+        "startLine": 1,
+        "startColumn": 0,
+        "endLine": 1,
+        "endColumn": 0
+      },
+      {
+        "qualifiedName": "Book",
+        "id": 2,
+        "entityType": "Class",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_extend-declaration/_multi-extend/file0.cpp",
+        "startLine": 2,
+        "startColumn": 22,
+        "endLine": 2,
+        "endColumn": 22
+      },
+      {
+        "qualifiedName": "CollectionOfBook",
+        "id": 3,
+        "entityType": "Class",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_extend-declaration/_multi-extend/file0.cpp",
+        "startLine": 3,
+        "startColumn": 37,
+        "endLine": 3,
+        "endColumn": 37
+      }
+    ],
+    "relations": [
+      {
+        "type": "Extend",
+        "src": 3,
+        "dest": 2
+      },
+      {
+        "type": "Extend",
+        "src": 3,
+        "dest": 1
+      }
+    ]
+  }
+]

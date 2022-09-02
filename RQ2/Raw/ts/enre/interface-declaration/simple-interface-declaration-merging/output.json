@@ -1,0 +1,103 @@
+{
+	"entities": [
+		{
+			"name": "file0.ts",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_interface-declaration\\_simple-interface-declaration-merging\\file0.ts"
+		},
+		{
+			"name": "Box",
+			"type": "interface",
+			"id": 1,
+			"fullname": "Box",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 11
+				},
+				"end": {
+					"line": 1,
+					"column": 14
+				}
+			}
+		},
+		{
+			"name": "height",
+			"type": "property",
+			"id": 2,
+			"fullname": "Box.height",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 5
+				},
+				"end": {
+					"line": 2,
+					"column": 11
+				}
+			}
+		},
+		{
+			"name": "width",
+			"type": "property",
+			"id": 3,
+			"fullname": "Box.width",
+			"location": {
+				"start": {
+					"line": 3,
+					"column": 5
+				},
+				"end": {
+					"line": 3,
+					"column": 10
+				}
+			}
+		},
+		{
+			"name": "scale",
+			"type": "property",
+			"id": 4,
+			"fullname": "Box.scale",
+			"location": {
+				"start": {
+					"line": 7,
+					"column": 5
+				},
+				"end": {
+					"line": 7,
+					"column": 10
+				}
+			}
+		},
+		{
+			"name": "box",
+			"type": "variable",
+			"id": 5,
+			"fullname": "box",
+			"location": {
+				"start": {
+					"line": 11,
+					"column": 5
+				},
+				"end": {
+					"line": 11,
+					"column": 8
+				}
+			}
+		}
+	],
+	"relations": [
+		{
+			"from": 0,
+			"to": 5,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 11,
+					"column": 5
+				}
+			}
+		}
+	]
+}

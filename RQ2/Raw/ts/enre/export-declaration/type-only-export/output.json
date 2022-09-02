@@ -1,0 +1,131 @@
+{
+	"entities": [
+		{
+			"name": "file1.ts",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_export-declaration\\_type-only-export\\file1.ts"
+		},
+		{
+			"name": "file0.ts",
+			"type": "file",
+			"id": 1,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_export-declaration\\_type-only-export\\file0.ts"
+		},
+		{
+			"name": "obj",
+			"type": "variable",
+			"id": 2,
+			"fullname": "obj",
+			"location": {
+				"start": {
+					"line": 4,
+					"column": 5
+				},
+				"end": {
+					"line": 4,
+					"column": 8
+				}
+			}
+		},
+		{
+			"name": "C",
+			"type": "class",
+			"id": 3,
+			"fullname": "C",
+			"location": {
+				"start": {
+					"line": 7,
+					"column": 7
+				},
+				"end": {
+					"line": 7,
+					"column": 8
+				}
+			}
+		},
+		{
+			"name": "C",
+			"type": "class",
+			"id": 4,
+			"fullname": "C",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 7
+				},
+				"end": {
+					"line": 1,
+					"column": 8
+				}
+			}
+		},
+		{
+			"name": "field0",
+			"type": "field",
+			"id": 5,
+			"fullname": "C.field0",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 5
+				},
+				"end": {
+					"line": 2,
+					"column": 11
+				}
+			}
+		},
+		{
+			"name": "method0",
+			"type": "method",
+			"id": 6,
+			"fullname": "C.method0",
+			"location": {
+				"start": {
+					"line": 4,
+					"column": 5
+				},
+				"end": {
+					"line": 4,
+					"column": 12
+				}
+			}
+		}
+	],
+	"relations": [
+		{
+			"from": 1,
+			"to": 4,
+			"type": "export",
+			"location": {
+				"start": {
+					"line": 9,
+					"column": 19
+				}
+			}
+		},
+		{
+			"from": 0,
+			"to": 4,
+			"type": "import",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 14
+				}
+			}
+		},
+		{
+			"from": 3,
+			"to": 4,
+			"type": "extend",
+			"location": {
+				"start": {
+					"line": 7,
+					"column": 17
+				}
+			}
+		}
+	]
+}

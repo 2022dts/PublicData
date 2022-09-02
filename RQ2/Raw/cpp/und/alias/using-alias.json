@@ -1,0 +1,53 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/alias/using-alias.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_using-alias\\file0.cpp"
+        },
+        {
+            "id": 2,
+            "type": "Namespace",
+            "name": "base"
+        },
+        {
+            "id": 3,
+            "type": "Namespace",
+            "name": "flags"
+        },
+        {
+            "id": 4,
+            "type": "Namespace",
+            "name": "child"
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "C Declare",
+            "inFile": 1,
+            "line": 1,
+            "column": 11
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "C Declare",
+            "inFile": 1,
+            "line": 2,
+            "column": 15
+        },
+        {
+            "from": 3,
+            "to": 4,
+            "type": "C Declare",
+            "inFile": 1,
+            "line": 3,
+            "column": 19
+        }
+    ]
+}

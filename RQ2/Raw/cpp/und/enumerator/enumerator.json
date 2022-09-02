@@ -1,0 +1,110 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/enumerator/enumerator.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_enumerator\\file0.cpp"
+        },
+        {
+            "id": 2,
+            "type": "C Enum Type",
+            "name": "Color",
+            "qualified_name": "Color",
+            "line": 1,
+            "start_column": 10,
+            "end_column": 15,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "C Enumerator",
+            "name": "red",
+            "qualified_name": "red",
+            "line": 2,
+            "start_column": 9,
+            "end_column": 12,
+            "belongs_to": 1
+        },
+        {
+            "id": 4,
+            "type": "C Enumerator",
+            "name": "green",
+            "qualified_name": "green",
+            "line": 3,
+            "start_column": 9,
+            "end_column": 14,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "C Enumerator",
+            "name": "blue",
+            "qualified_name": "blue",
+            "line": 4,
+            "start_column": 9,
+            "end_column": 13,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 10
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 9
+        },
+        {
+            "from": 2,
+            "to": 4,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 3,
+            "column": 9
+        },
+        {
+            "from": 2,
+            "to": 5,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 4,
+            "column": 9
+        },
+        {
+            "from": 3,
+            "to": 2,
+            "type": "C Typed Implicit",
+            "inFile": 1,
+            "line": 2,
+            "column": 9
+        },
+        {
+            "from": 4,
+            "to": 2,
+            "type": "C Typed Implicit",
+            "inFile": 1,
+            "line": 3,
+            "column": 9
+        },
+        {
+            "from": 5,
+            "to": 2,
+            "type": "C Typed Implicit",
+            "inFile": 1,
+            "line": 4,
+            "column": 9
+        }
+    ]
+}

@@ -1,0 +1,317 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 1,
+            "name": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-class-from-explicit-package/test_pkg2/Hello.java",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 2,
+            "name": "test_pkg2",
+            "type": "PACKAGE",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-class-from-explicit-package/test_pkg2/Hello.java",
+            "line": 1,
+            "start_column": 9,
+            "end_column": 17
+        },
+        {
+            "id": 3,
+            "name": "test_pkg1.Name",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-class-from-explicit-package/test_pkg1/Name.java",
+            "line": 3,
+            "start_column": 1,
+            "end_column": 1
+        },
+        {
+            "id": 4,
+            "name": "test_pkg1",
+            "type": "PACKAGE",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-class-from-explicit-package/test_pkg1/Name.java",
+            "line": 1,
+            "start_column": 9,
+            "end_column": 17
+        },
+        {
+            "id": 5,
+            "name": "test_pkg2.Hello",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-class-from-explicit-package/test_pkg2/Hello.java",
+            "line": 5,
+            "start_column": 1,
+            "end_column": 1
+        },
+        {
+            "id": 6,
+            "name": "test_pkg2.Hello.main",
+            "type": "METHOD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-class-from-explicit-package/test_pkg2/Hello.java",
+            "line": 6,
+            "start_column": 5,
+            "end_column": 42
+        },
+        {
+            "id": 7,
+            "name": "void",
+            "type": "BUILTIN_TYPE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 8,
+            "name": "java.lang",
+            "type": "PACKAGE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 9,
+            "name": "java",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 10,
+            "name": "java.lang.String",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 11,
+            "name": "test_pkg1.Name.Name",
+            "type": "METHOD",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 12,
+            "name": "java.io.PrintStream.println",
+            "type": "METHOD",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 13,
+            "name": "java.io.PrintStream",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 14,
+            "name": "java.io",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 15,
+            "name": "java.lang.System",
+            "type": "UNKNOWN",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-class-from-explicit-package/test_pkg2/Hello.java",
+            "line": 8,
+            "start_column": 9,
+            "end_column": 14
+        },
+        {
+            "id": 16,
+            "name": "java.lang.System.out",
+            "type": "FIELD",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 17,
+            "name": "test_pkg1.Name.getIt",
+            "type": "METHOD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-class-from-explicit-package/test_pkg1/Name.java",
+            "line": 4,
+            "start_column": 5,
+            "end_column": 25
+        },
+        {
+            "id": 65,
+            "name": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_import/_import-class-from-explicit-package/test_pkg1/Name.java",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        }
+    ],
+    "relations": [
+        {
+            "type": "MEMBER",
+            "from": 4,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "IMPORT",
+            "from": 1,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 5,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 5,
+            "to": 6,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 6,
+            "to": 7,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 9,
+            "to": 8,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 8,
+            "to": 10,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 6,
+            "to": 10,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 6,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 3,
+            "to": 11,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "CALL",
+            "from": 6,
+            "to": 11,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 13,
+            "to": 12,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 14,
+            "to": 13,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 9,
+            "to": 14,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "CALL",
+            "from": 6,
+            "to": 12,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 8,
+            "to": 15,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 15,
+            "to": 16,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "USAGE",
+            "from": 6,
+            "to": 16,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 3,
+            "to": 17,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "CALL",
+            "from": 6,
+            "to": 17,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 17,
+            "to": 10,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "import-class-from-explicit-package"
+}

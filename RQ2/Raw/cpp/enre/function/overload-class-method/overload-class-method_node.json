@@ -1,0 +1,72 @@
+[
+  {
+    "qualifiedName": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_function/_overload-class-method/file0.cpp",
+    "id": 0,
+    "entityType": "File",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_function/_overload-class-method/file0.cpp",
+    "startLine": -1,
+    "startColumn": -1,
+    "endLine": -1,
+    "endColumn": -1
+  },
+  {
+    "qualifiedName": "foo",
+    "id": 1,
+    "entityType": "Class",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_function/_overload-class-method/file0.cpp",
+    "startLine": 1,
+    "startColumn": 0,
+    "endLine": 1,
+    "endColumn": 0
+  },
+  {
+    "qualifiedName": "foo::overloadFunction",
+    "id": 2,
+    "entityType": "Function",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_function/_overload-class-method/file0.cpp",
+    "startLine": 3,
+    "startColumn": 27,
+    "endLine": 3,
+    "endColumn": 27
+  },
+  {
+    "qualifiedName": "foo::overloadFunction",
+    "id": 3,
+    "entityType": "Function",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_function/_overload-class-method/file0.cpp",
+    "startLine": 4,
+    "startColumn": 55,
+    "endLine": 4,
+    "endColumn": 55
+  },
+  {
+    "qualifiedName": "foo::overloadFunction::i",
+    "id": 4,
+    "entityType": "Object",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_function/_overload-class-method/file0.cpp",
+    "startLine": 4,
+    "startColumn": 76,
+    "endLine": 4,
+    "endColumn": 76
+  },
+  {
+    "qualifiedName": "foo::overloadFunction",
+    "id": 5,
+    "entityType": "Function",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_function/_overload-class-method/file0.cpp",
+    "startLine": 5,
+    "startColumn": 88,
+    "endLine": 5,
+    "endColumn": 88
+  },
+  {
+    "qualifiedName": "foo::overloadFunction::i",
+    "id": 6,
+    "entityType": "Object",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_function/_overload-class-method/file0.cpp",
+    "startLine": 5,
+    "startColumn": 110,
+    "endLine": 5,
+    "endColumn": 110
+  }
+]

@@ -1,0 +1,25 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 1,
+            "name": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_contain/_file-contains-annotation/Hello.java",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 2,
+            "name": "Hello",
+            "type": "ANNOTATION",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_contain/_file-contains-annotation/Hello.java",
+            "line": 1,
+            "start_column": 1,
+            "end_column": 1
+        }
+    ],
+    "relations": [],
+    "db_name": "file-contains-annotation"
+}

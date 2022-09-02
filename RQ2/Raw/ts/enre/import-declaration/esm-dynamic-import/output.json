@@ -1,0 +1,83 @@
+{
+	"entities": [
+		{
+			"name": "file1.js",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_import-declaration\\_esm-dynamic-import\\file1.js"
+		},
+		{
+			"name": "file0.js",
+			"type": "file",
+			"id": 1,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_import-declaration\\_esm-dynamic-import\\file0.js"
+		},
+		{
+			"name": "content",
+			"type": "variable",
+			"id": 2,
+			"fullname": "content",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 7
+				},
+				"end": {
+					"line": 1,
+					"column": 14
+				}
+			}
+		},
+		{
+			"name": "a",
+			"type": "variable",
+			"id": 3,
+			"fullname": "a",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 14
+				},
+				"end": {
+					"line": 1,
+					"column": 15
+				}
+			}
+		}
+	],
+	"relations": [
+		{
+			"from": 0,
+			"to": 2,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 7
+				}
+			}
+		},
+		{
+			"from": 1,
+			"to": 3,
+			"type": "export",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 14
+				}
+			}
+		},
+		{
+			"from": 1,
+			"to": 3,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 14
+				}
+			}
+		}
+	]
+}

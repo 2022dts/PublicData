@@ -1,0 +1,53 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/import-declaration/side-effects-only-import.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_side-effects-only-import\\file1.js"
+        },
+        {
+            "id": 2,
+            "type": "File",
+            "name": "_side-effects-only-import\\file0.js"
+        },
+        {
+            "id": 4,
+            "type": "web Javascript Variable Global",
+            "name": "foo",
+            "qualified_name": "foo",
+            "line": 3,
+            "start_column": 14,
+            "end_column": 17,
+            "belongs_to": 2
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Import",
+            "inFile": 1,
+            "line": 1,
+            "column": 8
+        },
+        {
+            "from": 2,
+            "to": 4,
+            "type": "web Javascript Define Export",
+            "inFile": 2,
+            "line": 3,
+            "column": 14
+        },
+        {
+            "from": 2,
+            "to": 4,
+            "type": "web Javascript Set Init",
+            "inFile": 2,
+            "line": 3,
+            "column": 14
+        }
+    ]
+}

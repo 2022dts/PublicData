@@ -1,0 +1,107 @@
+{
+	"entities": [
+		{
+			"name": "file0.ts",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_enum-member-declaration\\_enum-member-corner-cases\\file0.ts"
+		},
+		{
+			"name": "CornerCase",
+			"type": "enum",
+			"id": 1,
+			"fullname": "CornerCase",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 6
+				},
+				"end": {
+					"line": 1,
+					"column": 16
+				}
+			}
+		},
+		{
+			"name": "<Modified raw=\"StringLiteral\" as=\"StringLiteral\">",
+			"type": "enum member",
+			"id": 2,
+			"fullname": "CornerCase.<Modified raw=\"StringLiteral\" as=\"StringLiteral\">",
+			"location": {
+				"start": {
+					"line": 3,
+					"column": 5
+				},
+				"end": {
+					"line": 3,
+					"column": 20
+				}
+			}
+		},
+		{
+			"name": "<Modified raw=\"✅\" as=\"StringLiteral\">",
+			"type": "enum member",
+			"id": 3,
+			"fullname": "CornerCase.<Modified raw=\"✅\" as=\"StringLiteral\">",
+			"location": {
+				"start": {
+					"line": 4,
+					"column": 5
+				},
+				"end": {
+					"line": 4,
+					"column": 8
+				}
+			}
+		},
+		{
+			"name": "<Modified raw=\"1e20\" as=\"StringLiteral\">",
+			"type": "enum member",
+			"id": 4,
+			"fullname": "CornerCase.<Modified raw=\"1e20\" as=\"StringLiteral\">",
+			"location": {
+				"start": {
+					"line": 5,
+					"column": 5
+				},
+				"end": {
+					"line": 5,
+					"column": 11
+				}
+			}
+		},
+		{
+			"name": "<Modified raw=\"0x123\" as=\"StringLiteral\">",
+			"type": "enum member",
+			"id": 5,
+			"fullname": "CornerCase.<Modified raw=\"0x123\" as=\"StringLiteral\">",
+			"location": {
+				"start": {
+					"line": 6,
+					"column": 5
+				},
+				"end": {
+					"line": 6,
+					"column": 12
+				}
+			}
+		},
+		{
+			"name": "<Modified raw=\"100_000\" as=\"StringLiteral\">",
+			"type": "enum member",
+			"id": 6,
+			"fullname": "CornerCase.<Modified raw=\"100_000\" as=\"StringLiteral\">",
+			"location": {
+				"start": {
+					"line": 7,
+					"column": 5
+				},
+				"end": {
+					"line": 7,
+					"column": 14
+				}
+			}
+		}
+	],
+	"relations": []
+}

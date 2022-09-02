@@ -1,0 +1,202 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/variable/variable-declaration-expression.und",
+    "entities": [
+        {
+            "id": 17040,
+            "type": "File",
+            "name": "_variable-declaration-expression\\Foo.java"
+        },
+        {
+            "id": 17041,
+            "type": "Package",
+            "name": "(Unnamed_Package)",
+            "qualified_name": "(Unnamed_Package)"
+        },
+        {
+            "id": 17042,
+            "type": "Java Class Type Public Member",
+            "name": "Foo",
+            "qualified_name": "Foo",
+            "line": 1,
+            "start_column": 14,
+            "end_column": 17,
+            "belongs_to": 17040
+        },
+        {
+            "id": 17043,
+            "type": "Java Method Public Member",
+            "name": "imply",
+            "qualified_name": "Foo.imply",
+            "line": 2,
+            "start_column": 17,
+            "end_column": 22,
+            "belongs_to": 17040
+        },
+        {
+            "id": 17044,
+            "type": "Java Variable Local",
+            "name": "i",
+            "qualified_name": "Foo.imply.i",
+            "line": 3,
+            "start_column": 18,
+            "end_column": 19,
+            "belongs_to": 17040
+        }
+    ],
+    "relations": [
+        {
+            "from": 17040,
+            "to": 17041,
+            "type": "Java Define",
+            "inFile": 17040,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 17040,
+            "to": 17041,
+            "type": "Java Declare",
+            "inFile": 17040,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 17040,
+            "to": 17042,
+            "type": "Java Define",
+            "inFile": 17040,
+            "line": 1,
+            "column": 14
+        },
+        {
+            "from": 17040,
+            "to": 14,
+            "type": "Java Import Demand",
+            "inFile": 17040,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 17041,
+            "to": 17042,
+            "type": "Java Contain",
+            "inFile": 17040,
+            "line": 1,
+            "column": 14
+        },
+        {
+            "from": 17042,
+            "to": 17042,
+            "type": "Java Begin",
+            "inFile": 17040,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 17042,
+            "to": 17043,
+            "type": "Java Define",
+            "inFile": 17040,
+            "line": 2,
+            "column": 17
+        },
+        {
+            "from": 17042,
+            "to": 18,
+            "type": "Java Extend Couple Implicit External",
+            "inFile": 17040,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 17042,
+            "to": 7299,
+            "type": "Java Couple",
+            "inFile": 17040,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 17042,
+            "to": 4343,
+            "type": "Java Couple",
+            "inFile": 17040,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 17043,
+            "to": 17043,
+            "type": "Java Begin",
+            "inFile": 17040,
+            "line": 2,
+            "column": 5
+        },
+        {
+            "from": 17043,
+            "to": 17044,
+            "type": "Java Set Init",
+            "inFile": 17040,
+            "line": 3,
+            "column": 18
+        },
+        {
+            "from": 17043,
+            "to": 17044,
+            "type": "Java Use",
+            "inFile": 17040,
+            "line": 3,
+            "column": 23
+        },
+        {
+            "from": 17043,
+            "to": 17044,
+            "type": "Java Modify",
+            "inFile": 17040,
+            "line": 3,
+            "column": 29
+        },
+        {
+            "from": 17043,
+            "to": 7299,
+            "type": "Java DotRef",
+            "inFile": 17040,
+            "line": 4,
+            "column": 13
+        },
+        {
+            "from": 17043,
+            "to": 17045,
+            "type": "Java Use",
+            "inFile": 17040,
+            "line": 4,
+            "column": 20
+        },
+        {
+            "from": 17043,
+            "to": 17044,
+            "type": "Java Use",
+            "inFile": 17040,
+            "line": 4,
+            "column": 32
+        },
+        {
+            "from": 17043,
+            "to": 17046,
+            "type": "Java Call",
+            "inFile": 17040,
+            "line": 4,
+            "column": 24
+        },
+        {
+            "from": 17043,
+            "to": 17044,
+            "type": "Java Define",
+            "inFile": 17040,
+            "line": 3,
+            "column": 18
+        }
+    ]
+}

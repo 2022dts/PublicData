@@ -1,0 +1,128 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/implement/class-implements-interface.und",
+    "entities": [
+        {
+            "id": 5755,
+            "type": "File",
+            "name": "_class-implements-interface\\BaseService.java"
+        },
+        {
+            "id": 5758,
+            "type": "Package",
+            "name": "hello",
+            "qualified_name": "hello"
+        },
+        {
+            "id": 5756,
+            "type": "Java Class Type Public Member",
+            "name": "BaseService",
+            "qualified_name": "hello.BaseService",
+            "line": 7,
+            "start_column": 14,
+            "end_column": 25,
+            "belongs_to": 5755
+        },
+        {
+            "id": 5757,
+            "type": "Java Interface Type Default",
+            "name": "Bed",
+            "qualified_name": "hello.Bed",
+            "line": 3,
+            "start_column": 11,
+            "end_column": 14,
+            "belongs_to": 5755
+        }
+    ],
+    "relations": [
+        {
+            "from": 5755,
+            "to": 5758,
+            "type": "Java Define",
+            "inFile": 5755,
+            "line": 1,
+            "column": 9
+        },
+        {
+            "from": 5755,
+            "to": 5758,
+            "type": "Java Declare",
+            "inFile": 5755,
+            "line": 1,
+            "column": 9
+        },
+        {
+            "from": 5755,
+            "to": 5757,
+            "type": "Java Define",
+            "inFile": 5755,
+            "line": 3,
+            "column": 11
+        },
+        {
+            "from": 5755,
+            "to": 5756,
+            "type": "Java Define",
+            "inFile": 5755,
+            "line": 7,
+            "column": 14
+        },
+        {
+            "from": 5755,
+            "to": 14,
+            "type": "Java Import Demand",
+            "inFile": 5755,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 5756,
+            "to": 5756,
+            "type": "Java Begin",
+            "inFile": 5755,
+            "line": 7,
+            "column": 1
+        },
+        {
+            "from": 5756,
+            "to": 5757,
+            "type": "Java Implement Couple",
+            "inFile": 5755,
+            "line": 7,
+            "column": 37
+        },
+        {
+            "from": 5756,
+            "to": 18,
+            "type": "Java Extend Couple Implicit External",
+            "inFile": 5755,
+            "line": 7,
+            "column": 1
+        },
+        {
+            "from": 5757,
+            "to": 5757,
+            "type": "Java Begin",
+            "inFile": 5755,
+            "line": 3,
+            "column": 1
+        },
+        {
+            "from": 5758,
+            "to": 5756,
+            "type": "Java Contain",
+            "inFile": 5755,
+            "line": 7,
+            "column": 14
+        },
+        {
+            "from": 5758,
+            "to": 5757,
+            "type": "Java Contain",
+            "inFile": 5755,
+            "line": 3,
+            "column": 11
+        }
+    ]
+}

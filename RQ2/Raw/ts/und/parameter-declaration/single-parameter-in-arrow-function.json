@@ -1,0 +1,50 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/parameter-declaration/single-parameter-in-arrow-function.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_single-parameter-in-arrow-function\\file0.js"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Unnamed Function",
+            "name": "(unnamed_function_1)",
+            "qualified_name": "(unnamed_function_1)",
+            "line": 1,
+            "start_column": 1,
+            "end_column": 21,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "web Javascript Parameter",
+            "name": "a",
+            "qualified_name": "(unnamed_function_1).a",
+            "line": 1,
+            "start_column": 1,
+            "end_column": 2,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 1
+        }
+    ]
+}

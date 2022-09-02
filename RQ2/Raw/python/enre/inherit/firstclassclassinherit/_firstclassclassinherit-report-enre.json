@@ -1,0 +1,198 @@
+{
+    "variables": [
+        {
+            "id": 1,
+            "qualifiedName": "_firstclassclassinherit.test_first_order_class_inherit",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_firstclassclassinherit/test_first_order_class_inherit.py"
+        },
+        {
+            "id": 3,
+            "qualifiedName": "_firstclassclassinherit.test_first_order_class_inherit.create_class",
+            "category": "Function",
+            "location": {
+                "startLine": 2,
+                "endLine": -1,
+                "startColumn": 4,
+                "endColumn": -1
+            },
+            "File": "_firstclassclassinherit/test_first_order_class_inherit.py"
+        },
+        {
+            "id": 5,
+            "qualifiedName": "_firstclassclassinherit.test_first_order_class_inherit.cls",
+            "category": "Variable",
+            "location": {
+                "startLine": 11,
+                "endLine": 11,
+                "startColumn": 0,
+                "endColumn": 3
+            },
+            "File": "_firstclassclassinherit/test_first_order_class_inherit.py"
+        },
+        {
+            "id": 6,
+            "qualifiedName": "_firstclassclassinherit.test_first_order_class_inherit.SubClass",
+            "category": "Class",
+            "location": {
+                "startLine": 14,
+                "endLine": -1,
+                "startColumn": 6,
+                "endColumn": -1
+            },
+            "File": "_firstclassclassinherit/test_first_order_class_inherit.py"
+        },
+        {
+            "id": 7,
+            "qualifiedName": "_firstclassclassinherit.test_first_order_class_inherit.create_class.Difficult",
+            "category": "Class",
+            "location": {
+                "startLine": 5,
+                "endLine": -1,
+                "startColumn": 10,
+                "endColumn": -1
+            },
+            "File": "_firstclassclassinherit/test_first_order_class_inherit.py"
+        },
+        {
+            "id": 2,
+            "qualifiedName": "_firstclassclassinherit",
+            "category": "Package",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_firstclassclassinherit"
+        }
+    ],
+    "cells": [
+        {
+            "src": 1,
+            "dest": 3,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 1,
+            "dest": 3,
+            "values": {
+                "kind": "Call",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 11,
+                "startCol": 6
+            }
+        },
+        {
+            "src": 1,
+            "dest": 5,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 11,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 1,
+            "dest": 5,
+            "values": {
+                "kind": "Set",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 11,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 1,
+            "dest": 6,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 14,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 1,
+            "dest": 5,
+            "values": {
+                "kind": "Use",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 14,
+                "startCol": 15
+            }
+        },
+        {
+            "src": 3,
+            "dest": 7,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 5,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 3,
+            "dest": 7,
+            "values": {
+                "kind": "Use",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 9,
+                "startCol": 11
+            }
+        },
+        {
+            "src": 6,
+            "dest": 5,
+            "values": {
+                "kind": "Inherit",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 14,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 2,
+            "dest": 1,
+            "values": {
+                "kind": "Contain",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 0,
+                "startCol": 0
+            }
+        }
+    ]
+}

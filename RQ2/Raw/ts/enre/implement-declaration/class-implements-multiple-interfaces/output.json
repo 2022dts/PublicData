@@ -1,0 +1,146 @@
+{
+	"entities": [
+		{
+			"name": "file0.ts",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_implement-declaration\\_class-implements-multiple-interfaces\\file0.ts"
+		},
+		{
+			"name": "Foo",
+			"type": "interface",
+			"id": 1,
+			"fullname": "Foo",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 11
+				},
+				"end": {
+					"line": 1,
+					"column": 14
+				}
+			}
+		},
+		{
+			"name": "prop0",
+			"type": "property",
+			"id": 2,
+			"fullname": "Foo.prop0",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 5
+				},
+				"end": {
+					"line": 2,
+					"column": 10
+				}
+			}
+		},
+		{
+			"name": "Bar",
+			"type": "interface",
+			"id": 3,
+			"fullname": "Bar",
+			"location": {
+				"start": {
+					"line": 5,
+					"column": 11
+				},
+				"end": {
+					"line": 5,
+					"column": 14
+				}
+			}
+		},
+		{
+			"name": "prop1",
+			"type": "property",
+			"id": 4,
+			"fullname": "Bar.prop1",
+			"location": {
+				"start": {
+					"line": 6,
+					"column": 5
+				},
+				"end": {
+					"line": 6,
+					"column": 10
+				}
+			}
+		},
+		{
+			"name": "Baz",
+			"type": "class",
+			"id": 5,
+			"fullname": "Baz",
+			"location": {
+				"start": {
+					"line": 9,
+					"column": 7
+				},
+				"end": {
+					"line": 9,
+					"column": 10
+				}
+			}
+		},
+		{
+			"name": "prop0",
+			"type": "field",
+			"id": 6,
+			"fullname": "Baz.prop0",
+			"location": {
+				"start": {
+					"line": 10,
+					"column": 5
+				},
+				"end": {
+					"line": 10,
+					"column": 10
+				}
+			}
+		},
+		{
+			"name": "prop1",
+			"type": "field",
+			"id": 7,
+			"fullname": "Baz.prop1",
+			"location": {
+				"start": {
+					"line": 11,
+					"column": 5
+				},
+				"end": {
+					"line": 11,
+					"column": 10
+				}
+			}
+		}
+	],
+	"relations": [
+		{
+			"from": 5,
+			"to": 1,
+			"type": "implement",
+			"location": {
+				"start": {
+					"line": 9,
+					"column": 22
+				}
+			}
+		},
+		{
+			"from": 5,
+			"to": 3,
+			"type": "implement",
+			"location": {
+				"start": {
+					"line": 9,
+					"column": 27
+				}
+			}
+		}
+	]
+}

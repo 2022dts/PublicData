@@ -1,0 +1,63 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_call/_function-continuous-call/file0.cpp",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_call/_function-continuous-call/file0.cpp",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "funcA",
+        "id": 1,
+        "entityType": "Function",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_call/_function-continuous-call/file0.cpp",
+        "startLine": 1,
+        "startColumn": 4,
+        "endLine": 1,
+        "endColumn": 4
+      },
+      {
+        "qualifiedName": "funcB",
+        "id": 2,
+        "entityType": "Function",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_call/_function-continuous-call/file0.cpp",
+        "startLine": 4,
+        "startColumn": 34,
+        "endLine": 4,
+        "endColumn": 34
+      },
+      {
+        "qualifiedName": "funcB::i",
+        "id": 3,
+        "entityType": "Object",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_call/_function-continuous-call/file0.cpp",
+        "startLine": 4,
+        "startColumn": 44,
+        "endLine": 4,
+        "endColumn": 44
+      },
+      {
+        "qualifiedName": "run_benchmark",
+        "id": 4,
+        "entityType": "Function",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_call/_function-continuous-call/file0.cpp",
+        "startLine": 7,
+        "startColumn": 69,
+        "endLine": 7,
+        "endColumn": 69
+      }
+    ],
+    "relations": [
+      {
+        "type": "Call",
+        "src": 4,
+        "dest": 2
+      }
+    ]
+  }
+]

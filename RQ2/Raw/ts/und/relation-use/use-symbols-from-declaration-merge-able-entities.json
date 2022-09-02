@@ -1,0 +1,222 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/relation-use/use-symbols-from-declaration-merge-able-entities.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_use-symbols-from-declaration-merge-able-entities\\file0.ts"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Enum",
+            "name": "Foo",
+            "qualified_name": "Foo",
+            "line": 4,
+            "start_column": 6,
+            "end_column": 9,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "web Javascript Property",
+            "name": "a",
+            "qualified_name": "Foo.a",
+            "line": 5,
+            "start_column": 5,
+            "end_column": 6,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "web Javascript Property",
+            "name": "b",
+            "qualified_name": "Foo.b",
+            "line": 6,
+            "start_column": 5,
+            "end_column": 6,
+            "belongs_to": 1
+        },
+        {
+            "id": 7,
+            "type": "web Javascript Enum",
+            "name": "Foo",
+            "qualified_name": "Foo",
+            "line": 9,
+            "start_column": 6,
+            "end_column": 9,
+            "belongs_to": 1
+        },
+        {
+            "id": 8,
+            "type": "web Javascript Property",
+            "name": "c",
+            "qualified_name": "Foo.c",
+            "line": 10,
+            "start_column": 5,
+            "end_column": 6,
+            "belongs_to": 1
+        },
+        {
+            "id": 10,
+            "type": "web Javascript Property",
+            "name": "d",
+            "qualified_name": "Foo.d",
+            "line": 11,
+            "start_column": 5,
+            "end_column": 6,
+            "belongs_to": 1
+        },
+        {
+            "id": 12,
+            "type": "web Javascript Variable Global",
+            "name": "a",
+            "qualified_name": "a",
+            "line": 1,
+            "start_column": 7,
+            "end_column": 8,
+            "belongs_to": 1
+        },
+        {
+            "id": 13,
+            "type": "web Javascript Variable Global",
+            "name": "b",
+            "qualified_name": "b",
+            "line": 2,
+            "start_column": 7,
+            "end_column": 8,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 12,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 7
+        },
+        {
+            "from": 1,
+            "to": 13,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 7
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 4,
+            "column": 6
+        },
+        {
+            "from": 1,
+            "to": 7,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 9,
+            "column": 6
+        },
+        {
+            "from": 1,
+            "to": 12,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 1,
+            "column": 7
+        },
+        {
+            "from": 1,
+            "to": 13,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 2,
+            "column": 7
+        },
+        {
+            "from": 1,
+            "to": 12,
+            "type": "web Javascript Use",
+            "inFile": 1,
+            "line": 10,
+            "column": 9
+        },
+        {
+            "from": 1,
+            "to": 13,
+            "type": "web Javascript Use",
+            "inFile": 1,
+            "line": 10,
+            "column": 13
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 5,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 5,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 6,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 5,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 5,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 6,
+            "column": 5
+        },
+        {
+            "from": 7,
+            "to": 8,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 10,
+            "column": 5
+        },
+        {
+            "from": 7,
+            "to": 10,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 11,
+            "column": 5
+        },
+        {
+            "from": 7,
+            "to": 8,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 10,
+            "column": 5
+        },
+        {
+            "from": 7,
+            "to": 10,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 11,
+            "column": 5
+        }
+    ]
+}

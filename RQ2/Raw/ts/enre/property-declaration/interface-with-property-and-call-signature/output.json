@@ -1,0 +1,167 @@
+{
+	"entities": [
+		{
+			"name": "file0.ts",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_property-declaration\\_interface-with-property-and-call-signature\\file0.ts"
+		},
+		{
+			"name": "Distance",
+			"type": "interface",
+			"id": 1,
+			"fullname": "Distance",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 11
+				},
+				"end": {
+					"line": 1,
+					"column": 19
+				}
+			}
+		},
+		{
+			"name": "<Anonymous as=\"CallableSignature\">",
+			"type": "property",
+			"id": 2,
+			"fullname": "Distance.<Anonymous as=\"CallableSignature\">",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 5
+				},
+				"end": {
+					"line": 2,
+					"column": 5
+				}
+			}
+		},
+		{
+			"name": "comment",
+			"type": "property",
+			"id": 3,
+			"fullname": "Distance.comment",
+			"location": {
+				"start": {
+					"line": 4,
+					"column": 5
+				},
+				"end": {
+					"line": 4,
+					"column": 12
+				}
+			}
+		},
+		{
+			"name": "distance",
+			"type": "variable",
+			"id": 4,
+			"fullname": "distance",
+			"location": {
+				"start": {
+					"line": 8,
+					"column": 7
+				},
+				"end": {
+					"line": 8,
+					"column": 15
+				}
+			}
+		},
+		{
+			"name": "<Anonymous as=\"ArrowFunction\">",
+			"type": "function",
+			"id": 5,
+			"fullname": "<Anonymous as=\"ArrowFunction\">",
+			"location": {
+				"start": {
+					"line": 9,
+					"column": 5
+				},
+				"end": {
+					"line": 9,
+					"column": 5
+				}
+			}
+		},
+		{
+			"name": "x1",
+			"type": "parameter",
+			"id": 6,
+			"fullname": "<Anonymous as=\"ArrowFunction\">.x1",
+			"location": {
+				"start": {
+					"line": 9,
+					"column": 6
+				},
+				"end": {
+					"line": 9,
+					"column": 8
+				}
+			}
+		},
+		{
+			"name": "y1",
+			"type": "parameter",
+			"id": 7,
+			"fullname": "<Anonymous as=\"ArrowFunction\">.y1",
+			"location": {
+				"start": {
+					"line": 9,
+					"column": 18
+				},
+				"end": {
+					"line": 9,
+					"column": 20
+				}
+			}
+		},
+		{
+			"name": "x2",
+			"type": "parameter",
+			"id": 8,
+			"fullname": "<Anonymous as=\"ArrowFunction\">.x2",
+			"location": {
+				"start": {
+					"line": 9,
+					"column": 30
+				},
+				"end": {
+					"line": 9,
+					"column": 32
+				}
+			}
+		},
+		{
+			"name": "y2",
+			"type": "parameter",
+			"id": 9,
+			"fullname": "<Anonymous as=\"ArrowFunction\">.y2",
+			"location": {
+				"start": {
+					"line": 9,
+					"column": 42
+				},
+				"end": {
+					"line": 9,
+					"column": 44
+				}
+			}
+		}
+	],
+	"relations": [
+		{
+			"from": 0,
+			"to": 4,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 8,
+					"column": 7
+				}
+			}
+		}
+	]
+}

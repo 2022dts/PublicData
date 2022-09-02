@@ -1,0 +1,58 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 1,
+            "name": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_struct-declaration/_struct/file0.cpp",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 2,
+            "name": "MyStruct",
+            "type": "STRUCT",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_struct-declaration/_struct/file0.cpp",
+            "line": 1,
+            "start_column": 1,
+            "end_column": 1
+        },
+        {
+            "id": 3,
+            "name": "MyStruct.value",
+            "type": "FIELD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_struct-declaration/_struct/file0.cpp",
+            "line": 2,
+            "start_column": 9,
+            "end_column": 13
+        },
+        {
+            "id": 4,
+            "name": "int",
+            "type": "BUILTIN_TYPE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        }
+    ],
+    "relations": [
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 3,
+            "to": 4,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "struct"
+}

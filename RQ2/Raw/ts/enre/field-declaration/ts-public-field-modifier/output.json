@@ -1,0 +1,59 @@
+{
+	"entities": [
+		{
+			"name": "file0.ts",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_field-declaration\\_ts-public-field-modifier\\file0.ts"
+		},
+		{
+			"name": "Foo",
+			"type": "class",
+			"id": 1,
+			"fullname": "Foo",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 7
+				},
+				"end": {
+					"line": 1,
+					"column": 10
+				}
+			}
+		},
+		{
+			"name": "field0",
+			"type": "field",
+			"id": 2,
+			"fullname": "Foo.field0",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 12
+				},
+				"end": {
+					"line": 2,
+					"column": 18
+				}
+			}
+		},
+		{
+			"name": "field1",
+			"type": "field",
+			"id": 3,
+			"fullname": "Foo.field1",
+			"location": {
+				"start": {
+					"line": 3,
+					"column": 5
+				},
+				"end": {
+					"line": 3,
+					"column": 11
+				}
+			}
+		}
+	],
+	"relations": []
+}

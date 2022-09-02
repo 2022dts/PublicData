@@ -1,0 +1,70 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/annotation/annotation-in-named-package.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_annotation-in-named-package\\file0.java"
+        },
+        {
+            "id": 3,
+            "type": "Package",
+            "name": "foo",
+            "qualified_name": "foo"
+        },
+        {
+            "id": 2,
+            "type": "Java Annotation Interface Type Default",
+            "name": "Bar",
+            "qualified_name": "foo.Bar",
+            "line": 3,
+            "start_column": 12,
+            "end_column": 15,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 3,
+            "type": "Java Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 9
+        },
+        {
+            "from": 1,
+            "to": 3,
+            "type": "Java Declare",
+            "inFile": 1,
+            "line": 1,
+            "column": 9
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "Java Define",
+            "inFile": 1,
+            "line": 3,
+            "column": 12
+        },
+        {
+            "from": 2,
+            "to": 2,
+            "type": "Java Begin",
+            "inFile": 1,
+            "line": 3,
+            "column": 1
+        },
+        {
+            "from": 3,
+            "to": 2,
+            "type": "Java Contain",
+            "inFile": 1,
+            "line": 3,
+            "column": 12
+        }
+    ]
+}

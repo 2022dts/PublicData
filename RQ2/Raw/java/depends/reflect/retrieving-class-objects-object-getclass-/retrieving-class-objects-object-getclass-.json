@@ -1,0 +1,338 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_reflect\\_retrieving-class-objects-object-getclass-\\Person.java",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_reflect\\_retrieving-class-objects-object-getclass-\\Person.java",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Person",
+        "id": 1,
+        "entityType": "Type",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_reflect\\_retrieving-class-objects-object-getclass-\\Person.java",
+        "startLine": 1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Person.name",
+        "id": 2,
+        "entityType": "Var",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_reflect\\_retrieving-class-objects-object-getclass-\\Person.java",
+        "startLine": 2,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Person.age",
+        "id": 3,
+        "entityType": "Var",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_reflect\\_retrieving-class-objects-object-getclass-\\Person.java",
+        "startLine": 3,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Person.msg",
+        "id": 4,
+        "entityType": "Var",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_reflect\\_retrieving-class-objects-object-getclass-\\Person.java",
+        "startLine": 4,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Person.getName",
+        "id": 6,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_reflect\\_retrieving-class-objects-object-getclass-\\Person.java",
+        "startLine": 5,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Person.setName",
+        "id": 8,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_reflect\\_retrieving-class-objects-object-getclass-\\Person.java",
+        "startLine": 9,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Person.getAge",
+        "id": 14,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_reflect\\_retrieving-class-objects-object-getclass-\\Person.java",
+        "startLine": 13,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Person.setAge",
+        "id": 16,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_reflect\\_retrieving-class-objects-object-getclass-\\Person.java",
+        "startLine": 17,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Person.Person",
+        "id": 22,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_reflect\\_retrieving-class-objects-object-getclass-\\Person.java",
+        "startLine": 21,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Person.Person",
+        "id": 23,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_reflect\\_retrieving-class-objects-object-getclass-\\Person.java",
+        "startLine": 24,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Person.fun",
+        "id": 34,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_reflect\\_retrieving-class-objects-object-getclass-\\Person.java",
+        "startLine": 29,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "Person.fun",
+        "id": 42,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_reflect\\_retrieving-class-objects-object-getclass-\\Person.java",
+        "startLine": 33,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_reflect\\_retrieving-class-objects-object-getclass-\\ReflectDemo.java",
+        "id": 58,
+        "entityType": "File",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_reflect\\_retrieving-class-objects-object-getclass-\\ReflectDemo.java",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "ReflectDemo",
+        "id": 59,
+        "entityType": "Type",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_reflect\\_retrieving-class-objects-object-getclass-\\ReflectDemo.java",
+        "startLine": 4,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "ReflectDemo.main",
+        "id": 60,
+        "entityType": "Function",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_reflect\\_retrieving-class-objects-object-getclass-\\ReflectDemo.java",
+        "startLine": 6,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "ReflectDemo.main.o",
+        "id": 62,
+        "entityType": "Var",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_reflect\\_retrieving-class-objects-object-getclass-\\ReflectDemo.java",
+        "startLine": 8,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "ReflectDemo.main.c",
+        "id": 64,
+        "entityType": "Var",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_reflect\\_retrieving-class-objects-object-getclass-\\ReflectDemo.java",
+        "startLine": 9,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "ReflectDemo.main.method",
+        "id": 67,
+        "entityType": "Var",
+        "entityFile": "I:\\Pro.soft\\ENRE\\ENRE-java\\tests\\cases\\_reflect\\_retrieving-class-objects-object-getclass-\\ReflectDemo.java",
+        "startLine": 10,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      }
+    ],
+    "relations": [
+      {
+        "type": "Use",
+        "src": 6,
+        "dest": 2
+      },
+      {
+        "type": "Use",
+        "src": 8,
+        "dest": 2
+      },
+      {
+        "type": "Use",
+        "src": 8,
+        "dest": 1
+      },
+      {
+        "type": "Use",
+        "src": 8,
+        "dest": 9
+      },
+      {
+        "type": "Use",
+        "src": 14,
+        "dest": 3
+      },
+      {
+        "type": "Use",
+        "src": 16,
+        "dest": 3
+      },
+      {
+        "type": "Use",
+        "src": 16,
+        "dest": 1
+      },
+      {
+        "type": "Use",
+        "src": 16,
+        "dest": 17
+      },
+      {
+        "type": "Return",
+        "src": 22,
+        "dest": 22
+      },
+      {
+        "type": "Return",
+        "src": 23,
+        "dest": 23
+      },
+      {
+        "type": "Use",
+        "src": 23,
+        "dest": 2
+      },
+      {
+        "type": "Use",
+        "src": 23,
+        "dest": 1
+      },
+      {
+        "type": "Use",
+        "src": 23,
+        "dest": 25
+      },
+      {
+        "type": "Use",
+        "src": 23,
+        "dest": 3
+      },
+      {
+        "type": "Use",
+        "src": 34,
+        "dest": 23
+      },
+      {
+        "type": "Use",
+        "src": 42,
+        "dest": 44
+      },
+      {
+        "type": "Use",
+        "src": 42,
+        "dest": 45
+      },
+      {
+        "type": "Contain",
+        "src": 60,
+        "dest": 1
+      },
+      {
+        "type": "Call",
+        "src": 60,
+        "dest": 1
+      },
+      {
+        "type": "Create",
+        "src": 60,
+        "dest": 1
+      },
+      {
+        "type": "Use",
+        "src": 60,
+        "dest": 62
+      },
+      {
+        "type": "Use",
+        "src": 60,
+        "dest": 64
+      },
+      {
+        "type": "Use",
+        "src": 60,
+        "dest": 67
+      },
+      {
+        "type": "Use",
+        "src": 60,
+        "dest": 62
+      },
+      {
+        "type": "Use",
+        "src": 60,
+        "dest": 67
+      },
+      {
+        "type": "Use",
+        "src": 60,
+        "dest": 64
+      },
+      {
+        "type": "Use",
+        "src": 60,
+        "dest": 67
+      },
+      {
+        "type": "Use",
+        "src": 60,
+        "dest": 62
+      }
+    ]
+  }
+]

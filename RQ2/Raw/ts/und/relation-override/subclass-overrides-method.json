@@ -1,0 +1,238 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/relation-override/subclass-overrides-method.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_subclass-overrides-method\\file0.js"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Class",
+            "name": "Bar",
+            "qualified_name": "Bar",
+            "line": 11,
+            "start_column": 7,
+            "end_column": 10,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "web Javascript Public Property",
+            "name": "a",
+            "qualified_name": "Bar.a",
+            "line": 16,
+            "start_column": 9,
+            "end_column": 10,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "web Javascript Function",
+            "name": "get",
+            "qualified_name": "Bar.get",
+            "line": 16,
+            "start_column": 5,
+            "end_column": 8,
+            "belongs_to": 1
+        },
+        {
+            "id": 6,
+            "type": "web Javascript Public Method Function",
+            "name": "method0",
+            "qualified_name": "Bar.method0",
+            "line": 12,
+            "start_column": 5,
+            "end_column": 12,
+            "belongs_to": 1
+        },
+        {
+            "id": 8,
+            "type": "web Javascript Class",
+            "name": "Foo",
+            "qualified_name": "Foo",
+            "line": 1,
+            "start_column": 7,
+            "end_column": 10,
+            "belongs_to": 1
+        },
+        {
+            "id": 9,
+            "type": "web Javascript Public Property",
+            "name": "a",
+            "qualified_name": "Foo.a",
+            "line": 6,
+            "start_column": 9,
+            "end_column": 10,
+            "belongs_to": 1
+        },
+        {
+            "id": 10,
+            "type": "web Javascript Function",
+            "name": "get",
+            "qualified_name": "Foo.get",
+            "line": 6,
+            "start_column": 5,
+            "end_column": 8,
+            "belongs_to": 1
+        },
+        {
+            "id": 11,
+            "type": "web Javascript Public Method Function",
+            "name": "method0",
+            "qualified_name": "Foo.method0",
+            "line": 2,
+            "start_column": 5,
+            "end_column": 12,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 8,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 7
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 11,
+            "column": 7
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Call",
+            "inFile": 1,
+            "line": 21,
+            "column": 5
+        },
+        {
+            "from": 1,
+            "to": 6,
+            "type": "web Javascript Call",
+            "inFile": 1,
+            "line": 21,
+            "column": 11
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Call",
+            "inFile": 1,
+            "line": 22,
+            "column": 5
+        },
+        {
+            "from": 1,
+            "to": 3,
+            "type": "web Javascript Use",
+            "inFile": 1,
+            "line": 22,
+            "column": 11
+        },
+        {
+            "from": 2,
+            "to": 6,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 12,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 16,
+            "column": 9
+        },
+        {
+            "from": 2,
+            "to": 5,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 16,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 8,
+            "type": "web Javascript Extend",
+            "inFile": 1,
+            "line": 11,
+            "column": 19
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 16,
+            "column": 9
+        },
+        {
+            "from": 3,
+            "to": 5,
+            "type": "web Javascript Getter",
+            "inFile": 1,
+            "line": 16,
+            "column": 5
+        },
+        {
+            "from": 6,
+            "to": 11,
+            "type": "web Javascript Overrides",
+            "inFile": 1,
+            "line": 12,
+            "column": 5
+        },
+        {
+            "from": 8,
+            "to": 11,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 5
+        },
+        {
+            "from": 8,
+            "to": 9,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 6,
+            "column": 9
+        },
+        {
+            "from": 8,
+            "to": 10,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 6,
+            "column": 5
+        },
+        {
+            "from": 8,
+            "to": 9,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 6,
+            "column": 9
+        },
+        {
+            "from": 9,
+            "to": 10,
+            "type": "web Javascript Getter",
+            "inFile": 1,
+            "line": 6,
+            "column": 5
+        }
+    ]
+}

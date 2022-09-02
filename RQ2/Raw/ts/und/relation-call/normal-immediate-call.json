@@ -1,0 +1,68 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/relation-call/normal-immediate-call.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_normal-immediate-call\\file0.js"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Unnamed Function",
+            "name": "(unnamed_function_1)",
+            "qualified_name": "(unnamed_function_1)",
+            "line": 7,
+            "start_column": 2,
+            "end_column": 22,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "web Javascript Unnamed Function",
+            "name": "(unnamed_function_2)",
+            "qualified_name": "(unnamed_function_2)",
+            "line": 12,
+            "start_column": 2,
+            "end_column": 22,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "web Javascript Function",
+            "name": "foo",
+            "qualified_name": "foo",
+            "line": 2,
+            "start_column": 11,
+            "end_column": 14,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 5,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 11
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 7,
+            "column": 2
+        },
+        {
+            "from": 1,
+            "to": 3,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 12,
+            "column": 2
+        }
+    ]
+}

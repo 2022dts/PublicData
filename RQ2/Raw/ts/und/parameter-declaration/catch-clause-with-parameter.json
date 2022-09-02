@@ -1,0 +1,32 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/parameter-declaration/catch-clause-with-parameter.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_catch-clause-with-parameter\\file0.js"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Variable Global",
+            "name": "e",
+            "qualified_name": "e",
+            "line": 3,
+            "start_column": 10,
+            "end_column": 11,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 3,
+            "column": 10
+        }
+    ]
+}

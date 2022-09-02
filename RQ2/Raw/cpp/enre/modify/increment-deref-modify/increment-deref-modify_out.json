@@ -1,0 +1,53 @@
+[
+  {
+    "variables": [
+      {
+        "qualifiedName": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_modify/_increment-deref-modify/file0.cpp",
+        "id": 0,
+        "entityType": "File",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_modify/_increment-deref-modify/file0.cpp",
+        "startLine": -1,
+        "startColumn": -1,
+        "endLine": -1,
+        "endColumn": -1
+      },
+      {
+        "qualifiedName": "main",
+        "id": 1,
+        "entityType": "Function",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_modify/_increment-deref-modify/file0.cpp",
+        "startLine": 1,
+        "startColumn": 4,
+        "endLine": 1,
+        "endColumn": 4
+      },
+      {
+        "qualifiedName": "main::a",
+        "id": 2,
+        "entityType": "Object",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_modify/_increment-deref-modify/file0.cpp",
+        "startLine": 2,
+        "startColumn": 21,
+        "endLine": 2,
+        "endColumn": 21
+      },
+      {
+        "qualifiedName": "main::b",
+        "id": 3,
+        "entityType": "Object",
+        "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_modify/_increment-deref-modify/file0.cpp",
+        "startLine": 2,
+        "startColumn": 24,
+        "endLine": 2,
+        "endColumn": 24
+      }
+    ],
+    "relations": [
+      {
+        "type": "Modify",
+        "src": 1,
+        "dest": 2
+      }
+    ]
+  }
+]

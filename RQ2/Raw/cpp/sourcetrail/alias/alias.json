@@ -1,0 +1,42 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 1,
+            "name": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_alias/_alias/file0.cpp",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 2,
+            "name": "ns",
+            "type": "NAMESPACE",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_alias/_alias/file0.cpp",
+            "line": 1,
+            "start_column": 1,
+            "end_column": 14
+        },
+        {
+            "id": 3,
+            "name": "text",
+            "type": "NAMESPACE",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_alias/_alias/file0.cpp",
+            "line": 2,
+            "start_column": 11,
+            "end_column": 14
+        }
+    ],
+    "relations": [
+        {
+            "type": "USAGE",
+            "from": 3,
+            "to": 2,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "alias"
+}

@@ -1,0 +1,96 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/define/an-interface-defines-a-method.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_an-interface-defines-a-method\\BaseService.java"
+        },
+        {
+            "id": 4,
+            "type": "Package",
+            "name": "hello",
+            "qualified_name": "hello"
+        },
+        {
+            "id": 2,
+            "type": "Java Interface Type Public",
+            "name": "BaseService",
+            "qualified_name": "hello.BaseService",
+            "line": 3,
+            "start_column": 18,
+            "end_column": 29,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "Java Abstract Method Default Member",
+            "name": "laundry",
+            "qualified_name": "hello.BaseService.laundry",
+            "line": 5,
+            "start_column": 10,
+            "end_column": 17,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 4,
+            "type": "Java Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 9
+        },
+        {
+            "from": 1,
+            "to": 4,
+            "type": "Java Declare",
+            "inFile": 1,
+            "line": 1,
+            "column": 9
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "Java Define",
+            "inFile": 1,
+            "line": 3,
+            "column": 18
+        },
+        {
+            "from": 2,
+            "to": 2,
+            "type": "Java Begin",
+            "inFile": 1,
+            "line": 3,
+            "column": 1
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "Java Define",
+            "inFile": 1,
+            "line": 5,
+            "column": 10
+        },
+        {
+            "from": 3,
+            "to": 3,
+            "type": "Java Begin",
+            "inFile": 1,
+            "line": 5,
+            "column": 5
+        },
+        {
+            "from": 4,
+            "to": 2,
+            "type": "Java Contain",
+            "inFile": 1,
+            "line": 3,
+            "column": 18
+        }
+    ]
+}

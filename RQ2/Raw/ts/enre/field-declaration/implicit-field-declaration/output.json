@@ -1,0 +1,75 @@
+{
+	"entities": [
+		{
+			"name": "file0.js",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_field-declaration\\_implicit-field-declaration\\file0.js"
+		},
+		{
+			"name": "Rectangle",
+			"type": "class",
+			"id": 1,
+			"fullname": "Rectangle",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 7
+				},
+				"end": {
+					"line": 1,
+					"column": 16
+				}
+			}
+		},
+		{
+			"name": "constructor",
+			"type": "method",
+			"id": 2,
+			"fullname": "Rectangle.constructor",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 5
+				},
+				"end": {
+					"line": 2,
+					"column": 16
+				}
+			}
+		},
+		{
+			"name": "height",
+			"type": "parameter",
+			"id": 3,
+			"fullname": "Rectangle.constructor.height",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 17
+				},
+				"end": {
+					"line": 2,
+					"column": 23
+				}
+			}
+		},
+		{
+			"name": "width",
+			"type": "parameter",
+			"id": 4,
+			"fullname": "Rectangle.constructor.width",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 25
+				},
+				"end": {
+					"line": 2,
+					"column": 30
+				}
+			}
+		}
+	],
+	"relations": []
+}

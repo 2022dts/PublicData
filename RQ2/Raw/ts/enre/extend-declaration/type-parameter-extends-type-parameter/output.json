@@ -1,0 +1,103 @@
+{
+	"entities": [
+		{
+			"name": "file0.ts",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_extend-declaration\\_type-parameter-extends-type-parameter\\file0.ts"
+		},
+		{
+			"name": "Foo",
+			"type": "interface",
+			"id": 1,
+			"fullname": "Foo",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 11
+				},
+				"end": {
+					"line": 1,
+					"column": 14
+				}
+			}
+		},
+		{
+			"name": "T",
+			"type": "type parameter",
+			"id": 2,
+			"fullname": "Foo.T",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 15
+				},
+				"end": {
+					"line": 1,
+					"column": 16
+				}
+			}
+		},
+		{
+			"name": "U",
+			"type": "type parameter",
+			"id": 3,
+			"fullname": "Foo.U",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 28
+				},
+				"end": {
+					"line": 1,
+					"column": 29
+				}
+			}
+		},
+		{
+			"name": "prop0",
+			"type": "property",
+			"id": 4,
+			"fullname": "Foo.prop0",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 5
+				},
+				"end": {
+					"line": 2,
+					"column": 10
+				}
+			}
+		},
+		{
+			"name": "prop1",
+			"type": "property",
+			"id": 5,
+			"fullname": "Foo.prop1",
+			"location": {
+				"start": {
+					"line": 3,
+					"column": 5
+				},
+				"end": {
+					"line": 3,
+					"column": 10
+				}
+			}
+		}
+	],
+	"relations": [
+		{
+			"from": 2,
+			"to": 3,
+			"type": "extend",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 25
+				}
+			}
+		}
+	]
+}

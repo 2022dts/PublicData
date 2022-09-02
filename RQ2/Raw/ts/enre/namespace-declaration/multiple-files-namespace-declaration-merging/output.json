@@ -1,0 +1,104 @@
+{
+	"entities": [
+		{
+			"name": "file1.ts",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_namespace-declaration\\_multiple-files-namespace-declaration-merging\\file1.ts"
+		},
+		{
+			"name": "file0.ts",
+			"type": "file",
+			"id": 1,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_namespace-declaration\\_multiple-files-namespace-declaration-merging\\file0.ts"
+		},
+		{
+			"name": "X",
+			"type": "namespace",
+			"id": 2,
+			"fullname": "X",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 11
+				},
+				"end": {
+					"line": 1,
+					"column": 12
+				}
+			}
+		},
+		{
+			"name": "b",
+			"type": "variable",
+			"id": 3,
+			"fullname": "X.b",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 18
+				},
+				"end": {
+					"line": 2,
+					"column": 19
+				}
+			}
+		},
+		{
+			"name": "X",
+			"type": "namespace",
+			"id": 4,
+			"fullname": "X",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 11
+				},
+				"end": {
+					"line": 1,
+					"column": 12
+				}
+			}
+		},
+		{
+			"name": "a",
+			"type": "variable",
+			"id": 5,
+			"fullname": "X.a",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 18
+				},
+				"end": {
+					"line": 2,
+					"column": 19
+				}
+			}
+		}
+	],
+	"relations": [
+		{
+			"from": 2,
+			"to": 3,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 18
+				}
+			}
+		},
+		{
+			"from": 4,
+			"to": 5,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 18
+				}
+			}
+		}
+	]
+}

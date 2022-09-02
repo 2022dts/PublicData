@@ -1,0 +1,67 @@
+{
+	"entities": [
+		{
+			"name": "file1.js",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_import-declaration\\_imported-default-binding\\file1.js"
+		},
+		{
+			"name": "file0.js",
+			"type": "file",
+			"id": 1,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_import-declaration\\_imported-default-binding\\file0.js"
+		},
+		{
+			"name": "variable",
+			"type": "variable",
+			"id": 2,
+			"fullname": "variable",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 7
+				},
+				"end": {
+					"line": 1,
+					"column": 15
+				}
+			}
+		}
+	],
+	"relations": [
+		{
+			"from": 1,
+			"to": 2,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 7
+				}
+			}
+		},
+		{
+			"from": 1,
+			"to": 2,
+			"type": "export",
+			"location": {
+				"start": {
+					"line": 3,
+					"column": 16
+				}
+			}
+		},
+		{
+			"from": 0,
+			"to": 2,
+			"type": "import",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 8
+				}
+			}
+		}
+	]
+}

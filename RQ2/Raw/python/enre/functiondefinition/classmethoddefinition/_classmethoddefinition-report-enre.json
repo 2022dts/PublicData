@@ -1,0 +1,329 @@
+{
+    "variables": [
+        {
+            "id": 1,
+            "qualifiedName": "_classmethoddefinition.test_method_definition",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_classmethoddefinition/test_method_definition.py"
+        },
+        {
+            "id": 3,
+            "qualifiedName": "_classmethoddefinition.test_method_definition.ClassA",
+            "category": "Class",
+            "location": {
+                "startLine": 1,
+                "endLine": -1,
+                "startColumn": 6,
+                "endColumn": -1
+            },
+            "File": "_classmethoddefinition/test_method_definition.py"
+        },
+        {
+            "id": 4,
+            "qualifiedName": "_classmethoddefinition.test_method_definition.ClassA.method",
+            "category": "Function",
+            "location": {
+                "startLine": 2,
+                "endLine": -1,
+                "startColumn": 8,
+                "endColumn": -1
+            },
+            "File": "_classmethoddefinition/test_method_definition.py"
+        },
+        {
+            "id": 5,
+            "qualifiedName": "_classmethoddefinition.test_method_definition.ClassA.method.self",
+            "category": "Parameter",
+            "location": {
+                "startLine": 2,
+                "endLine": 2,
+                "startColumn": 15,
+                "endColumn": 19
+            },
+            "File": "_classmethoddefinition/test_method_definition.py"
+        },
+        {
+            "id": 6,
+            "qualifiedName": "_classmethoddefinition.test_method_definition.ClassB",
+            "category": "Class",
+            "location": {
+                "startLine": 5,
+                "endLine": -1,
+                "startColumn": 6,
+                "endColumn": -1
+            },
+            "File": "_classmethoddefinition/test_method_definition.py"
+        },
+        {
+            "id": 7,
+            "qualifiedName": "_classmethoddefinition.test_method_definition.ClassB.method",
+            "category": "Function",
+            "location": {
+                "startLine": 6,
+                "endLine": -1,
+                "startColumn": 8,
+                "endColumn": -1
+            },
+            "File": "_classmethoddefinition/test_method_definition.py"
+        },
+        {
+            "id": 8,
+            "qualifiedName": "_classmethoddefinition.test_method_definition.ClassB.method.self",
+            "category": "Parameter",
+            "location": {
+                "startLine": 6,
+                "endLine": 6,
+                "startColumn": 15,
+                "endColumn": 19
+            },
+            "File": "_classmethoddefinition/test_method_definition.py"
+        },
+        {
+            "id": 9,
+            "qualifiedName": "_classmethoddefinition.test_method_definition.InheritClassA",
+            "category": "Class",
+            "location": {
+                "startLine": 9,
+                "endLine": -1,
+                "startColumn": 6,
+                "endColumn": -1
+            },
+            "File": "_classmethoddefinition/test_method_definition.py"
+        },
+        {
+            "id": 10,
+            "qualifiedName": "_classmethoddefinition.test_method_definition.InheritClassA.method",
+            "category": "Function",
+            "location": {
+                "startLine": 10,
+                "endLine": -1,
+                "startColumn": 8,
+                "endColumn": -1
+            },
+            "File": "_classmethoddefinition/test_method_definition.py"
+        },
+        {
+            "id": 11,
+            "qualifiedName": "_classmethoddefinition.test_method_definition.InheritClassA.method.self",
+            "category": "Parameter",
+            "location": {
+                "startLine": 10,
+                "endLine": 10,
+                "startColumn": 15,
+                "endColumn": 19
+            },
+            "File": "_classmethoddefinition/test_method_definition.py"
+        },
+        {
+            "id": 2,
+            "qualifiedName": "_classmethoddefinition",
+            "category": "Package",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_classmethoddefinition"
+        },
+        {
+            "id": 12,
+            "qualifiedName": "method",
+            "category": "Ambiguous Attribute",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            }
+        }
+    ],
+    "cells": [
+        {
+            "src": 1,
+            "dest": 3,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 1,
+            "dest": 6,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 5,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 1,
+            "dest": 9,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 9,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 1,
+            "dest": 3,
+            "values": {
+                "kind": "Use",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 9,
+                "startCol": 20
+            }
+        },
+        {
+            "src": 3,
+            "dest": 4,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 4,
+            "dest": 5,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 15
+            }
+        },
+        {
+            "src": 4,
+            "dest": 12,
+            "values": {
+                "kind": "Hasambiguous",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 6,
+            "dest": 7,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 6,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 7,
+            "dest": 8,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 6,
+                "startCol": 15
+            }
+        },
+        {
+            "src": 7,
+            "dest": 12,
+            "values": {
+                "kind": "Hasambiguous",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 9,
+            "dest": 3,
+            "values": {
+                "kind": "Inherit",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 9,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 9,
+            "dest": 10,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 10,
+            "dest": 11,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 15
+            }
+        },
+        {
+            "src": 10,
+            "dest": 12,
+            "values": {
+                "kind": "Hasambiguous",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": -1,
+                "startCol": -1
+            }
+        },
+        {
+            "src": 2,
+            "dest": 1,
+            "values": {
+                "kind": "Contain",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 0,
+                "startCol": 0
+            }
+        }
+    ]
+}

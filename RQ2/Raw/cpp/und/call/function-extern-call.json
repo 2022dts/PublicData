@@ -1,0 +1,57 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/call/function-extern-call.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_function-extern-call\\file0.cpp"
+        },
+        {
+            "id": 2,
+            "type": "C Unresolved Function",
+            "name": "func1",
+            "qualified_name": "func1",
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 3,
+            "type": "C Function",
+            "name": "func",
+            "qualified_name": "func",
+            "line": 2,
+            "start_column": 5,
+            "end_column": 9,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "C Declare",
+            "inFile": 1,
+            "line": 1,
+            "column": 12
+        },
+        {
+            "from": 1,
+            "to": 3,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 5
+        },
+        {
+            "from": 3,
+            "to": 2,
+            "type": "C Call",
+            "inFile": 1,
+            "line": 3,
+            "column": 5
+        }
+    ]
+}

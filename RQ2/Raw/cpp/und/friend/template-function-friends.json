@@ -1,0 +1,102 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/friend/template-function-friends.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_template-function-friends\\file0.cpp"
+        },
+        {
+            "id": 2,
+            "type": "C Class Type",
+            "name": "classA",
+            "qualified_name": "classA",
+            "line": 1,
+            "start_column": 7,
+            "end_column": 13,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "C Public Member Function",
+            "name": "funcA",
+            "qualified_name": "classA::funcA",
+            "line": 3,
+            "start_column": 10,
+            "end_column": 15,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "C Class Type Template",
+            "name": "A",
+            "qualified_name": "A",
+            "line": 7,
+            "start_column": 25,
+            "end_column": 26,
+            "belongs_to": 1
+        },
+        {
+            "id": 6,
+            "type": "C TemplateParameter Type",
+            "name": "T",
+            "qualified_name": "A::T",
+            "line": 7,
+            "start_column": 16,
+            "end_column": 17,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 7
+        },
+        {
+            "from": 1,
+            "to": 5,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 7,
+            "column": 25
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 3,
+            "column": 10
+        },
+        {
+            "from": 5,
+            "to": 6,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 7,
+            "column": 16
+        },
+        {
+            "from": 5,
+            "to": 2,
+            "type": "C Name",
+            "inFile": 1,
+            "line": 8,
+            "column": 17
+        },
+        {
+            "from": 5,
+            "to": 3,
+            "type": "C Friend",
+            "inFile": 1,
+            "line": 8,
+            "column": 25
+        }
+    ]
+}

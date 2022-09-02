@@ -1,0 +1,103 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/import-declaration/imported-default-binding.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_imported-default-binding\\file1.js"
+        },
+        {
+            "id": 5,
+            "type": "File",
+            "name": "_imported-default-binding\\file0.js"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Variable Global",
+            "name": "anyName",
+            "qualified_name": "anyName",
+            "line": 1,
+            "start_column": 8,
+            "end_column": 15,
+            "belongs_to": 1
+        },
+        {
+            "id": 6,
+            "type": "web Javascript Variable Global",
+            "name": "variable",
+            "qualified_name": "variable",
+            "line": 1,
+            "start_column": 7,
+            "end_column": 15,
+            "belongs_to": 5
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 8
+        },
+        {
+            "from": 1,
+            "to": 5,
+            "type": "web Javascript Import From",
+            "inFile": 1,
+            "line": 1,
+            "column": 21
+        },
+        {
+            "from": 1,
+            "to": 6,
+            "type": "web Javascript Import",
+            "inFile": 1,
+            "line": 1,
+            "column": 8
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Use",
+            "inFile": 1,
+            "line": 3,
+            "column": 13
+        },
+        {
+            "from": 5,
+            "to": 6,
+            "type": "web Javascript Define",
+            "inFile": 5,
+            "line": 1,
+            "column": 7
+        },
+        {
+            "from": 5,
+            "to": 6,
+            "type": "web Javascript Declare Export Default",
+            "inFile": 5,
+            "line": 3,
+            "column": 16
+        },
+        {
+            "from": 5,
+            "to": 6,
+            "type": "web Javascript Set Init",
+            "inFile": 5,
+            "line": 1,
+            "column": 7
+        },
+        {
+            "from": 6,
+            "to": 2,
+            "type": "web Javascript Alias",
+            "inFile": 1,
+            "line": 1,
+            "column": 8
+        }
+    ]
+}

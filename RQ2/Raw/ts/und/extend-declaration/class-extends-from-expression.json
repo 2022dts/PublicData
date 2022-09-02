@@ -1,0 +1,136 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/extend-declaration/class-extends-from-expression.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_class-extends-from-expression\\file0.js"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Class",
+            "name": "User",
+            "qualified_name": "User",
+            "line": 9,
+            "start_column": 7,
+            "end_column": 11,
+            "belongs_to": 1
+        },
+        {
+            "id": 4,
+            "type": "web Javascript Function",
+            "name": "f",
+            "qualified_name": "f",
+            "line": 1,
+            "start_column": 10,
+            "end_column": 11,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "web Javascript Class",
+            "name": "(unnamed_class_1)",
+            "qualified_name": "f.(unnamed_class_1)",
+            "line": 2,
+            "start_column": 12,
+            "end_column": 29,
+            "belongs_to": 1
+        },
+        {
+            "id": 6,
+            "type": "web Javascript Public Method Function",
+            "name": "sayHi",
+            "qualified_name": "f.(unnamed_class_1).sayHi",
+            "line": 3,
+            "start_column": 9,
+            "end_column": 14,
+            "belongs_to": 1
+        },
+        {
+            "id": 8,
+            "type": "web Javascript Parameter",
+            "name": "phrase",
+            "qualified_name": "f.phrase",
+            "line": 1,
+            "start_column": 12,
+            "end_column": 18,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 4,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 10
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 9,
+            "column": 7
+        },
+        {
+            "from": 1,
+            "to": 4,
+            "type": "web Javascript Use Ptr",
+            "inFile": 1,
+            "line": 9,
+            "column": 20
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Call",
+            "inFile": 1,
+            "line": 12,
+            "column": 5
+        },
+        {
+            "from": 4,
+            "to": 8,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 12
+        },
+        {
+            "from": 4,
+            "to": 5,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 12
+        },
+        {
+            "from": 4,
+            "to": 5,
+            "type": "web Javascript Use",
+            "inFile": 1,
+            "line": 2,
+            "column": 12
+        },
+        {
+            "from": 5,
+            "to": 6,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 3,
+            "column": 9
+        },
+        {
+            "from": 6,
+            "to": 8,
+            "type": "web Javascript Use",
+            "inFile": 1,
+            "line": 4,
+            "column": 19
+        }
+    ]
+}

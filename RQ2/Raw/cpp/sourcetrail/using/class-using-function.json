@@ -1,0 +1,97 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 2,
+            "name": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_using/_class-using-function/file0.cpp",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 3,
+            "name": "Base",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_using/_class-using-function/file0.cpp",
+            "line": 7,
+            "start_column": 11,
+            "end_column": 14
+        },
+        {
+            "id": 4,
+            "name": "Base.func",
+            "type": "METHOD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_using/_class-using-function/file0.cpp",
+            "line": 3,
+            "start_column": 5,
+            "end_column": 15
+        },
+        {
+            "id": 5,
+            "name": "void",
+            "type": "BUILTIN_TYPE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 6,
+            "name": "Derived",
+            "type": "CLASS",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_using/_class-using-function/file0.cpp",
+            "line": 5,
+            "start_column": 1,
+            "end_column": 1
+        },
+        {
+            "id": 7,
+            "name": "Base.func",
+            "type": "UNKNOWN",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        }
+    ],
+    "relations": [
+        {
+            "type": "MEMBER",
+            "from": 3,
+            "to": 4,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 4,
+            "to": 5,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "INHERITANCE",
+            "from": 6,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 3,
+            "to": 7,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "USAGE",
+            "from": 6,
+            "to": 7,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "class-using-function"
+}

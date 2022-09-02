@@ -1,0 +1,102 @@
+{
+    "variables": [
+        {
+            "id": 1,
+            "qualifiedName": "_anonymousfunctiondefinition.test_anonymous",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_anonymousfunctiondefinition/test_anonymous.py"
+        },
+        {
+            "id": 3,
+            "qualifiedName": "_anonymousfunctiondefinition.test_anonymous.(1)",
+            "category": "AnonymousFunction",
+            "location": {
+                "startLine": 1,
+                "endLine": 1,
+                "startColumn": 0,
+                "endColumn": 11
+            },
+            "File": "_anonymousfunctiondefinition/test_anonymous.py"
+        },
+        {
+            "id": 4,
+            "qualifiedName": "_anonymousfunctiondefinition.test_anonymous.(1).t",
+            "category": "LambdaParameter",
+            "location": {
+                "startLine": 1,
+                "endLine": 1,
+                "startColumn": 7,
+                "endColumn": 8
+            },
+            "File": "_anonymousfunctiondefinition/test_anonymous.py"
+        },
+        {
+            "id": 2,
+            "qualifiedName": "_anonymousfunctiondefinition",
+            "category": "Package",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_anonymousfunctiondefinition"
+        }
+    ],
+    "cells": [
+        {
+            "src": 1,
+            "dest": 3,
+            "values": {
+                "kind": "Use",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 0
+            }
+        },
+        {
+            "src": 3,
+            "dest": 4,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 7
+            }
+        },
+        {
+            "src": 3,
+            "dest": 4,
+            "values": {
+                "kind": "Use",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 10
+            }
+        },
+        {
+            "src": 2,
+            "dest": 1,
+            "values": {
+                "kind": "Contain",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 0,
+                "startCol": 0
+            }
+        }
+    ]
+}

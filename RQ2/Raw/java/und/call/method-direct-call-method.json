@@ -1,0 +1,146 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/call/method-direct-call-method.und",
+    "entities": [
+        {
+            "id": 33959,
+            "type": "File",
+            "name": "_method-direct-call-method\\Foo.java"
+        },
+        {
+            "id": 33960,
+            "type": "Package",
+            "name": "(Unnamed_Package)",
+            "qualified_name": "(Unnamed_Package)"
+        },
+        {
+            "id": 33961,
+            "type": "Java Class Type Public Member",
+            "name": "Foo",
+            "qualified_name": "Foo",
+            "line": 1,
+            "start_column": 14,
+            "end_column": 17,
+            "belongs_to": 33959
+        },
+        {
+            "id": 33962,
+            "type": "Java Method Public Member",
+            "name": "getHello",
+            "qualified_name": "Foo.getHello",
+            "line": 2,
+            "start_column": 17,
+            "end_column": 25,
+            "belongs_to": 33959
+        },
+        {
+            "id": 33963,
+            "type": "Java Method Public Member",
+            "name": "print",
+            "qualified_name": "Foo.print",
+            "line": 6,
+            "start_column": 17,
+            "end_column": 22,
+            "belongs_to": 33959
+        }
+    ],
+    "relations": [
+        {
+            "from": 33959,
+            "to": 33960,
+            "type": "Java Define",
+            "inFile": 33959,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 33959,
+            "to": 33960,
+            "type": "Java Declare",
+            "inFile": 33959,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 33959,
+            "to": 33961,
+            "type": "Java Define",
+            "inFile": 33959,
+            "line": 1,
+            "column": 14
+        },
+        {
+            "from": 33959,
+            "to": 14,
+            "type": "Java Import Demand",
+            "inFile": 33959,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 33960,
+            "to": 33961,
+            "type": "Java Contain",
+            "inFile": 33959,
+            "line": 1,
+            "column": 14
+        },
+        {
+            "from": 33961,
+            "to": 33961,
+            "type": "Java Begin",
+            "inFile": 33959,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 33961,
+            "to": 33962,
+            "type": "Java Define",
+            "inFile": 33959,
+            "line": 2,
+            "column": 17
+        },
+        {
+            "from": 33961,
+            "to": 33963,
+            "type": "Java Define",
+            "inFile": 33959,
+            "line": 6,
+            "column": 17
+        },
+        {
+            "from": 33961,
+            "to": 18,
+            "type": "Java Extend Couple Implicit External",
+            "inFile": 33959,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 33962,
+            "to": 33962,
+            "type": "Java Begin",
+            "inFile": 33959,
+            "line": 2,
+            "column": 5
+        },
+        {
+            "from": 33963,
+            "to": 33963,
+            "type": "Java Begin",
+            "inFile": 33959,
+            "line": 6,
+            "column": 5
+        },
+        {
+            "from": 33963,
+            "to": 33962,
+            "type": "Java Call",
+            "inFile": 33959,
+            "line": 7,
+            "column": 9
+        }
+    ]
+}

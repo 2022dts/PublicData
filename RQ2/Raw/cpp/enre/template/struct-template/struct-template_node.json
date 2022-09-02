@@ -1,0 +1,22 @@
+[
+  {
+    "qualifiedName": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_template/_struct-template/file0.cpp",
+    "id": 0,
+    "entityType": "File",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_template/_struct-template/file0.cpp",
+    "startLine": -1,
+    "startColumn": -1,
+    "endLine": -1,
+    "endColumn": -1
+  },
+  {
+    "qualifiedName": "S",
+    "id": 1,
+    "entityType": "Struct Template",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_template/_struct-template/file0.cpp",
+    "startLine": 2,
+    "startColumn": 21,
+    "endLine": 2,
+    "endColumn": 21
+  }
+]

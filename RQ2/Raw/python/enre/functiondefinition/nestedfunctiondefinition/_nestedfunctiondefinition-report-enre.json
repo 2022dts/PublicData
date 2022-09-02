@@ -1,0 +1,162 @@
+{
+    "variables": [
+        {
+            "id": 1,
+            "qualifiedName": "_nestedfunctiondefinition.file0",
+            "category": "Module",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_nestedfunctiondefinition/file0.py"
+        },
+        {
+            "id": 3,
+            "qualifiedName": "_nestedfunctiondefinition.file0.func",
+            "category": "Function",
+            "location": {
+                "startLine": 1,
+                "endLine": -1,
+                "startColumn": 4,
+                "endColumn": -1
+            },
+            "File": "_nestedfunctiondefinition/file0.py"
+        },
+        {
+            "id": 4,
+            "qualifiedName": "_nestedfunctiondefinition.file0.func.inner",
+            "category": "Function",
+            "location": {
+                "startLine": 2,
+                "endLine": -1,
+                "startColumn": 8,
+                "endColumn": -1
+            },
+            "File": "_nestedfunctiondefinition/file0.py"
+        },
+        {
+            "id": 5,
+            "qualifiedName": "_nestedfunctiondefinition.file0.func.inner.inner_inner",
+            "category": "Function",
+            "location": {
+                "startLine": 4,
+                "endLine": -1,
+                "startColumn": 12,
+                "endColumn": -1
+            },
+            "File": "_nestedfunctiondefinition/file0.py"
+        },
+        {
+            "id": 2,
+            "qualifiedName": "_nestedfunctiondefinition",
+            "category": "Package",
+            "location": {
+                "startLine": -1,
+                "endLine": -1,
+                "startColumn": -1,
+                "endColumn": -1
+            },
+            "File": "_nestedfunctiondefinition"
+        }
+    ],
+    "cells": [
+        {
+            "src": 1,
+            "dest": 3,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 1,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 3,
+            "dest": 4,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 2,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 3,
+            "dest": 4,
+            "values": {
+                "kind": "Call",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 10,
+                "startCol": 4
+            }
+        },
+        {
+            "src": 4,
+            "dest": 5,
+            "values": {
+                "kind": "Define",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 4,
+                "startCol": 12
+            }
+        },
+        {
+            "src": 4,
+            "dest": 3,
+            "values": {
+                "kind": "Call",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 7,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 4,
+            "dest": 5,
+            "values": {
+                "kind": "Call",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 8,
+                "startCol": 8
+            }
+        },
+        {
+            "src": 5,
+            "dest": 3,
+            "values": {
+                "kind": "Call",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 5,
+                "startCol": 12
+            }
+        },
+        {
+            "src": 2,
+            "dest": 1,
+            "values": {
+                "kind": "Contain",
+                "in_type_context": false
+            },
+            "location": {
+                "startLine": 0,
+                "startCol": 0
+            }
+        }
+    ]
+}

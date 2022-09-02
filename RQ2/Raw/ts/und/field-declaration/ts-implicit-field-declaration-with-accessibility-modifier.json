@@ -1,0 +1,180 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/field-declaration/ts-implicit-field-declaration-with-accessibility-modifier.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_ts-implicit-field-declaration-with-accessibility-modifier\\file0.ts"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Class",
+            "name": "Rectangle",
+            "qualified_name": "Rectangle",
+            "line": 1,
+            "start_column": 7,
+            "end_column": 16,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "web Javascript Public Property",
+            "name": "area",
+            "qualified_name": "Rectangle.area",
+            "line": 8,
+            "start_column": 5,
+            "end_column": 9,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "web Javascript Public Method Function",
+            "name": "constructor",
+            "qualified_name": "Rectangle.constructor",
+            "line": 10,
+            "start_column": 5,
+            "end_column": 16,
+            "belongs_to": 1
+        },
+        {
+            "id": 6,
+            "type": "web Javascript Parameter",
+            "name": "height",
+            "qualified_name": "Rectangle.constructor.height",
+            "line": 10,
+            "start_column": 25,
+            "end_column": 31,
+            "belongs_to": 1
+        },
+        {
+            "id": 7,
+            "type": "web Javascript Parameter",
+            "name": "width",
+            "qualified_name": "Rectangle.constructor.width",
+            "line": 10,
+            "start_column": 49,
+            "end_column": 54,
+            "belongs_to": 1
+        },
+        {
+            "id": 8,
+            "type": "web Javascript Private Property",
+            "name": "height",
+            "qualified_name": "Rectangle.height",
+            "line": 10,
+            "start_column": 25,
+            "end_column": 31,
+            "belongs_to": 1
+        },
+        {
+            "id": 10,
+            "type": "web Javascript Private Property",
+            "name": "width",
+            "qualified_name": "Rectangle.width",
+            "line": 10,
+            "start_column": 49,
+            "end_column": 54,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 7
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 8,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 5,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 10,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 8,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 10,
+            "column": 25
+        },
+        {
+            "from": 2,
+            "to": 10,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 10,
+            "column": 49
+        },
+        {
+            "from": 5,
+            "to": 6,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 10,
+            "column": 25
+        },
+        {
+            "from": 5,
+            "to": 7,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 10,
+            "column": 49
+        },
+        {
+            "from": 5,
+            "to": 8,
+            "type": "web Javascript Set",
+            "inFile": 1,
+            "line": 10,
+            "column": 25
+        },
+        {
+            "from": 5,
+            "to": 10,
+            "type": "web Javascript Set",
+            "inFile": 1,
+            "line": 10,
+            "column": 49
+        },
+        {
+            "from": 5,
+            "to": 3,
+            "type": "web Javascript Set",
+            "inFile": 1,
+            "line": 17,
+            "column": 14
+        },
+        {
+            "from": 5,
+            "to": 6,
+            "type": "web Javascript Use",
+            "inFile": 1,
+            "line": 17,
+            "column": 21
+        },
+        {
+            "from": 5,
+            "to": 7,
+            "type": "web Javascript Use",
+            "inFile": 1,
+            "line": 17,
+            "column": 30
+        }
+    ]
+}

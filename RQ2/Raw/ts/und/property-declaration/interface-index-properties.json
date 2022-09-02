@@ -1,0 +1,102 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/property-declaration/interface-index-properties.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_interface-index-properties\\file0.ts"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Interface",
+            "name": "ArrayOfNumber",
+            "qualified_name": "ArrayOfNumber",
+            "line": 1,
+            "start_column": 11,
+            "end_column": 24,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "web Javascript Variable Local",
+            "name": "i",
+            "qualified_name": "ArrayOfNumber.i",
+            "line": 2,
+            "start_column": 6,
+            "end_column": 7,
+            "belongs_to": 1
+        },
+        {
+            "id": 4,
+            "type": "web Javascript Interface",
+            "name": "KVPair",
+            "qualified_name": "KVPair",
+            "line": 5,
+            "start_column": 11,
+            "end_column": 17,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "web Javascript Variable Local",
+            "name": "k",
+            "qualified_name": "KVPair.k",
+            "line": 6,
+            "start_column": 6,
+            "end_column": 7,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 11
+        },
+        {
+            "from": 1,
+            "to": 4,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 5,
+            "column": 11
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 6
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 2,
+            "column": 6
+        },
+        {
+            "from": 4,
+            "to": 5,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 6,
+            "column": 6
+        },
+        {
+            "from": 4,
+            "to": 5,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 6,
+            "column": 6
+        }
+    ]
+}

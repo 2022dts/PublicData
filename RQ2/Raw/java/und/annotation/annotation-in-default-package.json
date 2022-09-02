@@ -1,0 +1,70 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/annotation/annotation-in-default-package.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_annotation-in-default-package\\file0.java"
+        },
+        {
+            "id": 2,
+            "type": "Package",
+            "name": "(Unnamed_Package)",
+            "qualified_name": "(Unnamed_Package)"
+        },
+        {
+            "id": 3,
+            "type": "Java Annotation Interface Type Default",
+            "name": "Foo",
+            "qualified_name": "Foo",
+            "line": 1,
+            "start_column": 12,
+            "end_column": 15,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "Java Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "Java Declare",
+            "inFile": 1,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 1,
+            "to": 3,
+            "type": "Java Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 12
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "Java Contain",
+            "inFile": 1,
+            "line": 1,
+            "column": 12
+        },
+        {
+            "from": 3,
+            "to": 3,
+            "type": "Java Begin",
+            "inFile": 1,
+            "line": 1,
+            "column": 1
+        }
+    ]
+}

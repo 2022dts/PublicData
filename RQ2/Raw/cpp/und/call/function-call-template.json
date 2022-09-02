@@ -1,0 +1,136 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/call/function-call-template.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_function-call-template\\file0.cpp"
+        },
+        {
+            "id": 2,
+            "type": "C Function Template",
+            "name": "func",
+            "qualified_name": "func",
+            "line": 2,
+            "start_column": 5,
+            "end_column": 9,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "C TemplateParameter Type",
+            "name": "S",
+            "qualified_name": "S",
+            "line": 1,
+            "start_column": 19,
+            "end_column": 20,
+            "belongs_to": 1
+        },
+        {
+            "id": 4,
+            "type": "C Parameter",
+            "name": "s",
+            "qualified_name": "s",
+            "line": 2,
+            "start_column": 13,
+            "end_column": 14,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "C Function",
+            "name": "func2",
+            "qualified_name": "func2",
+            "line": 5,
+            "start_column": 6,
+            "end_column": 11,
+            "belongs_to": 1
+        },
+        {
+            "id": 6,
+            "type": "C Object Local",
+            "name": "s",
+            "qualified_name": "s",
+            "line": 6,
+            "start_column": 9,
+            "end_column": 10,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 5
+        },
+        {
+            "from": 1,
+            "to": 5,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 5,
+            "column": 6
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 19
+        },
+        {
+            "from": 2,
+            "to": 4,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 13
+        },
+        {
+            "from": 4,
+            "to": 3,
+            "type": "C Typed",
+            "inFile": 1,
+            "line": 2,
+            "column": 10
+        },
+        {
+            "from": 5,
+            "to": 6,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 6,
+            "column": 9
+        },
+        {
+            "from": 5,
+            "to": 6,
+            "type": "C Set Init",
+            "inFile": 1,
+            "line": 6,
+            "column": 9
+        },
+        {
+            "from": 5,
+            "to": 2,
+            "type": "C Call",
+            "inFile": 1,
+            "line": 7,
+            "column": 5
+        },
+        {
+            "from": 5,
+            "to": 6,
+            "type": "C Use",
+            "inFile": 1,
+            "line": 7,
+            "column": 10
+        }
+    ]
+}

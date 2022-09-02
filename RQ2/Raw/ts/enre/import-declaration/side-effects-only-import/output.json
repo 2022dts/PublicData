@@ -1,0 +1,67 @@
+{
+	"entities": [
+		{
+			"name": "file1.js",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_import-declaration\\_side-effects-only-import\\file1.js"
+		},
+		{
+			"name": "file0.js",
+			"type": "file",
+			"id": 1,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_import-declaration\\_side-effects-only-import\\file0.js"
+		},
+		{
+			"name": "foo",
+			"type": "variable",
+			"id": 2,
+			"fullname": "foo",
+			"location": {
+				"start": {
+					"line": 3,
+					"column": 14
+				},
+				"end": {
+					"line": 3,
+					"column": 17
+				}
+			}
+		}
+	],
+	"relations": [
+		{
+			"from": 0,
+			"to": 1,
+			"type": "import",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 8
+				}
+			}
+		},
+		{
+			"from": 1,
+			"to": 2,
+			"type": "export",
+			"location": {
+				"start": {
+					"line": 3,
+					"column": 14
+				}
+			}
+		},
+		{
+			"from": 1,
+			"to": 2,
+			"type": "set",
+			"location": {
+				"start": {
+					"line": 3,
+					"column": 14
+				}
+			}
+		}
+	]
+}

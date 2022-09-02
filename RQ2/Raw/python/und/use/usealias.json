@@ -1,0 +1,215 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/use/usealias.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_usealias\\module_b.py"
+        },
+        {
+            "id": 8,
+            "type": "File",
+            "name": "_usealias\\module_a.py"
+        },
+        {
+            "id": 2,
+            "type": "python Class",
+            "name": "ClassB",
+            "qualified_name": "module_b.ClassB",
+            "line": 9,
+            "start_column": 7,
+            "end_column": 13,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "python Variable Local",
+            "name": "a",
+            "qualified_name": "module_b.a",
+            "line": 2,
+            "start_column": 20,
+            "end_column": 21,
+            "belongs_to": 1
+        },
+        {
+            "id": 6,
+            "type": "python Function",
+            "name": "foo",
+            "qualified_name": "module_b.foo",
+            "line": 6,
+            "start_column": 5,
+            "end_column": 8,
+            "belongs_to": 1
+        },
+        {
+            "id": 10,
+            "type": "python Class",
+            "name": "ClassA",
+            "qualified_name": "module_a.ClassA",
+            "line": 7,
+            "start_column": 7,
+            "end_column": 13,
+            "belongs_to": 8
+        },
+        {
+            "id": 11,
+            "type": "python Function",
+            "name": "func",
+            "qualified_name": "module_a.func",
+            "line": 3,
+            "start_column": 5,
+            "end_column": 9,
+            "belongs_to": 8
+        },
+        {
+            "id": 12,
+            "type": "python Variable Global",
+            "name": "x",
+            "qualified_name": "module_a.x",
+            "line": 5,
+            "start_column": 1,
+            "end_column": 2,
+            "belongs_to": 8
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 8,
+            "type": "Python Import From",
+            "inFile": 1,
+            "line": 1,
+            "column": 6
+        },
+        {
+            "from": 1,
+            "to": 8,
+            "type": "Python Import",
+            "inFile": 1,
+            "line": 2,
+            "column": 8
+        },
+        {
+            "from": 1,
+            "to": 3,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 20
+        },
+        {
+            "from": 1,
+            "to": 6,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 6,
+            "column": 5
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "Python Define",
+            "inFile": 1,
+            "line": 9,
+            "column": 7
+        },
+        {
+            "from": 1,
+            "to": 9,
+            "type": "Python Call",
+            "inFile": 1,
+            "line": 4,
+            "column": 1
+        },
+        {
+            "from": 1,
+            "to": 3,
+            "type": "Python Use",
+            "inFile": 1,
+            "line": 4,
+            "column": 18
+        },
+        {
+            "from": 2,
+            "to": 9,
+            "type": "Python Call",
+            "inFile": 1,
+            "line": 10,
+            "column": 5
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "Python Use",
+            "inFile": 1,
+            "line": 10,
+            "column": 22
+        },
+        {
+            "from": 6,
+            "to": 9,
+            "type": "Python Call",
+            "inFile": 1,
+            "line": 7,
+            "column": 5
+        },
+        {
+            "from": 6,
+            "to": 3,
+            "type": "Python Use",
+            "inFile": 1,
+            "line": 7,
+            "column": 22
+        },
+        {
+            "from": 8,
+            "to": 1,
+            "type": "Python Import",
+            "inFile": 8,
+            "line": 1,
+            "column": 8
+        },
+        {
+            "from": 8,
+            "to": 11,
+            "type": "Python Define",
+            "inFile": 8,
+            "line": 3,
+            "column": 5
+        },
+        {
+            "from": 8,
+            "to": 12,
+            "type": "Python Define",
+            "inFile": 8,
+            "line": 5,
+            "column": 1
+        },
+        {
+            "from": 8,
+            "to": 10,
+            "type": "Python Define",
+            "inFile": 8,
+            "line": 7,
+            "column": 7
+        },
+        {
+            "from": 8,
+            "to": 12,
+            "type": "Python Set",
+            "inFile": 8,
+            "line": 5,
+            "column": 1
+        },
+        {
+            "from": 8,
+            "to": 3,
+            "type": "Python Alias",
+            "inFile": 1,
+            "line": 2,
+            "column": 20
+        }
+    ]
+}

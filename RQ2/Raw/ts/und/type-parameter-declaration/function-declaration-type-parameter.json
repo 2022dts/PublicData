@@ -1,0 +1,164 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/type-parameter-declaration/function-declaration-type-parameter.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_function-declaration-type-parameter\\file0.ts"
+        },
+        {
+            "id": 2,
+            "type": "web Javascript Variable Global",
+            "name": "bar",
+            "qualified_name": "bar",
+            "line": 5,
+            "start_column": 7,
+            "end_column": 10,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "web Javascript Unnamed Function",
+            "name": "(unnamed_function_1)",
+            "qualified_name": "bar.(unnamed_function_1)",
+            "line": 5,
+            "start_column": 13,
+            "end_column": 33,
+            "belongs_to": 1
+        },
+        {
+            "id": 4,
+            "type": "web Javascript Type Parameter",
+            "name": "T",
+            "qualified_name": "bar.(unnamed_function_1).T",
+            "line": 5,
+            "start_column": 14,
+            "end_column": 15,
+            "belongs_to": 1
+        },
+        {
+            "id": 5,
+            "type": "web Javascript Parameter",
+            "name": "param0",
+            "qualified_name": "bar.(unnamed_function_1).param0",
+            "line": 5,
+            "start_column": 17,
+            "end_column": 23,
+            "belongs_to": 1
+        },
+        {
+            "id": 6,
+            "type": "web Javascript Function",
+            "name": "foo",
+            "qualified_name": "foo",
+            "line": 1,
+            "start_column": 17,
+            "end_column": 20,
+            "belongs_to": 1
+        },
+        {
+            "id": 7,
+            "type": "web Javascript Type Parameter",
+            "name": "T",
+            "qualified_name": "foo.T",
+            "line": 1,
+            "start_column": 21,
+            "end_column": 22,
+            "belongs_to": 1
+        },
+        {
+            "id": 8,
+            "type": "web Javascript Parameter",
+            "name": "param0",
+            "qualified_name": "foo.param0",
+            "line": 1,
+            "start_column": 24,
+            "end_column": 30,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 6,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 17
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 5,
+            "column": 7
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "web Javascript Set Init",
+            "inFile": 1,
+            "line": 5,
+            "column": 7
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 5,
+            "column": 13
+        },
+        {
+            "from": 3,
+            "to": 4,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 5,
+            "column": 14
+        },
+        {
+            "from": 3,
+            "to": 5,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 5,
+            "column": 17
+        },
+        {
+            "from": 5,
+            "to": 4,
+            "type": "web Javascript Typed",
+            "inFile": 1,
+            "line": 5,
+            "column": 25
+        },
+        {
+            "from": 6,
+            "to": 7,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 21
+        },
+        {
+            "from": 6,
+            "to": 8,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 24
+        },
+        {
+            "from": 8,
+            "to": 7,
+            "type": "web Javascript Typed",
+            "inFile": 1,
+            "line": 1,
+            "column": 32
+        }
+    ]
+}

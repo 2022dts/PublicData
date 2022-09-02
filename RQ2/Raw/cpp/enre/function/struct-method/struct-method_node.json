@@ -1,0 +1,32 @@
+[
+  {
+    "qualifiedName": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_function/_struct-method/file0.cpp",
+    "id": 0,
+    "entityType": "File",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_function/_struct-method/file0.cpp",
+    "startLine": -1,
+    "startColumn": -1,
+    "endLine": -1,
+    "endColumn": -1
+  },
+  {
+    "qualifiedName": "Linear",
+    "id": 1,
+    "entityType": "Struct",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_function/_struct-method/file0.cpp",
+    "startLine": 1,
+    "startColumn": 0,
+    "endLine": 1,
+    "endColumn": 0
+  },
+  {
+    "qualifiedName": "Linear::func",
+    "id": 2,
+    "entityType": "Function",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_function/_struct-method/file0.cpp",
+    "startLine": 2,
+    "startColumn": 24,
+    "endLine": 2,
+    "endColumn": 24
+  }
+]

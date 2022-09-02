@@ -1,0 +1,239 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/annotate/single-member-annotation.und",
+    "entities": [
+        {
+            "id": 37355,
+            "type": "File",
+            "name": "_single-member-annotation\\MailController.java"
+        },
+        {
+            "id": 37356,
+            "type": "Package",
+            "name": "(Unnamed_Package)",
+            "qualified_name": "(Unnamed_Package)"
+        },
+        {
+            "id": 37357,
+            "type": "Java Annotation Interface Type Default",
+            "name": "DisableOnCondition",
+            "qualified_name": "DisableOnCondition",
+            "line": 4,
+            "start_column": 12,
+            "end_column": 30,
+            "belongs_to": 37355
+        },
+        {
+            "id": 37358,
+            "type": "Java Abstract Method Default Member",
+            "name": "value",
+            "qualified_name": "DisableOnCondition.value",
+            "line": 5,
+            "start_column": 9,
+            "end_column": 14,
+            "belongs_to": 37355
+        },
+        {
+            "id": 37359,
+            "type": "Java Unknown Class Type Member",
+            "name": "Documented",
+            "qualified_name": "Documented",
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 37360,
+            "type": "Java Class Type Public Member",
+            "name": "MailController",
+            "qualified_name": "MailController",
+            "line": 8,
+            "start_column": 14,
+            "end_column": 28,
+            "belongs_to": 37355
+        },
+        {
+            "id": 37361,
+            "type": "Java Method Public Member",
+            "name": "testMail",
+            "qualified_name": "MailController.testMail",
+            "line": 10,
+            "start_column": 17,
+            "end_column": 25,
+            "belongs_to": 37355
+        },
+        {
+            "id": 37362,
+            "type": "Java Unknown Class Type Member",
+            "name": "Retention",
+            "qualified_name": "Retention",
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 37363,
+            "type": "Java Unknown Class Type Member",
+            "name": "Target",
+            "qualified_name": "Target",
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        }
+    ],
+    "relations": [
+        {
+            "from": 37355,
+            "to": 37356,
+            "type": "Java Define",
+            "inFile": 37355,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 37355,
+            "to": 37356,
+            "type": "Java Declare",
+            "inFile": 37355,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 37355,
+            "to": 37357,
+            "type": "Java Define",
+            "inFile": 37355,
+            "line": 4,
+            "column": 12
+        },
+        {
+            "from": 37355,
+            "to": 37360,
+            "type": "Java Define",
+            "inFile": 37355,
+            "line": 8,
+            "column": 14
+        },
+        {
+            "from": 37355,
+            "to": 14,
+            "type": "Java Import Demand",
+            "inFile": 37355,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 37356,
+            "to": 37357,
+            "type": "Java Contain",
+            "inFile": 37355,
+            "line": 4,
+            "column": 12
+        },
+        {
+            "from": 37356,
+            "to": 37360,
+            "type": "Java Contain",
+            "inFile": 37355,
+            "line": 8,
+            "column": 14
+        },
+        {
+            "from": 37357,
+            "to": 37357,
+            "type": "Java Begin",
+            "inFile": 37355,
+            "line": 1,
+            "column": 1
+        },
+        {
+            "from": 37357,
+            "to": 37358,
+            "type": "Java Define",
+            "inFile": 37355,
+            "line": 5,
+            "column": 9
+        },
+        {
+            "from": 37358,
+            "to": 37358,
+            "type": "Java Begin",
+            "inFile": 37355,
+            "line": 5,
+            "column": 5
+        },
+        {
+            "from": 37359,
+            "to": 18,
+            "type": "Java Extend Couple Implicit External",
+            "inFile": 37355,
+            "line": 3,
+            "column": 1
+        },
+        {
+            "from": 37360,
+            "to": 37360,
+            "type": "Java Begin",
+            "inFile": 37355,
+            "line": 8,
+            "column": 1
+        },
+        {
+            "from": 37360,
+            "to": 37361,
+            "type": "Java Define",
+            "inFile": 37355,
+            "line": 10,
+            "column": 17
+        },
+        {
+            "from": 37360,
+            "to": 18,
+            "type": "Java Extend Couple Implicit External",
+            "inFile": 37355,
+            "line": 8,
+            "column": 1
+        },
+        {
+            "from": 37360,
+            "to": 37357,
+            "type": "Java Couple",
+            "inFile": 37355,
+            "line": 0,
+            "column": 1
+        },
+        {
+            "from": 37361,
+            "to": 37361,
+            "type": "Java Begin",
+            "inFile": 37355,
+            "line": 9,
+            "column": 5
+        },
+        {
+            "from": 37361,
+            "to": 37357,
+            "type": "Java Use Annotation",
+            "inFile": 37355,
+            "line": 9,
+            "column": 6
+        },
+        {
+            "from": 37362,
+            "to": 18,
+            "type": "Java Extend Couple Implicit External",
+            "inFile": 37355,
+            "line": 2,
+            "column": 1
+        },
+        {
+            "from": 37363,
+            "to": 18,
+            "type": "Java Extend Couple Implicit External",
+            "inFile": 37355,
+            "line": 1,
+            "column": 1
+        }
+    ]
+}

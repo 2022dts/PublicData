@@ -1,0 +1,107 @@
+{
+	"entities": [
+		{
+			"name": "file0.ts",
+			"type": "file",
+			"id": 0,
+			"fullname": "I:\\Pro.soft\\ENRE\\ENRE-ts\\tests\\cases\\_method-declaration\\_abstract-method-declarations\\file0.ts"
+		},
+		{
+			"name": "Foo",
+			"type": "class",
+			"id": 1,
+			"fullname": "Foo",
+			"location": {
+				"start": {
+					"line": 1,
+					"column": 16
+				},
+				"end": {
+					"line": 1,
+					"column": 19
+				}
+			}
+		},
+		{
+			"name": "propLike",
+			"type": "field",
+			"id": 2,
+			"fullname": "Foo.propLike",
+			"location": {
+				"start": {
+					"line": 2,
+					"column": 14
+				},
+				"end": {
+					"line": 2,
+					"column": 22
+				}
+			}
+		},
+		{
+			"name": "foo",
+			"type": "method",
+			"id": 3,
+			"fullname": "Foo.foo",
+			"location": {
+				"start": {
+					"line": 4,
+					"column": 14
+				},
+				"end": {
+					"line": 4,
+					"column": 17
+				}
+			}
+		},
+		{
+			"name": "bar",
+			"type": "method",
+			"id": 4,
+			"fullname": "Foo.bar",
+			"location": {
+				"start": {
+					"line": 7,
+					"column": 21
+				},
+				"end": {
+					"line": 7,
+					"column": 24
+				}
+			}
+		},
+		{
+			"name": "p",
+			"type": "parameter",
+			"id": 5,
+			"fullname": "Foo.bar.p",
+			"location": {
+				"start": {
+					"line": 7,
+					"column": 25
+				},
+				"end": {
+					"line": 7,
+					"column": 26
+				}
+			}
+		},
+		{
+			"name": "baz",
+			"type": "method",
+			"id": 6,
+			"fullname": "Foo.baz",
+			"location": {
+				"start": {
+					"line": 9,
+					"column": 24
+				},
+				"end": {
+					"line": 9,
+					"column": 27
+				}
+			}
+		}
+	],
+	"relations": []
+}

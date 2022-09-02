@@ -1,0 +1,50 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/contain/package-contains-package.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_package-contains-package\\file0.java"
+        },
+        {
+            "id": 2,
+            "type": "Package",
+            "name": "hello",
+            "qualified_name": "hello"
+        },
+        {
+            "id": 3,
+            "type": "Package",
+            "name": "pkg",
+            "qualified_name": "hello.pkg"
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 3,
+            "type": "Java Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 9
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "Java Declare",
+            "inFile": 1,
+            "line": 1,
+            "column": 9
+        },
+        {
+            "from": 2,
+            "to": 3,
+            "type": "Java Declare",
+            "inFile": 1,
+            "line": 1,
+            "column": 15
+        }
+    ]
+}

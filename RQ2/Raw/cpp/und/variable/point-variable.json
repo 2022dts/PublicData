@@ -1,0 +1,74 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/variable/point-variable.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_point-variable\\file0.cpp"
+        },
+        {
+            "id": 2,
+            "type": "C Object Global",
+            "name": "a",
+            "qualified_name": "a",
+            "line": 1,
+            "start_column": 5,
+            "end_column": 6,
+            "belongs_to": 1
+        },
+        {
+            "id": 3,
+            "type": "C Object Global",
+            "name": "p",
+            "qualified_name": "p",
+            "line": 2,
+            "start_column": 6,
+            "end_column": 7,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 2,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 5
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "C Set Init",
+            "inFile": 1,
+            "line": 1,
+            "column": 5
+        },
+        {
+            "from": 1,
+            "to": 3,
+            "type": "C Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 6
+        },
+        {
+            "from": 1,
+            "to": 3,
+            "type": "C Set Init",
+            "inFile": 1,
+            "line": 2,
+            "column": 6
+        },
+        {
+            "from": 1,
+            "to": 2,
+            "type": "C Addr Use",
+            "inFile": 1,
+            "line": 2,
+            "column": 11
+        }
+    ]
+}

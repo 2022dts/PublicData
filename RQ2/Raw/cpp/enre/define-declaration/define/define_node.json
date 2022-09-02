@@ -1,0 +1,32 @@
+[
+  {
+    "qualifiedName": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_define-declaration/_define/file0.cpp",
+    "id": 0,
+    "entityType": "File",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_define-declaration/_define/file0.cpp",
+    "startLine": -1,
+    "startColumn": -1,
+    "endLine": -1,
+    "endColumn": -1
+  },
+  {
+    "qualifiedName": "Units",
+    "id": 1,
+    "entityType": "Class",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_define-declaration/_define/file0.cpp",
+    "startLine": 1,
+    "startColumn": 0,
+    "endLine": 1,
+    "endColumn": 0
+  },
+  {
+    "qualifiedName": "Units::x",
+    "id": 2,
+    "entityType": "Object",
+    "entityFile": "I:/Pro.soft/ENRE/ENRE-cpp/tests/cases/_define-declaration/_define/file0.cpp",
+    "startLine": 2,
+    "startColumn": 21,
+    "endLine": 2,
+    "endColumn": 21
+  }
+]

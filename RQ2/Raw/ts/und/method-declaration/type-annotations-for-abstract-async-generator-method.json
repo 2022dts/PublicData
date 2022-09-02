@@ -1,0 +1,140 @@
+{
+    "script_ver": 100,
+    "und_ver": 1113,
+    "db_name": "tests/und/method-declaration/type-annotations-for-abstract-async-generator-method.und",
+    "entities": [
+        {
+            "id": 1,
+            "type": "File",
+            "name": "_type-annotations-for-abstract-async-generator-method\\file0.ts"
+        },
+        {
+            "id": 3,
+            "type": "web Javascript Class",
+            "name": "Foo",
+            "qualified_name": "Foo",
+            "line": 1,
+            "start_column": 16,
+            "end_column": 19,
+            "belongs_to": 1
+        },
+        {
+            "id": 4,
+            "type": "web Javascript Public Method Function",
+            "name": "asyncGeneratorMethod",
+            "qualified_name": "Foo.asyncGeneratorMethod",
+            "line": 6,
+            "start_column": 14,
+            "end_column": 34,
+            "belongs_to": 1
+        },
+        {
+            "id": 6,
+            "type": "web Javascript Public Method Function",
+            "name": "asyncMethod",
+            "qualified_name": "Foo.asyncMethod",
+            "line": 2,
+            "start_column": 14,
+            "end_column": 25,
+            "belongs_to": 1
+        },
+        {
+            "id": 8,
+            "type": "web Javascript Public Method Function",
+            "name": "generatorMethod",
+            "qualified_name": "Foo.generatorMethod",
+            "line": 4,
+            "start_column": 14,
+            "end_column": 29,
+            "belongs_to": 1
+        },
+        {
+            "id": 10,
+            "type": "web Javascript Public Method Function",
+            "name": "invalidAsyncGeneratorMethod",
+            "qualified_name": "Foo.invalidAsyncGeneratorMethod",
+            "line": 16,
+            "start_column": 21,
+            "end_column": 48,
+            "belongs_to": 1
+        },
+        {
+            "id": 12,
+            "type": "web Javascript Public Method Function",
+            "name": "invalidAsyncMethod",
+            "qualified_name": "Foo.invalidAsyncMethod",
+            "line": 10,
+            "start_column": 20,
+            "end_column": 38,
+            "belongs_to": 1
+        },
+        {
+            "id": 14,
+            "type": "web Javascript Public Method Function",
+            "name": "invalidGeneratorMethod",
+            "qualified_name": "Foo.invalidGeneratorMethod",
+            "line": 13,
+            "start_column": 15,
+            "end_column": 37,
+            "belongs_to": 1
+        }
+    ],
+    "relations": [
+        {
+            "from": 1,
+            "to": 3,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 1,
+            "column": 16
+        },
+        {
+            "from": 3,
+            "to": 6,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 2,
+            "column": 14
+        },
+        {
+            "from": 3,
+            "to": 8,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 4,
+            "column": 14
+        },
+        {
+            "from": 3,
+            "to": 4,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 6,
+            "column": 14
+        },
+        {
+            "from": 3,
+            "to": 12,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 10,
+            "column": 20
+        },
+        {
+            "from": 3,
+            "to": 14,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 13,
+            "column": 15
+        },
+        {
+            "from": 3,
+            "to": 10,
+            "type": "web Javascript Define",
+            "inFile": 1,
+            "line": 16,
+            "column": 21
+        }
+    ]
+}

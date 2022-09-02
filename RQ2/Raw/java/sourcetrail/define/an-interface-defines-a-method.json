@@ -1,0 +1,74 @@
+{
+    "script_ver": 1.0,
+    "entities": [
+        {
+            "id": 1,
+            "name": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_define/_an-interface-defines-a-method/BaseService.java",
+            "type": "FILE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        },
+        {
+            "id": 2,
+            "name": "hello",
+            "type": "PACKAGE",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_define/_an-interface-defines-a-method/BaseService.java",
+            "line": 1,
+            "start_column": 9,
+            "end_column": 13
+        },
+        {
+            "id": 3,
+            "name": "hello.BaseService",
+            "type": "INTERFACE",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_define/_an-interface-defines-a-method/BaseService.java",
+            "line": 3,
+            "start_column": 1,
+            "end_column": 1
+        },
+        {
+            "id": 4,
+            "name": "hello.BaseService.laundry",
+            "type": "METHOD",
+            "belongs_to": "I:/Pro.soft/ENRE/ENRE-java/tests/cases/_define/_an-interface-defines-a-method/BaseService.java",
+            "line": 5,
+            "start_column": 5,
+            "end_column": 18
+        },
+        {
+            "id": 5,
+            "name": "void",
+            "type": "BUILTIN_TYPE",
+            "belongs_to": null,
+            "line": -1,
+            "start_column": -1,
+            "end_column": -1
+        }
+    ],
+    "relations": [
+        {
+            "type": "MEMBER",
+            "from": 2,
+            "to": 3,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "MEMBER",
+            "from": 3,
+            "to": 4,
+            "line": -1,
+            "column": -1
+        },
+        {
+            "type": "TYPE_USAGE",
+            "from": 4,
+            "to": 5,
+            "line": -1,
+            "column": -1
+        }
+    ],
+    "db_name": "an-interface-defines-a-method"
+}
