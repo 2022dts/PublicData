@@ -1,0 +1,1 @@
+const content = await import('./file0.js'); // {a: 1}

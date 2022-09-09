@@ -20,15 +20,27 @@ Data for corresponding research question are separated in standalone directories
 
 `RQ2` contains the benchmark files:
 
-#### `RQ2/Benchmarks/<lang>/docs`
+#### `RQ2/<lang>/docs`
 
 This pattern of directories will contain two sub-directories `entity` and `relation` (alias for `dependency`) for entity benchmarks and dependency benchmarks respectively.
 
-#### `RQ2/Raw/<lang>/<tool>/<group-name>/<case-name>/*`
+#### `RQ2/<lang>/tests/<tool>/<group-name>/<case-name>/*`
 
 Files (mostly `.json` files) under this pattern of directories are output results of analyzers on correlated benchmark code, where `group-name` corresponds to a benchmark file, and `case-name` corresponds to a test case within its parent group.
 
 > Please note that the extracted code files are not listed since they are identical to when they were in benchmark files, and the script to do the extraction is not provided.
+
+#### `RQ2/cross-tester.js`
+
+This is the compressed (to hide identity info to respect the double anony principle) code file for quick validation or replication use. Below are steps to use it:
+
+1. Prepare Node.js 16+ execute environemnt;
+2. In terminal, use the command `$ node cross-tester.js <lang> <abs path to fixture dir> <analyzer name> null` to perform the mathcing algorithm used in the paper. For each testcase, the script outputs JSON data it reads in as well as evaluation result as a JS object, and in the end, the total accumulated result will also be shown, you would use this to calculate fragemented precentages as described in the paper.
+    > Script usage example:
+    > ```sh
+    > $ node cross-tester.js java .../PublicData/RQ2/java understand null
+    > ```
+    > You could use `-h` for a comprehensive usage guidance.
 
 ### `RQ3`
 
