@@ -35,7 +35,7 @@ Files (mostly `.json` files) under this pattern of directories are output result
 This is the compressed (to hide identity info to respect the double anony principle) code file for quick validation or replication use. Below are steps to use it:
 
 1. Prepare Node.js 16+ execute environemnt;
-2. In terminal, use the command `$ node cross-tester.js <lang> <abs path to fixture dir> <analyzer name> null` to perform the mathcing algorithm used in the paper. For each testcase, the script outputs JSON data it reads in as well as evaluation result as a JS object, and in the end, the total accumulated result will also be shown, you would use this to calculate fragemented precentages as described in the paper.
+2. In terminal, use the command `$ node cross-tester.js <lang> <abs path to fixture dir> <analyzer name> null` to perform the matching algorithm used in the paper. For each testcase, the script outputs JSON data it reads in as well as evaluation result as a JS object, and in the end, the total accumulated result will also be shown, you would use this to calculate fragemented precentages as described in the paper.
     > Script usage example:
     > ```sh
     > $ node cross-tester.js java .../PublicData/RQ2/java understand null
@@ -46,7 +46,7 @@ This is the compressed (to hide identity info to respect the double anony princi
 
 `RQ3` contains the pair comparison results for analyzers on targeting languages respectively.
 
-> Please note that data for RQ3 are extremely large and thus are hosted on an external online drive [here](https://1drv.ms/u/s!ArRpq5VLlwvAgicSp-1BGlHjwmDZ?e=zpqxnI). This repo only contains simplified sample demo of data.
+> Please note that data for RQ3 are extremely large and thus are hosted on an external online drive [here](https://1drv.ms/u/s!ArRpq5VLlwvAh1jwjNFBis3FtGR0?e=lifF10). This repo only contains simplified sample demo of data.
 
 #### `RQ3/Raw/<project>/<tool>_<project>_<entity/dependency>.json`
 
