@@ -1100,7 +1100,7 @@
          "values":
          {
             "Reflect":1,
-            "invoke":
+            "loc":
             {
                "endLine":10,
                "endColumn":70,
@@ -1116,7 +1116,7 @@
          "values":
          {
             "Reflect":1,
-            "invoke":
+            "loc":
             {
                "endLine":12,
                "endColumn":44,

@@ -35,3 +35,7 @@
 | [Override](relation/Override.md)        | A method which has the same name, return type and parameter type of the super method |
 | [Reflect](relation/Reflect.md)         | A entity which call Class.forname("...") method to get a specific type. |
 | [Define](relation/Define.md)          | A type define fields or methods, a method defines variables. |
+
+## References
+
+1. [Java Specification](https://docs.oracle.com/javase/specs/jls/se17/html/index.html), SE17

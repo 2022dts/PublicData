@@ -31,3 +31,7 @@
 | [Contain](relation/Contain.md)| A package contains modules and sub-packages.|
 | [Annotate](relation/Annotate.md)| An entity x annotate with entity y, when y used for type annotating entity x.|
 | [Alias](relation/Alias.md)| An `Alias` relation created by import statement with `as`. |
+
+## References
+
+1. [Python Specification](https://docs.python.org/3/reference/grammar.html)
