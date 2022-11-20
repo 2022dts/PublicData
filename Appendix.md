@@ -284,3 +284,63 @@ The project size of 400 projects in total are visualized as following figure. We
 The raw data is available at [RQ4/Results](./RQ4/Results/). CSV files are the corresponding statistic, where columns represents `LoC`, `<tool>-time` (in seconds) and `<tool>-memory` (in MB).
 
 > A cell with content as -1 or 0 represents a timeout (the execution time has exceeded 30 minutes, and you may see some numbers greater than 30 minutes, that is for the test purpose and have low impact on observations).
+
+## D. II.A Collected Analyzers
+
+The following table is the raw table that we initially searched and collected tools dealing with the source code. After further investigation, the off-the-topic tools were excluded from the TABLE 1.
+
+| Tool name | Url | Featured | Whether selected |
+|  --- | --- | --- | --- |
+| Bitbucket | https://bitbucket.org/ | CD/CI | no |
+| Blink grep | https://github.com/ychclone/blink | GUI | no |
+| COBOL Analyzer | https://www.microfocus.com/en-us/products/cobol-analyzer/overview | co-change | no |
+| Codase | https://codase.com/ | code search | no |
+| Code2graph | https://github.com/Symbolk/Code2Graph | code analysis | yes |
+| CodeCompass | https://codecompass.net/ | Code comprehension | no |
+| CodeNavigator | https://plugins.jetbrains.com/plugin/3202-code-navigator | IDEA plugins | no |
+| CodePilot.ai | https://codepilot.netlify.app/ | code search | no |
+| CodeScene | https://codescene.com/ | code intelligence | no |
+| CodeSee | https://www.codesee.io/ | code search | no |
+| CodeXCavator | https://sourceforge.net/projects/codexcavator/ | GUI | no |
+| Crucible | https://sourceforge.net/software/product/Crucible/ | GUI | no |
+| Depends | https://github.com/multilang-depends/depends | code analysis | yes |
+| Doxygen | https://doxygen.nl/ | code analysis | yes |
+| Embold | https://embold.io/ | code issus and anti-patterns | no |
+| ENRE | https://github.com/xjtu-enre | code analysis | yes |
+| Fisheye | https://fisheye.net/ | real-time data | no |
+| FossID | https://fossid.com/ | open source licenses and vulnerablities | no |
+| ftnchek | https://www.dsm.fordham.edu/~ftnchek/ | Fortran 77 | no |
+| Glean | https://github.com/facebookincubator/Glean | code analysis | yes |
+| Hound | https://github.com/hound-search/hound | code search | no |
+| Jarchitect | https://www.jarchitect.com/ | Java Language | no |
+| K.Explorer | https://k-explorer.com/ | code engine | no |
+| Kooder | https://gitee.com/koode/kooder | code search | no |
+| Kythe | https://github.com/kythe/kythe | code analysis | yes |
+| livegrep | https://livegrep.com/search/ | github plugin | no |
+| Merico | https://www.merico.dev/ | data driven | no |
+| Open Hub | https://www.openhub.net/ | open code | no |
+| OpenGrok | https://oracle.github.io/opengrok/ | code search | no |
+| PhpMetrics | https://phpmetrics.org/ | Foucs on PHP language | no |
+| PT Application Inspector | https://www.ptsecurity.com/ww-en/products/ai/ | code security | no |
+| PublicWWW | https://publicwww.com/ | code search | no |
+| ReSharper | https://www.jetbrains.com/resharper/ | the visual studio extension | no |
+| Rexdep | https://github.com/itchyny/rexdep | code analysis | yes |
+| RuboCop | https://github.com/rubocop/rubocop | Ruby language | no |
+| searchcode | https://searchcode.com/ | code search | no |
+| Semantic | https://github.com/github/semantic | code analysis | yes |
+| SnipAway | https://snipaway.futureglobe.de/ | customizable snippet manager | no |
+| SnippetsLab | https://www.renfei.org/snippets-lab/ | code snippet manager | no |
+| SonarCloud | https://www.sonarsource.com/products/sonarcloud/ | clean code in cloud | no |
+| Sonarqube | https://www.sonarqube.org/ | code security | no |
+| Source Insight | https://www.sourceinsight.com/ | programming editor | no |
+| Sourcegraph | https://sourcegraph.com/search | code search | no |
+| Source-Navigator NG | https://sourcenav.sourceforge.net/ | C++ language | no |
+| Sourcetrail | https://github.com/CoatiSoftware/Sourcetrail | code analysis | yes |
+| Sparrow SAST | https://www.sparrowfasoo.com/en/product/product?goods_idx=13 | code security | no |
+| SpectralOps | https://spectralops.io/ | code cloud security | no |
+| Structure101 | https://structure101.com/ | code analysis | yes |
+| SymbolHound | http://www.symbolhound.com/ | code search | no |
+| Understand | https://www.scitools.com/ | code analysis | yes |
+| Visual Expert | https://www.visual-expert.com/ | code search | no |
+| Woboq Code Browser | https://codebrowser.dev/ | code search | no |
+
